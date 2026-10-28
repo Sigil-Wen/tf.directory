@@ -1,0 +1,3995 @@
+{
+ "meta": {
+  "updated": "October 27, 2026"
+ },
+ "companies": [
+  {
+   "id": "anthropic",
+   "name": "Anthropic",
+   "url": "https://www.anthropic.com",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 965000000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-05",
+   "valuationNote": "Last round · May 2026",
+   "valuationDetail": "Series H ($65B) at $965B post, May 2026; S-1 public Oct 2026",
+   "peakValuationUSD": 965000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "chris-olah"
+   ],
+   "sources": [
+    "https://techcrunch.com/2026/05/28/anthropic-raises-65-billion-nears-1t-valuation-ahead-of-ipo/",
+    "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html",
+    "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+    "https://review.firstround.com/inside-thiel-fellowship/",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "ethereum",
+   "name": "Ethereum",
+   "url": "https://ethereum.org",
+   "sector": "Crypto",
+   "status": "protocol",
+   "valuationUSD": 285000000000,
+   "valuationType": "token market cap",
+   "valuationDate": "2026-10",
+   "valuationNote": "Token market cap · Oct 2026",
+   "valuationDetail": "ETH market cap ~$285B, Oct 27 2026; a protocol, not a company",
+   "peakValuationUSD": 597000000000,
+   "totalRaisedUSD": 18300000,
+   "unicorn": true,
+   "fellows": [
+    "vitalik-buterin"
+   ],
+   "sources": [
+    "https://www.okx.com/en-us/price/ethereum-eth",
+    "https://metamask.com/price/ethereum",
+    "https://www.coinbase.com/price/ethereum",
+    "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "cognition",
+   "name": "Cognition",
+   "url": "https://cognition.ai",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 48000000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-09",
+   "valuationNote": "Reported · Sep 2026",
+   "valuationDetail": "Reported $48B, Sep 2026; last confirmed priced round $26B (May 2026)",
+   "peakValuationUSD": 48000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "walden-yan"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Cognition_AI",
+    "https://review.firstround.com/inside-thiel-fellowship/",
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.sourcery.vc/p/how-the-thiel-fellowship-created"
+   ]
+  },
+  {
+   "id": "scale-ai",
+   "name": "Scale AI",
+   "url": "https://scale.com",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 29000000000,
+   "valuationType": "last round",
+   "valuationDate": "2025-06",
+   "valuationNote": "Last round · Jun 2025",
+   "valuationDetail": "Meta paid $14.3B for 49% stake, Jun 2025 (implied ~$29B)",
+   "peakValuationUSD": 29000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "lucy-guo"
+   ],
+   "sources": [
+    "https://valueaddvc.com/blog/scale-ai-valuation-what-the-data-labeling-company-is-worth-after-the-meta-deal",
+    "https://www.teahose.com/guides/scale-ai-valuation",
+    "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "etched",
+   "name": "Etched",
+   "url": "https://www.etched.com",
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 21000000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed $21B (Oct 2026 snapshot); round unverified",
+   "peakValuationUSD": 21000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "gavin-uberti",
+    "christopher-zhu",
+    "robert-wachen"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
+    "https://review.firstround.com/inside-thiel-fellowship/",
+    "https://thielfellowship.org",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "figma",
+   "name": "Figma",
+   "url": "https://www.figma.com",
+   "sector": "Software & SaaS",
+   "status": "public",
+   "valuationUSD": 12850000000,
+   "valuationType": "market cap",
+   "valuationDate": "2026-10",
+   "valuationNote": "Market cap · Oct 2026",
+   "valuationDetail": "Market cap ~$12.8B, Oct 23 2026 (NYSE: FIG)",
+   "peakValuationUSD": 56300000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "dylan-field"
+   ],
+   "sources": [
+    "https://www.gurufocus.com/term/mktcap/FIG",
+    "https://companiesmarketcap.com/figma/marketcap/",
+    "https://stockanalysis.com/stocks/fig/market-cap/",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "mercor",
+   "name": "Mercor",
+   "url": "https://mercor.com",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 10000000000,
+   "valuationType": "last round",
+   "valuationDate": "2025-10",
+   "valuationNote": "Last round · Oct 2025",
+   "valuationDetail": "Series C $350M at $10B, Oct 2025",
+   "peakValuationUSD": 10000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "brendan-foody",
+    "adarsh-hiremath",
+    "surya-midha"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Mercor",
+    "https://www.forbes.com/profile/brendan-foody/",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "flapping-airplanes",
+   "name": "Flapping Airplanes",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 6000000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-10",
+   "valuationNote": "Last round · Oct 2026",
+   "valuationDetail": "$1B Series A (Index, Lux), Oct 2026",
+   "peakValuationUSD": 6000000000,
+   "totalRaisedUSD": 1180000000,
+   "unicorn": true,
+   "fellows": [
+    "aidan-smith"
+   ],
+   "sources": [
+    "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "positron-ai",
+   "name": "Positron AI",
+   "url": "https://www.positron.ai",
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 5000000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 5000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "thomas-sohmers"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://thielfellowship.org",
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "oyo",
+   "name": "OYO",
+   "url": "https://www.oyorooms.com",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 3800000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom $3.8B; ₹6,650cr IPO pending, $7-8B targeted",
+   "peakValuationUSD": 10000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "ritesh-agarwal"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.business-standard.com/amp/markets/ipo/oyo-delays-ipo-to-2026-after-softbank-pushback-targets-7-bn-valuation-125050200971_1.html",
+    "https://hdfcsky.com/news/oyo-parent-prism-aiming-for-ipo-launch-in-current-fiscal",
+    "https://en.wikipedia.org/wiki/Ritesh_Agarwal",
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "mach-industries",
+   "name": "Mach Industries",
+   "url": "https://www.machindustries.com",
+   "sector": "Space & Defense",
+   "status": "private",
+   "valuationUSD": 3700000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 3700000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "ethan-thornton"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia"
+   ]
+  },
+  {
+   "id": "stord",
+   "name": "Stord",
+   "url": "https://www.stord.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": 3000000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 3000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "sean-henry"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "hightouch",
+   "name": "Hightouch",
+   "url": "https://hightouch.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": 2800000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 2800000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "tejas-manohar"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "immutable",
+   "name": "Immutable",
+   "url": "https://www.immutable.com",
+   "sector": "Crypto",
+   "status": "private",
+   "valuationUSD": 2500000000,
+   "valuationType": "last round",
+   "valuationDate": "2022-03",
+   "valuationNote": "Last round · Mar 2022",
+   "valuationDetail": "Series C extension (Temasek-led), Mar 2022",
+   "peakValuationUSD": 2500000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "robbie-ferguson"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "neros",
+   "name": "Neros",
+   "url": "https://neros.tech",
+   "sector": "Space & Defense",
+   "status": "private",
+   "valuationUSD": 2500000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 2500000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "soren-monroe-anderson"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "upstart",
+   "name": "Upstart",
+   "url": "https://www.upstart.com",
+   "sector": "Fintech",
+   "status": "public",
+   "valuationUSD": 2240000000,
+   "valuationType": "market cap",
+   "valuationDate": "2026-10",
+   "valuationNote": "Market cap · Oct 2026",
+   "valuationDetail": "Market cap ~$2.24B, Oct 27 2026 (NASDAQ: UPST)",
+   "peakValuationUSD": 32000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "paul-gu"
+   ],
+   "sources": [
+    "https://www.marketbeat.com/instant-alerts/upcoming-upstart-upst-projected-to-release-earnings-on-tuesday-2026-10-27/",
+    "https://www.fool.com/quote/nasdaq/upst/",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "polkadot",
+   "name": "Polkadot",
+   "url": "https://polkadot.com",
+   "sector": "Crypto",
+   "status": "protocol",
+   "valuationUSD": 1710000000,
+   "valuationType": "token market cap",
+   "valuationDate": "2026-10",
+   "valuationNote": "Token market cap · Oct 2026",
+   "valuationDetail": "DOT market cap ~$1.7B, Oct 2026; a protocol, not a company",
+   "peakValuationUSD": 54000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "robert-habermeier"
+   ],
+   "sources": [
+    "https://www.coingecko.com/en/coins/polkadot",
+    "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "varda-space-industries",
+   "name": "Varda Space Industries",
+   "url": "https://www.varda.com",
+   "sector": "Space & Defense",
+   "status": "private",
+   "valuationUSD": 1600000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom $1.6B; unicorn after $187M Series C (Jul 2025)",
+   "peakValuationUSD": 1600000000,
+   "totalRaisedUSD": 328000000,
+   "unicorn": true,
+   "fellows": [
+    "delian-asparouhov"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Varda_Space_Industries",
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "freenome",
+   "name": "Freenome",
+   "url": "https://www.freenome.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": 1400000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 1400000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "riley-ennis"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
+    "https://review.firstround.com/inside-thiel-fellowship/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "paddle",
+   "name": "Paddle",
+   "url": "https://www.paddle.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": 1400000000,
+   "valuationType": "last round",
+   "valuationDate": "2022-05",
+   "valuationNote": "Last round · May 2022",
+   "valuationDetail": "Series D at $1.4B, May 2022; Dealroom lists the same figure",
+   "peakValuationUSD": 1400000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "christian-owens"
+   ],
+   "sources": [
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://thielfellowship.org/jobs",
+    "https://dealroom.co/charts/thiel-fellowship-mafia"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "curative",
+   "name": "Curative",
+   "url": "https://curative.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": 1300000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 1300000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "fred-turner"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "merama",
+   "name": "Merama",
+   "url": "https://merama.io",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 1200000000,
+   "valuationType": "last round",
+   "valuationDate": "2025-04",
+   "valuationNote": "Last round · Apr 2025",
+   "valuationDetail": "$215M equity+debt round at >$1B, Apr 2025",
+   "peakValuationUSD": 1200000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "sujay-tyle"
+   ],
+   "sources": [
+    "https://www.bloomberg.com/news/articles/2025-04-02/telles-e-investidor-em-rodada-de-us-215-milhoes-para-merama",
+    "https://tracxn.com/d/companies/merama/__iI0UWp8HE8BwyxJP7kPeSb4p7V14P-MJ5iI2OwP7UAw",
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "nowports",
+   "name": "Nowports",
+   "url": "https://nowports.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": 1100000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom $1.1B (unicorn round 2022)",
+   "peakValuationUSD": 1100000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "alfonso-de-los-rios"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "adept",
+   "name": "Adept",
+   "url": "https://www.adept.ai",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 1000000000,
+   "valuationType": "last round",
+   "valuationDate": "2023-03",
+   "valuationNote": "Last round · Mar 2023",
+   "valuationDetail": "Series B $350M at >$1B (2023); team to Amazon via license deal Jun 2024",
+   "peakValuationUSD": 1000000000,
+   "totalRaisedUSD": 415000000,
+   "unicorn": true,
+   "fellows": [
+    "david-luan"
+   ],
+   "sources": [
+    "https://techcrunch.com/2024/06/28/amazon-hires-founders-away-from-ai-startup-adept",
+    "https://www.deeplearning.ai/the-batch/amazon-add-majority-of-adept-ai-staff-to-boost-agentic-ai-capabilities/",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "augustus",
+   "name": "Augustus",
+   "url": "https://augustus.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": 1000000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-07",
+   "valuationNote": "Last round · Jul 2026",
+   "valuationDetail": "Series B $180M (Tiger Global) at $1B, 2026",
+   "peakValuationUSD": 1000000000,
+   "totalRaisedUSD": 210000000,
+   "unicorn": true,
+   "fellows": [
+    "ferdinand-dabitz"
+   ],
+   "sources": [
+    "https://techfundingnews.com/at-25-this-german-thiel-fellow-raised-180m-hit-1b-valuation-and-is-about-to-make-us-banking-history/",
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "owner",
+   "name": "Owner",
+   "url": "https://www.owner.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": 1000000000,
+   "valuationType": "last round",
+   "valuationDate": "2025-05",
+   "valuationNote": "Last round · May 2025",
+   "valuationDetail": "Series C ($120M) at $1B, May 2025",
+   "peakValuationUSD": 1000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "adam-guild"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "radar",
+   "name": "RADAR",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 1000000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-05",
+   "valuationNote": "Last round · May 2026",
+   "valuationDetail": "Series B $170M at $1B, May 2026",
+   "peakValuationUSD": 1000000000,
+   "totalRaisedUSD": 287000000,
+   "unicorn": true,
+   "fellows": [
+    "spencer-hewett"
+   ],
+   "sources": [
+    "https://www.cnbc.com/2026/05/19/radar-reaches-unicorn-status-in-series-b-funding-round.html",
+    "https://www.businesswire.com/news/home/20260518349821/en/RADAR-Raises-$170-Million-Reaches-$1-Billion-Valuation-to-Bring-Physical-Retail-Into-the-AI-Era",
+    "https://www.forbes.com/sites/alexyork/2026/05/29/radar-reaches-a-1-billion-valuation-on-bet-it-can-supercharge-physical-shops/",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "rapidapi",
+   "name": "RapidAPI",
+   "url": "https://rapidapi.com",
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": 1000000000,
+   "valuationType": "last round",
+   "valuationDate": "2022-03",
+   "valuationNote": "Last round · Mar 2022",
+   "valuationDetail": "Series D at $1B, Mar 2022; acquired by Nokia in Nov 2024 for an undisclosed price",
+   "peakValuationUSD": 1000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "iddo-gino"
+   ],
+   "sources": [
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://thielfellowship.org/jobs",
+    "https://dealroom.co/charts/thiel-fellowship-mafia"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "speak",
+   "name": "Speak",
+   "url": "https://www.speak.com",
+   "sector": "Education",
+   "status": "private",
+   "valuationUSD": 1000000000,
+   "valuationType": "last round",
+   "valuationDate": "2024-12",
+   "valuationNote": "Last round · Dec 2024",
+   "valuationDetail": "Series C $78M (Accel) at ~$1B, Dec 2024",
+   "peakValuationUSD": 1000000000,
+   "totalRaisedUSD": 162000000,
+   "unicorn": true,
+   "fellows": [
+    "andrew-hsu",
+    "connor-zwick"
+   ],
+   "sources": [
+    "https://fundraiseinsider.com/blog/speak/",
+    "https://tracxn.com/d/companies/speak/__MGE4pNR9-6S7I4ZZgeMwZJZJ5Kr-QmtYxSsROAljqcM",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "substrate",
+   "name": "Substrate",
+   "url": "https://substrate.com",
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 1000000000,
+   "valuationType": "last round",
+   "valuationDate": "2025-10",
+   "valuationNote": "Last round · Oct 2025",
+   "valuationDetail": "$100M at $1B, Oct 2025",
+   "peakValuationUSD": 1000000000,
+   "totalRaisedUSD": 100000000,
+   "unicorn": true,
+   "fellows": [
+    "james-proud"
+   ],
+   "sources": [
+    "https://siliconangle.com/2025/10/28/substrate-raises-100m-impossible-reinvent-chipmaking-industry/",
+    "https://www.builtinsf.com/articles/substrate-secures-100m-1b-valuation-20251103",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "loom",
+   "name": "Loom",
+   "url": "https://www.loom.com",
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": 975000000,
+   "valuationType": "acquisition",
+   "valuationDate": "2023-10",
+   "valuationNote": "Acquired · Oct 2023",
+   "valuationDetail": "Acquired by Atlassian for $975M (Oct 2023)",
+   "peakValuationUSD": 1530000000,
+   "totalRaisedUSD": 200000000,
+   "unicorn": true,
+   "fellows": [
+    "shahed-khan"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Loom_(company)",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
+    "https://dealroom.co/charts/thiel-fellowship-mafia"
+   ]
+  },
+  {
+   "id": "juicebox",
+   "name": "Juicebox",
+   "url": "https://juicebox.ai",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 850000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom $850M; Series B closed 2026",
+   "peakValuationUSD": 850000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ishan-gupta"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/"
+   ]
+  },
+  {
+   "id": "brinc",
+   "name": "BRINC",
+   "url": "https://brincdrones.com",
+   "sector": "Space & Defense",
+   "status": "private",
+   "valuationUSD": 750000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 750000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "blake-resnick"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "frontier-car-group",
+   "name": "Frontier Car Group",
+   "url": null,
+   "sector": "Consumer",
+   "status": "acquired",
+   "valuationUSD": 700000000,
+   "valuationType": "reported",
+   "valuationDate": "2019-01",
+   "valuationNote": "At acquisition · Jan 2019",
+   "valuationDetail": "Acquired by OLX Group 2019 (terms undisclosed); Dealroom $700M",
+   "peakValuationUSD": 700000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sujay-tyle"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "prepared",
+   "name": "Prepared",
+   "url": "https://www.prepared911.com",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 640000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 640000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "michael-chime"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "fountain",
+   "name": "Fountain",
+   "url": "https://www.fountain.com",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 600000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 600000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jeremy-cai"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+   ]
+  },
+  {
+   "id": "legalist",
+   "name": "Legalist",
+   "url": "https://www.legalist.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": 600000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom $600M (may not reflect a priced round)",
+   "peakValuationUSD": 600000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "eva-shang"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://en.wikipedia.org/wiki/Category:Thiel_fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "rainmaker",
+   "name": "Rainmaker",
+   "url": "https://www.rainmaker.com",
+   "sector": "Energy & Climate",
+   "status": "private",
+   "valuationUSD": 600000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 600000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "augustus-doricko"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "savvy-wealth",
+   "name": "Savvy Wealth",
+   "url": "https://www.savvywealth.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": 600000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-09",
+   "valuationNote": "Last round · Sep 2026",
+   "valuationDetail": "Series C $100M (Halo Fund) at $600M, Sep 2026",
+   "peakValuationUSD": 600000000,
+   "totalRaisedUSD": 200000000,
+   "unicorn": false,
+   "fellows": [
+    "ritik-malhotra"
+   ],
+   "sources": [
+    "https://www.advisorhub.com/ria-savvy-wealth-raises-100m-at-600m-valuation/",
+    "https://www.investmentnews.com/transformation/savvy-wealth-lands-100m-to-scale-ai-agents-for-advisors/268127",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "standard-intelligence",
+   "name": "Standard Intelligence",
+   "url": "https://si.inc",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 500000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 500000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "galen-mead"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/"
+   ]
+  },
+  {
+   "id": "solcoa-industries",
+   "name": "Solcoa Industries",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 450000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 450000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "hooman-reza-nezhad"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "vial",
+   "name": "Vial",
+   "url": "https://vial.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": 402000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 402000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "andrew-brackin"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "snackpass",
+   "name": "Snackpass",
+   "url": "https://www.snackpass.co",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 400000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom $400M (2021 Series B level)",
+   "peakValuationUSD": 400000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jamie-marshall"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "comind",
+   "name": "CoMind",
+   "url": "https://www.comind.io",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": 360000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 360000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "james-dacombe"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "smartsweets",
+   "name": "SmartSweets",
+   "url": "https://smartsweets.com",
+   "sector": "Consumer",
+   "status": "acquired",
+   "valuationUSD": 360000000,
+   "valuationType": "acquisition",
+   "valuationDate": "2020-02",
+   "valuationNote": "Acquired · Feb 2020",
+   "valuationDetail": "Majority sold to TPG Growth 2020 (~$360M; Thiel Fdn cites $400M)",
+   "peakValuationUSD": 400000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "tara-bosch"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://en.wikipedia.org/wiki/Thiel_Fellowship",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "until-labs",
+   "name": "Until Labs",
+   "url": "https://www.untillabs.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": 348000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom est.; $58M Series A Sep 2025 (valuation undisclosed)",
+   "peakValuationUSD": 348000000,
+   "totalRaisedUSD": 106000000,
+   "unicorn": false,
+   "fellows": [
+    "laura-deming"
+   ],
+   "sources": [
+    "https://finance.yahoo.com/news/until-labs-announces-58m-series-200000185.html",
+    "https://www.caplight.com/company/until-labs",
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "indent",
+   "name": "Indent",
+   "url": "https://indent.com",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 336000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 336000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "fouad-matin"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "zeno-power",
+   "name": "Zeno Power",
+   "url": "https://www.zenopower.com",
+   "sector": "Energy & Climate",
+   "status": "private",
+   "valuationUSD": 300000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 300000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "tyler-bernstein"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "saturn",
+   "name": "Saturn",
+   "url": "https://www.joinsaturn.com",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 264000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 264000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "dylan-diamond"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "scythe-robotics",
+   "name": "Scythe Robotics",
+   "url": "https://scytherobotics.com",
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 252000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 252000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "davis-foster"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "cognito",
+   "name": "Cognito",
+   "url": null,
+   "sector": "Fintech",
+   "status": "acquired",
+   "valuationUSD": 250000000,
+   "valuationType": "acquisition",
+   "valuationDate": "2021-04",
+   "valuationNote": "Acquired · Apr 2021",
+   "valuationDetail": "Acquired by Plaid, 2021 (~$250M)",
+   "peakValuationUSD": 250000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-backus"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+   ]
+  },
+  {
+   "id": "aiuc",
+   "name": "AIUC",
+   "url": null,
+   "sector": "Education",
+   "status": "private",
+   "valuationUSD": 240000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 240000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "brandon-wang"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "glorify",
+   "name": "Glorify",
+   "url": "https://www.glorify.global",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 240000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 240000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "edward-beccle"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "passes",
+   "name": "Passes",
+   "url": "https://passes.com",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 240000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom est.; $40M Series A Feb 2024 (valuation undisclosed)",
+   "peakValuationUSD": 240000000,
+   "totalRaisedUSD": 50000000,
+   "unicorn": false,
+   "fellows": [
+    "lucy-guo"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://finance.yahoo.com/news/exclusive-29-old-self-made-174427470.html",
+    "https://en.wikipedia.org/wiki/Passes_Inc."
+   ]
+  },
+  {
+   "id": "windborne-systems",
+   "name": "WindBorne Systems",
+   "url": "https://windbornesystems.com",
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 222000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 222000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "paige-brown"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "donotpay",
+   "name": "DoNotPay",
+   "url": "https://donotpay.com",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 210000000,
+   "valuationType": "last round",
+   "valuationDate": "2021-08",
+   "valuationNote": "Last round · Aug 2021",
+   "valuationDetail": "Series B at $210M (2021, per press); Dealroom lists $80M",
+   "peakValuationUSD": 210000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "joshua-browder"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "optivolt-labs",
+   "name": "Optivolt Labs",
+   "url": "https://optivolt.com",
+   "sector": "Energy & Climate",
+   "status": "private",
+   "valuationUSD": 192000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 192000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "rohit-kalyanpur"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "eligible",
+   "name": "Eligible",
+   "url": null,
+   "sector": "Other",
+   "status": "private",
+   "valuationUSD": 151000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 151000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "james-schuler"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "evervault",
+   "name": "Evervault",
+   "url": "https://evervault.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": 150000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 150000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "shane-curran"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://en.wikipedia.org/wiki/Thiel_Fellowship",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "moxie",
+   "name": "Moxie",
+   "url": "https://www.joinmoxie.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": 150000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 150000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "daniel-friedman"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
+   ]
+  },
+  {
+   "id": "airgarage",
+   "name": "AirGarage",
+   "url": "https://www.airgarage.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": 138000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 138000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "scott-fitsimones"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "orchard-robotics",
+   "name": "Orchard Robotics",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 132000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 132000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "charlie-wu"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "silna-health",
+   "name": "Silna Health",
+   "url": "https://www.silnahealth.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": 132000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 132000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "pavel-asparouhov"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/"
+   ]
+  },
+  {
+   "id": "synex-medical",
+   "name": "Synex Medical",
+   "url": "https://synexmedical.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": 131000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 131000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ben-nashman"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "doppler",
+   "name": "Doppler",
+   "url": "https://www.doppler.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": 120000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 120000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "phillip-chao"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "ephemeral-tattoos",
+   "name": "Ephemeral Tattoos",
+   "url": null,
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 120000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 120000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "josh-sakhai"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "scienceio",
+   "name": "ScienceIO",
+   "url": null,
+   "sector": "AI",
+   "status": "acquired",
+   "valuationUSD": 106000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "At acquisition · Oct 2026",
+   "valuationDetail": "Dealroom $106M; reportedly acquired by Veradigm 2024 (unverified)",
+   "peakValuationUSD": 106000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "will-manidis"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "aeolus",
+   "name": "Aeolus",
+   "url": "https://www.aeolus.earth",
+   "sector": "Energy & Climate",
+   "status": "private",
+   "valuationUSD": 103000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 103000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "koki-mashita"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "depict",
+   "name": "Depict",
+   "url": "https://depict.ai",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 102000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "peakValuationUSD": 102000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "oliver-edholm"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "embark-trucks",
+   "name": "Embark Trucks",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": "acquired",
+   "valuationUSD": 71000000,
+   "valuationType": "acquisition",
+   "valuationDate": "2023-05",
+   "valuationNote": "Acquired · May 2023",
+   "valuationDetail": "Acquired by Applied Intuition for about $71M in 2023; valued at about $5.2B in its 2021 SPAC merger",
+   "peakValuationUSD": 5160000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "alex-rodrigues"
+   ],
+   "sources": [
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+   ]
+  },
+  {
+   "id": "spatial-labs",
+   "name": "Spatial Labs",
+   "url": null,
+   "sector": "Crypto",
+   "status": "private",
+   "valuationUSD": 60000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom $60M; below $100M",
+   "peakValuationUSD": 60000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "iddris-sandu"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://en.wikipedia.org/wiki/Thiel_Fellowship",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "manex-ai",
+   "name": "Manex AI",
+   "url": "https://www.manex.ai",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 53000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom $53M; below $100M",
+   "peakValuationUSD": 53000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "fabian-gruber"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://en.wikipedia.org/wiki/Thiel_Fellowship"
+   ]
+  },
+  {
+   "id": "hyperplane",
+   "name": "Hyperplane",
+   "url": null,
+   "sector": "Fintech",
+   "status": "acquired",
+   "valuationUSD": 32000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "At acquisition · Oct 2026",
+   "valuationDetail": "Dealroom $32M; acquired by Nubank (terms undisclosed)",
+   "peakValuationUSD": 32000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "felipe-meneses"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/"
+   ]
+  },
+  {
+   "id": "0xparc",
+   "name": "0xPARC",
+   "url": "https://0xparc.org",
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "brian-gu"
+   ],
+   "sources": []
+  },
+  {
+   "id": "acorn-biolabs",
+   "name": "Acorn Biolabs",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "laura-vaughan"
+   ],
+   "sources": []
+  },
+  {
+   "id": "acorn-genetics",
+   "name": "Acorn Genetics",
+   "url": "https://www.acorngenetics.com",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ana-cornell"
+   ],
+   "sources": []
+  },
+  {
+   "id": "action",
+   "name": "Action",
+   "url": null,
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kyler-wang"
+   ],
+   "sources": []
+  },
+  {
+   "id": "agency-tool-company",
+   "name": "Agency Tool Company",
+   "url": "https://agencytool.com",
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "davis-foster"
+   ],
+   "sources": []
+  },
+  {
+   "id": "altro",
+   "name": "Altro",
+   "url": "https://altro.io",
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "michael-broughton"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "anchor-protocol",
+   "name": "Anchor Protocol",
+   "url": null,
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ryan-park"
+   ],
+   "sources": []
+  },
+  {
+   "id": "ando",
+   "name": "Ando",
+   "url": "https://www.ando.so",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sara-du"
+   ],
+   "sources": []
+  },
+  {
+   "id": "applied-compute",
+   "name": "Applied Compute",
+   "url": "https://www.appliedcompute.com",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "yash-patil"
+   ],
+   "sources": []
+  },
+  {
+   "id": "argument-computer-corporation",
+   "name": "Argument Computer Corporation",
+   "url": "https://argument.xyz",
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-burnham"
+   ],
+   "sources": []
+  },
+  {
+   "id": "arist",
+   "name": "Arist",
+   "url": "https://arist.com",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "michael-ioffe"
+   ],
+   "sources": []
+  },
+  {
+   "id": "aunt-flow",
+   "name": "Aunt Flow",
+   "url": "https://goauntflow.com",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "claire-coder"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "automorphic",
+   "name": "Automorphic",
+   "url": "https://automorphic.ai",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "govind-gnanakumar"
+   ],
+   "sources": []
+  },
+  {
+   "id": "axiome",
+   "name": "Axiome",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "samarth-athreya"
+   ],
+   "sources": []
+  },
+  {
+   "id": "azura",
+   "name": "Azura",
+   "url": "https://azura.xyz",
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jackson-denka"
+   ],
+   "sources": []
+  },
+  {
+   "id": "biodock",
+   "name": "Biodock",
+   "url": "https://www.biodock.ai",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "michael-lee"
+   ],
+   "sources": []
+  },
+  {
+   "id": "biofire",
+   "name": "Biofire",
+   "url": "https://biofire.com",
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kai-kloepfer"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "bioneural-lab",
+   "name": "Bioneural Lab",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "claire-wang"
+   ],
+   "sources": []
+  },
+  {
+   "id": "bloom",
+   "name": "Bloom",
+   "url": "https://bloomapp.com",
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sonny-mo"
+   ],
+   "sources": []
+  },
+  {
+   "id": "blot",
+   "name": "Blot",
+   "url": "https://blot.im",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "david-merfield"
+   ],
+   "sources": []
+  },
+  {
+   "id": "blur-blast",
+   "name": "Blur / Blast",
+   "url": null,
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "tieshun-roquerre"
+   ],
+   "sources": []
+  },
+  {
+   "id": "branch",
+   "name": "Branch",
+   "url": "https://branch.gg",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "dayton-mills"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "bun",
+   "name": "Bun",
+   "url": "https://bun.com",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jarred-sumner"
+   ],
+   "sources": []
+  },
+  {
+   "id": "cafe-x",
+   "name": "Cafe X",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "henry-hu"
+   ],
+   "sources": []
+  },
+  {
+   "id": "canopy-labs",
+   "name": "Canopy Labs",
+   "url": "https://canopylabs.ai",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "elias-fizesan"
+   ],
+   "sources": []
+  },
+  {
+   "id": "cavalla",
+   "name": "Cavalla",
+   "url": "https://www.cavalla.ai",
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "victor-boyd"
+   ],
+   "sources": []
+  },
+  {
+   "id": "chima",
+   "name": "Chima",
+   "url": "https://www.withchima.com",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Reported · Oct 2026",
+   "valuationDetail": "No disclosed valuation",
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kiara-nirghin"
+   ],
+   "sources": [
+    "https://en.wikipedia.org/wiki/Thiel_Fellowship",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+   ]
+  },
+  {
+   "id": "codegem",
+   "name": "CodeGem",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "stephanie-mills"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "compocket",
+   "name": "Compocket",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ilayda-buyukdogan"
+   ],
+   "sources": []
+  },
+  {
+   "id": "context",
+   "name": "Context",
+   "url": null,
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "joseph-semrai"
+   ],
+   "sources": []
+  },
+  {
+   "id": "conway-research",
+   "name": "Conway Research",
+   "url": "https://conway.tech/",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sigil-wen"
+   ],
+   "sources": []
+  },
+  {
+   "id": "copysmith",
+   "name": "Copysmith",
+   "url": "https://www.copysmith.ai",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jasmine-wang"
+   ],
+   "sources": []
+  },
+  {
+   "id": "corecircle",
+   "name": "Corecircle",
+   "url": "https://corecircle.com",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "nastassia-ponomarenko"
+   ],
+   "sources": []
+  },
+  {
+   "id": "coursekey",
+   "name": "CourseKey",
+   "url": null,
+   "sector": "Education",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "luke-sophios"
+   ],
+   "sources": []
+  },
+  {
+   "id": "cropsafe",
+   "name": "CropSafe",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-mcelhone"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "cryopets",
+   "name": "Cryopets",
+   "url": "https://cryopets.com",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kai-micah-mills"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "dandy",
+   "name": "Dandy",
+   "url": "https://www.meetdandy.com",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "toni-oloko"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "decade",
+   "name": "Decade",
+   "url": null,
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "felipe-meneses"
+   ],
+   "sources": []
+  },
+  {
+   "id": "delphi-labs",
+   "name": "Delphi Labs",
+   "url": null,
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "markie-wagner"
+   ],
+   "sources": []
+  },
+  {
+   "id": "derpetual",
+   "name": "Derpetual",
+   "url": "https://www.derpetual.com",
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "antoni-kiszka"
+   ],
+   "sources": []
+  },
+  {
+   "id": "destiny",
+   "name": "Destiny",
+   "url": null,
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sohail-prasad"
+   ],
+   "sources": []
+  },
+  {
+   "id": "docbot",
+   "name": "Docbot",
+   "url": "https://www.docbot.co",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "andrew-ninh"
+   ],
+   "sources": []
+  },
+  {
+   "id": "dream-hustle-code",
+   "name": "Dream Hustle Code",
+   "url": "https://www.dreamhustlecode.com",
+   "sector": "Education",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ian-michael-brock"
+   ],
+   "sources": []
+  },
+  {
+   "id": "dreambound",
+   "name": "Dreambound",
+   "url": "https://dreambound.com",
+   "sector": "Education",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "brandon-wang"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "endex",
+   "name": "Endex",
+   "url": "https://endex.ai",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "tarun-amasa"
+   ],
+   "sources": []
+  },
+  {
+   "id": "epic-aerospace",
+   "name": "Epic Aerospace",
+   "url": "https://epic-aerospace.com",
+   "sector": "Space & Defense",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ignacio-belieres-montero"
+   ],
+   "sources": []
+  },
+  {
+   "id": "everyticker",
+   "name": "EveryTicker",
+   "url": "https://everyticker.com",
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "nick-dobroshinsky"
+   ],
+   "sources": []
+  },
+  {
+   "id": "examedi",
+   "name": "Examedi",
+   "url": "https://www.examedi.cl",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ian-lee"
+   ],
+   "sources": []
+  },
+  {
+   "id": "fossa",
+   "name": "FOSSA",
+   "url": "https://fossa.com",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kevin-wang"
+   ],
+   "sources": []
+  },
+  {
+   "id": "fizz",
+   "name": "Fizz",
+   "url": null,
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "carlo-kobe"
+   ],
+   "sources": []
+  },
+  {
+   "id": "folk-computer",
+   "name": "Folk Computer",
+   "url": "https://folk.computer",
+   "sector": "Research",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "omar-rizwan"
+   ],
+   "sources": []
+  },
+  {
+   "id": "fonus",
+   "name": "Fonus",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "simon-tian"
+   ],
+   "sources": []
+  },
+  {
+   "id": "fuzzbuzz",
+   "name": "Fuzzbuzz",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "andrei-serban"
+   ],
+   "sources": []
+  },
+  {
+   "id": "genetesis",
+   "name": "Genetesis",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "peeyush-shrivastava"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "hack-club",
+   "name": "Hack Club",
+   "url": "https://hackclub.com",
+   "sector": "Education",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "zach-latta"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "hyper",
+   "name": "Hyper",
+   "url": "https://hyper.co",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ben-botvinick"
+   ],
+   "sources": []
+  },
+  {
+   "id": "hyperia",
+   "name": "Hyperia",
+   "url": null,
+   "sector": "Energy & Climate",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kenta-iwasaki"
+   ],
+   "sources": []
+  },
+  {
+   "id": "intempus",
+   "name": "Intempus",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "teddy-warner"
+   ],
+   "sources": []
+  },
+  {
+   "id": "iris-labs",
+   "name": "Iris Labs",
+   "url": null,
+   "sector": "Other",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "anand-gupta"
+   ],
+   "sources": []
+  },
+  {
+   "id": "italic",
+   "name": "Italic",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jeremy-cai"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "januus",
+   "name": "Januus",
+   "url": "https://www.januus.io",
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "peter-hansen"
+   ],
+   "sources": []
+  },
+  {
+   "id": "julep-ai",
+   "name": "Julep AI",
+   "url": "https://julep.ai",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "diwank-singh-tomer"
+   ],
+   "sources": []
+  },
+  {
+   "id": "kettle-fire",
+   "name": "Kettle & Fire",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "nick-mares"
+   ],
+   "sources": []
+  },
+  {
+   "id": "klyra-protocol",
+   "name": "Klyra Protocol",
+   "url": null,
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "diogenes-casares"
+   ],
+   "sources": []
+  },
+  {
+   "id": "lendtable",
+   "name": "Lendtable",
+   "url": "https://lendtable.com",
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sheridan-clayborne"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "lily-devices",
+   "name": "Lily Devices",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "aaron-hannon"
+   ],
+   "sources": []
+  },
+  {
+   "id": "logrocket",
+   "name": "LogRocket",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "matt-arbesfeld"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "loomia",
+   "name": "Loomia",
+   "url": "https://www.loomia.com",
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "madison-maddy-maxey"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "luminai",
+   "name": "Luminai",
+   "url": "https://www.luminai.com",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kesava-kirupa-dinakaran"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "luminar",
+   "name": "Luminar",
+   "url": "https://www.luminartech.com",
+   "sector": "Hardware & Deep Tech",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": "peak",
+   "valuationDate": "2020-12",
+   "valuationNote": "Defunct",
+   "valuationDetail": "DEFUNCT: Ch.11 Dec 2025, assets sold (~$143M), equity cancelled Apr 2026; peak ~$8.5B Dec 2020",
+   "peakValuationUSD": 8500000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "austin-russell"
+   ],
+   "sources": [
+    "https://www.manufacturingdive.com/news/sensor-luminar-technologies-chapter-11-bankruptcy-chip-sale-quantum-computing/808129/",
+    "https://www.sec.gov/Archives/edgar/data/1758057/000114036126011477/ef20067963-10k.htm",
+    "https://chapter11cases.com/blogs/news/luminar-technologies-proposes-liquidation-through-143-million-asset-sale-to-quantum-computing-and-microvision",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "luminopia",
+   "name": "Luminopia",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "dean-travers"
+   ],
+   "sources": []
+  },
+  {
+   "id": "medu",
+   "name": "MEDU",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "tamara-chayo-romo"
+   ],
+   "sources": []
+  },
+  {
+   "id": "macro-energy",
+   "name": "Macro Energy",
+   "url": null,
+   "sector": "Energy & Climate",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "reiss-jones"
+   ],
+   "sources": []
+  },
+  {
+   "id": "marble",
+   "name": "Marble",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "matthew-dimarcantonio"
+   ],
+   "sources": []
+  },
+  {
+   "id": "maverick-power",
+   "name": "Maverick Power",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "tom-currier"
+   ],
+   "sources": []
+  },
+  {
+   "id": "mirdin",
+   "name": "Mirdin",
+   "url": "https://www.mirdin.com",
+   "sector": "Education",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jimmy-koppel"
+   ],
+   "sources": []
+  },
+  {
+   "id": "mobot",
+   "name": "Mobot",
+   "url": "https://www.mobot.io",
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "eden-full-goh"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "nohbo",
+   "name": "Nohbo",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ben-stern"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "nucleus-genomics",
+   "name": "Nucleus Genomics",
+   "url": "https://nucleusgenomics.com",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kian-sadeghi"
+   ],
+   "sources": []
+  },
+  {
+   "id": "nurture-and-reset",
+   "name": "Nurture and Reset",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "margaret-nyawira-karaba"
+   ],
+   "sources": []
+  },
+  {
+   "id": "oligo-space",
+   "name": "Oligo Space",
+   "url": null,
+   "sector": "Space & Defense",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jacob-rodriguez"
+   ],
+   "sources": []
+  },
+  {
+   "id": "orb-aerospace",
+   "name": "Orb Aerospace",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "alex-taylor"
+   ],
+   "sources": []
+  },
+  {
+   "id": "orbit",
+   "name": "Orbit",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "colton-el-habr",
+    "steven-pang"
+   ],
+   "sources": []
+  },
+  {
+   "id": "orchid",
+   "name": "Orchid",
+   "url": "https://www.orchidhealth.com",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "noor-siddiqui"
+   ],
+   "sources": []
+  },
+  {
+   "id": "origin-genomics",
+   "name": "Origin Genomics",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "cathy-tie"
+   ],
+   "sources": []
+  },
+  {
+   "id": "palitronica",
+   "name": "Palitronica",
+   "url": "https://www.palitronica.com",
+   "sector": "Space & Defense",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "griffin-barnicutt"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "pareto",
+   "name": "Pareto",
+   "url": "https://pareto.ai",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "phoebe-yao"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "phase",
+   "name": "Phase",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "juan-ebrath"
+   ],
+   "sources": []
+  },
+  {
+   "id": "phoenix-health",
+   "name": "Phoenix Health",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "emily-wang"
+   ],
+   "sources": []
+  },
+  {
+   "id": "pilgrim",
+   "name": "Pilgrim",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jake-adler"
+   ],
+   "sources": []
+  },
+  {
+   "id": "praso",
+   "name": "Praso",
+   "url": "https://praso.com.br",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "samuel-carvalho"
+   ],
+   "sources": []
+  },
+  {
+   "id": "purple",
+   "name": "Purple",
+   "url": "https://www.withpurple.com",
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-ciocca"
+   ],
+   "sources": []
+  },
+  {
+   "id": "queenbee",
+   "name": "QueenBee",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "raina-jain"
+   ],
+   "sources": []
+  },
+  {
+   "id": "ramp-usa",
+   "name": "Ramp USA",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "mel-du"
+   ],
+   "sources": []
+  },
+  {
+   "id": "red-leader",
+   "name": "Red Leader",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jake-hillard"
+   ],
+   "sources": []
+  },
+  {
+   "id": "russell-ai-labs",
+   "name": "Russell AI Labs",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "austin-russell"
+   ],
+   "sources": []
+  },
+  {
+   "id": "soundboks",
+   "name": "SOUNDBOKS",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jesper-theil-thomsen"
+   ],
+   "sources": []
+  },
+  {
+   "id": "swsh",
+   "name": "SWSH",
+   "url": "https://www.joinswsh.com",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "alexandra-debow"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "sentient-machines",
+   "name": "Sentient Machines",
+   "url": null,
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "harry-o-connor"
+   ],
+   "sources": []
+  },
+  {
+   "id": "simple-sugars",
+   "name": "Simple Sugars",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "lani-lazzari"
+   ],
+   "sources": []
+  },
+  {
+   "id": "skyline-celestial",
+   "name": "Skyline Celestial",
+   "url": null,
+   "sector": "Space & Defense",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "geffen-avraham"
+   ],
+   "sources": []
+  },
+  {
+   "id": "slash",
+   "name": "Slash",
+   "url": "https://www.slash.com",
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "victor-cardenas"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "software-applications-incorporated-sky-joining-openai",
+   "name": "Software Applications Incorporated (Sky), joining OpenAI",
+   "url": "https://sky.app",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ari-weinstein",
+    "conrad-kramer"
+   ],
+   "sources": []
+  },
+  {
+   "id": "solvemed",
+   "name": "Solvemed",
+   "url": "https://www.solvemed.ai",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "hugo-chrost"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "spellbound",
+   "name": "Spellbound",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "akshaya-dinesh"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "sprayable",
+   "name": "Sprayable",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ben-yu"
+   ],
+   "sources": []
+  },
+  {
+   "id": "spring-silicon-formerly-opt32",
+   "name": "Spring Silicon (formerly Opt32)",
+   "url": "https://springsilicon.com",
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "milan-lustig"
+   ],
+   "sources": []
+  },
+  {
+   "id": "succinct",
+   "name": "Succinct",
+   "url": "https://www.succinct.xyz",
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-guibas"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "super-coffee",
+   "name": "Super Coffee",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jordan-decicco"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "swoop",
+   "name": "Swoop",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "aubrey-niederhoffer"
+   ],
+   "sources": []
+  },
+  {
+   "id": "tavus",
+   "name": "Tavus",
+   "url": "https://www.tavus.io",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "quinn-favret"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "teleportal",
+   "name": "Teleportal",
+   "url": "https://teleportal.app",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "thomas-suarez"
+   ],
+   "sources": []
+  },
+  {
+   "id": "tenor",
+   "name": "Tenor",
+   "url": "https://tenorhq.com",
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "charlie-stigler"
+   ],
+   "sources": []
+  },
+  {
+   "id": "the-antifraud-company",
+   "name": "The Antifraud Company",
+   "url": null,
+   "sector": "Other",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "alex-shieh"
+   ],
+   "sources": []
+  },
+  {
+   "id": "the-ocean-cleanup",
+   "name": "The Ocean Cleanup",
+   "url": "https://theoceancleanup.com",
+   "sector": "Energy & Climate",
+   "status": "nonprofit",
+   "valuationUSD": null,
+   "valuationType": "nonprofit",
+   "valuationDate": "2026-10",
+   "valuationNote": "Nonprofit",
+   "valuationDetail": "Nonprofit (no valuation); Dealroom lists $189M",
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "boyan-slat"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://en.wikipedia.org/wiki/Thiel_Fellowship",
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "vitable-health",
+   "name": "Vitable Health",
+   "url": "https://www.vitablehealth.com",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "joseph-kitonga"
+   ],
+   "sources": []
+  },
+  {
+   "id": "voiceops",
+   "name": "VoiceOps",
+   "url": null,
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "daria-evdokimova"
+   ],
+   "sources": []
+  },
+  {
+   "id": "voldex",
+   "name": "Voldex",
+   "url": "https://voldex.com",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "alex-singer"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "wander",
+   "name": "Wander",
+   "url": "https://www.wander.com",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-andrew-entwistle"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs"
+   ],
+   "onJobBoard": true
+  },
+  {
+   "id": "yellowberry",
+   "name": "Yellowberry",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "megan-grassell"
+   ],
+   "sources": []
+  }
+ ]
+}

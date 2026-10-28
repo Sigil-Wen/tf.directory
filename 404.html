@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Redirecting · tf.directory</title>
+  <script>
+    // Map stray paths like /fellow/dylan-field onto the hash router.
+    var p = location.pathname.replace(/^\/+|\/+$/g, "");
+    location.replace("/" + (p ? "#/" + p : ""));
+  </script>
+  <style>body{margin:0;background:#f4f2ec;color:#121211;font:15px system-ui,sans-serif;display:grid;place-items:center;min-height:100vh}@media (prefers-color-scheme:dark){body{background:#0d0d0c;color:#f1efe8}}a{color:inherit}</style>
+</head>
+<body><p>Redirecting to <a href="/">tf.directory</a>…</p></body>
+</html>
