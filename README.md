@@ -44,4 +44,8 @@ Then open http://127.0.0.1:4173.
 
 Classes are labeled by the year they were announced. The class announced in January 2022 is labeled 2022, although some of its fellows call themselves 2021 fellows.
 
+## License
+
+The code and the data in `data/` are under the [MIT License](LICENSE). Portraits in `assets/people/` and logos in `assets/logos/` belong to their owners and aren't covered by it, and the Geist font in `assets/fonts/` is under the SIL Open Font License.
+
 Not affiliated with the Thiel Foundation.

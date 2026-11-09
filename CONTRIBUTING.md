@@ -70,3 +70,7 @@ python3 -m http.server 4173
 ```
 
 Then open http://127.0.0.1:4173. If you changed `assets/app.js` or `assets/style.css`, bump the `?v=` number on both in `index.html` so browsers fetch the new files.
+
+## License
+
+By opening a pull request, you agree that your contribution is shared under the project's [MIT License](LICENSE).
