@@ -20,9 +20,8 @@
 
   // ---------- helpers ----------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-  const pad = (n) => String(n).padStart(2, "0");
   const yy = (y) => "’" + String(y).slice(2);
-  const plural = (n, w) => `${n} ${w}${n === 1 ? "" : "s"}`;
+  const plural = (n, w) => `${n} ${w === "company" ? (n === 1 ? w : "companies") : w + (n === 1 ? "" : "s")}`;
   const safeUrl = (u) => (typeof u === "string" && /^https?:\/\//i.test(u) ? u : null);
   const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } };
 
@@ -33,20 +32,20 @@
     return "$" + +x.toFixed(x >= 100 ? 0 : x >= 10 ? 1 : 2) + unit;
   }
 
-  const hue = (s) => { let h = 0; for (const ch of s) h = (h * 31 + ch.charCodeAt(0)) >>> 0; return h % 360; };
   function initials(name) {
     const w = name.replace(/\(.*?\)/g, "").split(/\s+/).filter((p) => /^[A-Za-zÀ-ž]/.test(p));
     if (!w.length) return "?";
     return (w[0][0] + (w.length > 1 ? w[w.length - 1][0] : "")).toUpperCase();
   }
-  const mono = (f, s) => `<span class="mono" style="--h:${hue(f.name)}${s ? `;--s:${s}px` : ""}" aria-hidden="true">${esc(initials(f.name))}</span>`;
 
-  const SECTOR_HUE = {
-    "AI": 245, "Crypto": 275, "Bio & Health": 150, "Hardware & Deep Tech": 28, "Energy & Climate": 95,
-    "Space & Defense": 200, "Fintech": 170, "Consumer": 330, "Software & SaaS": 220, "Education": 45,
-    "Research": 5, "Investing": 60,
-  };
-  const chip = (s) => (s ? `<span class="chip${SECTOR_HUE[s] == null ? " gray" : ""}"><i style="--h:${SECTOR_HUE[s] ?? 0}"></i>${esc(s)}</span>` : "");
+  const img = (cls, src, s) => `<img class="${cls}" src="${esc(src)}" alt="" width="${s}" height="${s}" style="--s:${s}px" loading="lazy" decoding="async">`;
+  const face = (f, s = 40) => (f.photo ? img("face", f.photo, s) : `<span class="face blank" style="--s:${s}px" aria-hidden="true">${esc(initials(f.name))}</span>`);
+  const logo = (c, s = 40) => (c.logo ? img(c.logoDark ? "logo on-dark" : "logo", c.logo, s) : `<span class="logo blank" style="--s:${s}px" aria-hidden="true">${esc(c.name[0])}</span>`);
+  const stack = (fs, s = 28, n = 3) => `<span class="stack">${fs.slice(0, n).map((f) => face(f, s)).join("")}</span>`;
+  const rk = (i) => `<span class="rk${i < 3 ? " lead" : ""}">${i + 1}</span>`;
+  const tag = (t) => `<span class="tag">${esc(t)}</span>`;
+
+  const chip = (s) => (s ? `<span class="chip">${esc(s)}</span>` : "");
   const STATUS_LABEL = { public: "Public", private: "Private", acquired: "Acquired", defunct: "Defunct", nonprofit: "Nonprofit", protocol: "Token network" };
   const statusTag = (s) => (s ? `<span class="status ${esc(s)}">${esc(STATUS_LABEL[s] || s)}</span>` : "");
 
@@ -67,14 +66,18 @@
   const topCo = (f) => f.cos.slice().sort(byValue)[0];
   const fellowValue = (f) => Math.max(0, ...f.cos.map(value));
   const ranked = () => companies.filter(counted).sort(byValue);
+  const classesOf = (c) => [...new Set(c.fs.map((f) => f.class))].sort((a, b) => a - b);
 
-  const fellowLinks = (fs) => fs.map((f) => `<a href="#/fellow/${f.id}">${esc(f.name)}</a> <span class="yy">${yy(f.class)}</span>`).join(", ");
-  const companyLine = (f) => {
-    if (f.company) return `<b>${esc(f.company)}</b>${f.role ? ` · ${esc(f.role)}` : ""}`;
-    const built = f.cos.slice().sort(byValue)[0];
-    if (built) return `<span class="muted">Built</span> <b>${esc(built.name)}</b>`;
-    if (f.previous && f.previous.length) return `<span class="muted">Fellowship project:</span> ${esc(f.previous[0])}`;
-    return f.role ? esc(f.role) : `<span class="muted">Current work not listed</span>`;
+  const fellowNames = (fs) => fs.map((f) => `<a href="#/fellow/${f.id}">${esc(f.name)}</a>`).join(", ");
+  const workOf = (f) => {
+    if (f.company) return f.company;
+    const built = topCo(f);
+    if (built) return built.name;
+    return f.previous && f.previous.length ? `Fellowship project: ${f.previous[0]}` : "";
+  };
+  const companyTags = (c) => {
+    const former = c.unicorn && value(c) < 1e9 && c.peakValuationUSD >= 1e9;
+    return [c.status === "protocol" && tag("Token network"), c.status === "acquired" && tag("Acquired"), former && tag(`Peak ${money(c.peakValuationUSD)}`)].filter(Boolean).join("");
   };
 
   const classCache = new Map();
@@ -90,23 +93,26 @@
   }
 
   // ---------- components ----------
-  const logW = (v, max) => (v ? Math.max(1.5, ((Math.log10(v) - 7) / (Math.log10(max) - 7)) * 100) : 0);
+  function podium(list) {
+    return `<div class="podium">${list.slice(0, 3).map((c, i) => `<a class="pod" href="#/company/${c.id}">
+      <div class="pod-top"><span class="tile">${i + 1}</span>${logo(c, 52)}</div>
+      <div class="pod-name">${esc(c.name)}</div>
+      <div class="pod-val">${money(value(c))}</div>
+      <div class="pod-note">${esc(c.valuationNote || "")}</div>
+      <div class="pod-fs">${stack(c.fs, 26)}<span class="t">${esc(c.fs.map((f) => f.name).join(", "))}</span></div>
+    </a>`).join("")}</div>`;
+  }
 
-  function companyBoard(list, max) {
+  function companyRows(list, start = 0) {
     if (!list.length) return `<div class="empty">No valued companies yet.</div>`;
-    return `<div class="board">${list.map((c, i) => {
-      const v = value(c);
-      const former = c.unicorn && v < 1e9 && c.peakValuationUSD >= 1e9;
-      return `<div class="lb-row">
-        <span class="rank">${pad(i + 1)}</span>
-        <div class="lb-main">
-          <a class="lb-name" href="#/company/${c.id}">${esc(c.name)}</a>${c.status === "protocol" ? `<span class="tag dim">Token network</span>` : ""}${c.status === "acquired" ? `<span class="tag dim">Acquired</span>` : ""}${former ? `<span class="tag gold">Peak ${money(c.peakValuationUSD)}</span>` : ""}
-          <span class="lb-sub">${fellowLinks(c.fs)}</span>
-        </div>
-        <div class="bar" title="${esc(c.name)}: ${money(v)}"><i style="width:${logW(v, max)}%"></i></div>
-        <div class="lb-val">${money(v)}<small>${esc(c.valuationNote || "")}</small></div>
-      </div>`;
-    }).join("")}</div>`;
+    return `<div class="t-head"><span>Rank</span><span>Company</span><span>Fellows</span><span class="h-cls">Class</span><span class="r">Valuation</span></div>
+    ${list.map((c, i) => `<div class="t-row">
+      ${rk(i + start)}
+      <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}${companyTags(c)}</span><span class="t-sub m">${esc(c.fs.map((f) => f.name).join(", "))}</span></span></a>
+      <div class="founders">${stack(c.fs)}<span class="names">${fellowNames(c.fs)}</span></div>
+      <div class="t-cls">${classesOf(c).map((y) => `<a href="#/class/${y}">${y}</a>`).join(", ")}</div>
+      <div class="val">${money(value(c))}<small>${esc(c.valuationNote || "")}</small></div>
+    </div>`).join("")}`;
   }
 
   function classScore(r) {
@@ -114,11 +120,12 @@
     if (state.metric === "per") return r.n ? r.value / r.n : 0;
     return r.value;
   }
+  const classRanking = () => years.map(classStats).sort((a, b) => classScore(b) - classScore(a) || a.year - b.year);
 
   function classBoard() {
-    const rows = years.map(classStats).sort((a, b) => classScore(b) - classScore(a) || a.year - b.year);
+    const rows = classRanking();
     const max = Math.max(...rows.map((r) => r.value), 1);
-    return `<div class="board">${rows.map((r, i) => {
+    return `<div class="cl-rows">${rows.map((r, i) => {
       const segs = r.valued.map((c, j) => {
         const w = (value(c) / max) * 100;
         return `<a class="cl-seg s${Math.min(j, 3)}" href="#/company/${c.id}" style="width:${w}%" title="${esc(c.name)} · ${money(value(c))}">${w > 9 ? `<span>${esc(c.name)}</span>` : ""}</a>`;
@@ -128,18 +135,18 @@
         : state.metric === "per"
           ? `${money(r.n ? r.value / r.n : 0)}<small>per fellow</small>`
           : `${money(r.value)}<small>combined</small>`;
-      return `<div class="cl-row${i === 0 ? " win" : ""}">
-        <span class="rank">${pad(i + 1)}</span>
+      return `<div class="cl-row">
+        ${rk(i)}
         <a class="cl-year" href="#/class/${r.year}">${r.year}<small>${plural(r.n, "fellow")} · ${plural(r.unicorns, "unicorn")}</small></a>
+        <span class="stack">${r.valued.slice(0, 3).map((c) => logo(c, 30)).join("")}</span>
         <div class="cl-track">${segs}</div>
-        <div class="lb-val">${big}</div>
+        <div class="val">${big}</div>
       </div>`;
     }).join("")}</div>`;
   }
 
   function classAnswer() {
-    const rows = years.map(classStats).sort((a, b) => classScore(b) - classScore(a) || a.year - b.year);
-    const w = rows[0];
+    const w = classRanking()[0];
     if (!w || !w.value) return "";
     const top = w.valued.slice(0, 3).map((c) => `<b>${esc(c.name)}</b>`).join(", ");
     const why = state.metric === "unicorns"
@@ -147,7 +154,7 @@
       : state.metric === "per"
         ? `${money(w.value / w.n)} of company value per fellow`
         : `${money(w.value)} in combined company value`;
-    return `<div class="answer"><span class="big">${w.year}</span><p>The class of ${w.year} leads with ${why}, driven by ${top}.</p></div>`;
+    return `The class of ${w.year} leads with ${why}, driven by ${top}.`;
   }
 
   const metricSeg = () => `<div class="seg" role="group" aria-label="Rank classes by">
@@ -156,144 +163,111 @@
 
   const protoSwitch = () => `<label class="switch" title="Ethereum and Polkadot are token networks, not companies"><input type="checkbox" data-protocols ${state.protocols ? "checked" : ""}> Count token networks</label>`;
 
-  function classGrid() {
-    return `<div class="cgrid">${years.map((y) => {
-      const r = classStats(y);
-      const faces = r.fs.slice().sort((a, b) => fellowValue(b) - fellowValue(a)).slice(0, 7);
-      return `<a class="class-card" href="#/class/${y}">
-        <div class="cc-top"><span class="cc-year">${y}</span><span class="cc-n">${plural(r.n, "fellow")}</span></div>
-        <div class="faces">${faces.map((f) => mono(f, 30)).join("")}${r.n > 7 ? `<span class="more-n">+${r.n - 7}</span>` : ""}</div>
-        <div class="cc-foot"><span class="num">${r.value ? money(r.value) : "—"}</span><span class="cc-cos">${r.valued.slice(0, 3).map((c) => esc(c.name)).join(" · ") || "Early-stage"}</span></div>
-      </a>`;
-    }).join("")}</div>`;
+  function listCard({ kicker, title, href, rows, total, wide }) {
+    const shown = rows.length;
+    return `<article class="lcard${wide ? " wide" : ""}">
+      <div class="lc-top"><span>${esc(kicker)}</span><a class="lc-btn" href="${href}">View list →</a></div>
+      <h3>${esc(title)}</h3>
+      <div class="li-rows${wide ? " two" : ""}">${rows.map((r, i) => `<a class="li" href="${r.href}">${rk(i)}${r.img}<span class="li-t">${esc(r.t)}</span>${r.v ? `<span class="li-v">${esc(r.v)}</span>` : ""}</a>`).join("")}</div>
+      ${total > shown ? `<p class="li-more">+ ${total - shown} others</p>` : ""}
+    </article>`;
   }
 
   function fellowCard(f) {
     const c = topCo(f);
-    const v = c ? value(c) : 0;
+    const media = f.photo
+      ? `<img class="photo" src="${esc(f.photo)}" alt="" loading="lazy" decoding="async">`
+      : c && c.logo ? logo(c, 64) : `<span class="ini" aria-hidden="true">${esc(initials(f.name))}</span>`;
     return `<a class="f-card" href="#/fellow/${f.id}">
-      <div class="fc-top">${mono(f)}<span class="badge">${f.class}</span></div>
-      <div><div class="fc-name">${esc(f.name)}</div><div class="fc-co">${companyLine(f)}</div></div>
-      <div class="fc-foot">${chip(f.sector) || "<span></span>"}${v ? `<span class="fc-val">${money(v)}</span>` : ""}</div>
+      <div class="fc-media">${media}<span class="tile">${yy(f.class)}</span></div>
+      <div class="fc-body"><div class="fc-name">${esc(f.name)}</div><div class="fc-co">${esc(workOf(f))}</div></div>
     </a>`;
   }
 
-  function fellowRow(f) {
-    const c = topCo(f);
-    const v = c ? value(c) : 0;
-    return `<a class="f-row" href="#/fellow/${f.id}">
-      ${mono(f)}
-      <span class="f-name">${esc(f.name)}<small>${companyLine(f)}</small></span>
-      ${chip(f.sector) || "<span></span>"}
-      <span class="f-val">${v ? money(v) : ""}</span>
-    </a>`;
-  }
+  const facts = (rows) => `<dl class="facts">${rows.filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>`;
 
   // ---------- views ----------
   function viewHome() {
     const list = ranked();
-    const max = list[0] ? value(list[0]) : 1;
     const total = list.reduce((s, c) => s + value(c), 0);
     const unicorns = companies.filter(isUnicorn).length;
-    const billionaires = fellows.filter((f) => f.billionaire === "current").length;
+    const billionaires = fellows.filter((f) => f.billionaire).sort((a, b) => (a.billionaire === "current" ? 0 : 1) - (b.billionaire === "current" ? 0 : 1) || fellowValue(b) - fellowValue(a));
+    const current = billionaires.filter((f) => f.billionaire === "current").length;
+    const classes = years.map(classStats).sort((a, b) => b.value - a.value || a.year - b.year);
+    const sectors = [...new Set(list.map((c) => c.sector).filter(Boolean))]
+      .map((s) => ({ s, cos: list.filter((c) => c.sector === s) }))
+      .filter((x) => x.cos.length >= 3)
+      .sort((a, b) => b.cos.reduce((n, c) => n + value(c), 0) - a.cos.reduce((n, c) => n + value(c), 0))
+      .slice(0, 3);
     const html = `
-      <section class="hero">
-        <div>
-          <p class="eyebrow">The Thiel Fellowship · ${years[0]}–${years[years.length - 1]}</p>
-          <h1 class="display">Every Thiel Fellow,<br><em>and what they built.</em></h1>
-          <p class="lede">A directory of all ${fellows.length} fellows across ${years.length} classes, the companies they started, and what those companies are worth today.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#/fellows">Browse all fellows</a>
-            <a class="btn" href="#/leaderboard">Valuation leaderboard</a>
-          </div>
+      <header class="page-head" style="padding-bottom:0">
+        <h1 class="title">The Thiel Fellow List</h1>
+        <p class="sub">The Thiel Fellowship pays young people $250,000 over two years to skip or leave college and build something. This is everyone who took the deal since ${years[0]}, ranked by what they built.</p>
+        <section class="stats" aria-label="Directory totals">
+          <div class="stat"><b>${money(total)}</b><span>Combined company value</span></div>
+          <div class="stat"><b>${unicorns}</b><span>Unicorns built</span></div>
+          <div class="stat"><b>${current}</b><span>Billionaires</span></div>
+          <div class="stat"><b>${fellows.length}</b><span>Fellows</span></div>
+          <div class="stat"><b>${years.length}</b><span>Classes</span></div>
+        </section>
+      </header>
+
+      <section class="sect" style="padding-top:36px">
+        <div class="sect-head"><h2>The most valuable companies fellows built</h2><div class="controls">${protoSwitch()}</div></div>
+        ${podium(list)}
+        <div style="margin-top:28px">${companyRows(list.slice(3, 12), 3)}</div>
+        <a class="btn-wide" href="#/leaderboard">See all ${list.length} ranked companies</a>
+      </section>
+
+      <section class="sect">
+        <div class="sect-head"><h2>More lists</h2></div>
+        <div class="lists">
+          ${listCard({ kicker: "Classes", title: "Which class won?", href: "#/classes", wide: true, total: classes.length,
+            rows: classes.map((r) => ({ href: `#/class/${r.year}`, img: `<span class="yr">${yy(r.year)}</span>`, t: r.valued[0] ? `${r.year} · ${r.valued[0].name}` : `${r.year}`, v: r.value ? money(r.value) : "—" })) })}
+          ${billionaires.length ? listCard({ kicker: "People", title: "Billionaires", href: "#/leaderboard#billionaires", total: billionaires.length,
+            rows: billionaires.slice(0, 5).map((f) => ({ href: `#/fellow/${f.id}`, img: face(f, 30), t: f.name, v: f.billionaire === "former" ? "Former" : "" })) }) : ""}
+          ${sectors.map(({ s, cos }) => listCard({ kicker: "Sector", title: s, href: `#/leaderboard/${encodeURIComponent(s)}`, total: cos.length,
+            rows: cos.slice(0, 5).map((c) => ({ href: `#/company/${c.id}`, img: logo(c, 30), t: c.name, v: money(value(c)) })) })).join("")}
         </div>
-        <aside class="hero-side">
-          <b>The deal</b>
-          <p>Since 2011 the Thiel Foundation has paid young people (now $250,000 over two years) to skip or leave college and build something instead.</p>
-        </aside>
-      </section>
-      <section class="stats" aria-label="Directory totals">
-        <div class="stat"><b>${fellows.length}</b><span>Fellows</span></div>
-        <div class="stat"><b>${years.length}</b><span>Classes</span></div>
-        <div class="stat"><b>${unicorns}</b><span>Unicorns built</span></div>
-        <div class="stat"><b>${billionaires}</b><span>Billionaires</span></div>
-        <div class="stat"><b>${money(total)}</b><span>Combined company value</span></div>
-      </section>
-
-      <section class="block">
-        <header class="block-head">
-          <div><h2>Valuation leaderboard</h2><p>Companies founded or co-founded by Thiel Fellows, by latest public valuation.</p></div>
-          <div class="controls">${protoSwitch()}<a class="more" href="#/leaderboard">Full leaderboard →</a></div>
-        </header>
-        ${companyBoard(list.slice(0, 10), max)}
-        <p class="scale-note">Bars use a log scale.</p>
-      </section>
-
-      <section class="block">
-        <header class="block-head">
-          <div><h2>Which class won?</h2><p>Each class’s companies, stacked by current value. Companies with fellows from two classes count for both.</p></div>
-          <div class="controls">${metricSeg()}</div>
-        </header>
-        <div id="class-answer">${classAnswer()}</div>
-        <div id="class-board">${classBoard()}</div>
-      </section>
-
-      <section class="block">
-        <header class="block-head">
-          <div><h2>Browse by class</h2><p>Every cohort from the first “20 Under 20” in 2011 to today.</p></div>
-          <a class="more" href="#/classes">All classes →</a>
-        </header>
-        ${classGrid()}
       </section>`;
     return { html };
   }
 
-  function viewLeaderboard() {
-    const list = ranked();
-    const max = list[0] ? value(list[0]) : 1;
+  function viewLeaderboard(sector) {
+    const all = ranked();
+    const sectors = [...new Set(all.map((c) => c.sector).filter(Boolean))]
+      .sort((a, b) => all.filter((c) => c.sector === b).length - all.filter((c) => c.sector === a).length || a.localeCompare(b));
+    if (sector && !sectors.includes(sector)) return viewNotFound();
+    const list = sector ? all.filter((c) => c.sector === sector) : all;
     const billionaires = fellows.filter((f) => f.billionaire).sort((a, b) => (a.billionaire === "current" ? 0 : 1) - (b.billionaire === "current" ? 0 : 1) || fellowValue(b) - fellowValue(a));
     const html = `
       <header class="page-head">
-        <p class="eyebrow">Leaderboard</p>
-        <h1 class="display sm">Valuation leaderboard</h1>
-        <p class="lede">${plural(list.length, "company")} founded or co-founded by Thiel Fellows, ranked by latest public valuation: last priced round, public market cap, token market cap or acquisition price.</p>
+        <h1 class="title">${sector ? esc(sector) : "Valuation leaderboard"}</h1>
+        <p class="sub">${plural(list.length, "company")} founded or co-founded by Thiel Fellows, ranked by latest public valuation: last priced round, public market cap, token market cap or acquisition price.</p>
       </header>
-      <div class="block-head"><div></div><div class="controls">${protoSwitch()}</div></div>
-      ${companyBoard(list, max)}
-      <p class="scale-note">Bars use a log scale. A company appears once even when several fellows co-founded it.</p>
+      <div class="toolbar">
+        <nav class="tabs" aria-label="Filter by sector"><a href="#/leaderboard" class="${sector ? "" : "on"}">All</a>${sectors.map((s) => `<a href="#/leaderboard/${encodeURIComponent(s)}" class="${s === sector ? "on" : ""}">${esc(s)}</a>`).join("")}</nav>
+        ${protoSwitch()}
+      </div>
+      ${companyRows(list)}
+      <p class="note">A company appears once even when several fellows co-founded it.</p>
 
-      <section class="block">
-        <header class="block-head">
-          <div><h2>Which class won?</h2><p>Each class’s companies, stacked by current value.</p></div>
-          <div class="controls">${metricSeg()}</div>
-        </header>
-        <div id="class-answer">${classAnswer()}</div>
-        <div id="class-board">${classBoard()}</div>
-      </section>
-
-      ${billionaires.length ? `<section class="block">
-        <header class="block-head"><div><h2>Billionaire fellows</h2><p>Forbes real-time estimates as of ${esc(meta.updated || "today")}, plus fellows who were billionaires in the past.</p></div></header>
-        <div class="rows">${billionaires.map((f) => `<a class="f-row bil-row" href="#/fellow/${f.id}">${mono(f)}<span class="f-name">${esc(f.name)} <span class="badge">${f.class}</span><small>${esc(f.billionaireNote || "")}</small></span><span>${f.billionaire === "current" ? `<span class="tag gold">Billionaire</span>` : `<span class="tag dim">Former</span>`}</span><span class="f-val"></span></a>`).join("")}</div>
+      ${billionaires.length && !sector ? `<section class="sect" id="billionaires">
+        <div class="sect-head"><div><h2>Billionaire fellows</h2><p>Forbes real-time estimates as of ${esc(meta.updated || "today")}, plus fellows who were billionaires in the past.</p></div></div>
+        <div class="b-rows">${billionaires.map((f) => `<a class="b-row" href="#/fellow/${f.id}">${face(f, 44)}<span><span class="b-name">${esc(f.name)}</span><span class="b-note">${esc(f.billionaireNote || "")}</span></span><span class="t-cls b-cls">${f.class}</span><span class="r">${tag(f.billionaire === "current" ? "Billionaire" : "Former")}</span></a>`).join("")}</div>
       </section>` : ""}`;
-    return { html, title: "Valuation leaderboard" };
+    return { html, title: sector ? `${sector} leaderboard` : "Valuation leaderboard" };
   }
 
   function viewClasses() {
     const html = `
       <header class="page-head">
-        <p class="eyebrow">Classes</p>
-        <h1 class="display sm">${years.length} classes</h1>
-        <p class="lede">From the first “20 Under 20” in ${years[0]} to the class of ${years[years.length - 1]}.</p>
+        <h1 class="title">Which class won?</h1>
+        <p class="sub" id="class-answer">${classAnswer()}</p>
       </header>
-      ${classGrid()}
-      <section class="block">
-        <header class="block-head">
-          <div><h2>Which class won?</h2></div>
-          <div class="controls">${metricSeg()}${protoSwitch()}</div>
-        </header>
-        <div id="class-answer">${classAnswer()}</div>
-        <div id="class-board">${classBoard()}</div>
-      </section>`;
+      <div class="toolbar">${metricSeg()}${protoSwitch()}</div>
+      <div id="class-board">${classBoard()}</div>
+      <p class="note">Bars show each class’s companies by current value. A company with fellows from two classes counts for both.</p>`;
     return { html, title: "Classes" };
   }
 
@@ -302,28 +276,26 @@
     const r = classStats(y);
     const i = years.indexOf(y);
     const prev = years[i - 1], next = years[i + 1];
-    const all = ranked();
-    const max = all[0] ? value(all[0]) : 1;
     const rank = years.map(classStats).sort((a, b) => b.value - a.value).indexOf(r) + 1;
-    const fs = r.fs.slice().sort((a, b) => fellowValue(b) - fellowValue(a) || a.name.localeCompare(b.name));
+    const fs = r.fs.slice().sort((a, b) => fellowValue(b) - fellowValue(a) || !!b.photo - !!a.photo || a.name.localeCompare(b.name));
     const html = `
-      <header class="page-head">
-        <nav class="crumbs"><a href="#/classes">Classes</a><span>/</span><span>${y}</span></nav>
-        <h1 class="display sm">Class of ${y}</h1>
-        <div class="kv">
-          <div><b>${r.n}</b><span>Fellows</span></div>
-          <div><b>${money(r.value)}</b><span>Combined value</span></div>
-          <div><b>${r.unicorns}</b><span>Unicorns</span></div>
-          <div><b>${r.value ? "#" + rank : "—"}</b><span>Rank of ${years.length} classes</span></div>
-        </div>
+      <a class="back" href="#/classes">← All classes</a>
+      <header>
+        <h1 class="title">Class of ${y}</h1>
+        <section class="stats" style="grid-template-columns:repeat(4,minmax(0,1fr))" aria-label="Class totals">
+          <div class="stat"><b>${money(r.value)}</b><span>Combined value</span></div>
+          <div class="stat"><b>${r.value ? "#" + rank : "—"}</b><span>Rank of ${years.length} classes</span></div>
+          <div class="stat"><b>${r.unicorns}</b><span>Unicorns</span></div>
+          <div class="stat"><b>${r.n}</b><span>Fellows</span></div>
+        </section>
       </header>
-      ${r.valued.length ? `<section class="block" style="padding-top:8px">
-        <header class="block-head"><div><h2>Companies</h2></div><div class="controls">${protoSwitch()}</div></header>
-        ${companyBoard(r.valued, max)}
+      ${r.valued.length ? `<section class="sect" style="padding-top:36px">
+        <div class="sect-head"><h2>Companies</h2><div class="controls">${protoSwitch()}</div></div>
+        ${companyRows(r.valued)}
       </section>` : ""}
-      <section class="block">
-        <header class="block-head"><div><h2>Fellows</h2><p>Sorted by company value, then name.</p></div></header>
-        <div class="rows">${fs.map(fellowRow).join("")}</div>
+      <section class="sect">
+        <div class="sect-head"><h2>Fellows</h2></div>
+        <div class="fgrid">${fs.map(fellowCard).join("")}</div>
       </section>
       <nav class="pn">
         ${prev ? `<a href="#/class/${prev}"><small>← Previous class</small><b>Class of ${prev}</b></a>` : "<span></span>"}
@@ -338,9 +310,8 @@
     const statuses = [...new Set(companies.map((c) => c.status).filter(Boolean))];
     const html = `
       <header class="page-head">
-        <p class="eyebrow">Companies</p>
-        <h1 class="display sm">What fellows built</h1>
-        <p class="lede">${plural(companies.length, "company")} and projects founded or led by Thiel Fellows. Click a column to sort.</p>
+        <h1 class="title">Companies</h1>
+        <p class="sub">${plural(companies.length, "company")} and projects founded or led by Thiel Fellows. Click a column to sort.</p>
       </header>
       <div class="filters">
         <input class="input grow" id="cq" type="search" placeholder="Search companies or founders…" value="${esc(s.q)}" aria-label="Search companies">
@@ -371,17 +342,17 @@
       const th = (k, label, cls = "") => `<button type="button" class="${cls}${s.sort === k ? " on" : ""}" data-sort="${k}">${label}${s.sort === k ? (s.dir === -1 ? " ↓" : " ↑") : ""}</button>`;
       document.getElementById("results").innerHTML = `
         <p class="count">${plural(list.length, "company")}</p>
-        ${list.length ? `<div class="ct-head">
-          <span class="h-rank rank">#</span>${th("name", "Company")}${th("sector", "Sector", "h-sector")}${th("status", "Status", "h-status")}${th("value", "Valuation", "r")}${th("raised", "Raised", "r h-raised")}
+        ${list.length ? `<div class="ct"><div class="t-head">
+          <span>#</span>${th("name", "Company")}${th("sector", "Sector", "h-sector")}${th("status", "Status")}${th("value", "Valuation", "r")}${th("raised", "Raised", "r h-raised")}
         </div>
-        ${list.map((c, i) => `<div class="ct-row">
-          <span class="rank">${pad(i + 1)}</span>
-          <div class="ct-co"><a class="ct-name" href="#/company/${c.id}">${esc(c.name)}</a><span class="ct-f">${fellowLinks(c.fs)}</span></div>
-          <span class="ct-sector">${chip(c.sector)}</span>
-          <span class="ct-status">${statusTag(c.status)}</span>
-          <span class="ct-val">${value(c) ? money(value(c)) : `<span class="muted">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}<small>${value(c) ? esc(c.valuationNote || "") : ""}</small></span>
-          <span class="ct-raised">${money(c.totalRaisedUSD)}</span>
-        </div>`).join("")}` : `<div class="empty">No companies match.</div>`}`;
+        ${list.map((c, i) => `<div class="t-row">
+          <span class="rk">${i + 1}</span>
+          <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.fs.map((f) => f.name).join(", "))}</span><span class="t-sub m">${esc(c.fs.map((f) => f.name).join(", "))}</span></span></a>
+          <span class="t-sector">${chip(c.sector)}</span>
+          <span class="t-status">${statusTag(c.status)}</span>
+          <span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}<small>${value(c) ? esc(c.valuationNote || "") : ""}</small></span>
+          <span class="t-raised">${money(c.totalRaisedUSD)}</span>
+        </div>`).join("")}</div>` : `<div class="empty">No companies match.</div>`}`;
     }
 
     function mount() {
@@ -405,28 +376,33 @@
   function viewCompany(id) {
     const c = C.get(id);
     if (!c) return viewNotFound();
-    const list = ranked();
-    const rank = list.indexOf(c) + 1;
+    const rank = ranked().indexOf(c) + 1;
     const url = safeUrl(c.url);
     const sources = (c.sources || []).map(safeUrl).filter(Boolean);
+    const shown = value(c) || c.valuationUSD;
     const html = `
-      <nav class="crumbs" style="padding-top:48px"><a href="#/companies">Companies</a><span>/</span><span>${esc(c.name)}</span></nav>
-      <header>
-        <h1 class="d-title">${esc(c.name)}</h1>
-        <div class="d-sub">${statusTag(c.status)}${chip(c.sector)}${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(host(url))} ↗</a>` : ""}</div>
-      </header>
-      <div class="kv">
-        <div><b>${value(c) ? money(value(c)) : c.valuationUSD ? money(c.valuationUSD) : "—"}</b><span>${esc(c.valuationNote || "Valuation not public")}</span></div>
-        <div><b>${money(c.peakValuationUSD)}</b><span>Peak valuation</span></div>
-        <div><b>${money(c.totalRaisedUSD)}</b><span>Total raised</span></div>
-        <div><b>${rank ? "#" + rank : "—"}</b><span>Leaderboard rank</span></div>
-      </div>
-      ${c.valuationDetail ? `<p class="detail">${esc(c.valuationDetail)}</p>` : ""}
-      <section class="block" style="padding-top:40px">
-        <header class="block-head"><div><h2>Thiel Fellows behind it</h2></div></header>
-        <div class="rows">${c.fs.map(fellowRow).join("")}</div>
-      </section>
-      ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}`;
+      <a class="back" href="#/companies">← All companies</a>
+      <div class="profile">
+        <aside class="p-side">
+          <div class="p-media">${logo(c, 128)}</div>
+          ${facts([
+            ["Rank", rank ? `#${rank}` : ""],
+            ["Peak valuation", c.peakValuationUSD ? money(c.peakValuationUSD) : ""],
+            ["Total raised", c.totalRaisedUSD ? money(c.totalRaisedUSD) : ""],
+            ["Status", c.status ? esc(STATUS_LABEL[c.status] || c.status) : ""],
+            ["Sector", esc(c.sector || "")],
+            ["Website", url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(host(url))} ↗</a>` : ""],
+          ])}
+        </aside>
+        <div class="p-main">
+          <h1>${esc(c.name)}</h1>
+          <div class="worth"><small>Valuation</small><b>${shown ? money(shown) : "—"}</b><small>${esc(c.valuationNote || "Valuation not public")}</small></div>
+          ${c.valuationDetail ? `<p class="prose">${esc(c.valuationDetail)}</p>` : ""}
+          <p class="sect-label">Thiel Fellows behind it</p>
+          <div class="fgrid">${c.fs.map(fellowCard).join("")}</div>
+          ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}
+        </div>
+      </div>`;
     return { html, title: c.name };
   }
 
@@ -435,9 +411,8 @@
     const sectors = [...new Set(fellows.map((f) => f.sector).filter(Boolean))].sort();
     const html = `
       <header class="page-head">
-        <p class="eyebrow">Directory</p>
-        <h1 class="display sm">All ${fellows.length} fellows</h1>
-        <p class="lede">Every Thiel Fellow from ${years[0]} to ${years[years.length - 1]}, and what they are working on now.</p>
+        <h1 class="title">All ${fellows.length} fellows</h1>
+        <p class="sub">Every Thiel Fellow from ${years[0]} to ${years[years.length - 1]}, and what they are working on now.</p>
       </header>
       <div class="filters">
         <input class="input grow" id="fq" type="search" placeholder="Search names, companies, cities…" value="${esc(s.q)}" aria-label="Search fellows">
@@ -448,7 +423,7 @@
           <option value="name" ${s.sort === "name" ? "selected" : ""}>Name A–Z</option>
         </select>
       </div>
-      <div class="pills" id="fy" role="group" aria-label="Class">${["all", ...years].map((y) => `<button type="button" data-y="${y}" class="${String(s.year) === String(y) ? "on" : ""}">${y === "all" ? "All classes" : y}</button>`).join("")}</div>
+      <div class="seg tabs" id="fy" role="group" aria-label="Class">${["all", ...years].map((y) => `<button type="button" data-y="${y}" class="${String(s.year) === String(y) ? "on" : ""}">${y === "all" ? "All" : y}</button>`).join("")}</div>
       <div id="results"></div>`;
 
     const hay = (f) => [f.name, f.company, f.role, f.location, f.sector, f.class, ...(f.previous || [])].join(" ").toLowerCase();
@@ -462,11 +437,11 @@
       let out;
       if (!list.length) out = `<div class="empty">No fellows match.</div>`;
       else if (s.sort === "class") {
-        const groups = years.map((y) => [y, list.filter((f) => f.class === y).sort((a, b) => fellowValue(b) - fellowValue(a) || a.name.localeCompare(b.name))]).filter(([, g]) => g.length);
-        out = groups.map(([y, g]) => `<h2 class="group-h"><a href="#/class/${y}">Class of ${y}</a><span>${plural(g.length, "fellow")}</span></h2><div class="grid">${g.map(fellowCard).join("")}</div>`).join("");
+        const groups = years.map((y) => [y, list.filter((f) => f.class === y).sort((a, b) => fellowValue(b) - fellowValue(a) || !!b.photo - !!a.photo || a.name.localeCompare(b.name))]).filter(([, g]) => g.length);
+        out = groups.map(([y, g]) => `<h2 class="group-h"><a href="#/class/${y}">Class of ${y}</a><span>${plural(g.length, "fellow")}</span></h2><div class="fgrid">${g.map(fellowCard).join("")}</div>`).join("");
       } else {
         list.sort(s.sort === "name" ? (a, b) => a.name.localeCompare(b.name) : (a, b) => fellowValue(b) - fellowValue(a) || a.name.localeCompare(b.name));
-        out = `<div class="grid">${list.map(fellowCard).join("")}</div>`;
+        out = `<div class="fgrid">${list.map(fellowCard).join("")}</div>`;
       }
       document.getElementById("results").innerHTML = `<p class="count">${list.length === fellows.length ? `${fellows.length} fellows` : `${list.length} of ${fellows.length} fellows`}</p>${out}`;
     }
@@ -493,8 +468,7 @@
     const mates = fellows.filter((x) => x.class === f.class).sort((a, b) => fellowValue(b) - fellowValue(a) || a.name.localeCompare(b.name));
     const i = mates.indexOf(f);
     const prev = mates[i - 1], next = mates[i + 1];
-    const others = mates.filter((x) => x !== f).slice(0, 8);
-    const list = ranked();
+    const others = mates.filter((x) => x !== f).slice(0, 9);
     const links = [
       f.x && [`https://x.com/${encodeURIComponent(f.x.replace(/^@/, ""))}`, `@${f.x.replace(/^@/, "")}`],
       safeUrl(f.linkedin) && [f.linkedin, "LinkedIn"],
@@ -502,65 +476,56 @@
     ].filter(Boolean);
     const sources = (f.sources || []).map(safeUrl).filter(Boolean);
     const cos = f.cos.slice().sort(byValue);
+    const top = cos[0] && value(cos[0]) ? cos[0] : null;
+    const linked = cos.find((c) => c.name === f.company);
     const html = `
-      <nav class="crumbs" style="padding-top:40px"><a href="#/fellows">Fellows</a><span>/</span><a href="#/class/${f.class}">Class of ${f.class}</a></nav>
-      <header class="d-head" style="padding-top:8px">
-        ${mono(f)}
-        <div>
-          <h1 class="d-title">${esc(f.name)}</h1>
-          <div class="d-sub">
-            <a class="badge" href="#/class/${f.class}">Class of ${f.class}</a>
-            ${f.company ? `<span>${f.role ? esc(f.role) + ", " : ""}${cos[0] && cos[0].name === f.company ? `<a href="#/company/${cos[0].id}">${esc(f.company)}</a>` : `<b>${esc(f.company)}</b>`}</span>` : ""}
-            ${f.location ? `<span class="muted">${esc(f.location)}</span>` : ""}
-          </div>
-        </div>
-      </header>
-      <div class="d-grid">
-        <div>
+      <a class="back" href="#/fellows">← All fellows</a>
+      <div class="profile">
+        <aside class="p-side">
+          <div class="p-media">${f.photo ? `<img src="${esc(f.photo)}" alt="Portrait of ${esc(f.name)}">` : `<span class="ini" aria-hidden="true">${esc(initials(f.name))}</span>`}</div>
+          ${facts([
+            ["Class", `<a href="#/class/${f.class}">${f.class}</a>`],
+            ["Company", f.company ? (linked ? `<a href="#/company/${linked.id}">${esc(f.company)}</a>` : esc(f.company)) : ""],
+            ["Role", esc(f.role || "")],
+            ["Sector", esc(f.sector || "")],
+            ["Based in", esc(f.location || "")],
+          ])}
+          ${links.length ? `<div class="links">${links.map(([u, l]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)} ↗</a>`).join("")}</div>` : ""}
+        </aside>
+        <div class="p-main">
+          <h1>${esc(f.name)}</h1>
+          <div class="p-sub">${esc(workOf(f))}${f.billionaire ? tag(f.billionaire === "current" ? "Billionaire" : "Former billionaire") : ""}</div>
+          ${top ? `<div class="worth"><small>Value of ${esc(top.name)}</small><b>${money(value(top))}</b><small>${esc(top.valuationNote || "")}. This is the company’s value, not personal net worth.</small></div>` : ""}
           ${f.bio ? `<p class="prose">${esc(f.bio)}</p>` : ""}
+          ${f.billionaire && f.billionaireNote ? `<p class="sect-label">Net worth</p><p style="margin:0">${esc(f.billionaireNote)}${safeUrl(f.billionaireSource) ? ` <a href="${esc(f.billionaireSource)}" target="_blank" rel="noopener" style="text-decoration:underline;text-underline-offset:3px">${esc(host(f.billionaireSource))} ↗</a>` : ""}</p>` : ""}
+          ${cos.length ? `<p class="sect-label">Companies</p><div class="co-list">${cos.map((c) => `<a class="co-row" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}</span></span><span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}</span></a>`).join("")}</div>` : ""}
           ${f.previous && f.previous.length ? `<p class="sect-label">Previously</p><div class="taglist">${f.previous.map((p) => `<span>${esc(p)}</span>`).join("")}</div>` : ""}
-          ${links.length ? `<p class="sect-label">Links</p><div class="links">${links.map(([u, l]) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(l)} ↗</a>`).join("")}</div>` : ""}
+          <p class="sect-label">Class of ${f.class}</p>
+          <div class="mates">${others.map((m) => `<a class="mate" href="#/fellow/${m.id}">${face(m, 34)}<span class="t"><b>${esc(m.name)}</b><small>${esc(m.company || topCo(m)?.name || "") || "&nbsp;"}</small></span></a>`).join("")}</div>
           ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}
           ${f.confidence && f.confidence !== "high" ? `<p class="conf">Class year confidence: ${esc(f.confidence)}. Know better? This is an independent project built from public sources.</p>` : ""}
+          <nav class="pn">
+            ${prev ? `<a href="#/fellow/${prev.id}"><small>← Previous in ${f.class}</small><b>${esc(prev.name)}</b></a>` : "<span></span>"}
+            ${next ? `<a class="next" href="#/fellow/${next.id}"><small>Next in ${f.class} →</small><b>${esc(next.name)}</b></a>` : ""}
+          </nav>
         </div>
-        <aside class="side">
-          ${cos.map((c) => {
-            const r = list.indexOf(c) + 1;
-            return `<div class="card co-card">
-              <h3>Company</h3>
-              <a class="co-name" href="#/company/${c.id}">${esc(c.name)}</a>
-              ${c.valuationUSD ? `<div class="co-val">${money(c.valuationUSD)}</div>` : ""}
-              <div class="co-note">${esc(c.valuationNote || (c.status === "nonprofit" ? "Nonprofit" : "Valuation not public"))}</div>
-              <div class="co-meta">${statusTag(c.status)}${chip(c.sector)}${r ? `<span class="badge">#${r} on leaderboard</span>` : ""}</div>
-            </div>`;
-          }).join("")}
-          ${f.billionaire ? `<div class="card co-card"><h3>Net worth</h3><div class="co-name">${f.billionaire === "current" ? "Billionaire" : "Former billionaire"}</div><div class="co-note">${esc(f.billionaireNote || "")}</div>${safeUrl(f.billionaireSource) ? `<a class="more" style="display:block;margin-top:10px;font-size:13px" href="${esc(f.billionaireSource)}" target="_blank" rel="noopener">${esc(host(f.billionaireSource))} ↗</a>` : ""}</div>` : ""}
-          <div class="card">
-            <h3>Class of ${f.class}</h3>
-            <div class="mates">${others.map((m) => `<a class="mate" href="#/fellow/${m.id}">${mono(m, 30)}<span class="t"><b>${esc(m.name)}</b><small>${m.company ? esc(m.company) : "&nbsp;"}</small></span></a>`).join("")}</div>
-            <a class="more" href="#/class/${f.class}" style="display:block;margin-top:12px">All ${mates.length} in this class →</a>
-          </div>
-        </aside>
-      </div>
-      <nav class="pn">
-        ${prev ? `<a href="#/fellow/${prev.id}"><small>← Previous in ${f.class}</small><b>${esc(prev.name)}</b></a>` : "<span></span>"}
-        ${next ? `<a class="next" href="#/fellow/${next.id}"><small>Next in ${f.class} →</small><b>${esc(next.name)}</b></a>` : ""}
-      </nav>`;
+      </div>`;
     return { html, title: f.name };
   }
 
   function viewNotFound() {
-    return { html: `<header class="page-head"><p class="eyebrow">404</p><h1 class="display sm">Nothing here.</h1><p class="lede"><a class="more" href="#/">Back to the directory →</a></p></header>`, title: "Not found" };
+    return { html: `<header class="page-head"><h1 class="title">Nothing here.</h1><p class="sub"><a href="#/" style="text-decoration:underline;text-underline-offset:3px">Back to the list</a></p></header>`, title: "Not found" };
   }
 
   // ---------- router ----------
   let lastPath = null, current = null;
   function render() {
     const path = decodeURIComponent(location.hash.replace(/^#\/?/, ""));
-    const [p = "", a] = path.split("/");
+    const [full, anchor] = path.split("#");
+    const [p = "", a] = full.split("/");
     const views = {
       "": viewHome,
-      leaderboard: viewLeaderboard,
+      leaderboard: () => viewLeaderboard(a),
       classes: () => (a ? viewClass(+a) : viewClasses()),
       class: () => viewClass(+a),
       companies: viewCompanies,
@@ -574,7 +539,12 @@
     const navKey = { class: "classes", company: "companies", fellow: "fellows" }[p] || p;
     document.querySelectorAll(".nav a").forEach((el) => el.classList.toggle("on", el.dataset.nav === navKey));
     current.mount?.();
-    if (path !== lastPath) { window.scrollTo(0, 0); lastPath = path; }
+    if (path !== lastPath) {
+      lastPath = path;
+      const target = anchor && document.getElementById(anchor);
+      if (target) target.scrollIntoView();
+      else window.scrollTo(0, 0);
+    }
   }
 
   // Class metric + protocol toggles work on any view that shows them.
@@ -621,15 +591,15 @@
     const items = [];
     for (const f of fellows) {
       const s = score(f.name, `${f.company || ""} ${f.class}`);
-      if (s) items.push({ s: s + fellowValue(f) / 1e14, href: `#/fellow/${f.id}`, ico: mono(f, 32), t: f.name, sub: [f.company, `Class of ${f.class}`].filter(Boolean).join(" · "), k: "Fellow" });
+      if (s) items.push({ s: s + fellowValue(f) / 1e14, href: `#/fellow/${f.id}`, ico: face(f, 32), t: f.name, sub: [f.company, `Class of ${f.class}`].filter(Boolean).join(" · "), k: "Fellow" });
     }
     for (const c of companies) {
       const s = score(c.name, c.fs.map((f) => f.name).join(" "));
-      if (s) items.push({ s: s + 0.5 + value(c) / 1e14, href: `#/company/${c.id}`, ico: `<span class="pal-ico">${esc(c.name[0])}</span>`, t: c.name, sub: [value(c) ? money(value(c)) : null, c.fs.map((f) => f.name).join(", ")].filter(Boolean).join(" · "), k: "Company" });
+      if (s) items.push({ s: s + 0.5 + value(c) / 1e14, href: `#/company/${c.id}`, ico: logo(c, 32), t: c.name, sub: [value(c) ? money(value(c)) : null, c.fs.map((f) => f.name).join(", ")].filter(Boolean).join(" · "), k: "Company" });
     }
     for (const y of years) {
       if (q && !String(y).includes(q) && !`class of ${y}`.includes(q)) continue;
-      items.push({ s: q ? 5 : 0, href: `#/class/${y}`, ico: `<span class="pal-ico">${yy(y)}</span>`, t: `Class of ${y}`, sub: plural(classStats(y).n, "fellow"), k: "Class" });
+      items.push({ s: q ? 5 : 0, href: `#/class/${y}`, ico: `<span class="yr">${yy(y)}</span>`, t: `Class of ${y}`, sub: plural(classStats(y).n, "fellow"), k: "Class" });
     }
     return items.sort((a, b) => b.s - a.s).slice(0, q ? 40 : 12);
   }

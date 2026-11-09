@@ -26,7 +26,8 @@
     "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
     "https://review.firstround.com/inside-thiel-fellowship/",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/anthropic.png"
   },
   {
    "id": "ethereum",
@@ -50,7 +51,8 @@
     "https://metamask.com/price/ethereum",
     "https://www.coinbase.com/price/ethereum",
     "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/ethereum.png"
   },
   {
    "id": "cognition",
@@ -74,13 +76,14 @@
     "https://review.firstround.com/inside-thiel-fellowship/",
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.sourcery.vc/p/how-the-thiel-fellowship-created"
-   ]
+   ],
+   "logo": "assets/logos/cognition.png"
   },
   {
    "id": "scale-ai",
    "name": "Scale AI",
    "url": "https://scale.com",
-   "sector": "Consumer",
+   "sector": "AI",
    "status": "private",
    "valuationUSD": 29000000000,
    "valuationType": "last round",
@@ -97,7 +100,8 @@
     "https://valueaddvc.com/blog/scale-ai-valuation-what-the-data-labeling-company-is-worth-after-the-meta-deal",
     "https://www.teahose.com/guides/scale-ai-valuation",
     "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/scale-ai.png"
   },
   {
    "id": "etched",
@@ -125,7 +129,8 @@
     "https://thielfellowship.org",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/etched.png"
   },
   {
    "id": "figma",
@@ -151,7 +156,8 @@
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/figma.png"
   },
   {
    "id": "mercor",
@@ -178,13 +184,14 @@
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/mercor.png"
   },
   {
    "id": "flapping-airplanes",
    "name": "Flapping Airplanes",
    "url": null,
-   "sector": "Hardware & Deep Tech",
+   "sector": "AI",
    "status": "private",
    "valuationUSD": 6000000000,
    "valuationType": "last round",
@@ -200,7 +207,8 @@
    "sources": [
     "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/flapping-airplanes.png"
   },
   {
    "id": "positron-ai",
@@ -223,7 +231,8 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://thielfellowship.org",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/positron-ai.png"
   },
   {
    "id": "oyo",
@@ -248,7 +257,8 @@
     "https://hdfcsky.com/news/oyo-parent-prism-aiming-for-ipo-launch-in-current-fiscal",
     "https://en.wikipedia.org/wiki/Ritesh_Agarwal",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/oyo.png"
   },
   {
    "id": "mach-industries",
@@ -269,7 +279,8 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia"
-   ]
+   ],
+   "logo": "assets/logos/mach-industries.png"
   },
   {
    "id": "stord",
@@ -294,7 +305,8 @@
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/stord.png"
   },
   {
    "id": "hightouch",
@@ -318,7 +330,8 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/hightouch.png"
   },
   {
    "id": "immutable",
@@ -342,7 +355,9 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logoDark": true,
+   "logo": "assets/logos/immutable.png"
   },
   {
    "id": "neros",
@@ -364,7 +379,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/neros.png"
   },
   {
    "id": "upstart",
@@ -390,7 +406,8 @@
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/upstart.png"
   },
   {
    "id": "polkadot",
@@ -413,7 +430,8 @@
     "https://www.coingecko.com/en/coins/polkadot",
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/polkadot.png"
   },
   {
    "id": "varda-space-industries",
@@ -436,7 +454,8 @@
     "https://en.wikipedia.org/wiki/Varda_Space_Industries",
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/varda-space-industries.png"
   },
   {
    "id": "freenome",
@@ -461,7 +480,8 @@
     "https://review.firstround.com/inside-thiel-fellowship/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/freenome.png"
   },
   {
    "id": "paddle",
@@ -485,7 +505,8 @@
     "https://thielfellowship.org/jobs",
     "https://dealroom.co/charts/thiel-fellowship-mafia"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/paddle.png"
   },
   {
    "id": "curative",
@@ -509,7 +530,8 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/curative.png"
   },
   {
    "id": "merama",
@@ -559,7 +581,8 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/nowports.png"
   },
   {
    "id": "adept",
@@ -584,7 +607,8 @@
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/adept.png"
   },
   {
    "id": "augustus",
@@ -606,7 +630,8 @@
    "sources": [
     "https://techfundingnews.com/at-25-this-german-thiel-fellow-raised-180m-hit-1b-valuation-and-is-about-to-make-us-banking-history/",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/augustus.png"
   },
   {
    "id": "owner",
@@ -630,7 +655,8 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/owner.png"
   },
   {
    "id": "radar",
@@ -680,7 +706,8 @@
     "https://thielfellowship.org/jobs",
     "https://dealroom.co/charts/thiel-fellowship-mafia"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/rapidapi.png"
   },
   {
    "id": "speak",
@@ -706,7 +733,8 @@
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/speak.png"
   },
   {
    "id": "substrate",
@@ -729,7 +757,8 @@
     "https://siliconangle.com/2025/10/28/substrate-raises-100m-impossible-reinvent-chipmaking-industry/",
     "https://www.builtinsf.com/articles/substrate-secures-100m-1b-valuation-20251103",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/substrate.png"
   },
   {
    "id": "loom",
@@ -752,7 +781,8 @@
     "https://en.wikipedia.org/wiki/Loom_(company)",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
     "https://dealroom.co/charts/thiel-fellowship-mafia"
-   ]
+   ],
+   "logo": "assets/logos/loom.png"
   },
   {
    "id": "juicebox",
@@ -774,7 +804,9 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/"
-   ]
+   ],
+   "logoDark": true,
+   "logo": "assets/logos/juicebox.png"
   },
   {
    "id": "brinc",
@@ -798,7 +830,8 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/brinc.png"
   },
   {
    "id": "frontier-car-group",
@@ -844,7 +877,8 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/prepared.png"
   },
   {
    "id": "fountain",
@@ -866,7 +900,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
-   ]
+   ],
+   "logo": "assets/logos/fountain.png"
   },
   {
    "id": "legalist",
@@ -890,7 +925,8 @@
     "https://en.wikipedia.org/wiki/Category:Thiel_fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/legalist.png"
   },
   {
    "id": "rainmaker",
@@ -914,7 +950,8 @@
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/rainmaker.png"
   },
   {
    "id": "savvy-wealth",
@@ -939,7 +976,8 @@
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/savvy-wealth.png"
   },
   {
    "id": "standard-intelligence",
@@ -961,7 +999,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/"
-   ]
+   ],
+   "logo": "assets/logos/standard-intelligence.png"
   },
   {
    "id": "solcoa-industries",
@@ -1007,7 +1046,8 @@
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/vial.png"
   },
   {
    "id": "snackpass",
@@ -1031,7 +1071,8 @@
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/snackpass.png"
   },
   {
    "id": "comind",
@@ -1055,7 +1096,8 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/comind.png"
   },
   {
    "id": "smartsweets",
@@ -1080,7 +1122,8 @@
     "https://en.wikipedia.org/wiki/Thiel_Fellowship",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/smartsweets.png"
   },
   {
    "id": "until-labs",
@@ -1104,7 +1147,8 @@
     "https://www.caplight.com/company/until-labs",
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/until-labs.png"
   },
   {
    "id": "indent",
@@ -1128,7 +1172,8 @@
     "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/indent.png"
   },
   {
    "id": "zeno-power",
@@ -1152,7 +1197,8 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/zeno-power.png"
   },
   {
    "id": "saturn",
@@ -1176,7 +1222,8 @@
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/saturn.png"
   },
   {
    "id": "scythe-robotics",
@@ -1200,7 +1247,8 @@
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/scythe-robotics.png"
   },
   {
    "id": "cognito",
@@ -1268,7 +1316,8 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/glorify.png"
   },
   {
    "id": "passes",
@@ -1291,7 +1340,8 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://finance.yahoo.com/news/exclusive-29-old-self-made-174427470.html",
     "https://en.wikipedia.org/wiki/Passes_Inc."
-   ]
+   ],
+   "logo": "assets/logos/passes.png"
   },
   {
    "id": "windborne-systems",
@@ -1313,7 +1363,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/windborne-systems.png"
   },
   {
    "id": "donotpay",
@@ -1335,7 +1386,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/donotpay.png"
   },
   {
    "id": "optivolt-labs",
@@ -1357,7 +1409,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/optivolt-labs.png"
   },
   {
    "id": "eligible",
@@ -1404,7 +1457,8 @@
     "https://en.wikipedia.org/wiki/Thiel_Fellowship",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/evervault.png"
   },
   {
    "id": "moxie",
@@ -1426,7 +1480,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "logo": "assets/logos/moxie.png"
   },
   {
    "id": "airgarage",
@@ -1450,7 +1505,8 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/airgarage.png"
   },
   {
    "id": "orchard-robotics",
@@ -1474,7 +1530,8 @@
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/orchard-robotics.png"
   },
   {
    "id": "silna-health",
@@ -1496,7 +1553,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/"
-   ]
+   ],
+   "logo": "assets/logos/silna-health.png"
   },
   {
    "id": "synex-medical",
@@ -1520,7 +1578,8 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/synex-medical.png"
   },
   {
    "id": "doppler",
@@ -1542,7 +1601,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/doppler.png"
   },
   {
    "id": "ephemeral-tattoos",
@@ -1564,7 +1624,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
-   ]
+   ],
+   "logo": "assets/logos/ephemeral-tattoos.png"
   },
   {
    "id": "scienceio",
@@ -1700,7 +1761,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://en.wikipedia.org/wiki/Thiel_Fellowship"
-   ]
+   ],
+   "logo": "assets/logos/manex-ai.png"
   },
   {
    "id": "hyperplane",
@@ -1722,7 +1784,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/"
-   ]
+   ],
+   "logo": "assets/logos/hyperplane.png"
   },
   {
    "id": "0xparc",
@@ -1740,7 +1803,8 @@
    "fellows": [
     "brian-gu"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/0xparc.png"
   },
   {
    "id": "acorn-biolabs",
@@ -1776,7 +1840,8 @@
    "fellows": [
     "ana-cornell"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/acorn-genetics.png"
   },
   {
    "id": "action",
@@ -1812,7 +1877,8 @@
    "fellows": [
     "davis-foster"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/agency-tool-company.png"
   },
   {
    "id": "altro",
@@ -1833,7 +1899,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/altro.png"
   },
   {
    "id": "anchor-protocol",
@@ -1869,7 +1936,8 @@
    "fellows": [
     "sara-du"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/ando.png"
   },
   {
    "id": "applied-compute",
@@ -1887,7 +1955,8 @@
    "fellows": [
     "yash-patil"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/applied-compute.png"
   },
   {
    "id": "argument-computer-corporation",
@@ -1905,7 +1974,8 @@
    "fellows": [
     "john-burnham"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/argument-computer-corporation.png"
   },
   {
    "id": "arist",
@@ -1923,7 +1993,8 @@
    "fellows": [
     "michael-ioffe"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/arist.png"
   },
   {
    "id": "aunt-flow",
@@ -1944,7 +2015,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/aunt-flow.png"
   },
   {
    "id": "automorphic",
@@ -1962,7 +2034,8 @@
    "fellows": [
     "govind-gnanakumar"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/automorphic.png"
   },
   {
    "id": "axiome",
@@ -1998,7 +2071,8 @@
    "fellows": [
     "jackson-denka"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/azura.png"
   },
   {
    "id": "biodock",
@@ -2016,7 +2090,8 @@
    "fellows": [
     "michael-lee"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/biodock.png"
   },
   {
    "id": "biofire",
@@ -2037,7 +2112,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/biofire.png"
   },
   {
    "id": "bioneural-lab",
@@ -2073,7 +2149,8 @@
    "fellows": [
     "sonny-mo"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/bloom.png"
   },
   {
    "id": "blot",
@@ -2091,7 +2168,8 @@
    "fellows": [
     "david-merfield"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/blot.png"
   },
   {
    "id": "blur-blast",
@@ -2148,7 +2226,8 @@
    "fellows": [
     "jarred-sumner"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/bun.png"
   },
   {
    "id": "cafe-x",
@@ -2184,7 +2263,8 @@
    "fellows": [
     "elias-fizesan"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/canopy-labs.png"
   },
   {
    "id": "cavalla",
@@ -2202,7 +2282,8 @@
    "fellows": [
     "victor-boyd"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/cavalla.png"
   },
   {
    "id": "chima",
@@ -2224,7 +2305,8 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Thiel_Fellowship",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
-   ]
+   ],
+   "logo": "assets/logos/chima.png"
   },
   {
    "id": "codegem",
@@ -2317,7 +2399,8 @@
    "fellows": [
     "jasmine-wang"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/copysmith.png"
   },
   {
    "id": "corecircle",
@@ -2335,7 +2418,8 @@
    "fellows": [
     "nastassia-ponomarenko"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/corecircle.png"
   },
   {
    "id": "coursekey",
@@ -2395,7 +2479,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/cryopets.png"
   },
   {
    "id": "dandy",
@@ -2416,7 +2501,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/dandy.png"
   },
   {
    "id": "decade",
@@ -2470,7 +2556,8 @@
    "fellows": [
     "antoni-kiszka"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/derpetual.png"
   },
   {
    "id": "destiny",
@@ -2506,7 +2593,8 @@
    "fellows": [
     "andrew-ninh"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/docbot.png"
   },
   {
    "id": "dream-hustle-code",
@@ -2524,7 +2612,8 @@
    "fellows": [
     "ian-michael-brock"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/dream-hustle-code.png"
   },
   {
    "id": "dreambound",
@@ -2545,7 +2634,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/dreambound.png"
   },
   {
    "id": "endex",
@@ -2563,7 +2653,8 @@
    "fellows": [
     "tarun-amasa"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/endex.png"
   },
   {
    "id": "epic-aerospace",
@@ -2599,7 +2690,8 @@
    "fellows": [
     "nick-dobroshinsky"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/everyticker.png"
   },
   {
    "id": "examedi",
@@ -2617,7 +2709,8 @@
    "fellows": [
     "ian-lee"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/examedi.png"
   },
   {
    "id": "fossa",
@@ -2635,7 +2728,8 @@
    "fellows": [
     "kevin-wang"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/fossa.png"
   },
   {
    "id": "fizz",
@@ -2671,7 +2765,8 @@
    "fellows": [
     "omar-rizwan"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/folk-computer.png"
   },
   {
    "id": "fonus",
@@ -2749,7 +2844,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/hack-club.png"
   },
   {
    "id": "hyper",
@@ -2767,7 +2863,8 @@
    "fellows": [
     "ben-botvinick"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/hyper.png"
   },
   {
    "id": "hyperia",
@@ -2860,7 +2957,8 @@
    "fellows": [
     "peter-hansen"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/januus.png"
   },
   {
    "id": "julep-ai",
@@ -2878,7 +2976,8 @@
    "fellows": [
     "diwank-singh-tomer"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/julep-ai.png"
   },
   {
    "id": "kettle-fire",
@@ -2935,7 +3034,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/lendtable.png"
   },
   {
    "id": "lily-devices",
@@ -2995,7 +3095,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/loomia.png"
   },
   {
    "id": "luminai",
@@ -3016,7 +3117,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/luminai.png"
   },
   {
    "id": "luminar",
@@ -3042,7 +3144,8 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/luminar.png"
   },
   {
    "id": "luminopia",
@@ -3150,7 +3253,8 @@
    "fellows": [
     "jimmy-koppel"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/mirdin.png"
   },
   {
    "id": "mobot",
@@ -3171,7 +3275,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/mobot.png"
   },
   {
    "id": "nohbo",
@@ -3210,7 +3315,8 @@
    "fellows": [
     "kian-sadeghi"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/nucleus-genomics.png"
   },
   {
    "id": "nurture-and-reset",
@@ -3301,7 +3407,8 @@
    "fellows": [
     "noor-siddiqui"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/orchid.png"
   },
   {
    "id": "origin-genomics",
@@ -3340,7 +3447,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/palitronica.png"
   },
   {
    "id": "pareto",
@@ -3361,7 +3469,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/pareto.png"
   },
   {
    "id": "phase",
@@ -3433,7 +3542,8 @@
    "fellows": [
     "samuel-carvalho"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/praso.png"
   },
   {
    "id": "purple",
@@ -3451,7 +3561,8 @@
    "fellows": [
     "john-ciocca"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/purple.png"
   },
   {
    "id": "queenbee",
@@ -3562,7 +3673,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/swsh.png"
   },
   {
    "id": "sentient-machines",
@@ -3637,7 +3749,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/slash.png"
   },
   {
    "id": "software-applications-incorporated-sky-joining-openai",
@@ -3656,7 +3769,8 @@
     "ari-weinstein",
     "conrad-kramer"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/software-applications-incorporated-sky-joining-openai.png"
   },
   {
    "id": "solvemed",
@@ -3677,7 +3791,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/solvemed.png"
   },
   {
    "id": "spellbound",
@@ -3734,7 +3849,8 @@
    "fellows": [
     "milan-lustig"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/spring-silicon-formerly-opt32.png"
   },
   {
    "id": "succinct",
@@ -3755,7 +3871,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/succinct.png"
   },
   {
    "id": "super-coffee",
@@ -3815,7 +3932,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/tavus.png"
   },
   {
    "id": "teleportal",
@@ -3851,7 +3969,8 @@
    "fellows": [
     "charlie-stigler"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/tenor.png"
   },
   {
    "id": "the-antifraud-company",
@@ -3893,7 +4012,8 @@
     "https://en.wikipedia.org/wiki/Thiel_Fellowship",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/the-ocean-cleanup.png"
   },
   {
    "id": "vitable-health",
@@ -3911,7 +4031,8 @@
    "fellows": [
     "joseph-kitonga"
    ],
-   "sources": []
+   "sources": [],
+   "logo": "assets/logos/vitable-health.png"
   },
   {
    "id": "voiceops",
@@ -3950,7 +4071,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/voldex.png"
   },
   {
    "id": "wander",
@@ -3971,7 +4093,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "logo": "assets/logos/wander.png"
   },
   {
    "id": "yellowberry",

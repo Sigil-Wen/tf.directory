@@ -188,7 +188,7 @@
     "Dextro (co-founder)"
    ],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "jluan",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -197,7 +197,8 @@
     "https://www.geekwire.com/2026/head-of-amazons-agi-lab-is-leaving-in-latest-exit-from-high-profile-adept-deal/",
     "https://techcrunch.com/2025/08/23/amazon-agi-labs-chief-defends-his-reverse-acquihire/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/david-luan.jpg"
   },
   {
    "id": "david-merfield",
@@ -238,7 +239,7 @@
     "Butterfly Network"
    ],
    "location": "New York, NY",
-   "x": null,
+   "x": "edenfull",
    "linkedin": "https://www.linkedin.com/in/edenfull/",
    "website": "https://edenfull.ca",
    "sources": [
@@ -248,7 +249,8 @@
     "https://www.conference-board.org/bio/eden-goh",
     "https://www.mobot.io"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/eden-full-goh.jpg"
   },
   {
    "id": "eric-mckay",
@@ -303,7 +305,7 @@
     "GET Mobility Solutions"
    ],
    "location": null,
-   "x": null,
+   "x": "garykurek",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -311,7 +313,8 @@
     "https://techcrunch.com/2011/05/25/young-entrepreneurs-rule-meet-peter-thiels-first-20-under-20-thiel-fellows",
     "https://patents.justia.com/inventor/gary-kurek"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/gary-kurek.jpg"
   },
   {
    "id": "james-proud",
@@ -327,7 +330,7 @@
     "GigLocator"
    ],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "jamesproud",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -337,7 +340,8 @@
     "https://substrate.com/news",
     "https://en.wikipedia.org/wiki/Hello_(company)"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/james-proud.jpg"
   },
   {
    "id": "jeffrey-lim",
@@ -446,7 +450,7 @@
     "age1 (co-founder)"
    ],
    "location": null,
-   "x": null,
+   "x": "LauraDeming",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -457,7 +461,8 @@
     "https://www.untillabs.com",
     "https://hopper.webdirections.org/share/0da4183fe4339afd/96183ade-fc85-11f0-afd1-333d46251321"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/laura-deming.jpg"
   },
   {
    "id": "nick-cammarata",
@@ -473,7 +478,7 @@
     "Tablo"
    ],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "nickcammarata",
    "linkedin": null,
    "website": "http://nickcammarata.com",
    "sources": [
@@ -482,7 +487,8 @@
     "https://www.mindstudio.ai/blog/nick-cammarata-neural-networks-clean",
     "https://cryptobriefing.com/nick-cammarata-neural-networks-interpretable/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/nick-cammarata.jpg"
   },
   {
    "id": "paul-gu",
@@ -546,7 +552,7 @@
     "ReSight"
    ],
    "location": "Houston, TX",
-   "x": null,
+   "x": "sujaytyle",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -556,7 +562,8 @@
     "https://houston.org/people/sujay-tyle",
     "https://tech.eu/2019/11/11/olx-group-will-pay-400-million-to-acquire-berlin-based-frontier-car-group/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/sujay-tyle.jpg"
   },
   {
    "id": "tom-currier",
@@ -636,7 +643,8 @@
     "https://github.com/cstigler",
     "https://yespress.io/charlie-stigler"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/charlie-stigler.jpg"
   },
   {
    "id": "chris-olah",
@@ -668,7 +676,8 @@
    "confidence": "high",
    "billionaire": "current",
    "billionaireNote": "Forbes real-time net worth $13.8B as of 2026-10-27 (#216 in the world); Anthropic co-founder.",
-   "billionaireSource": "https://www.forbes.com/profile/christopher-olah/"
+   "billionaireSource": "https://www.forbes.com/profile/christopher-olah/",
+   "photo": "assets/people/chris-olah.jpg"
   },
   {
    "id": "clay-allsopp",
@@ -698,7 +707,8 @@
     "https://www.clayallsopp.com/about",
     "https://github.com/clayallsopp"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/clay-allsopp.jpg"
   },
   {
    "id": "connor-zwick",
@@ -714,7 +724,7 @@
     "Coco Controller"
    ],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "connorzwick",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -724,7 +734,8 @@
     "https://www.speak.com",
     "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/connor-zwick.jpg"
   },
   {
    "id": "dylan-field",
@@ -739,7 +750,7 @@
     "Flipboard (intern)"
    ],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "zoink",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -751,7 +762,8 @@
    "confidence": "high",
    "billionaire": "current",
    "billionaireNote": "Forbes real-time $1.3B as of 2026-10-27; Figma co-founder & CEO.",
-   "billionaireSource": "https://www.forbes.com/profile/dylan-field/"
+   "billionaireSource": "https://www.forbes.com/profile/dylan-field/",
+   "photo": "assets/people/dylan-field.jpg"
   },
   {
    "id": "ilya-vakhutinsky",
@@ -800,7 +812,8 @@
     "https://www.jameskoppel.com",
     "https://www.cmu.edu/news/stories/archives/2012/july/july2_koppelthielfellowship.html"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/jimmy-koppel.jpg"
   },
   {
    "id": "kettner-griswold-jr",
@@ -874,7 +887,8 @@
     "https://omar.website",
     "https://github.com/osnr"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/omar-rizwan.jpg"
   },
   {
    "id": "paul-sebexen",
@@ -935,7 +949,7 @@
    "bio": "Schererville, Indiana fellow and Lean Startup advocate who moved to San Francisco to build simple software and hardware tools. Current work could not be verified.",
    "previous": [],
    "location": null,
-   "x": null,
+   "x": "ryanlelek",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -943,7 +957,8 @@
     "https://techcrunch.com/2012/06/14/nuclear-fusion-3d-printing-biomedical-imaging-what-thiels-new-20-under-20-fellows-are-attacking",
     "https://venturebeat.com/business/thiel-fellowship-2012"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/ryan-lelek.jpg"
   },
   {
    "id": "semon-rezchikov",
@@ -979,7 +994,7 @@
     "No-Q"
    ],
    "location": null,
-   "x": null,
+   "x": "SpencerHewett",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -988,7 +1003,8 @@
     "https://venturebeat.com/business/thiel-fellowship-2012",
     "https://thielfellowship.org/jobs"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/spencer-hewett.jpg"
   },
   {
    "id": "tara-seshan",
@@ -1068,7 +1084,7 @@
     "Open Tech Forever"
    ],
    "location": null,
-   "x": null,
+   "x": "YoonseoKang",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -1077,7 +1093,8 @@
     "https://venturebeat.com/business/thiel-fellowship-2012",
     "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/yoonseo-kang.jpg"
   },
   {
    "id": "andrew-brackin",
@@ -1103,7 +1120,8 @@
     "https://crunchbase.com/person/andrew-brackin",
     "https://news.ycombinator.com/user?id=brackin"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/andrew-brackin.jpg"
   },
   {
    "id": "austin-russell",
@@ -1222,7 +1240,8 @@
     "https://web.archive.org/web/20130618014702/http://bostinno.streetwise.co/2013/05/09/2013-thiel-fellowship-winners/",
     "https://en.wikipedia.org/wiki/Delian_Asparouhov"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/delian-asparouhov.jpg"
   },
   {
    "id": "diwank-singh-tomer",
@@ -1244,7 +1263,8 @@
     "http://diwank.space",
     "https://github.com/creatorrr"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/diwank-singh-tomer.jpg"
   },
   {
    "id": "gary-le",
@@ -1496,7 +1516,8 @@
     "https://en.wikipedia.org/wiki/Ritesh_Agarwal",
     "https://en.wikipedia.org/wiki/Thiel_Fellowship"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/ritesh-agarwal.jpg"
   },
   {
    "id": "thomas-sohmers",
@@ -1514,7 +1535,7 @@
     "MIT Institute for Soldier Nanotechnologies"
    ],
    "location": "San Francisco Bay Area",
-   "x": null,
+   "x": "trsohmers",
    "linkedin": null,
    "website": "https://www.trsohmers.com",
    "sources": [
@@ -1523,7 +1544,8 @@
     "https://github.com/trsohmers",
     "https://fortune.com/2015/07/21/rex-computing/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/thomas-sohmers.jpg"
   },
   {
    "id": "william-legate",
@@ -1589,7 +1611,8 @@
     "https://web.archive.org/web/20130618014702/http://bostinno.streetwise.co/2013/05/09/2013-thiel-fellowship-winners/",
     "https://web.archive.org/web/20131016110006/http://betabeat.com/2013/05/peter-thiel-fellowship-fellows-foundation-2013/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/zach-hamed.jpg"
   },
   {
    "id": "adam-munich",
@@ -1682,7 +1705,8 @@
     "https://github.com/AriX",
     "https://sky.app"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/ari-weinstein.jpg"
   },
   {
    "id": "benjamin-englard",
@@ -1756,7 +1780,8 @@
     "https://github.com/conradev",
     "https://sky.app"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/conrad-kramer.jpg"
   },
   {
    "id": "eliana-lorch",
@@ -1805,7 +1830,8 @@
     "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
     "https://fouad.org/about"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/fouad-matin.jpg"
   },
   {
    "id": "grace-gee",
@@ -1880,7 +1906,8 @@
     "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
     "https://bun.com/blog/bun-joins-anthropic"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/jarred-sumner.jpg"
   },
   {
    "id": "kaushik-tiwari",
@@ -1932,7 +1959,8 @@
    "confidence": "high",
    "billionaire": "current",
    "billionaireNote": "Forbes real-time $1.5B as of 2026-10-27, mostly from a ~3% Scale AI stake. Forbes named her the youngest self-made woman billionaire in 2025.",
-   "billionaireSource": "https://www.forbes.com/profile/lucy-guo/"
+   "billionaireSource": "https://www.forbes.com/profile/lucy-guo/",
+   "photo": "assets/people/lucy-guo.jpg"
   },
   {
    "id": "m-c-mcgrath",
@@ -2071,7 +2099,8 @@
    "confidence": "high",
    "billionaire": "former",
    "billionaireNote": "Forbes called him the world's youngest crypto billionaire (age 27) when ETH passed $3,000 in May 2021. His Forbes profile, last updated Jan 2022, shows no current net worth or list rank.",
-   "billionaireSource": "https://www.forbes.com/profile/vitalik-buterin/"
+   "billionaireSource": "https://www.forbes.com/profile/vitalik-buterin/",
+   "photo": "assets/people/vitalik-buterin.jpg"
   },
   {
    "id": "caroline-beckman",
@@ -2121,7 +2150,8 @@
     "https://en.wikipedia.org/wiki/Cathy_Tie",
     "https://en.wikipedia.org/wiki/Thiel_Fellowship"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/cathy-tie.jpg"
   },
   {
    "id": "george-matus",
@@ -2473,7 +2503,7 @@
     "Forge"
    ],
    "location": null,
-   "x": null,
+   "x": "StaceyFerreira",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -2482,7 +2512,8 @@
     "https://en.wikipedia.org/wiki/Stacey_Ferreira",
     "https://en.wikipedia.org/wiki/Thiel_Fellowship"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/stacey-ferreira.jpg"
   },
   {
    "id": "zach-latta",
@@ -2747,13 +2778,14 @@
     "Lunar Labs"
    ],
    "location": "Detroit, MI",
-   "x": null,
+   "x": "hrosenblume",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/hunter-rosenblume.jpg"
   },
   {
    "id": "ivonna-dumanyan",
@@ -2852,13 +2884,14 @@
     "Augur"
    ],
    "location": "Knoxville, IL",
-   "x": null,
+   "x": "joeykrug",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/joey-krug.jpg"
   },
   {
    "id": "joey-levy",
@@ -3120,13 +3153,14 @@
     "Equidate"
    ],
    "location": "Plano, TX / San Francisco",
-   "x": null,
+   "x": "sohailprasad",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/sohail-prasad.jpg"
   },
   {
    "id": "ashish-pandhi",
@@ -3260,13 +3294,14 @@
    "bio": "Named a 2017 Thiel Fellow for RapidAPI, a marketplace for finding, testing and deploying APIs. RapidAPI reached a $1B valuation in 2022 and was acquired by Nokia in 2024.",
    "previous": [],
    "location": "Haifa, Israel / San Francisco",
-   "x": null,
+   "x": "iddogino",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/iddo-gino.jpg"
   },
   {
    "id": "james-graham",
@@ -3565,13 +3600,14 @@
    "bio": "Named a 2017 Thiel Fellow for Loom, cloud video messaging for work. Loom was valued at $1.53B in 2021 and acquired by Atlassian in 2023.",
    "previous": [],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "shahedkhan",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/shahed-khan.jpg"
   },
   {
    "id": "sol-chen",
@@ -3607,7 +3643,7 @@
     "Bold Beginnings"
    ],
    "location": null,
-   "x": null,
+   "x": "tarabosch",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -3616,7 +3652,8 @@
     "https://www.forbes.com/sites/douglasyu/2020/10/22/tpg-capital-acquires-low-sugar-candies-maker-smartsweets-for-nearly-400-million-sources/",
     "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/tara-bosch.jpg"
   },
   {
    "id": "zaid-rahman",
@@ -3806,14 +3843,15 @@
     "Discovr Labs"
    ],
    "location": null,
-   "x": null,
+   "x": "GemmaBusoni",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
     "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/gemma-busoni.jpg"
   },
   {
    "id": "greg-tseng",
@@ -3914,7 +3952,7 @@
    "bio": "Named a 2018 Thiel Fellow (London) as founder and CEO of DoNotPay, the 'robot lawyer' that began as an app for contesting parking tickets.",
    "previous": [],
    "location": null,
-   "x": null,
+   "x": "Joshuabrowder",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -3923,7 +3961,8 @@
     "https://en.wikipedia.org/wiki/DoNotPay",
     "https://en.wikipedia.org/wiki/Thiel_Fellowship"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/joshua-browder.jpg"
   },
   {
    "id": "julian-rios",
@@ -4004,14 +4043,15 @@
     "ExpressionMed"
    ],
    "location": null,
-   "x": null,
+   "x": "MeghanSharkus",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
     "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/meghan-sharkus.jpg"
   },
   {
    "id": "robert-habermeier",
@@ -4024,7 +4064,7 @@
    "bio": "Named a 2018 Thiel Fellow (Bethesda, MD) as a co-founder of Polkadot; Wikipedia names him a co-creator of the Polkadot blockchain with Gavin Wood and Peter Czaban.",
    "previous": [],
    "location": null,
-   "x": null,
+   "x": "rphmeier",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -4032,7 +4072,8 @@
     "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
     "https://en.wikipedia.org/wiki/Polkadot_(blockchain)"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/robert-habermeier.jpg"
   },
   {
    "id": "shak-lakhani",
@@ -4136,7 +4177,7 @@
    "bio": "Founded Docbot, a YC W19 company using computer vision to help gastroenterologists catch precancerous polyps during colonoscopy. He was founding CEO and moved to Chief Strategy Officer when Andrew Ritter became CEO with a Khosla-led Series A in 2021.",
    "previous": [],
    "location": "Los Angeles, CA",
-   "x": null,
+   "x": "AndrewNinh",
    "linkedin": "https://www.linkedin.com/in/aninh",
    "website": null,
    "sources": [
@@ -4144,7 +4185,8 @@
     "https://www.ycombinator.com/companies/docbot",
     "https://www.businesswire.com/news/home/20210524005243/en/Docbot-Closes-Series-A-Financing-Led-by-Khosla-Ventures-and-Appoints-Andrew-J.-Ritter-as-CEO"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/andrew-ninh.jpg"
   },
   {
    "id": "claire-coder",
@@ -4157,7 +4199,7 @@
    "bio": "Founded Aunt Flow, which supplies free-vend dispensers and organic menstrual products to schools and businesses. She still leads the company as founder and CEO; it pivoted its supply chain to PPE during COVID-19.",
    "previous": [],
    "location": "Columbus, OH",
-   "x": null,
+   "x": "ClaireCoder",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -4166,7 +4208,8 @@
     "https://crunchbase.com/person/claire-coder",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/claire-coder.jpg"
   },
   {
    "id": "davis-foster",
@@ -4188,7 +4231,8 @@
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
     "https://www.ycombinator.com/companies/agency-tool-company"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/davis-foster.jpg"
   },
   {
    "id": "emily-wang",
@@ -4356,14 +4400,15 @@
    "bio": "Started working on biometric smart guns as a teenager and founded Biofire, which in 2023 launched a 9mm handgun that unlocks only for authorized users via fingerprint and facial recognition. He leads the Colorado company as founder and CEO.",
    "previous": [],
    "location": "Colorado",
-   "x": null,
+   "x": "KaiKloepfer",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
     "https://www.nhpr.org/2023-04-29/the-first-smart-gun-with-facial-and-fingerprint-recognition-is-now-for-sale"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/kai-kloepfer.jpg"
   },
   {
    "id": "matthew-dimarcantonio",
@@ -4420,7 +4465,7 @@
     "Amplify Partners"
    ],
    "location": null,
-   "x": null,
+   "x": "NeimanMathew",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -4428,7 +4473,8 @@
     "https://greylock.com/firm-news/welcome-neiman-mathew/",
     "https://www.schmidtfutures.com/person/neiman-mathew/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/neiman-mathew.jpg"
   },
   {
    "id": "paige-brown",
@@ -4502,7 +4548,7 @@
    "bio": "Dropped out of Georgia Tech to co-found Stord with Jacob Boudreau, an on-demand warehousing, fulfillment and logistics software company. He remains co-founder and CEO of the Atlanta company, valued at over $3B.",
    "previous": [],
    "location": "Atlanta, GA",
-   "x": null,
+   "x": "seanhenry",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -4510,7 +4556,8 @@
     "https://www.stord.com/about",
     "https://www.entrepreneur.com/building-a-business/i-dropped-out-of-college-at-19-to-build-a-3-billion-business-competing-with-amazon-prime-stord"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/sean-henry.jpg"
   },
   {
    "id": "tieshun-roquerre",
@@ -4591,14 +4638,15 @@
     "Profitboss"
    ],
    "location": null,
-   "x": null,
+   "x": "adamguild",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://www.owner.com/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/adam-guild.jpg"
   },
   {
    "id": "ben-stern",
@@ -4678,7 +4726,8 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://api.github.com/users/gubsheep"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/brian-gu.jpg"
   },
   {
    "id": "dylan-diamond",
@@ -4797,7 +4846,8 @@
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://api.github.com/users/lithdew"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/kenta-iwasaki.jpg"
   },
   {
    "id": "lyn-chen",
@@ -4861,7 +4911,8 @@
     "https://www.ycombinator.com/companies/perch-credit",
     "https://altro.io/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/michael-broughton.jpg"
   },
   {
    "id": "michael-chime",
@@ -4894,14 +4945,15 @@
    "bio": "Was building Pareto, a \"human API\" that let entrepreneurs outsource repetitive business tasks.",
    "previous": [],
    "location": "St. Louis, MO",
-   "x": null,
+   "x": "phoebeyao",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://pareto.ai/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/phoebe-yao.jpg"
   },
   {
    "id": "robbie-ferguson",
@@ -4917,14 +4969,15 @@
     "Gods Unchained"
    ],
    "location": "Sydney, Australia",
-   "x": null,
+   "x": "0xferg",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://en.wikipedia.org/wiki/Immutable_(company)"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/robbie-ferguson.jpg"
   },
   {
    "id": "scott-fitsimones",
@@ -5041,13 +5094,14 @@
    "bio": "Joined the fellowship with Dandy, a business-in-a-box for dentists aiming to become the operating system for digital dentistry in the U.S.",
    "previous": [],
    "location": "New York, NY",
-   "x": null,
+   "x": "tonioloko",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/toni-oloko.jpg"
   },
   {
    "id": "alex-taylor",
@@ -5151,7 +5205,8 @@
     "https://www.ycombinator.com/companies/hyper",
     "https://benbotvinick.com/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/ben-botvinick.jpg"
   },
   {
    "id": "ben-nashman",
@@ -5164,7 +5219,7 @@
    "bio": "Started exploring low-field magnetic resonance spectroscopy in high school and founded Synex Medical to build non-invasive health monitoring, starting with a needle-free glucose monitor. He leads the Toronto company as founder. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
    "previous": [],
    "location": "Toronto, Ontario",
-   "x": null,
+   "x": "ben_nashman",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -5172,7 +5227,8 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://synexmedical.com/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/ben-nashman.jpg"
   },
   {
    "id": "dayton-mills",
@@ -5266,7 +5322,7 @@
    "bio": "Founded CoMind, a London neurotechnology company developing non-invasive neuroimaging and brain-monitoring tools. He is founder and CEO. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
    "previous": [],
    "location": "London, UK",
-   "x": null,
+   "x": "jamesdacombe",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -5274,7 +5330,8 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://www.comind.io/about"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/james-dacombe.jpg"
   },
   {
    "id": "john-ciocca",
@@ -5287,14 +5344,15 @@
    "bio": "Was building Purple, banking and investing products for people with disabilities. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
    "previous": [],
    "location": "Bonita Springs, FL",
-   "x": null,
+   "x": "JohnCiocca",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/john-ciocca.jpg"
   },
   {
    "id": "kiara-nirghin",
@@ -5309,7 +5367,7 @@
     "Rather"
    ],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "kiaranirghin",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -5319,7 +5377,8 @@
     "https://www.ycombinator.com/companies/chima",
     "https://en.wikipedia.org/wiki/Kiara_Nirghin"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/kiara-nirghin.jpg"
   },
   {
    "id": "lada-nuzhna",
@@ -5507,7 +5566,8 @@
     "https://www.ycombinator.com/companies/hightouch",
     "https://api.github.com/users/tejasmanohar"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/tejas-manohar.jpg"
   },
   {
    "id": "tyler-bernstein",
@@ -5659,7 +5719,7 @@
     "Neusleep"
    ],
    "location": "Miami, FL",
-   "x": null,
+   "x": "jakeadler",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -5668,7 +5728,8 @@
     "https://www.theblaze.com/return/biotech-entrepreneur-cuts-own-legs",
     "https://www.aol.com/news/21-old-biotech-entrepreneur-mutilates-212753496.html"
    ],
-   "confidence": "medium"
+   "confidence": "medium",
+   "photo": "assets/people/jake-adler.jpg"
   },
   {
    "id": "john-guibas",
@@ -5706,7 +5767,7 @@
    "bio": "Co-founder and CEO of CropSafe, a Northern Irish agtech company that uses satellite imagery and machine learning for crop monitoring, farm banking and production forecasting.",
    "previous": [],
    "location": "Los Angeles, CA",
-   "x": null,
+   "x": "Johnmcelhone",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -5716,7 +5777,8 @@
     "https://redcircle.com/shows/unsexy/ep/f868b0fa-aac6-460a-a624-cce387835a3c",
     "https://www.siliconrepublic.com/?p=1020607"
    ],
-   "confidence": "low"
+   "confidence": "low",
+   "photo": "assets/people/john-mcelhone.jpg"
   },
   {
    "id": "kai-micah-mills",
@@ -5813,7 +5875,8 @@
     "https://theskip.substack.com/p/the-quest-for-success-a-career-story-101",
     "https://www.linkedin.com/in/markiewagner/"
    ],
-   "confidence": "low"
+   "confidence": "low",
+   "photo": "assets/people/markie-wagner.jpg"
   },
   {
    "id": "michael-ioffe",
@@ -5877,7 +5940,7 @@
     "AbstractOps (co-founder & CEO; acquired by Brex, 2022)"
    ],
    "location": "Austin, TX / New York, NY",
-   "x": null,
+   "x": "quinnfavret",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -5887,7 +5950,8 @@
     "https://candgnews.com/news/troy-native-honored-with-prestigious-fellowship-for-ai-work-1731",
     "https://www.tavus.io/"
    ],
-   "confidence": "medium"
+   "confidence": "medium",
+   "photo": "assets/people/quinn-favret.jpg"
   },
   {
    "id": "reiss-jones",
@@ -5954,7 +6018,8 @@
     "https://yespress.io/sara-du",
     "https://www.ando.so/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/sara-du.jpg"
   },
   {
    "id": "sonny-mo",
@@ -5989,7 +6054,7 @@
    "bio": "Co-founder and CEO of Slash, a business banking platform (accounts, corporate cards, payments, crypto) that raised a $100M Series C at a $1.4B valuation in April 2026.",
    "previous": [],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "victorcardenas",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -5998,7 +6063,8 @@
     "https://siliconangle.com/2026/04/16/slash-raises-100m-1.4b-valuation-expand-ai-powered-banking-platform-online-businesses/",
     "https://www.slash.com/about"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/victor-cardenas.jpg"
   },
   {
    "id": "adarsh-hiremath",
@@ -6060,7 +6126,7 @@
    "bio": "Founder and CEO of Rainmaker, an El Segundo company that uses drones and radar to seed clouds with silver iodide to increase precipitation in the drought-prone American West.",
    "previous": [],
    "location": "Stamford, CT",
-   "x": null,
+   "x": "ADoricko",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6068,7 +6134,8 @@
     "https://www.silicon.co.uk/press-release/thiel-foundation-announces-next-thiel-fellow-class-3",
     "https://leftfield.beehiiv.com/p/issue-11-rainmaker"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/augustus-doricko.jpg"
   },
   {
    "id": "brendan-foody",
@@ -6081,7 +6148,7 @@
    "bio": "Co-founder and co-CEO of Mercor, which uses AI vetting to match experts with AI labs and companies; the three Mercor founders became billionaires in 2025-26.",
    "previous": [],
    "location": "Menlo Park, CA",
-   "x": null,
+   "x": "BrendanFoody",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6094,7 +6161,8 @@
    "confidence": "high",
    "billionaire": "current",
    "billionaireNote": "Forbes real-time $2.2B as of 2026-10-27; ~22% of Mercor. Became one of the world's three youngest self-made billionaires in Oct 2025 when Mercor hit $10B.",
-   "billionaireSource": "https://www.forbes.com/profile/brendan-foody/"
+   "billionaireSource": "https://www.forbes.com/profile/brendan-foody/",
+   "photo": "assets/people/brendan-foody.jpg"
   },
   {
    "id": "charlie-wu",
@@ -6107,7 +6175,7 @@
    "bio": "Founder and CEO of Orchard Robotics, which mounts cameras on farm equipment and uses AI to map fruit, growth, yield and crop health; it raised a $22M Series A in 2025.",
    "previous": [],
    "location": "Fairfax, VA",
-   "x": null,
+   "x": "charliewu",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6116,7 +6184,8 @@
     "https://techcrunch.com/2025/09/03/orchard-robotics-founded-by-a-thiel-fellow-cornell-dropout-raises-22m-for-farm-vision-ai/",
     "https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/charlie-wu.jpg"
   },
   {
    "id": "christopher-zhu",
@@ -6200,7 +6269,7 @@
    "bio": "Co-founder and CEO of Etched, the maker of the Sohu transformer ASIC; it raised a $120M Series A in June 2024 to fabricate its first chips at TSMC.",
    "previous": [],
    "location": "Seattle, WA",
-   "x": null,
+   "x": "UbertiGavin",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6208,7 +6277,8 @@
     "https://www.silicon.co.uk/press-release/thiel-foundation-announces-next-thiel-fellow-class-3",
     "https://en.wikipedia.org/wiki/Etched_(company)"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/gavin-uberti.jpg"
   },
   {
    "id": "govind-gnanakumar",
@@ -6231,7 +6301,8 @@
     "https://www.silicon.co.uk/press-release/thiel-foundation-announces-next-thiel-fellow-class-3",
     "https://www.ycombinator.com/companies/automorphic"
    ],
-   "confidence": "medium"
+   "confidence": "medium",
+   "photo": "assets/people/govind-gnanakumar.jpg"
   },
   {
    "id": "jacob-rodriguez",
@@ -6281,7 +6352,8 @@
     "https://yespress.io/joseph-semrai.md",
     "https://happenstance.ai/u/joseph-semrai"
    ],
-   "confidence": "medium"
+   "confidence": "medium",
+   "photo": "assets/people/joseph-semrai.jpg"
   },
   {
    "id": "luke-farritor",
@@ -6363,7 +6435,7 @@
    "bio": "Co-founder of Etched, which builds transformer-specific AI inference chips (Sohu).",
    "previous": [],
    "location": "Potomac, MD",
-   "x": null,
+   "x": "robertwachen",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6371,7 +6443,8 @@
     "https://www.silicon.co.uk/press-release/thiel-foundation-announces-next-thiel-fellow-class-3",
     "https://en.wikipedia.org/wiki/Etched_(company)"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/robert-wachen.jpg"
   },
   {
    "id": "surya-midha",
@@ -6384,7 +6457,7 @@
    "bio": "Co-founder and board chairman of Mercor, the AI-driven talent and expert-data marketplace; Forbes reported him as one of the world's youngest self-made billionaires.",
    "previous": [],
    "location": "San Jose, CA",
-   "x": null,
+   "x": "suryamidha",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6396,7 +6469,8 @@
    "confidence": "high",
    "billionaire": "current",
    "billionaireNote": "Forbes real-time $2.2B as of 2026-10-27; Mercor co-founder.",
-   "billionaireSource": "https://www.forbes.com/profile/surya-midha/"
+   "billionaireSource": "https://www.forbes.com/profile/surya-midha/",
+   "photo": "assets/people/surya-midha.jpg"
   },
   {
    "id": "tarun-amasa",
@@ -6409,7 +6483,7 @@
    "bio": "Co-founder of Endex, which builds autonomous AI financial-analyst agents that work inside Excel; it raised $14M led by the OpenAI Startup Fund in 2025.",
    "previous": [],
    "location": "Manhattan, NY",
-   "x": null,
+   "x": "TarunAmasa",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6418,7 +6492,8 @@
     "https://seedtable.com/companies/endex-ai",
     "https://informaconnect.com/superreturn-uswest/speakers/tarun-amasa"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/tarun-amasa.jpg"
   },
   {
    "id": "walden-yan",
@@ -6431,7 +6506,7 @@
    "bio": "Co-founder and Chief Product Officer of Cognition, the applied AI lab behind the autonomous AI software engineer Devin.",
    "previous": [],
    "location": "Avon, CT",
-   "x": null,
+   "x": "walden_yan",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6440,7 +6515,8 @@
     "https://www.crunchbase.com/person/walden-yan",
     "https://www.premieralts.com/people/walden-yan"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/walden-yan.jpg"
   },
   {
    "id": "yash-patil",
@@ -6689,7 +6765,7 @@
    "bio": "Building Aeolus, a San Francisco company making hardware and software to reduce weather risk, starting with products to mitigate hurricanes and severe storms ('planetary defense for extreme weather').",
    "previous": [],
    "location": "Tokyo, Japan",
-   "x": null,
+   "x": "koki_mashita",
    "linkedin": null,
    "website": null,
    "sources": [
@@ -6697,7 +6773,8 @@
     "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
     "https://www.aeolus.earth/"
    ],
-   "confidence": "medium"
+   "confidence": "medium",
+   "photo": "assets/people/koki-mashita.jpg"
   },
   {
    "id": "sigil-wen",
@@ -6725,7 +6802,8 @@
     "https://underdog.ai/",
     "https://extraordinary.com/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/sigil-wen.jpg"
   },
   {
    "id": "soren-monroe-anderson",
@@ -6790,7 +6868,8 @@
     "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
     "https://theodore.net/"
    ],
-   "confidence": "medium"
+   "confidence": "medium",
+   "photo": "assets/people/teddy-warner.jpg"
   },
   {
    "id": "alex-shieh",
@@ -6815,7 +6894,8 @@
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
     "https://insights.tryspecter.com/thiel-fellows-2026/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/alex-shieh.jpg"
   },
   {
    "id": "antoni-kiszka",
@@ -6840,7 +6920,8 @@
     "https://kiszka.xyz/",
     "https://www.derpetual.com/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/antoni-kiszka.jpg"
   },
   {
    "id": "aubrey-niederhoffer",
@@ -6864,7 +6945,8 @@
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
     "https://insights.tryspecter.com/thiel-fellows-2026/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/aubrey-niederhoffer.jpg"
   },
   {
    "id": "claire-wang",
@@ -6890,7 +6972,8 @@
     "https://insights.tryspecter.com/thiel-fellows-2026/",
     "https://www.clairebookworm.com/"
    ],
-   "confidence": "medium"
+   "confidence": "medium",
+   "photo": "assets/people/claire-wang.jpg"
   },
   {
    "id": "galen-mead",
@@ -6913,7 +6996,8 @@
     "https://insights.tryspecter.com/thiel-fellows-2026/",
     "https://si.inc/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/galen-mead.jpg"
   },
   {
    "id": "harry-o-connor",
@@ -6935,7 +7019,8 @@
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
     "https://insights.tryspecter.com/thiel-fellows-2026/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/harry-o-connor.jpg"
   },
   {
    "id": "ishan-gupta",
@@ -6958,7 +7043,8 @@
     "https://insights.tryspecter.com/thiel-fellows-2026/",
     "https://juicebox.ai/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/ishan-gupta.jpg"
   },
   {
    "id": "kyler-wang",
@@ -6986,7 +7072,8 @@
     "https://insights.tryspecter.com/thiel-fellows-2026/",
     "https://www.kylerywang.com/"
    ],
-   "confidence": "medium"
+   "confidence": "medium",
+   "photo": "assets/people/kyler-wang.jpg"
   },
   {
    "id": "milan-lustig",
@@ -7011,7 +7098,8 @@
     "https://lustig.dev/",
     "https://springsilicon.com/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/milan-lustig.jpg"
   },
   {
    "id": "nick-dobroshinsky",
@@ -7034,7 +7122,8 @@
     "https://insights.tryspecter.com/thiel-fellows-2026/",
     "https://everyticker.com/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/nick-dobroshinsky.jpg"
   },
   {
    "id": "samuel-carvalho",
@@ -7058,7 +7147,8 @@
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
     "https://insights.tryspecter.com/thiel-fellows-2026/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/samuel-carvalho.jpg"
   },
   {
    "id": "victor-boyd",
@@ -7080,7 +7170,8 @@
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
     "https://insights.tryspecter.com/thiel-fellows-2026/"
    ],
-   "confidence": "high"
+   "confidence": "high",
+   "photo": "assets/people/victor-boyd.jpg"
   }
  ]
 }
