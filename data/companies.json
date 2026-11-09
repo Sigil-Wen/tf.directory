@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "October 27, 2026"
+  "updated": "November 9, 2026"
  },
  "companies": [
   {
@@ -73,7 +73,7 @@
    "valuationType": "last round",
    "valuationDate": "2026-09",
    "valuationNote": "Last round · Sep 2026",
-   "valuationDetail": "Reported $48B, Sep 2026; last confirmed priced round $26B (May 2026)",
+   "valuationDetail": "Series E of more than $2B led by Andreessen Horowitz and Accel at $48B, Sep 2026 (company blog; Bloomberg). Prior round: more than $1B at $26B, May 2026",
    "peakValuationUSD": 48000000000,
    "totalRaisedUSD": null,
    "unicorn": true,
@@ -85,7 +85,9 @@
     "https://review.firstround.com/inside-thiel-fellowship/",
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.sourcery.vc/p/how-the-thiel-fellowship-created",
-    "https://siliconangle.com/2026/09/08/ai-coding-startup-cognition-raises-2b-at-48b-valuation-as-revenue-nears-900m/"
+    "https://siliconangle.com/2026/09/08/ai-coding-startup-cognition-raises-2b-at-48b-valuation-as-revenue-nears-900m/",
+    "https://cognition.com/blog/series-e",
+    "https://www.bloomberg.com/news/articles/2026-09-08/ai-startup-cognition-raises-2-billion-at-a-48-billion-value"
    ],
    "logo": "assets/logos/cognition.png",
    "titles": {
@@ -127,11 +129,11 @@
    "status": "private",
    "valuationUSD": 21000000000,
    "valuationType": "last round",
-   "valuationDate": "2026-10",
+   "valuationDate": "2026-08",
    "valuationNote": "Last round · Aug 2026",
-   "valuationDetail": "Dealroom-listed $21B (Oct 2026 snapshot); round unverified",
+   "valuationDetail": "$700M led by Jane Street at $21B, Aug 2026 (TechCrunch). Prior: $300M Series C led by Sequoia at $10.3B, Jul 2026. Reported in Oct 2026 to be fielding offers at $40-50B; nothing closed",
    "peakValuationUSD": 21000000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 1900000000,
    "unicorn": true,
    "fellows": [
     "gavin-uberti",
@@ -144,7 +146,10 @@
     "https://review.firstround.com/inside-thiel-fellowship/",
     "https://thielfellowship.org",
     "https://thielfellowship.org/jobs",
-    "https://www.datacenterdynamics.com/en/news/inference-chip-startup-etched-raises-700m-doubles-valuation-to-21bn/"
+    "https://www.datacenterdynamics.com/en/news/inference-chip-startup-etched-raises-700m-doubles-valuation-to-21bn/",
+    "https://techcrunch.com/2026/08/18/etcheds-valuation-doubles-to-21b-in-a-month/",
+    "https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/",
+    "https://techcrunch.com/2026/10/05/etched-fields-funding-offers-at-40b-valuation-sources-say/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/etched.png",
@@ -153,6 +158,34 @@
     "christopher-zhu": "Co-founder",
     "robert-wachen": "Co-founder"
    }
+  },
+  {
+   "id": "fluidstack",
+   "name": "Fluidstack",
+   "url": "https://www.fluidstack.io",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 18000000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-09",
+   "valuationNote": "Reported · Sep 2026",
+   "peakValuationUSD": 18000000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "jamie-cox"
+   ],
+   "sources": [
+    "https://www.forbes.com.au/news/innovation/fluidstack-is-now-worth-18-billion/",
+    "https://www.caproasia.com/2026/04/09/uk-data-centre-cloud-provider-fluidstack-raised-750-million-at-7-billion-valuation-founded-in-2017-by-gary-wu-cesar-maklary-jamie-cox/",
+    "https://www.nbcnewyork.com/news/business/money-report/peter-thiels-vc-fund-backs-treecard-a-fintech-that-plants-trees-when-you-spend/3976810/",
+    "https://siliconangle.com/2026/07/21/ai-data-center-builder-fluidstack-raises-830m-7-5b-valuation/",
+    "https://news.bloomberglaw.com/private-equity/jane-street-in-talks-to-back-fluidstack-at-18-billion-valuation"
+   ],
+   "titles": {
+    "jamie-cox": "Co-founder"
+   },
+   "valuationDetail": "Forbes reported in Sep 2026 that a $1.5B round led by Jane Street valued Fluidstack at more than $18B; the company did not comment. Its $830M Series A led by Situational Awareness, disclosed in Jul 2026, was at $7.5B. A round being pitched at $40B (Bloomberg, Oct 2026) has not closed"
   },
   {
    "id": "figma",
@@ -254,9 +287,9 @@
    "status": "private",
    "valuationUSD": 5000000000,
    "valuationType": "last round",
-   "valuationDate": "2026-10",
+   "valuationDate": "2026-09",
    "valuationNote": "Last round · Sep 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Series C and C-1, $875M in total, at $5B post-money, Sep 2026 (company release; DCD). Prior: $230M at about $1B, Feb 2026",
    "peakValuationUSD": 5000000000,
    "totalRaisedUSD": null,
    "unicorn": true,
@@ -267,7 +300,9 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://thielfellowship.org",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
-    "https://runtimewire.com/article/positron-ai-raises-875m-asimov-inference-chip"
+    "https://runtimewire.com/article/positron-ai-raises-875m-asimov-inference-chip",
+    "https://finance.yahoo.com/technology/ai/articles/positron-ai-raises-875-million-140907288.html",
+    "https://www.datacenterdynamics.com/en/news/positron-ai-raises-875m-at-a-5bn-valuation-to-support-develop-of-next-generation-hardware/"
    ],
    "logo": "assets/logos/positron-ai.png",
    "titles": {
@@ -280,11 +315,11 @@
    "url": "https://www.oyorooms.com",
    "sector": "Consumer",
    "status": "private",
-   "valuationUSD": 3800000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom $3.8B; ₹6,650cr IPO pending, $7-8B targeted",
+   "valuationUSD": 3790000000,
+   "valuationType": "last round",
+   "valuationDate": "2025-01",
+   "valuationNote": "Last round · Jan 2025",
+   "valuationDetail": "Rs 550 crore (about $65M) from the founder-affiliated Redsprig at about $3.79B, Jan 2025 (Entrackr, from company filings). The parent, PRISM, has SEBI approval for an IPO but has not set a price",
    "peakValuationUSD": 10000000000,
    "totalRaisedUSD": null,
    "unicorn": true,
@@ -297,7 +332,8 @@
     "https://hdfcsky.com/news/oyo-parent-prism-aiming-for-ipo-launch-in-current-fiscal",
     "https://en.wikipedia.org/wiki/Ritesh_Agarwal",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
-    "https://www.thenewsminute.com/atom/oyo-founder-ritesh-agarwal-s-buyback-shares-lifts-company-s-valuation-10-bn-110174"
+    "https://www.thenewsminute.com/atom/oyo-founder-ritesh-agarwal-s-buyback-shares-lifts-company-s-valuation-10-bn-110174",
+    "https://entrackr.com/news/oyo-raises-65-mn-from-ritesh-agarwals-redsprig-innovation-8591029"
    ],
    "logo": "assets/logos/oyo.png",
    "titles": {
@@ -314,9 +350,9 @@
    "status": "private",
    "valuationUSD": 3700000000,
    "valuationType": "last round",
-   "valuationDate": "2026-10",
+   "valuationDate": "2026-09",
    "valuationNote": "Last round · Sep 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "$600M Series C extension at $3.7B, Sep 2026 (company release; TechCrunch). The original Series C was $300M at $1.8B in Jun 2026",
    "peakValuationUSD": 3700000000,
    "totalRaisedUSD": null,
    "unicorn": true,
@@ -325,12 +361,40 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://evertiq.com/news/2026-09-22-mach-raises-600-million-to-scale-defense-manufacturing"
+    "https://evertiq.com/news/2026-09-22-mach-raises-600-million-to-scale-defense-manufacturing",
+    "https://machindustries.com/articles/mach-industries-raises-additional-600-million-to-scale-defense-manufacturing",
+    "https://techcrunch.com/2026/09/10/defense-tech-mach-industries-doubles-valuation-to-3-7b-in-3-months/"
    ],
    "logo": "assets/logos/mach-industries.png",
    "titles": {
     "ethan-thornton": "Founder & CEO"
    }
+  },
+  {
+   "id": "applied-compute",
+   "name": "Applied Compute",
+   "url": "https://www.appliedcompute.com",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 3250000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-11",
+   "valuationNote": "Last round · Nov 2026",
+   "peakValuationUSD": 3250000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "yash-patil"
+   ],
+   "sources": [
+    "https://siliconangle.com/2026/11/03/ai-cloud-startup-applied-compute-raises-350m-after-reaching-key-revenue-milestone/",
+    "https://www.appliedcompute.com/company/100m-run-rate-fundraise"
+   ],
+   "logo": "assets/logos/applied-compute.png",
+   "titles": {
+    "yash-patil": "Co-founder & CEO"
+   },
+   "valuationDetail": "$350M led by Elad Gil at $3.25B, Nov 2026 (company blog; SiliconANGLE)"
   },
   {
    "id": "stord",
@@ -340,11 +404,11 @@
    "status": "private",
    "valuationUSD": 3000000000,
    "valuationType": "last round",
-   "valuationDate": "2026-10",
+   "valuationDate": "2026-05",
    "valuationNote": "Last round · May 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Series F of about $250M at $3B, May 2026 (company release; Axios Pro; FreightWaves); more than $775M raised in total",
    "peakValuationUSD": 3000000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 775000000,
    "unicorn": true,
    "fellows": [
     "sean-henry"
@@ -354,7 +418,9 @@
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
     "https://thielfellowship.org/jobs",
-    "https://www.axios.com/pro/supply-chain-deals/2026/05/26/stord-250m-3-billion-valuation-logistics"
+    "https://www.axios.com/pro/supply-chain-deals/2026/05/26/stord-250m-3-billion-valuation-logistics",
+    "https://www.stord.com/newsroom/stord-raises-250m-series-f",
+    "https://www.freightwaves.com/news/stord-raises-250m-to-harness-ai-for-e-commerce-logistics"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/stord.png",
@@ -370,9 +436,9 @@
    "status": "private",
    "valuationUSD": 2750000000,
    "valuationType": "last round",
-   "valuationDate": "2026-10",
+   "valuationDate": "2026-04",
    "valuationNote": "Last round · Apr 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Series D $150M led by Goldman Sachs Alternatives and Bain Capital Ventures at $2.75B, Apr 2026 (company blog; Business Wire)",
    "peakValuationUSD": 2750000000,
    "totalRaisedUSD": null,
    "unicorn": true,
@@ -383,7 +449,8 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://thielfellowship.org/jobs",
-    "https://hightouch.com/blog/hightouch-funding-series-d"
+    "https://hightouch.com/blog/hightouch-funding-series-d",
+    "https://am.gs.com/en-us/advisors/news/press-release/2026/hightouch-150m-raise-led-by-goldman-sachs-alternatives"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/hightouch.png",
@@ -428,9 +495,9 @@
    "status": "private",
    "valuationUSD": 2500000000,
    "valuationType": "last round",
-   "valuationDate": "2026-10",
+   "valuationDate": "2026-08",
    "valuationNote": "Last round · Aug 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Series C $250M co-led by Sequoia and the American Strategic Technology Fund at $2.5B post-money, Aug 2026 (company release)",
    "peakValuationUSD": 2500000000,
    "totalRaisedUSD": null,
    "unicorn": true,
@@ -440,7 +507,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
-    "https://www.vcaonline.com/news/2026081109/neros-raises-250m-series-c-at-2-5b-valuation-to-scale-autonomous-and-interceptor-drone-programs/"
+    "https://www.vcaonline.com/news/2026081109/neros-raises-250m-series-c-at-2-5b-valuation-to-scale-autonomous-and-interceptor-drone-programs/",
+    "https://www.neros.tech/articles/neros-raises-250m-series-c-at-2-5b-valuation-to-scale-autonomous-and-interceptor-drone-programs"
    ],
    "logo": "assets/logos/neros.png",
    "titles": {
@@ -518,11 +586,11 @@
    "status": "private",
    "valuationUSD": 1600000000,
    "valuationType": "last round",
-   "valuationDate": "2026-10",
+   "valuationDate": "2026-09",
    "valuationNote": "Last round · Sep 2026",
-   "valuationDetail": "Dealroom $1.6B; unicorn after $187M Series C (Jul 2025)",
+   "valuationDetail": "Series D $251M led by Lux Capital and Natural Capital at $1.6B (Reuters), Sep 2026; $598M raised in total",
    "peakValuationUSD": 1600000000,
-   "totalRaisedUSD": 328000000,
+   "totalRaisedUSD": 598000000,
    "unicorn": true,
    "fellows": [
     "delian-asparouhov"
@@ -537,38 +605,6 @@
    "titles": {
     "delian-asparouhov": "Co-founder & President"
    }
-  },
-  {
-   "id": "freenome",
-   "name": "Freenome",
-   "url": "https://www.freenome.com",
-   "sector": "Bio & Health",
-   "status": "public",
-   "valuationUSD": 1400000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 1840000000,
-   "totalRaisedUSD": null,
-   "unicorn": true,
-   "fellows": [
-    "riley-ennis"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
-    "https://review.firstround.com/inside-thiel-fellowship/",
-    "https://thielfellowship.org/jobs",
-    "https://stockanalysis.com/stocks/frnm/history/"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/freenome.png",
-   "titles": {
-    "riley-ennis": "Co-founder & CPO"
-   },
-   "peakNote": "Market cap · Sep 2026",
-   "peakDate": "2026-09"
   },
   {
    "id": "paddle",
@@ -599,6 +635,33 @@
    }
   },
   {
+   "id": "slash",
+   "name": "Slash",
+   "url": "https://www.slash.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": 1400000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-04",
+   "valuationNote": "Last round · Apr 2026",
+   "peakValuationUSD": 1400000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "victor-cardenas"
+   ],
+   "sources": [
+    "https://thielfellowship.org/jobs",
+    "https://www.slash.com/blog/series-c-fundraise-release"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/slash.png",
+   "titles": {
+    "victor-cardenas": "Co-founder & CEO"
+   },
+   "valuationDetail": "Series C $100M led by Ribbit Capital at $1.4B, Apr 2026 (company release)"
+  },
+  {
    "id": "curative",
    "name": "Curative",
    "url": "https://curative.com",
@@ -606,9 +669,9 @@
    "status": "private",
    "valuationUSD": 1275000000,
    "valuationType": "last round",
-   "valuationDate": "2026-10",
+   "valuationDate": "2025-12",
    "valuationNote": "Last round · Dec 2025",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Series B $150M at $1.275B, Dec 2025 (CEO letter on the company blog)",
    "peakValuationUSD": 1275000000,
    "totalRaisedUSD": null,
    "unicorn": true,
@@ -657,16 +720,50 @@
    }
   },
   {
+   "id": "freenome",
+   "name": "Freenome",
+   "url": "https://www.freenome.com",
+   "sector": "Bio & Health",
+   "status": "public",
+   "valuationUSD": 1140000000,
+   "valuationType": "market cap",
+   "valuationDate": "2026-11",
+   "valuationNote": "Market cap · Nov 2026",
+   "valuationDetail": "Market cap about $1.14B on Nov 9 2026 (Nasdaq: FRNM). Listed Jul 21 2026 through a merger with the SPAC Perceptive Capital Solutions",
+   "peakValuationUSD": 1840000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "riley-ennis"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
+    "https://review.firstround.com/inside-thiel-fellowship/",
+    "https://thielfellowship.org/jobs",
+    "https://stockanalysis.com/stocks/frnm/history/",
+    "https://stockanalysis.com/stocks/frnm/",
+    "https://medcitynews.com/2025/12/freenome-spac-merger-liquid-biopsy-colorectal-cancer-screening-early-detection-frnm/"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/freenome.png",
+   "titles": {
+    "riley-ennis": "Co-founder & CPO"
+   },
+   "peakNote": "Market cap · Sep 2026",
+   "peakDate": "2026-09"
+  },
+  {
    "id": "nowports",
    "name": "Nowports",
    "url": "https://nowports.com",
    "sector": "Software & SaaS",
    "status": "private",
    "valuationUSD": 1100000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom $1.1B (unicorn round 2022)",
+   "valuationType": "last round",
+   "valuationDate": "2022-05",
+   "valuationNote": "Last round · May 2022",
+   "valuationDetail": "Series C $150M led by SoftBank's Latin America Fund at $1.1B, May 2022 (TechCrunch)",
    "peakValuationUSD": 1100000000,
    "totalRaisedUSD": null,
    "unicorn": true,
@@ -676,7 +773,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://techcrunch.com/2022/05/24/nowports-lands-150m-at-a-1-1b-valuation-to-streamline-latams-shipping/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/nowports.png",
@@ -735,7 +833,9 @@
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
    ],
    "logo": "assets/logos/augustus.png",
-   "titles": {}
+   "titles": {
+    "ferdinand-dabitz": "Co-founder & CEO"
+   }
   },
   {
    "id": "owner",
@@ -918,77 +1018,26 @@
    "sector": "AI",
    "status": "private",
    "valuationUSD": 850000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom $850M; Series B closed 2026",
+   "valuationType": "last round",
+   "valuationDate": "2026-03",
+   "valuationNote": "Last round · Mar 2026",
+   "valuationDetail": "Series B $80M led by DST Global at $850M, Mar 2026 (company blog); $116M raised in total",
    "peakValuationUSD": 850000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 116000000,
    "unicorn": false,
    "fellows": [
     "ishan-gupta"
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/"
+    "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/",
+    "https://juicebox.ai/blog/series-b",
+    "https://juicebox.ai/about"
    ],
    "logoDark": true,
    "logo": "assets/logos/juicebox.png",
    "titles": {
     "ishan-gupta": "Co-founder"
-   }
-  },
-  {
-   "id": "brinc",
-   "name": "BRINC",
-   "url": "https://brincdrones.com",
-   "sector": "Space & Defense",
-   "status": "private",
-   "valuationUSD": 750000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 750000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "blake-resnick"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/brinc.png",
-   "titles": {
-    "blake-resnick": "Founder & CEO"
-   }
-  },
-  {
-   "id": "frontier-car-group",
-   "name": "Frontier Car Group",
-   "url": null,
-   "sector": "Consumer",
-   "status": "acquired",
-   "valuationUSD": 700000000,
-   "valuationType": "reported",
-   "valuationDate": "2019-01",
-   "valuationNote": "OLX round · Nov 2019",
-   "valuationDetail": "Acquired by OLX Group 2019 (terms undisclosed); Dealroom $700M",
-   "peakValuationUSD": 700000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "sujay-tyle"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
-   ],
-   "titles": {
-    "sujay-tyle": "Co-founder"
    }
   },
   {
@@ -999,9 +1048,9 @@
    "status": "acquired",
    "valuationUSD": 728200000,
    "valuationType": "acquisition",
-   "valuationDate": "2026-10",
+   "valuationDate": "2025-10",
    "valuationNote": "Acquired · Oct 2025",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Acquired by Axon on Oct 1 2025 for about $728.2M for the 99.2% it did not already own (Axon FY2025 10-K)",
    "peakValuationUSD": 728200000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1012,7 +1061,8 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://thielfellowship.org/jobs",
-    "https://vectorshift.ai/research/deals/axon-enterprise-invictus-apps-prepared-2025"
+    "https://vectorshift.ai/research/deals/axon-enterprise-invictus-apps-prepared-2025",
+    "https://www.sec.gov/Archives/edgar/data/1069183/000162828026011360/R26.htm"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/prepared.png",
@@ -1021,85 +1071,30 @@
    }
   },
   {
-   "id": "fountain",
-   "name": "Fountain",
-   "url": "https://www.fountain.com",
+   "id": "frontier-car-group",
+   "name": "Frontier Car Group",
+   "url": null,
    "sector": "Consumer",
-   "status": "private",
-   "valuationUSD": 600000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 600000000,
+   "status": "acquired",
+   "valuationUSD": 700000000,
+   "valuationType": "last round",
+   "valuationDate": "2019-11",
+   "valuationNote": "Last round · Nov 2019",
+   "valuationDetail": "OLX Group invested up to $400M at $700M post-money, Nov 2019 (TechCrunch); OLX later took control and folded it into OLX Autos (2021)",
+   "peakValuationUSD": 700000000,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
-    "jeremy-cai"
+    "sujay-tyle"
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://techcrunch.com/2019/11/11/olx-group-invests-up-to-400m-in-used-car-marketplace-frontier-car-group-at-700m-valuation/",
+    "https://techcrunch.com/2021/03/29/prosus-classifieds-group-olx-shuts-down-berlins-frontier-car-group-to-focus-olx-autos-on-latam-and-asia/"
    ],
-   "logo": "assets/logos/fountain.png",
    "titles": {
-    "jeremy-cai": "Founder"
-   }
-  },
-  {
-   "id": "legalist",
-   "name": "Legalist",
-   "url": "https://www.legalist.com",
-   "sector": "Fintech",
-   "status": "private",
-   "valuationUSD": 600000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom $600M (may not reflect a priced round)",
-   "peakValuationUSD": 600000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "eva-shang"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://en.wikipedia.org/wiki/Category:Thiel_fellows",
-    "https://thielfellowship.org/jobs"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/legalist.png",
-   "titles": {
-    "eva-shang": "Co-founder & CEO"
-   }
-  },
-  {
-   "id": "rainmaker",
-   "name": "Rainmaker",
-   "url": "https://www.rainmaker.com",
-   "sector": "Energy & Climate",
-   "status": "private",
-   "valuationUSD": 600000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 600000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "augustus-doricko"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
-    "https://thielfellowship.org/jobs"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/rainmaker.png",
-   "titles": {
-    "augustus-doricko": "Founder & CEO"
+    "sujay-tyle": "Co-founder"
    }
   },
   {
@@ -1132,6 +1127,122 @@
    }
   },
   {
+   "id": "fountain",
+   "name": "Fountain",
+   "url": "https://www.fountain.com",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 600000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: $100M Series C extension led by B Capital, Jun 2022 ($225M raised in total)",
+   "peakValuationUSD": 600000000,
+   "totalRaisedUSD": 225000000,
+   "unicorn": false,
+   "fellows": [
+    "jeremy-cai"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://techcrunch.com/2022/06/15/fountain-raises-100m-to-expand-its-applicant-tracking-system/"
+   ],
+   "logo": "assets/logos/fountain.png",
+   "titles": {
+    "jeremy-cai": "Founder"
+   }
+  },
+  {
+   "id": "legalist",
+   "name": "Legalist",
+   "url": "https://www.legalist.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": 600000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Legalist is an asset manager (about $2B under management); its raises since 2019 are investment funds (Fund IV closed at $415M, Apr 2026), so the estimate may mix fund capital with company value",
+   "peakValuationUSD": 600000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "eva-shang"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://en.wikipedia.org/wiki/Category:Thiel_fellows",
+    "https://thielfellowship.org/jobs",
+    "https://news.bloomberglaw.com/litigation-finance/legalist-closes-415-million-legal-fund-stays-true-to-mission"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/legalist.png",
+   "titles": {
+    "eva-shang": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "rainmaker",
+   "name": "Rainmaker",
+   "url": "https://www.rainmaker.com",
+   "sector": "Energy & Climate",
+   "status": "private",
+   "valuationUSD": 600000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: $100M Series B, Sep 2026 (company release); Series A $25M led by Lowercarbon Capital, May 2025",
+   "peakValuationUSD": 600000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "augustus-doricko"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
+    "https://thielfellowship.org/jobs",
+    "https://www.prnewswire.com/news-releases/rainmaker-raises-100m-series-b-to-scale-low-cost-water-production-and-weather-modification-302884251.html",
+    "https://labusinessjournal.com/technology/rainmaker-raises-a-25-million-series-a-round/"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/rainmaker.png",
+   "titles": {
+    "augustus-doricko": "Founder & CEO"
+   }
+  },
+  {
+   "id": "brinc",
+   "name": "BRINC",
+   "url": "https://brincdrones.com",
+   "sector": "Space & Defense",
+   "status": "private",
+   "valuationUSD": 500000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-03",
+   "valuationNote": "Reported · Mar 2026",
+   "valuationDetail": "The founder told TechCrunch (Mar 2026) the company was valued at nearly half a billion dollars after its last round, $75M led by Index Ventures (Apr 2025); the company has not published a figure",
+   "peakValuationUSD": 500000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "blake-resnick"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://thielfellowship.org/jobs",
+    "https://techcrunch.com/2026/03/24/a-former-thiel-fellows-startup-just-launched-a-drone-it-says-can-replace-police-helicopters/",
+    "https://techcrunch.com/2025/04/08/a-25-year-old-police-drone-founder-just-raised-75m-led-by-index/"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/brinc.png",
+   "titles": {
+    "blake-resnick": "Founder & CEO"
+   }
+  },
+  {
    "id": "standard-intelligence",
    "name": "Standard Intelligence",
    "url": "https://si.inc",
@@ -1139,9 +1250,9 @@
    "status": "private",
    "valuationUSD": 500000000,
    "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDate": "2026-04",
+   "valuationNote": "Reported · Apr 2026",
+   "valuationDetail": "$75M led by Sequoia and Spark Capital at a reported $500M post-money, Apr 2026 (The Information, via Techmeme); the company announced the round but not the valuation",
    "peakValuationUSD": 500000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1150,7 +1261,10 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/"
+    "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/",
+    "https://sequoiacap.com/companies/standard-intelligence/",
+    "https://www.techmeme.com/260430/p40",
+    "https://si.inc/posts/a/"
    ],
    "logo": "assets/logos/standard-intelligence.png",
    "titles": {
@@ -1160,14 +1274,14 @@
   {
    "id": "solcoa-industries",
    "name": "Solcoa Industries",
-   "url": null,
+   "url": "https://solcoaindustries.com",
    "sector": "Hardware & Deep Tech",
    "status": "private",
    "valuationUSD": 450000000,
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: $75M announced Sep 2026, $45M of seed equity led by Bain Capital Ventures plus $30M of debt and equipment financing anchored by J.P. Morgan",
    "peakValuationUSD": 450000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1176,9 +1290,13 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
+    "https://www.businesswire.com/news/home/20260924752270/en/Solcoa-Announces-%2475M-to-Scale-Americas-First-New-Metalmaking-Process-in-80-Years",
+    "https://interestingengineering.com/innovation/solcoa-75-million-us-rare-earth-metal-plant"
    ],
-   "titles": {}
+   "titles": {
+    "hooman-reza-nezhad": "CEO"
+   }
   },
   {
    "id": "vial",
@@ -1190,9 +1308,9 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest equity round: Series B $67M led by General Catalyst, Nov 2022 (more than $100M raised)",
    "peakValuationUSD": 402000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 100000000,
    "unicorn": false,
    "fellows": [
     "andrew-brackin"
@@ -1200,7 +1318,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://news.crunchbase.com/health-wellness-biotech/vial-clinical-trial-general-catalyst-venture-funding/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/vial.png",
@@ -1215,10 +1334,10 @@
    "sector": "Consumer",
    "status": "private",
    "valuationUSD": 400000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom $400M (2021 Series B level)",
+   "valuationType": "last round",
+   "valuationDate": "2021-06",
+   "valuationNote": "Last round · Jun 2021",
+   "valuationDetail": "Series B $70M led by Craft Ventures at more than $400M, Jun 2021 (TechCrunch)",
    "peakValuationUSD": 400000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1228,40 +1347,13 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://techcrunch.com/2021/06/23/snackpass-gobbles-up-70m-at-a-400m-valuation-as-its-social-food-ordering-platform-crosses-500k-users/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/snackpass.png",
    "titles": {
     "jamie-marshall": "Co-founder & COO"
-   }
-  },
-  {
-   "id": "comind",
-   "name": "CoMind",
-   "url": "https://www.comind.io",
-   "sector": "Bio & Health",
-   "status": "private",
-   "valuationUSD": 360000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 360000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "james-dacombe"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://thielfellowship.org/jobs"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/comind.png",
-   "titles": {
-    "james-dacombe": "Founder & CEO"
    }
   },
   {
@@ -1294,6 +1386,36 @@
    }
   },
   {
+   "id": "comind",
+   "name": "CoMind",
+   "url": "https://www.comind.io",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": 360000000,
+   "valuationType": "reported",
+   "valuationDate": "2026-10",
+   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Raised $102.5M including a $60M Series A led by Plural, Oct 2025",
+   "peakValuationUSD": 360000000,
+   "totalRaisedUSD": 102500000,
+   "unicorn": false,
+   "fellows": [
+    "james-dacombe"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs",
+    "https://www.comind.io/news/comind-announces-102-5m-funding-to-redefine-clinical-monitoring-of-the-brain",
+    "https://tech.eu/2025/10/20/non-drill-brain-monitoring-startup-comind-raises-over-100m/"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/comind.png",
+   "titles": {
+    "james-dacombe": "Founder & CEO"
+   }
+  },
+  {
    "id": "until-labs",
    "name": "Until Labs",
    "url": "https://www.untillabs.com",
@@ -1303,7 +1425,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom est.; $58M Series A Sep 2025 (valuation undisclosed)",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $58M led by Founders Fund, Sep 2025 (more than $100M raised)",
    "peakValuationUSD": 348000000,
    "totalRaisedUSD": 106000000,
    "unicorn": false,
@@ -1314,39 +1436,12 @@
     "https://finance.yahoo.com/news/until-labs-announces-58m-series-200000185.html",
     "https://www.caplight.com/company/until-labs",
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://www.untillabs.com/blog/untils-series-a"
    ],
    "logo": "assets/logos/until-labs.png",
    "titles": {
     "laura-deming": "Co-founder & CEO"
-   }
-  },
-  {
-   "id": "indent",
-   "name": "Indent",
-   "url": "https://indent.com",
-   "sector": "AI",
-   "status": "defunct",
-   "valuationUSD": null,
-   "valuationType": null,
-   "valuationDate": "2026-10",
-   "valuationNote": "Defunct",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": null,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "fouad-matin"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/",
-    "https://thielfellowship.org/jobs"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/indent.png",
-   "titles": {
-    "fouad-matin": "Co-founder"
    }
   },
   {
@@ -1359,7 +1454,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series B $50M led by Hanaco Ventures, May 2025",
    "peakValuationUSD": 300000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1369,7 +1464,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://www.zenopower.com/announcements/zeno-power-raises-50-million-series-b-to-power-defense-space-and-beyond"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/zeno-power.png",
@@ -1378,65 +1474,9 @@
    }
   },
   {
-   "id": "saturn",
-   "name": "Saturn",
-   "url": "https://www.joinsaturn.com",
-   "sector": "Consumer",
-   "status": "private",
-   "valuationUSD": 264000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 264000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "dylan-diamond"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/saturn.png",
-   "titles": {
-    "dylan-diamond": "Co-founder"
-   }
-  },
-  {
-   "id": "scythe-robotics",
-   "name": "Scythe Robotics",
-   "url": "https://scytherobotics.com",
-   "sector": "Hardware & Deep Tech",
-   "status": "acquired",
-   "valuationUSD": 252000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 252000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "davis-foster"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/scythe-robotics.png",
-   "titles": {
-    "davis-foster": "Co-founder"
-   }
-  },
-  {
    "id": "cognito",
    "name": "Cognito",
-   "url": null,
+   "url": "https://cognitohq.com",
    "sector": "Fintech",
    "status": "acquired",
    "valuationUSD": 250000000,
@@ -1452,10 +1492,70 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://www.ycombinator.com/companies/cognito",
+    "https://techcrunch.com/2022/01/20/plaid-buys-cognito-to-bolster-its-feature-set-as-it-moves-beyond-simply-connecting-accounts"
    ],
    "titles": {
-    "john-backus": "Co-founder"
+    "john-backus": "Co-founder & CTO"
+   }
+  },
+  {
+   "id": "glorify",
+   "name": "Glorify",
+   "url": "https://www.glorify.global",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": 250000000,
+   "valuationType": "last round",
+   "valuationDate": "2021-12",
+   "valuationNote": "Last round · Dec 2021",
+   "valuationDetail": "Series A $40M led by Andreessen Horowitz at about $250M, Dec 2021 (TechCrunch for the round; valuation per the Financial Times)",
+   "peakValuationUSD": 250000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "edward-beccle"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://thielfellowship.org/jobs",
+    "https://globalventuring.com/corporate/daily-deal-round-up-december-3-2021/",
+    "https://techcrunch.com/2021/12/02/glorify-an-ambitious-app-for-christians-just-landed-40-million-in-series-a-funding-led-by-a16z/"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/glorify.png",
+   "titles": {
+    "edward-beccle": "Co-founder"
+   }
+  },
+  {
+   "id": "windborne-systems",
+   "name": "WindBorne Systems",
+   "url": "https://windbornesystems.com",
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": 250000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-08",
+   "valuationNote": "Last round · Aug 2026",
+   "valuationDetail": "Series B $37M led by Khosla Ventures and Galvanize at $250M post-money, Aug 2026 (TechCrunch)",
+   "peakValuationUSD": 250000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "paige-brown"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/",
+    "https://www.silverlining.ngo/paige-brocidiacono"
+   ],
+   "logo": "assets/logos/windborne-systems.png",
+   "titles": {
+    "paige-brown": "Co-founder"
    }
   },
   {
@@ -1468,51 +1568,23 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $40M led by Ribbit Capital, Sep 2026 ($55M raised in total)",
    "peakValuationUSD": 240000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 55000000,
    "unicorn": false,
    "fellows": [
     "brandon-wang"
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://fortune.com/2025/07/23/ai-agent-insurance-startup-aiuc-stealth-15-million-seed-nat-friedman/",
+    "https://aiuc.com/updates/series-a-announcement",
+    "https://techcrunch.com/2026/09/15/early-anthropic-hire-former-metr-coo-have-found-a-way-to-rein-in-rogue-ai-agents/"
    ],
    "titles": {
-    "brandon-wang": "Co-founder"
+    "brandon-wang": "Co-founder & CTO"
    }
-  },
-  {
-   "id": "glorify",
-   "name": "Glorify",
-   "url": "https://www.glorify.global",
-   "sector": "Consumer",
-   "status": "private",
-   "valuationUSD": 240000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 250000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "edward-beccle"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://thielfellowship.org/jobs",
-    "https://globalventuring.com/corporate/daily-deal-round-up-december-3-2021/"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/glorify.png",
-   "titles": {
-    "edward-beccle": "Co-founder"
-   },
-   "peakNote": "Series A · Dec 2021",
-   "peakDate": "2021-12"
   },
   {
    "id": "passes",
@@ -1524,7 +1596,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom est.; $40M Series A Feb 2024 (valuation undisclosed)",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $40M led by Bond, Feb 2024 (about $50M raised in total)",
    "peakValuationUSD": 240000000,
    "totalRaisedUSD": 50000000,
    "unicorn": false,
@@ -1540,31 +1612,6 @@
    "titles": {
     "lucy-guo": "Founder & CEO"
    }
-  },
-  {
-   "id": "windborne-systems",
-   "name": "WindBorne Systems",
-   "url": "https://windbornesystems.com",
-   "sector": "Hardware & Deep Tech",
-   "status": "private",
-   "valuationUSD": 250000000,
-   "valuationType": "last round",
-   "valuationDate": "2026-10",
-   "valuationNote": "Series B · Aug 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 250000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "paige-brown"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
-    "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
-   ],
-   "logo": "assets/logos/windborne-systems.png",
-   "titles": {}
   },
   {
    "id": "donotpay",
@@ -1602,16 +1649,17 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $32M led by VXI Capital, Oct 2026 ($42M raised in total)",
    "peakValuationUSD": 192000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 42000000,
    "unicorn": false,
    "fellows": [
     "rohit-kalyanpur"
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://mercomindia.com/optivolt-raises-32-million-to-expand-solar-electronics-manufacturing"
    ],
    "logo": "assets/logos/optivolt-labs.png",
    "titles": {
@@ -1628,16 +1676,18 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Had raised $25M by 2017 (TechCrunch); still operating in 2026",
    "peakValuationUSD": 151000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 25000000,
    "unicorn": false,
    "fellows": [
     "james-schuler"
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
+    "https://techcrunch.com/2017/03/25/eligible-founder-katelyn-gleasons-plan-to-upend-the-billion-dollar-medical-billing-industry/",
+    "https://www.ycombinator.com/companies/eligible"
    ],
    "titles": {}
   },
@@ -1651,9 +1701,9 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series B $25M led by Ribbit Capital, Mar 2026 ($46M raised in total)",
    "peakValuationUSD": 150000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 46000000,
    "unicorn": false,
    "fellows": [
     "shane-curran"
@@ -1662,7 +1712,8 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://en.wikipedia.org/wiki/Thiel_Fellowship",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://evervault.com/blog/series-b"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/evervault.png",
@@ -1680,7 +1731,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: $10M Series B led by Lachy Groom, Sep 2024",
    "peakValuationUSD": 150000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1689,11 +1740,38 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
+    "https://techcrunch.com/2024/09/24/moxie-which-helps-nurses-launch-medspas-raises-a-preemptive-series-b-from-lachy-groom-signalfire/"
    ],
    "logo": "assets/logos/moxie.png",
    "titles": {
     "daniel-friedman": "Co-founder"
+   }
+  },
+  {
+   "id": "scienceio",
+   "name": "ScienceIO",
+   "url": null,
+   "sector": "AI",
+   "status": "acquired",
+   "valuationUSD": 140000000,
+   "valuationType": "acquisition",
+   "valuationDate": "2024-02",
+   "valuationNote": "Acquired · Feb 2024",
+   "valuationDetail": "Acquired by Veradigm for $140M in cash, Feb 2024",
+   "peakValuationUSD": 140000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "will-manidis"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://www.gunder.com/news/veradigm-acquires-scienceio-for-140m"
+   ],
+   "titles": {
+    "will-manidis": "Founder"
    }
   },
   {
@@ -1706,7 +1784,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series B $23M led by Headline Growth, Jul 2025 (Axios Pro); Series A $12.5M led by Andreessen Horowitz, Oct 2021",
    "peakValuationUSD": 138000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1716,7 +1794,9 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://www.finsmes.com/2025/07/airgarage-raises-23m-in-series-b-funding.html",
+    "https://techcrunch.com/2021/10/21/airgarage-a-full-stack-parking-operator-raises-12-5m-in-round-led-by-a16z/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/airgarage.png",
@@ -1734,7 +1814,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. The company says it has raised more than $25M (Quiet, Shine, General Catalyst)",
    "peakValuationUSD": 132000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1744,7 +1824,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://www.orchard.ai/company-careers"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/orchard-robotics.png",
@@ -1762,16 +1843,17 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $22M co-led by Accel and Bain Capital Ventures, Mar 2025 ($27M raised with the seed)",
    "peakValuationUSD": 132000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 27000000,
    "unicorn": false,
    "fellows": [
     "pavel-asparouhov"
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/"
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
+    "https://www.businesswire.com/news/home/20250325542615/en/Silna-Health-Announces-$27-Million-in-Funding-to-Tackle-Americas-Prior-Authorization-Crisis"
    ],
    "logo": "assets/logos/silna-health.png",
    "titles": {
@@ -1788,7 +1870,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $21.8M, Sep 2024 (more than $36M raised in total)",
    "peakValuationUSD": 131000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1798,7 +1880,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://techcrunch.com/2024/09/22/synex-founder-once-detained-at-the-border-with-a-80-pound-magnet-is-building-portable-mris-to-test-glucose/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/synex-medical.png",
@@ -1816,7 +1899,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $20M led by CRV, Apr 2022 ($28.8M raised)",
    "peakValuationUSD": 120000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1825,24 +1908,23 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://techcrunch.com/2022/04/27/doppler-lands-20m-to-help-companies-manage-their-app-secrets/"
    ],
    "logo": "assets/logos/doppler.png",
-   "titles": {
-    "phillip-chao": "Co-founder"
-   }
+   "titles": {}
   },
   {
    "id": "ephemeral-tattoos",
    "name": "Ephemeral Tattoos",
-   "url": null,
+   "url": "https://ephemeral.tattoo",
    "sector": "Consumer",
    "status": "private",
    "valuationUSD": 120000000,
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $20M led by Anthos Capital, Jul 2021. It closed its own studios in Sep 2023 to sell its ink to other studios",
    "peakValuationUSD": 120000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1851,37 +1933,13 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://www.bloomberg.com/news/articles/2021-07-07/-tattoo-for-a-year-startup-ephemeral-inks-20-million-funding-round",
+    "https://en.wikipedia.org/wiki/Ephemeral_(company)"
    ],
    "logo": "assets/logos/ephemeral-tattoos.png",
    "titles": {
     "josh-sakhai": "Co-founder"
-   }
-  },
-  {
-   "id": "scienceio",
-   "name": "ScienceIO",
-   "url": null,
-   "sector": "AI",
-   "status": "acquired",
-   "valuationUSD": 140000000,
-   "valuationType": "acquisition",
-   "valuationDate": "2026-10",
-   "valuationNote": "Acquired · Feb 2024",
-   "valuationDetail": "Dealroom $106M; reportedly acquired by Veradigm 2024 (unverified)",
-   "peakValuationUSD": 140000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "will-manidis"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
-    "https://www.gunder.com/news/veradigm-acquires-scienceio-for-140m"
-   ],
-   "titles": {
-    "will-manidis": "Founder"
    }
   },
   {
@@ -1894,16 +1952,17 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. An SEC Form D filed Nov 2025 shows $17.2M of equity sold to 35 investors",
    "peakValuationUSD": 103000000,
-   "totalRaisedUSD": null,
+   "totalRaisedUSD": 17215240,
    "unicorn": false,
    "fellows": [
     "koki-mashita"
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
+    "https://www.sec.gov/Archives/edgar/data/2085039/000181455425000189/primary_doc.xml"
    ],
    "titles": {}
   },
@@ -1917,7 +1976,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: Series A $17M led by Tiger Global, Feb 2022",
    "peakValuationUSD": 102000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1927,7 +1986,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://tech.eu/2022/02/24/seeking-to-level-the-e-commerce-recommendation-engine-playing-field-depict-ai-raises-17-million-in-tiger-global-led-round"
    ],
    "onJobBoard": true,
    "titles": {
@@ -1962,6 +2022,31 @@
    "peakDate": "2021-06"
   },
   {
+   "id": "context",
+   "name": "Context",
+   "url": null,
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": 70000000,
+   "valuationType": "last round",
+   "valuationDate": "2025-05",
+   "valuationNote": "Last round · May 2025",
+   "peakValuationUSD": 70000000,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "joseph-semrai"
+   ],
+   "sources": [
+    "https://www.vcaonline.com/news/2025052812/context-the-first-ai-native-office-suite-raises-11m-seed-at-a-70m-valuation/",
+    "https://techcrunch.com/2025/05/28/context-gets-11m-to-build-an-ai-powered-office-suite/"
+   ],
+   "titles": {
+    "joseph-semrai": "Founder & CEO"
+   },
+   "valuationDetail": "$11M seed led by Lux Capital at $70M, May 2025 (TechCrunch); about $15.75M raised in total"
+  },
+  {
    "id": "spatial-labs",
    "name": "Spatial Labs",
    "url": null,
@@ -1971,7 +2056,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom $60M; below $100M",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: $10M seed led by Blockchain Capital, Jan 2023 (more than $14M raised)",
    "peakValuationUSD": 60000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -1982,7 +2067,8 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
     "https://en.wikipedia.org/wiki/Thiel_Fellowship",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://techcrunch.com/2023/01/26/spatial-labs-a-web3-infrastructure-and-hardware-company-closes-10m-seed-round/"
    ],
    "onJobBoard": true,
    "titles": {
@@ -1999,7 +2085,7 @@
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom $53M; below $100M",
+   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. Latest round: EUR 8M seed led by Lightspeed and BlueYard, Jun 2025",
    "peakValuationUSD": 53000000,
    "totalRaisedUSD": null,
    "unicorn": false,
@@ -2008,37 +2094,12 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://en.wikipedia.org/wiki/Thiel_Fellowship"
+    "https://en.wikipedia.org/wiki/Thiel_Fellowship",
+    "https://lsvp.com/stories/partnering-with-manex-ai-to-build-the-control-layer-for-autonomous-manufacturing/"
    ],
    "logo": "assets/logos/manex-ai.png",
    "titles": {
     "fabian-gruber": "Co-founder & CPTO"
-   }
-  },
-  {
-   "id": "hyperplane",
-   "name": "Hyperplane",
-   "url": null,
-   "sector": "Fintech",
-   "status": "acquired",
-   "valuationUSD": 32000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "At acquisition · Oct 2026",
-   "valuationDetail": "Dealroom $32M; acquired by Nubank (terms undisclosed)",
-   "peakValuationUSD": 32000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "felipe-meneses"
-   ],
-   "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/"
-   ],
-   "logo": "assets/logos/hyperplane.png",
-   "titles": {
-    "felipe-meneses": "Co-founder"
    }
   },
   {
@@ -2060,6 +2121,29 @@
    "sources": [],
    "logo": "assets/logos/0xparc.png",
    "titles": {}
+  },
+  {
+   "id": "305-ventures",
+   "name": "305 Ventures",
+   "url": null,
+   "sector": "Investing",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "zaid-rahman"
+   ],
+   "sources": [
+    "https://refreshmiami.com/flex-secures-20m-equity-and-100m-debt-fundraise-to-build-a-one-stop-shop-financial-hub-for-smbs/"
+   ],
+   "titles": {
+    "zaid-rahman": "Founding Partner"
+   }
   },
   {
    "id": "acorn-biolabs",
@@ -2100,7 +2184,9 @@
    ],
    "sources": [],
    "logo": "assets/logos/acorn-genetics.png",
-   "titles": {}
+   "titles": {
+    "ana-cornell": "Founder & CEO"
+   }
   },
   {
    "id": "action",
@@ -2144,6 +2230,31 @@
    }
   },
   {
+   "id": "all-out",
+   "name": "All Out",
+   "url": "https://allout.game",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "matthew-salsamendi"
+   ],
+   "sources": [
+    "https://github.com/MattJustMatt",
+    "https://prospeo.io/c/all-out",
+    "https://www.producthunt.com/products/all-out/makers"
+   ],
+   "titles": {
+    "matthew-salsamendi": "Co-founder & CTO"
+   }
+  },
+  {
    "id": "altro",
    "name": "Altro",
    "url": "https://altro.io",
@@ -2169,11 +2280,35 @@
    }
   },
   {
+   "id": "amber-agriculture",
+   "name": "Amber Agriculture",
+   "url": "https://amberag.com",
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "joey-varikooty"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://theorg.com/org/the-thiel-foundation/org-chart/joseph-varikooty"
+   ],
+   "titles": {
+    "joey-varikooty": "Co-founder"
+   }
+  },
+  {
    "id": "anchor-protocol",
    "name": "Anchor Protocol",
    "url": null,
    "sector": "Crypto",
-   "status": null,
+   "status": "defunct",
    "valuationUSD": null,
    "valuationType": null,
    "valuationDate": null,
@@ -2184,7 +2319,9 @@
    "fellows": [
     "ryan-park"
    ],
-   "sources": [],
+   "sources": [
+    "https://defillama.com/protocol/anchor/all"
+   ],
    "titles": {}
   },
   {
@@ -2210,27 +2347,27 @@
    }
   },
   {
-   "id": "applied-compute",
-   "name": "Applied Compute",
-   "url": "https://www.appliedcompute.com",
-   "sector": "AI",
-   "status": "private",
-   "valuationUSD": 3250000000,
-   "valuationType": "last round",
-   "valuationDate": "2026-11",
-   "valuationNote": "Last round · Nov 2026",
-   "peakValuationUSD": 3250000000,
+   "id": "aragon",
+   "name": "Aragon",
+   "url": "https://aragon.org",
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
    "totalRaisedUSD": null,
-   "unicorn": true,
+   "unicorn": false,
    "fellows": [
-    "yash-patil"
+    "jorge-izquierdo"
    ],
    "sources": [
-    "https://siliconangle.com/2026/11/03/ai-cloud-startup-applied-compute-raises-350m-after-reaching-key-revenue-milestone/"
+    "https://tuyo.com/about",
+    "https://github.com/izqui"
    ],
-   "logo": "assets/logos/applied-compute.png",
    "titles": {
-    "yash-patil": "Co-founder & CEO"
+    "jorge-izquierdo": "Co-founder"
    }
   },
   {
@@ -2275,6 +2412,31 @@
    "logo": "assets/logos/arist.png",
    "titles": {
     "michael-ioffe": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "attack-capital",
+   "name": "Attack Capital",
+   "url": "https://attack.capital",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kaushik-tiwari"
+   ],
+   "sources": [
+    "https://attack.capital/about",
+    "https://www.ycombinator.com/companies/attack-capital",
+    "https://www.ycombinator.com/founders/4508-kaushik-tiwari"
+   ],
+   "titles": {
+    "kaushik-tiwari": "Co-founder & CEO"
    }
   },
   {
@@ -2325,6 +2487,31 @@
    }
   },
   {
+   "id": "avro-life-science",
+   "name": "Avro Life Science",
+   "url": "https://avrolifesci.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "shak-lakhani"
+   ],
+   "sources": [
+    "https://me.sh/profile/shak-lakhani",
+    "https://signal.nfx.com/investors/shak-lakhani",
+    "https://be.marketscreener.com/insider/SHAKIR-LAKHANI-A2S2VJ"
+   ],
+   "titles": {
+    "shak-lakhani": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "axiome",
    "name": "Axiome",
    "url": null,
@@ -2361,7 +2548,106 @@
    ],
    "sources": [],
    "logo": "assets/logos/azura.png",
-   "titles": {}
+   "titles": {
+    "jackson-denka": "Founder & CEO"
+   }
+  },
+  {
+   "id": "beam",
+   "name": "Beam",
+   "url": null,
+   "sector": "Consumer",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "matthew-salsamendi"
+   ],
+   "sources": [
+    "https://github.com/MattJustMatt",
+    "https://techcrunch.com/startup-battlefield/company/beam-interactive-inc",
+    "https://en.wikipedia.org/wiki/Mixer_(service)"
+   ],
+   "titles": {
+    "matthew-salsamendi": "Co-founder"
+   }
+  },
+  {
+   "id": "beek",
+   "name": "Beek",
+   "url": "https://beek.io",
+   "sector": "Consumer",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "pamela-valdes-esteva"
+   ],
+   "sources": [
+    "https://pamevaldes.substack.com/p/adios-beek-hola-musa",
+    "https://beek.io"
+   ],
+   "titles": {
+    "pamela-valdes-esteva": "Founder"
+   }
+  },
+  {
+   "id": "betr",
+   "name": "Betr",
+   "url": "https://www.betr.app",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "joey-levy"
+   ],
+   "sources": [
+    "https://www.revenuememo.com/p/who-owns-betr",
+    "https://www.rotowire.com/article/prediction-market-news-betr-ceo-talks-industry-future-144110",
+    "https://igamingbusiness.com/sports-betting/simplebet-jake-paul-raise-50m/"
+   ],
+   "titles": {
+    "joey-levy": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "beyond-aging",
+   "name": "Beyond Aging",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": "nonprofit",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "andre-bertram"
+   ],
+   "sources": [
+    "https://www.afar.org/news/afar-welcomes-two-new-members-to-our-board-of-directors"
+   ],
+   "titles": {
+    "andre-bertram": "Co-founder"
+   }
   },
   {
    "id": "biodock",
@@ -2381,7 +2667,9 @@
    ],
    "sources": [],
    "logo": "assets/logos/biodock.png",
-   "titles": {}
+   "titles": {
+    "michael-lee": "Co-founder"
+   }
   },
   {
    "id": "biofire",
@@ -2558,6 +2846,30 @@
    }
   },
   {
+   "id": "caffeine",
+   "name": "Caffeine",
+   "url": "https://www.caffei.net",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "james-graham"
+   ],
+   "sources": [
+    "https://biztimes.com/uwm-student-co-founds-wireless-phone-service/?amp=1",
+    "https://www.cbinsights.com/company/caffeine-2"
+   ],
+   "titles": {
+    "james-graham": "Founder & CEO"
+   }
+  },
+  {
    "id": "canopy-labs",
    "name": "Canopy Labs",
    "url": "https://canopylabs.ai",
@@ -2576,6 +2888,52 @@
    "sources": [],
    "logo": "assets/logos/canopy-labs.png",
    "titles": {}
+  },
+  {
+   "id": "cansbridge-scholars",
+   "name": "Cansbridge Scholars",
+   "url": "https://www.cansbridgescholars.com",
+   "sector": "Education",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "lyn-chen"
+   ],
+   "sources": [
+    "https://www.cansbridgescholars.com/about"
+   ],
+   "titles": {
+    "lyn-chen": "Co-founder"
+   }
+  },
+  {
+   "id": "cashew",
+   "name": "Cashew",
+   "url": null,
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jamie-cox"
+   ],
+   "sources": [
+    "https://www.nbcnewyork.com/news/business/money-report/peter-thiels-vc-fund-backs-treecard-a-fintech-that-plants-trees-when-you-spend/3976810/"
+   ],
+   "titles": {
+    "jamie-cox": "Founder"
+   }
   },
   {
    "id": "cavalla",
@@ -2626,6 +2984,80 @@
    }
   },
   {
+   "id": "clara-health",
+   "name": "Clara Health",
+   "url": "https://clarahealth.com",
+   "sector": "Bio & Health",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sol-chen"
+   ],
+   "sources": [
+    "https://www.builtinboston.com/articles/clara-health-connects-patients-clinical-trials",
+    "https://medium.com/profiles-in-entrepreneurship/sol-chen-co-founder-of-clara-health-on-building-transformative-healthcare-companies-aa1e9df58176",
+    "https://www.cbinsights.com/company/clara-health1"
+   ],
+   "titles": {
+    "sol-chen": "Co-founder & President"
+   }
+  },
+  {
+   "id": "clay-io",
+   "name": "Clay.io",
+   "url": "http://clay.io",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "zoli-kahan"
+   ],
+   "sources": [
+    "https://zolmeister.com/2014/07/cto-cofounder-clay-io.html",
+    "https://zolmeister.com/2016/05/clay-io.html",
+    "https://github.com/claydotio"
+   ],
+   "titles": {
+    "zoli-kahan": "Co-founder & CTO"
+   }
+  },
+  {
+   "id": "coastline-market",
+   "name": "Coastline Market",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "robert-kirstiuk"
+   ],
+   "sources": [
+    "https://github.com/rkirstiuk",
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+   ],
+   "titles": {
+    "robert-kirstiuk": "Co-founder"
+   }
+  },
+  {
    "id": "codegem",
    "name": "CodeGem",
    "url": null,
@@ -2648,6 +3080,31 @@
    "titles": {}
   },
   {
+   "id": "community-phone",
+   "name": "Community Phone",
+   "url": "https://www.communityphone.org",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "james-graham"
+   ],
+   "sources": [
+    "https://biztimes.com/uwm-student-co-founds-wireless-phone-service/?amp=1",
+    "https://theorg.com/org/community-phone/org-chart/james-graham",
+    "https://www.telecompetitor.com/community-phone-aims-to-cash-in-on-simple-landline-replacement/"
+   ],
+   "titles": {
+    "james-graham": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "compocket",
    "name": "Compocket",
    "url": null,
@@ -2666,29 +3123,6 @@
    "sources": [],
    "titles": {
     "ilayda-buyukdogan": "Co-founder"
-   }
-  },
-  {
-   "id": "context",
-   "name": "Context",
-   "url": null,
-   "sector": "AI",
-   "status": "private",
-   "valuationUSD": 70000000,
-   "valuationType": "last round",
-   "valuationDate": "2025-05",
-   "valuationNote": "Last round · May 2025",
-   "peakValuationUSD": 70000000,
-   "totalRaisedUSD": null,
-   "unicorn": false,
-   "fellows": [
-    "joseph-semrai"
-   ],
-   "sources": [
-    "https://www.vcaonline.com/news/2025052812/context-the-first-ai-native-office-suite-raises-11m-seed-at-a-70m-valuation/"
-   ],
-   "titles": {
-    "joseph-semrai": "Founder & CEO"
    }
   },
   {
@@ -2750,7 +3184,9 @@
    ],
    "sources": [],
    "logo": "assets/logos/corecircle.png",
-   "titles": {}
+   "titles": {
+    "nastassia-ponomarenko": "Founder"
+   }
   },
   {
    "id": "coursekey",
@@ -2798,6 +3234,30 @@
    }
   },
   {
+   "id": "seahub",
+   "name": "Seahub",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "samuel-f-poirier"
+   ],
+   "sources": [
+    "https://me.sh/profile/samuel-f-poirier",
+    "https://thepnr.com/what-we%E2%80%99re-learning/obsessively-building-with-samuel-poirier-ceo-seahub/"
+   ],
+   "titles": {
+    "samuel-f-poirier": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "cryopets",
    "name": "Cryopets",
    "url": "https://cryopets.com",
@@ -2823,6 +3283,29 @@
    }
   },
   {
+   "id": "curious-addys",
+   "name": "Curious Addys",
+   "url": null,
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ben-yu"
+   ],
+   "sources": [
+    "https://catc.substack.com/p/letter-13-a-curious-year-of-lessons"
+   ],
+   "titles": {
+    "ben-yu": "Co-founder & CTO"
+   }
+  },
+  {
    "id": "dandy",
    "name": "Dandy",
    "url": "https://www.meetdandy.com",
@@ -2843,7 +3326,32 @@
    ],
    "onJobBoard": true,
    "logo": "assets/logos/dandy.png",
-   "titles": {}
+   "titles": {
+    "toni-oloko": "Co-founder"
+   }
+  },
+  {
+   "id": "daydream-labs",
+   "name": "Daydream Labs",
+   "url": null,
+   "sector": "Other",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "reiss-jones"
+   ],
+   "sources": [
+    "https://github.com/reissjones"
+   ],
+   "titles": {
+    "reiss-jones": "Founder"
+   }
   },
   {
    "id": "decade",
@@ -2953,6 +3461,30 @@
    }
   },
   {
+   "id": "draftpot",
+   "name": "Draftpot",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "joey-levy"
+   ],
+   "sources": [
+    "https://joefavorito.com/2015/08/10/young-entrepreneur-tries-to-stir-the-daily-fantasy-draftpot/",
+    "https://www.theofficialboard.com/biography/joey-levy-13g85"
+   ],
+   "titles": {
+    "joey-levy": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "dream-hustle-code",
    "name": "Dream Hustle Code",
    "url": "https://www.dreamhustlecode.com",
@@ -2998,6 +3530,56 @@
    "titles": {}
   },
   {
+   "id": "eden",
+   "name": "Eden",
+   "url": "https://edenmed.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "julian-rios"
+   ],
+   "sources": [
+    "https://edenmed.com/about-us",
+    "https://www.ycombinator.com/companies/eden-2",
+    "https://latamlist.com/eden-raises-22m-series-a/",
+    "https://buildd.co/startup/founder-stories/julian-rios"
+   ],
+   "titles": {
+    "julian-rios": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "emailio",
+   "name": "Emailio",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "martin-stoyanov"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/companies/emailio",
+    "https://f2f.substack.com/p/startup-spotlight-31-emailio"
+   ],
+   "titles": {
+    "martin-stoyanov": "Founder & CEO"
+   }
+  },
+  {
    "id": "endex",
    "name": "Endex",
    "url": "https://endex.ai",
@@ -3020,6 +3602,31 @@
    }
   },
   {
+   "id": "envoynow",
+   "name": "EnvoyNow",
+   "url": null,
+   "sector": "Consumer",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "anthony-zhang"
+   ],
+   "sources": [
+    "https://dailytrojan.com/?p=121742",
+    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/",
+    "https://www.vinovest.co/blog/author/anthony-zhang"
+   ],
+   "titles": {
+    "anthony-zhang": "Founder & CEO"
+   }
+  },
+  {
    "id": "epic-aerospace",
    "name": "Epic Aerospace",
    "url": "https://epic-aerospace.com",
@@ -3038,6 +3645,30 @@
    "sources": [],
    "titles": {
     "ignacio-belieres-montero": "Founder"
+   }
+  },
+  {
+   "id": "ethglobal",
+   "name": "ETHGlobal",
+   "url": "https://ethglobal.com",
+   "sector": "Crypto",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "liam-horne"
+   ],
+   "sources": [
+    "https://theorg.com/org/ethglobal/org-chart/liam-horne",
+    "https://app.coinpedia.org/liamhorne/"
+   ],
+   "titles": {
+    "liam-horne": "Co-founder"
    }
   },
   {
@@ -3083,6 +3714,104 @@
    "titles": {}
   },
   {
+   "id": "expressionmed",
+   "name": "ExpressionMed",
+   "url": "https://expressionmed.com",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "meghan-sharkus"
+   ],
+   "sources": [
+    "https://expressionmed.com/pages/about-us",
+    "https://prnewswire.com/news-releases/expressionmed-ceo--founder-thiel-fellow-meghan-sharkus-celebrates-five-years-of-successful-business-301315145.html"
+   ],
+   "titles": {
+    "meghan-sharkus": "Founder & CEO"
+   }
+  },
+  {
+   "id": "fathom-ai",
+   "name": "Fathom AI",
+   "url": "https://fathomai.com",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ivonna-dumanyan"
+   ],
+   "sources": [
+    "https://www.mentalfloss.com/sports/how-two-college-students-are-changing-game-preventing-sports-injuries",
+    "https://www.hypepotamus.com/fathom-ai/",
+    "https://grepbeat.com/2019/01/31/fathom-ai-helps-athletes-recover-from-and-prevent-injuries/",
+    "https://thehelm.co/invest/our-portfolio/fathom"
+   ],
+   "titles": {
+    "ivonna-dumanyan": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "fleet",
+   "name": "Fleet",
+   "url": "https://www.tryfleet.com",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "max-lock"
+   ],
+   "sources": [
+    "https://www.freightwaves.com/news/startups-fleet-max-lock",
+    "https://oregonbusiness.com/18249-on-the-road/"
+   ],
+   "titles": {
+    "max-lock": "Founder & CEO"
+   }
+  },
+  {
+   "id": "flex",
+   "name": "Flex",
+   "url": "https://www.flex.one",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "zaid-rahman"
+   ],
+   "sources": [
+    "https://refreshmiami.com/flex-secures-20m-equity-and-100m-debt-fundraise-to-build-a-one-stop-shop-financial-hub-for-smbs/",
+    "https://app.welcometothejungle.com/companies/Flex-2"
+   ],
+   "titles": {
+    "zaid-rahman": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "fossa",
    "name": "FOSSA",
    "url": "https://fossa.com",
@@ -3106,10 +3835,10 @@
   },
   {
    "id": "fizz",
-   "name": "Fizz",
-   "url": null,
+   "name": "Mine",
+   "url": "https://usemine.com",
    "sector": "Fintech",
-   "status": null,
+   "status": "private",
    "valuationUSD": null,
    "valuationType": null,
    "valuationDate": null,
@@ -3120,8 +3849,13 @@
    "fellows": [
     "carlo-kobe"
    ],
-   "sources": [],
-   "titles": {}
+   "sources": [
+    "https://www.prnewswire.com/news-releases/mine-raises-14m-to-launch-ai-money-agent-built-to-help-young-adults-feel-in-control-of-their-money-302670029.html",
+    "https://pulse2.com/mine-14-million-series-a/"
+   ],
+   "titles": {
+    "carlo-kobe": "Co-founder & CEO"
+   }
   },
   {
    "id": "folk-computer",
@@ -3167,6 +3901,127 @@
    }
   },
   {
+   "id": "foxtrot-systems",
+   "name": "Foxtrot Systems",
+   "url": "https://www.foxtrotsystems.com",
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "patrick-coughran"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://www.descartes.com/resources/news/descartes-acquires-foxtrot",
+    "https://www.linkedin.com/in/patrickcoughran/"
+   ],
+   "titles": {
+    "patrick-coughran": "Co-founder & CTO"
+   }
+  },
+  {
+   "id": "fresco-news",
+   "name": "Fresco News",
+   "url": "https://fresconews.com",
+   "sector": "Consumer",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-meyer"
+   ],
+   "sources": [
+    "https://techcrunch.com/2015/06/05/fresco-news-aims-to-build-a-crowdsourced-network-for-breaking-news",
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://www.cbinsights.com/company/fresco-news"
+   ],
+   "titles": {
+    "john-meyer": "Founder & CEO"
+   }
+  },
+  {
+   "id": "freshline",
+   "name": "Freshline",
+   "url": "https://freshline.io",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "robert-kirstiuk"
+   ],
+   "sources": [
+    "https://github.com/robertkirstiuk",
+    "https://freshline.io"
+   ],
+   "titles": {
+    "robert-kirstiuk": "Co-founder"
+   }
+  },
+  {
+   "id": "fundelevator",
+   "name": "FundElevator",
+   "url": null,
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "james-schuler"
+   ],
+   "sources": [
+    "https://newmedia.ufm.edu/?p=13774",
+    "https://www.crowdfundinsider.com/2013/05/16184-thiel-fellow-james-schuler-plans-crowdfunding-platform/"
+   ],
+   "titles": {
+    "james-schuler": "Co-founder & CTO"
+   }
+  },
+  {
+   "id": "fundplatform-io",
+   "name": "fundplatform.io",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "nik-shevchenko"
+   ],
+   "sources": [
+    "https://intro.co/NikShevchenko"
+   ],
+   "titles": {
+    "nik-shevchenko": "Founder"
+   }
+  },
+  {
    "id": "fuzzbuzz",
    "name": "Fuzzbuzz",
    "url": null,
@@ -3185,6 +4040,31 @@
    "sources": [],
    "titles": {
     "andrei-serban": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "general-control",
+   "name": "General Control",
+   "url": "https://generalcontrol.inc",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "lada-nuzhna"
+   ],
+   "sources": [
+    "https://generalcontrol.inc/",
+    "https://liveforeversociety.org/article/the-young-founder-teaching-big-pharma-a-new-way-to-reverse-aging",
+    "https://ladanuzhna.xyz"
+   ],
+   "titles": {
+    "lada-nuzhna": "Founder & CEO"
    }
   },
   {
@@ -3212,6 +4092,106 @@
    }
   },
   {
+   "id": "get-mobility-solutions",
+   "name": "GET Mobility Solutions",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "gary-kurek"
+   ],
+   "sources": [
+    "https://village.ai/person/gary-kurek-Mjk5OTM0Mg",
+    "https://patents.justia.com/inventor/gary-kurek"
+   ],
+   "titles": {
+    "gary-kurek": "Founder & CEO"
+   }
+  },
+  {
+   "id": "ghost-financial",
+   "name": "Ghost Financial",
+   "url": null,
+   "sector": "Fintech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-meyer"
+   ],
+   "sources": [
+    "https://techcrunch.com/2022/04/05/ghost-financial-whips-up-new-capital-into-finance-tools-for-ghost-kitchens",
+    "https://www.restaurantdive.com/news/ghost-financial-ghost-kitchen-ghostu-education-program/625100/"
+   ],
+   "titles": {
+    "john-meyer": "Founder & CEO"
+   }
+  },
+  {
+   "id": "gifs-com",
+   "name": "gifs.com",
+   "url": "https://gifs.com",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kieran-o-reilly",
+    "rory-o-reilly"
+   ],
+   "sources": [
+    "https://github.com/gifs",
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://www.knotapi.com/about",
+    "https://github.com/RoryRocks"
+   ],
+   "titles": {
+    "kieran-o-reilly": "Co-founder & CTO",
+    "rory-o-reilly": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "guidebolt",
+   "name": "Guidebolt",
+   "url": "https://guidebolt.com",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "yoonseo-kang"
+   ],
+   "sources": [
+    "https://yoonseo.ca/",
+    "https://github.com/openyk"
+   ],
+   "titles": {
+    "yoonseo-kang": "Founder & CEO"
+   }
+  },
+  {
    "id": "hack-club",
    "name": "Hack Club",
    "url": "https://hackclub.com",
@@ -3234,6 +4214,104 @@
    "logo": "assets/logos/hack-club.png",
    "titles": {
     "zach-latta": "Founder & Executive Director"
+   }
+  },
+  {
+   "id": "headstart",
+   "name": "Headstart",
+   "url": "https://www.headstart.io",
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "nicholas-shekerdemian"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/companies/headstart",
+    "https://enspire.site.ox.ac.uk/article/nicholas-shekerdemian-co-founder-of-headstart-app",
+    "https://techcrunch.com/2017/06/24/headstart-wants-to-better-analyze-candidates-to-fit-them-with-the-best-jobs"
+   ],
+   "titles": {
+    "nicholas-shekerdemian": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "hellotoken",
+   "name": "HelloToken",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "brian-truong"
+   ],
+   "sources": [
+    "https://signal.nfx.com/investors/brian-truong",
+    "https://zonebourse.com/insider/BRIAN-TRUONG-A22CFI"
+   ],
+   "titles": {
+    "brian-truong": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "helpwear",
+   "name": "HelpWear",
+   "url": "https://helpwear.ca",
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "andre-bertram"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/companies/helpwear",
+    "https://me.sh/profile/andre-bertram",
+    "https://www.afar.org/news/afar-welcomes-two-new-members-to-our-board-of-directors"
+   ],
+   "titles": {
+    "andre-bertram": "Co-founder"
+   }
+  },
+  {
+   "id": "homebound",
+   "name": "Homebound",
+   "url": "https://www.homebound.com",
+   "sector": "Other",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "john-meyer"
+   ],
+   "sources": [
+    "https://techcrunch.com/2022/04/05/ghost-financial-whips-up-new-capital-into-finance-tools-for-ghost-kitchens",
+    "https://app.qwoted.com/sources/john-meyer-b0e2fb7d-9c48-437c-89c8-3f2775d8275b"
+   ],
+   "titles": {
+    "john-meyer": "Co-founder"
    }
   },
   {
@@ -3276,6 +4354,133 @@
    ],
    "sources": [],
    "titles": {}
+  },
+  {
+   "id": "hyperplane",
+   "name": "Hyperplane",
+   "url": null,
+   "sector": "Fintech",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": "acquisition",
+   "valuationDate": "2024-06",
+   "valuationNote": "Acquired · Jun 2024",
+   "valuationDetail": "Acquired by Nubank, Jun 2024; terms not disclosed (TechCrunch). Raised a $6M seed in 2023",
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "felipe-meneses"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
+    "https://techcrunch.com/2024/06/26/nubank-acquires-ai-for-banks-startup-hyperplane/"
+   ],
+   "logo": "assets/logos/hyperplane.png",
+   "titles": {
+    "felipe-meneses": "Co-founder"
+   }
+  },
+  {
+   "id": "hyv",
+   "name": "Hyv",
+   "url": "http://hyv.co",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "alex-koren"
+   ],
+   "sources": [
+    "https://techcrunch.com/2014/02/21/meet-hyv-a-startup-that-cant-wait-for-phone-unlocking-to-be-made-legal/"
+   ],
+   "titles": {
+    "alex-koren": "Co-founder"
+   }
+  },
+  {
+   "id": "imagination-research-labs",
+   "name": "Imagination Research Labs",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "william-legate"
+   ],
+   "sources": [
+    "https://tedxteen.com/speakers/william-legate"
+   ],
+   "titles": {
+    "william-legate": "Founder"
+   }
+  },
+  {
+   "id": "impetus-grants",
+   "name": "Impetus Grants",
+   "url": "https://www.norn.group/impetus-grants",
+   "sector": "Research",
+   "status": "nonprofit",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "lada-nuzhna"
+   ],
+   "sources": [
+    "https://ladanuzhna.xyz",
+    "https://www.corememory.com/p/exclusive-a-bold-new-bid-to-control-genome-generalcontrol",
+    "https://www.norn.group/impetus-grants"
+   ],
+   "titles": {
+    "lada-nuzhna": "Co-founder"
+   }
+  },
+  {
+   "id": "indent",
+   "name": "Indent",
+   "url": "https://indent.com",
+   "sector": "AI",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": "Defunct",
+   "valuationDetail": "Sunset its access-request product in Jul 2024; the indent.com domain now hosts an unrelated product",
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "fouad-matin"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/",
+    "https://thielfellowship.org/jobs",
+    "https://news.ycombinator.com/item?id=40369004"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/indent.png",
+   "titles": {
+    "fouad-matin": "Co-founder"
+   }
   },
   {
    "id": "intempus",
@@ -3384,6 +4589,54 @@
    "titles": {}
   },
   {
+   "id": "kafene",
+   "name": "Kafene",
+   "url": "https://kafene.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "james-schuler"
+   ],
+   "sources": [
+    "https://kafene.com/about-kafene",
+    "https://techcrunch.com/2021/06/08/kafene-raises-14m-to-offer-buy-now-pay-later-to-the-subprime-consumer"
+   ],
+   "titles": {
+    "james-schuler": "Co-founder & CTO"
+   }
+  },
+  {
+   "id": "keep",
+   "name": "Keep",
+   "url": "https://www.trykeep.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "helson-taveras"
+   ],
+   "sources": [
+    "https://www.trykeep.com/resources/careers",
+    "https://www.trykeep.com/"
+   ],
+   "titles": {
+    "helson-taveras": "Co-founder & CTO"
+   }
+  },
+  {
    "id": "kettle-fire",
    "name": "Kettle & Fire",
    "url": null,
@@ -3405,6 +4658,55 @@
    }
   },
   {
+   "id": "kickback",
+   "name": "Kickback",
+   "url": null,
+   "sector": "Consumer",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "mark-prokoudine"
+   ],
+   "sources": [
+    "https://techcrunch.com/2015/03/02/yc-backed-kickback-offers-an-easy-way-to-play-minecraft-competitively",
+    "https://ca.marketscreener.com/insider/MARK-PROKOUDINE-A1X0HL/",
+    "https://en.wikipedia.org/wiki/Kickback_(video_game_platform)"
+   ],
+   "titles": {
+    "mark-prokoudine": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "kisan-network",
+   "name": "Kisan Network",
+   "url": "https://www.kisannetwork.com",
+   "sector": "Other",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "aditya-agarwalla"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/companies/kisan-network",
+    "https://yourstory.com/2020/01/agritech-startup-kisan-network-indian-farmers-tech-supply-chain"
+   ],
+   "titles": {
+    "aditya-agarwalla": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "klyra-protocol",
    "name": "Klyra Protocol",
    "url": null,
@@ -3423,6 +4725,81 @@
    "sources": [],
    "titles": {
     "diogenes-casares": "Founder"
+   }
+  },
+  {
+   "id": "knot",
+   "name": "Knot",
+   "url": "https://www.knotapi.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kieran-o-reilly",
+    "rory-o-reilly"
+   ],
+   "sources": [
+    "https://www.knotapi.com/about",
+    "https://alleywatch.com/2023/08/the-alleywatch-startup-daily-funding-report-8-3-2023/"
+   ],
+   "titles": {
+    "kieran-o-reilly": "Co-founder & CTO",
+    "rory-o-reilly": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "kynplex",
+   "name": "Kynplex",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "raul-jordan"
+   ],
+   "sources": [
+    "https://betakit.com/?p=61181",
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+   ],
+   "titles": {
+    "raul-jordan": "Co-founder"
+   }
+  },
+  {
+   "id": "lace-labs",
+   "name": "Lace Labs",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "panashe-mahachi"
+   ],
+   "sources": [
+    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/",
+    "https://uwaterloo.ca/math/entrepreneurship-and-innovation/startups-and-founders",
+    "https://www.cbinsights.com/company/lace-labs/"
+   ],
+   "titles": {
+    "panashe-mahachi": "Co-founder"
    }
   },
   {
@@ -3452,8 +4829,8 @@
   },
   {
    "id": "lily-devices",
-   "name": "Lily Devices",
-   "url": null,
+   "name": "Luminate Medical",
+   "url": "https://www.luminatemed.com",
    "sector": "Bio & Health",
    "status": null,
    "valuationUSD": null,
@@ -3466,8 +4843,39 @@
    "fellows": [
     "aaron-hannon"
    ],
-   "sources": [],
-   "titles": {}
+   "sources": [
+    "https://www.luminatemed.com/about",
+    "https://www.ycombinator.com/companies/luminate-medical"
+   ],
+   "titles": {
+    "aaron-hannon": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "loftsmart",
+   "name": "LoftSmart",
+   "url": "https://loftsmart.com",
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sam-bernstein"
+   ],
+   "sources": [
+    "https://www.cbinsights.com/company/loftsmart",
+    "https://dealroom.co/companies/loftsmart/",
+    "https://uk.marketscreener.com/insider/SAMUEL-W-BERNSTEIN-A21X8U/",
+    "https://www.insidehook.com/culture/restaurant-subscription-help-nyc-dining"
+   ],
+   "titles": {
+    "sam-bernstein": "Co-founder & CEO"
+   }
   },
   {
    "id": "logrocket",
@@ -3598,6 +5006,77 @@
    }
   },
   {
+   "id": "mcprohosting",
+   "name": "MCProHosting",
+   "url": "https://mcprohosting.com",
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "matthew-salsamendi"
+   ],
+   "sources": [
+    "https://github.com/MattJustMatt",
+    "https://www.producthunt.com/products/all-out/makers"
+   ],
+   "titles": {
+    "matthew-salsamendi": "Co-founder"
+   }
+  },
+  {
+   "id": "mechanism-labs",
+   "name": "Mechanism Labs",
+   "url": null,
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "aparna-krishnan"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://thedefiant.io/newsletter/archive/theres-the-opportunity-to-make-really"
+   ],
+   "titles": {
+    "aparna-krishnan": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "medella-health",
+   "name": "Medella Health",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "harry-gandhi"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+   ],
+   "titles": {
+    "harry-gandhi": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "medu",
    "name": "MEDU",
    "url": null,
@@ -3614,7 +5093,9 @@
     "tamara-chayo-romo"
    ],
    "sources": [],
-   "titles": {}
+   "titles": {
+    "tamara-chayo-romo": "Founder & CEO"
+   }
   },
   {
    "id": "macro-energy",
@@ -3676,6 +5157,129 @@
    }
   },
   {
+   "id": "memory-store",
+   "name": "Memory Store",
+   "url": "https://mem.store",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "diwank-singh-tomer"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/companies/memory-store",
+    "https://www.ycombinator.com/launches/QPs-memory-store-your-company-s-brain"
+   ],
+   "titles": {
+    "diwank-singh-tomer": "Founder & CEO"
+   }
+  },
+  {
+   "id": "mercantile",
+   "name": "Mercantile",
+   "url": "https://www.getmercantile.com",
+   "sector": "Fintech",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "samuel-f-poirier"
+   ],
+   "sources": [
+    "https://www.indexventures.com/companies/mercantile/",
+    "https://thelogic.co/briefing/inovia-backs-mercantiles-small-business-credit-card-platform-in-us15m-series-a/",
+    "https://www.getmercantile.com/news/mercantile-partners-with-american-express-and-the-american-bar-association-to-launch-a-small-business-credit-card-for-legal-professionals"
+   ],
+   "titles": {
+    "samuel-f-poirier": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "mesh",
+   "name": "Mesh",
+   "url": "https://me.sh",
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": "acquisition",
+   "valuationDate": "2025-06",
+   "valuationNote": "Acquired · Jun 2025",
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "zach-hamed"
+   ],
+   "sources": [
+    "https://techcrunch.com/2021/08/30/clay-debuts-a-new-tool-to-help-people-better-manage-their-business-and-personal-relationships/",
+    "https://me.sh",
+    "https://news.crunchbase.com/ma/automattic-acquires-relationship-management-startup-clay/",
+    "https://ma.tt/2025/06/clay/"
+   ],
+   "titles": {
+    "zach-hamed": "Co-founder & co-CEO"
+   },
+   "valuationDetail": "Formerly Clay. Acquired by Automattic, Jun 2025; terms not disclosed"
+  },
+  {
+   "id": "mimir",
+   "name": "Mimir",
+   "url": null,
+   "sector": "Education",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "prahasith-veluvolu"
+   ],
+   "sources": [
+    "https://prahasith.com"
+   ],
+   "titles": {
+    "prahasith-veluvolu": "Founder & CEO"
+   }
+  },
+  {
+   "id": "mindshow",
+   "name": "Mindshow",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "cosmo-scharf"
+   ],
+   "sources": [
+    "https://dribbble.com/cosmoscharf/about",
+    "https://roadtovr.com/vision-hack-visionos-hackathon-vision-pro/"
+   ],
+   "titles": {
+    "cosmo-scharf": "Co-founder"
+   }
+  },
+  {
    "id": "mirdin",
    "name": "Mirdin",
    "url": "https://www.mirdin.com",
@@ -3723,6 +5327,149 @@
    }
   },
   {
+   "id": "moetsi",
+   "name": "Moetsi",
+   "url": "https://www.moetsi.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "olenka-polak"
+   ],
+   "sources": [
+    "https://github.com/olenkapolak",
+    "https://github.com/moetsi/Sensor-Stream-Pipe"
+   ],
+   "titles": {
+    "olenka-polak": "Co-founder"
+   }
+  },
+  {
+   "id": "musa",
+   "name": "Musa",
+   "url": null,
+   "sector": "Bio & Health",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "pamela-valdes-esteva"
+   ],
+   "sources": [
+    "https://pamevaldes.substack.com/p/adios-beek-hola-musa"
+   ],
+   "titles": {
+    "pamela-valdes-esteva": "Founder"
+   }
+  },
+  {
+   "id": "mylingo",
+   "name": "myLINGO",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "olenka-polak"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+   ],
+   "titles": {
+    "olenka-polak": "Co-founder"
+   }
+  },
+  {
+   "id": "nelumbo",
+   "name": "Nelumbo",
+   "url": "https://www.nelumbo.io",
+   "sector": "Hardware & Deep Tech",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "liam-berryman"
+   ],
+   "sources": [
+    "https://foresight.org/people/liam-berryman/",
+    "https://www.prnewswire.com/news-releases/nelumbo-acquired-by-kuraray-to-accelerate-global-expansion-of-products-and-add-new-technology-platform-302417871.html"
+   ],
+   "titles": {
+    "liam-berryman": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "neoreach",
+   "name": "NeoReach",
+   "url": "https://neoreach.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jesse-leimgruber"
+   ],
+   "sources": [
+    "https://crunchbase.com/person/jesse-leimgruber",
+    "https://www.startupfest.com/speaker/jesse-leimgruber",
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+   ],
+   "titles": {
+    "jesse-leimgruber": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "nexor",
+   "name": "Nexor",
+   "url": "https://getnexor.ai",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ian-lee"
+   ],
+   "sources": [
+    "https://www.df.cl/df-mas/punto-de-partida/con-inversion-de-andreessen-horowitz-la-nueva-startup-de-ian-lee-y-gabriel",
+    "https://forbes.cl/negocios/2026-07-15/nexor-la-revancha-de-ian-lee-junto-a-gabriel-cid-y-daniel-jimenez-quiere-conquistar-dubai-con-su-ia-agentica/"
+   ],
+   "titles": {
+    "ian-lee": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "nohbo",
    "name": "Nohbo",
    "url": null,
@@ -3743,6 +5490,78 @@
    ],
    "onJobBoard": true,
    "titles": {}
+  },
+  {
+   "id": "nomva",
+   "name": "Nomva",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "caroline-beckman"
+   ],
+   "sources": [
+    "https://www.foodnavigator-usa.com/Article/2015/09/29/Ex-Suja-Juice-exec-bets-big-on-fruit-pouches-with-nomva",
+    "https://www.nosh.com/news/2016/nomva-raises-3-million-for-noms-on-the-go"
+   ],
+   "titles": {
+    "caroline-beckman": "Co-founder"
+   }
+  },
+  {
+   "id": "noots",
+   "name": "Noots",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "phat-le"
+   ],
+   "sources": [
+    "https://phatle.com",
+    "https://wellfound.com/p/phattanle",
+    "https://crunchbase.com/person/phat-le"
+   ],
+   "titles": {
+    "phat-le": "Founder & CEO"
+   }
+  },
+  {
+   "id": "nouri",
+   "name": "Nouri",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "caroline-beckman"
+   ],
+   "sources": [
+    "https://simplybuckhead.com/probiotic-prodigy/"
+   ],
+   "titles": {
+    "caroline-beckman": "Founder"
+   }
   },
   {
    "id": "nucleus-genomics",
@@ -3807,6 +5626,80 @@
    }
   },
   {
+   "id": "omi",
+   "name": "Omi",
+   "url": "https://www.omi.me",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "nik-shevchenko"
+   ],
+   "sources": [
+    "https://github.com/kodjima33",
+    "https://github.com/BasedHardware/omi",
+    "https://techcrunch.com/2025/01/08/omi-a-competitor-to-friend-wants-to-boost-your-productivity-using-ai-and-a-brain-interface/"
+   ],
+   "titles": {
+    "nik-shevchenko": "Founder"
+   }
+  },
+  {
+   "id": "one-big-sip",
+   "name": "One Big Sip",
+   "url": "https://onebigsip.com/",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "dayton-mills"
+   ],
+   "sources": [
+    "https://onebigsip.com/about/",
+    "https://onebigsip.com/"
+   ],
+   "titles": {
+    "dayton-mills": "Co-founder"
+   }
+  },
+  {
+   "id": "opyn",
+   "name": "Opyn",
+   "url": "https://www.opyn.co",
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "aparna-krishnan"
+   ],
+   "sources": [
+    "https://tokenterminal.com/interview/interview-with-opyn-aparna-krishnan",
+    "https://dailydropout.substack.com/p/-opyn-crypto-options-trading-drop",
+    "https://medium.com/dragonfly-research/our-investment-in-opyn-b2e577209cea"
+   ],
+   "titles": {
+    "aparna-krishnan": "Co-founder & CTO"
+   }
+  },
+  {
    "id": "orb-aerospace",
    "name": "Orb Aerospace",
    "url": null,
@@ -3823,12 +5716,14 @@
     "alex-taylor"
    ],
    "sources": [],
-   "titles": {}
+   "titles": {
+    "alex-taylor": "Founder & CEO"
+   }
   },
   {
    "id": "orbit",
    "name": "Orbit",
-   "url": null,
+   "url": "https://www.orbit.engineering",
    "sector": "Bio & Health",
    "status": null,
    "valuationUSD": null,
@@ -3843,7 +5738,10 @@
     "steven-pang"
    ],
    "sources": [],
-   "titles": {}
+   "titles": {
+    "colton-el-habr": "Co-founder & CTO",
+    "steven-pang": "Co-founder & CEO"
+   }
   },
   {
    "id": "orchid",
@@ -3868,6 +5766,30 @@
    }
   },
   {
+   "id": "ordo",
+   "name": "Ordo",
+   "url": "https://ordo.com",
+   "sector": "Other",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "hunter-rosenblume"
+   ],
+   "sources": [
+    "https://www.ordo.com/our-story",
+    "https://www.crunchbase.com/person/hunter-rosenblume"
+   ],
+   "titles": {
+    "hunter-rosenblume": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "origin-genomics",
    "name": "Origin Genomics",
    "url": null,
@@ -3886,6 +5808,30 @@
    "sources": [],
    "titles": {
     "cathy-tie": "Founder & CEO"
+   }
+  },
+  {
+   "id": "paladin",
+   "name": "Paladin",
+   "url": "https://paladindrones.io",
+   "sector": "Space & Defense",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "divyaditya-shrivastava"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/companies/paladin",
+    "https://paladindrones.io/about"
+   ],
+   "titles": {
+    "divyaditya-shrivastava": "Founder & CEO"
    }
   },
   {
@@ -3912,6 +5858,31 @@
    "titles": {}
   },
   {
+   "id": "paper",
+   "name": "Paper",
+   "url": "https://paper.xyz",
+   "sector": "Crypto",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "james-sun"
+   ],
+   "sources": [
+    "https://techcrunch.com/2022/05/10/polygon-among-9-3m-investment-in-paper-to-help-onboard-nft-buyers-via-email",
+    "https://blog.withpaper.com/joining-thirdweb/",
+    "https://www.prolificnorth.co.uk/news/steven-bartletts-thirdweb-acquires-online-wallet-creator-paper/"
+   ],
+   "titles": {
+    "james-sun": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "pareto",
    "name": "Pareto",
    "url": "https://pareto.ai",
@@ -3932,12 +5903,14 @@
    ],
    "onJobBoard": true,
    "logo": "assets/logos/pareto.png",
-   "titles": {}
+   "titles": {
+    "phoebe-yao": "Founder"
+   }
   },
   {
    "id": "phase",
    "name": "Phase",
-   "url": null,
+   "url": "https://www.phaselabs.bio",
    "sector": "Bio & Health",
    "status": null,
    "valuationUSD": null,
@@ -3994,6 +5967,30 @@
    }
   },
   {
+   "id": "practicegigs",
+   "name": "PracticeGigs",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "toni-oloko"
+   ],
+   "sources": [
+    "https://bostontrinity.org/alumni/alumni-recognition-award/2023-alumni-recognition-award-winner/",
+    "https://crunchbase.com/person/toni-oloko"
+   ],
+   "titles": {
+    "toni-oloko": "Founder & CEO"
+   }
+  },
+  {
    "id": "praso",
    "name": "Praso",
    "url": "https://praso.com.br",
@@ -4014,6 +6011,78 @@
    "titles": {}
   },
   {
+   "id": "prime-roots",
+   "name": "Prime Roots",
+   "url": "https://www.primeroots.com",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "kimberlie-le"
+   ],
+   "sources": [
+    "https://dealroom.co/companies/prime-roots/",
+    "https://greatentrepreneurs.podbean.com/e/making-deli-meat-healthy-prime-roots-kimberlie-le",
+    "https://www.primeroots.com/"
+   ],
+   "titles": {
+    "kimberlie-le": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "prometheus-industries",
+   "name": "Prometheus Industries",
+   "url": null,
+   "sector": "Energy & Climate",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "taylor-wilson"
+   ],
+   "sources": [
+    "https://knpr.org/show/knprs-state-of-nevada/2025-06-12/nevadas-taylor-wilson-fused-atoms-at-14-now-he-has-a-podcast"
+   ],
+   "titles": {
+    "taylor-wilson": "Founder"
+   }
+  },
+  {
+   "id": "prysmatic-labs",
+   "name": "Prysmatic Labs",
+   "url": "https://prysmaticlabs.com",
+   "sector": "Crypto",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "raul-jordan"
+   ],
+   "sources": [
+    "https://rauljordan.com/about-me",
+    "https://www.theblock.co/amp/post/176548/offchain-labs-acquires-ethereum-software-team-prysmatic-labs"
+   ],
+   "titles": {
+    "raul-jordan": "Co-founder"
+   }
+  },
+  {
    "id": "purple",
    "name": "Purple",
    "url": "https://www.withpurple.com",
@@ -4031,7 +6100,9 @@
    ],
    "sources": [],
    "logo": "assets/logos/purple.png",
-   "titles": {}
+   "titles": {
+    "john-ciocca": "Founder"
+   }
   },
   {
    "id": "queenbee",
@@ -4050,7 +6121,57 @@
     "raina-jain"
    ],
    "sources": [],
-   "titles": {}
+   "titles": {
+    "raina-jain": "Founder"
+   }
+  },
+  {
+   "id": "ractiv",
+   "name": "Ractiv",
+   "url": "https://haptixtouch.com",
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "darren-lim"
+   ],
+   "sources": [
+    "https://makezine.com/article/maker-news/pitches-with-prototypes-haptix",
+    "https://github.com/Ractiv"
+   ],
+   "titles": {
+    "darren-lim": "Co-founder"
+   }
+  },
+  {
+   "id": "rainway",
+   "name": "Rainway",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "andrew-sampson"
+   ],
+   "sources": [
+    "https://andrew.im",
+    "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+   ],
+   "titles": {
+    "andrew-sampson": "Founder"
+   }
   },
   {
    "id": "ramp-usa",
@@ -4072,6 +6193,55 @@
    "titles": {}
   },
   {
+   "id": "raven-resonance",
+   "name": "Raven Resonance",
+   "url": "https://raven.computer/",
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "thomas-suarez"
+   ],
+   "sources": [
+    "https://www.auganix.org/ar-news-raven-resonance-raven-prism-awe/",
+    "https://www.draper.vc/portfolio/raven-resonance",
+    "https://www.awexr.com/usa-2026/speakers/2747-thomas-suarez"
+   ],
+   "titles": {
+    "thomas-suarez": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "real",
+   "name": "REAL",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ocean-pleasant"
+   ],
+   "sources": [
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://github.com/oceanpleasant"
+   ],
+   "titles": {
+    "ocean-pleasant": "Founder"
+   }
+  },
+  {
    "id": "red-leader",
    "name": "Red Leader",
    "url": null,
@@ -4090,6 +6260,79 @@
    "sources": [],
    "titles": {
     "jake-hillard": "Founder & CEO"
+   }
+  },
+  {
+   "id": "retinad",
+   "name": "Retinad",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "samuel-f-poirier"
+   ],
+   "sources": [
+    "https://betakit.com/retinad-co-founder-samuel-f-poirier-is-the-first-french-canadian-to-be-named-a-thiel-fellow/",
+    "https://me.sh/profile/samuel-f-poirier"
+   ],
+   "titles": {
+    "samuel-f-poirier": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "revlo",
+   "name": "Revlo",
+   "url": null,
+   "sector": "Consumer",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "james-sun"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/blog/revlo",
+    "https://village.ai/person/james-sun-Mzg0MjQwOTk",
+    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/"
+   ],
+   "titles": {
+    "james-sun": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "riley",
+   "name": "Riley",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "helson-taveras"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/companies/riley",
+    "https://techcrunch.com/?p=1496406"
+   ],
+   "titles": {
+    "helson-taveras": "Co-founder & CTO"
    }
   },
   {
@@ -4114,6 +6357,161 @@
    }
   },
   {
+   "id": "saily",
+   "name": "Saily",
+   "url": null,
+   "sector": "Consumer",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jihad-kawas"
+   ],
+   "sources": [
+    "https://www.wamda.com/en/2015/06/college-jihad-kawas-thiel-saily",
+    "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+   ],
+   "titles": {
+    "jihad-kawas": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "saturn",
+   "name": "Saturn",
+   "url": "https://www.joinsaturn.com",
+   "sector": "Consumer",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": "acquisition",
+   "valuationDate": "2025-06",
+   "valuationNote": "Acquired · Jun 2025",
+   "valuationDetail": "Acquired by Snap, Jun 2025; terms not disclosed (TechCrunch)",
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "dylan-diamond"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://thielfellowship.org/jobs",
+    "https://techcrunch.com/2025/06/20/snap-acquires-saturn-a-social-calendar-app-for-high-school-and-college-students/"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/saturn.png",
+   "titles": {
+    "dylan-diamond": "Co-founder"
+   }
+  },
+  {
+   "id": "scythe-robotics",
+   "name": "Scythe Robotics",
+   "url": "https://scytherobotics.com",
+   "sector": "Hardware & Deep Tech",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": "acquisition",
+   "valuationDate": "2026-03",
+   "valuationNote": "Acquired · Mar 2026",
+   "valuationDetail": "Acquired by Autonomous Solutions, Inc. (ASI), Mar 2026; terms not disclosed (company blog)",
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "davis-foster"
+   ],
+   "sources": [
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://thielfellowship.org/jobs",
+    "https://scytherobotics.com/blog-posts/then-now-next"
+   ],
+   "onJobBoard": true,
+   "logo": "assets/logos/scythe-robotics.png",
+   "titles": {
+    "davis-foster": "Co-founder"
+   }
+  },
+  {
+   "id": "simplebet",
+   "name": "Simplebet",
+   "url": null,
+   "sector": "Consumer",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "joey-levy"
+   ],
+   "sources": [
+    "https://www.revenuememo.com/p/who-owns-betr",
+    "https://igamingbusiness.com/sports-betting/simplebet-jake-paul-raise-50m/"
+   ],
+   "titles": {
+    "joey-levy": "Co-founder"
+   }
+  },
+  {
+   "id": "sleeker",
+   "name": "Sleeker",
+   "url": null,
+   "sector": "Software & SaaS",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "phat-le"
+   ],
+   "sources": [
+    "https://phatle.com",
+    "https://wellfound.com/p/phattanle"
+   ],
+   "titles": {
+    "phat-le": "Co-founder & CEO"
+   }
+  },
+  {
+   "id": "somatic-labs",
+   "name": "Somatic Labs",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "shantanu-bala"
+   ],
+   "sources": [
+    "https://crunchbase.com/person/shantanu-bala",
+    "https://spectrum.ieee.org/haptics-startup-wins-alphalab-gear-hardware-cup-finals",
+    "https://startlandnews.com/2017/09/techstars-spotlight-somatic-labs-tech-sees-freedom-from-distraction-through-touch/"
+   ],
+   "titles": {
+    "shantanu-bala": "Co-founder & CEO"
+   }
+  },
+  {
    "id": "soundboks",
    "name": "SOUNDBOKS",
    "url": null,
@@ -4132,6 +6530,35 @@
    "sources": [],
    "titles": {
     "jesper-theil-thomsen": "Co-founder"
+   }
+  },
+  {
+   "id": "sweet",
+   "name": "Sweet",
+   "url": "https://savewithsweet.com",
+   "sector": "Consumer",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "hunter-rosenblume",
+    "rohith-varanasi"
+   ],
+   "sources": [
+    "https://savewithsweet.com",
+    "https://www.thepitch.show/founders/hunter-rosenblume",
+    "https://www.crunchbase.com/person/hunter-rosenblume",
+    "https://www.zippia.com/sweet-careers-225992/executives",
+    "https://www.inc.com/emily-canal/young-entrepreneurs-lower-cell-phone-bills-lunar-wireless.html"
+   ],
+   "titles": {
+    "hunter-rosenblume": "Co-founder & CEO",
+    "rohith-varanasi": "Co-founder"
    }
   },
   {
@@ -4220,31 +6647,6 @@
    "sources": [],
    "titles": {
     "geffen-avraham": "Founder"
-   }
-  },
-  {
-   "id": "slash",
-   "name": "Slash",
-   "url": "https://www.slash.com",
-   "sector": "Fintech",
-   "status": "private",
-   "valuationUSD": 1400000000,
-   "valuationType": "last round",
-   "valuationDate": null,
-   "valuationNote": "Last round · Apr 2026",
-   "peakValuationUSD": 1400000000,
-   "totalRaisedUSD": null,
-   "unicorn": true,
-   "fellows": [
-    "victor-cardenas"
-   ],
-   "sources": [
-    "https://thielfellowship.org/jobs"
-   ],
-   "onJobBoard": true,
-   "logo": "assets/logos/slash.png",
-   "titles": {
-    "victor-cardenas": "Co-founder & CEO"
    }
   },
   {
@@ -4418,7 +6820,7 @@
   {
    "id": "swoop",
    "name": "Swoop",
-   "url": null,
+   "url": "https://swoop.com.ng",
    "sector": "Consumer",
    "status": null,
    "valuationUSD": null,
@@ -4433,6 +6835,55 @@
    ],
    "sources": [],
    "titles": {}
+  },
+  {
+   "id": "table22",
+   "name": "Table22",
+   "url": "https://www.table22.com",
+   "sector": "Software & SaaS",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "sam-bernstein"
+   ],
+   "sources": [
+    "https://table22.com/about-us",
+    "https://pulse2.com/table22-11-million-series-a-raised-to-expand-e-commerce-tools-for-merchants",
+    "https://uk.marketscreener.com/insider/SAMUEL-W-BERNSTEIN-A21X8U/"
+   ],
+   "titles": {
+    "sam-bernstein": "Founder & CEO"
+   }
+  },
+  {
+   "id": "tailos",
+   "name": "Tailos",
+   "url": "https://tailos.com",
+   "sector": "Hardware & Deep Tech",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "micah-green"
+   ],
+   "sources": [
+    "https://tailos.com",
+    "https://machineminds.buzzsprout.com/2212148/episodes/15871111-episode-57-innovation-in-hospitality-robotics-and-labor-crisis-micah-green"
+   ],
+   "titles": {
+    "micah-green": "Founder & CEO"
+   }
   },
   {
    "id": "tavus",
@@ -4460,6 +6911,30 @@
    }
   },
   {
+   "id": "teal-drones",
+   "name": "Teal Drones",
+   "url": null,
+   "sector": "Space & Defense",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "george-matus"
+   ],
+   "sources": [
+    "https://dronelife.com/2025/08/06/teal-drones-founder-faces-lawsuit-from-former-company-over-trade-secret-dispute/",
+    "https://fortune.com/2016/07/20/this-teenage-entrepreneur-raised-2-8-million-for-his-drone-startup-in-between-high-school-classes/"
+   ],
+   "titles": {
+    "george-matus": "Founder & CEO"
+   }
+  },
+  {
    "id": "teleportal",
    "name": "Teleportal",
    "url": "https://teleportal.app",
@@ -4477,6 +6952,30 @@
    ],
    "sources": [],
    "titles": {}
+  },
+  {
+   "id": "tenkara",
+   "name": "Tenkara",
+   "url": "https://www.tenkara.ai",
+   "sector": "AI",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ben-stern"
+   ],
+   "sources": [
+    "https://tools.prnewswire.com/en-us/live/20823/release/20260330EN18406",
+    "https://trueventures.com/blog/why-we-backed-tenkara-infrastructure-for-manufacturing"
+   ],
+   "titles": {
+    "ben-stern": "Founder & CEO"
+   }
   },
   {
    "id": "tenor",
@@ -4550,6 +7049,177 @@
    }
   },
   {
+   "id": "the-venture-collective",
+   "name": "The Venture Collective",
+   "url": "https://theventurecollective.com",
+   "sector": "Investing",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "nicholas-shekerdemian"
+   ],
+   "sources": [
+    "https://theventurecollective.com",
+    "https://www.caplight.com/investor/theventurecollective",
+    "https://www.ycombinator.com/companies/headstart"
+   ],
+   "titles": {
+    "nicholas-shekerdemian": "Founding Partner"
+   }
+  },
+  {
+   "id": "treecard",
+   "name": "TreeCard",
+   "url": null,
+   "sector": "Fintech",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jamie-cox"
+   ],
+   "sources": [
+    "https://www.nbcnewyork.com/news/business/money-report/peter-thiels-vc-fund-backs-treecard-a-fintech-that-plants-trees-when-you-spend/3976810/",
+    "https://www.forbes.com.au/news/innovation/fluidstack-is-now-worth-18-billion/"
+   ],
+   "titles": {
+    "jamie-cox": "Founder & CEO"
+   }
+  },
+  {
+   "id": "trill-project",
+   "name": "Trill Project",
+   "url": "https://www.trillproject.com",
+   "sector": "Bio & Health",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ariana-sokolov"
+   ],
+   "sources": [
+    "https://www.createcultivate.com/blog/ariana-sokolov-co-founder-trill-project-interview",
+    "https://metacast.app/podcast/beautifully-complex/d4pHf3Te/pap-155-using-strengths-to-find-success-with-adhd-with-ari-sokolov/y4bwPu57"
+   ],
+   "titles": {
+    "ariana-sokolov": "Co-founder"
+   }
+  },
+  {
+   "id": "tuyo",
+   "name": "Tuyo",
+   "url": "https://tuyo.com",
+   "sector": "Fintech",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "jorge-izquierdo"
+   ],
+   "sources": [
+    "https://tuyo.com/about",
+    "https://github.com/izqui"
+   ],
+   "titles": {
+    "jorge-izquierdo": "Co-founder"
+   }
+  },
+  {
+   "id": "vathys",
+   "name": "Vathys",
+   "url": null,
+   "sector": "Hardware & Deep Tech",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "tapa-ghosh"
+   ],
+   "sources": [
+    "https://www.cbinsights.com/company/vathys/people",
+    "https://www.ycombinator.com/companies/vathys",
+    "https://crunchbase.com/person/tapa-ghosh"
+   ],
+   "titles": {
+    "tapa-ghosh": "Founder & CEO"
+   }
+  },
+  {
+   "id": "vector",
+   "name": "Vector",
+   "url": "https://www.tfvector.com",
+   "sector": "Space & Defense",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "george-matus"
+   ],
+   "sources": [
+    "https://theorg.com/org/vector/org-chart/george-matus",
+    "https://www.sltrib.com/news/2026/05/15/george-matus-helped-build-utahs/",
+    "https://dronelife.com/2025/08/06/teal-drones-founder-faces-lawsuit-from-former-company-over-trade-secret-dispute/"
+   ],
+   "titles": {
+    "george-matus": "Co-founder & CTO"
+   }
+  },
+  {
+   "id": "vinovest",
+   "name": "Vinovest",
+   "url": "https://www.vinovest.co",
+   "sector": "Fintech",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "anthony-zhang"
+   ],
+   "sources": [
+    "https://www.vinovest.co/blog/author/anthony-zhang",
+    "https://www.vinovest.co/blog/startengine-acquires-vinovest-to-broaden-access-to-alternative-assets"
+   ],
+   "titles": {
+    "anthony-zhang": "Co-founder"
+   }
+  },
+  {
    "id": "vitable-health",
    "name": "Vitable Health",
    "url": "https://www.vitablehealth.com",
@@ -4618,6 +7288,30 @@
    }
   },
   {
+   "id": "volley",
+   "name": "Volley",
+   "url": null,
+   "sector": "AI",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "zaid-rahman"
+   ],
+   "sources": [
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://github.com/zaidrahman"
+   ],
+   "titles": {
+    "zaid-rahman": "Founder & CEO"
+   }
+  },
+  {
    "id": "wander",
    "name": "Wander",
    "url": "https://www.wander.com",
@@ -4643,6 +7337,78 @@
    }
   },
   {
+   "id": "webapp-io",
+   "name": "webapp.io",
+   "url": "https://webapp.io",
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "lyn-chen"
+   ],
+   "sources": [
+    "https://www.ycombinator.com/companies/webapp-io",
+    "https://crunchbase.com/person/lyn-chen"
+   ],
+   "titles": {
+    "lyn-chen": "Co-founder & COO"
+   }
+  },
+  {
+   "id": "welovenocode",
+   "name": "WeLoveNoCode",
+   "url": "https://welovenocode.com",
+   "sector": "Software & SaaS",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "nik-shevchenko"
+   ],
+   "sources": [
+    "https://intro.co/NikShevchenko",
+    "https://pulse2.com/toptal-acquires-no-code-network-company-welovenocode/"
+   ],
+   "titles": {
+    "nik-shevchenko": "Founder"
+   }
+  },
+  {
+   "id": "yagi-card",
+   "name": "Yagi Card",
+   "url": null,
+   "sector": "Crypto",
+   "status": null,
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "samuel-f-poirier"
+   ],
+   "sources": [
+    "https://me.sh/profile/samuel-f-poirier",
+    "https://betakit.com/retinad-co-founder-samuel-f-poirier-is-the-first-french-canadian-to-be-named-a-thiel-fellow/"
+   ],
+   "titles": {
+    "samuel-f-poirier": "Co-founder & President"
+   }
+  },
+  {
    "id": "yellowberry",
    "name": "Yellowberry",
    "url": null,
@@ -4661,6 +7427,53 @@
    "sources": [],
    "titles": {
     "megan-grassell": "Founder"
+   }
+  },
+  {
+   "id": "youtooz",
+   "name": "Youtooz",
+   "url": "https://youtooz.com",
+   "sector": "Consumer",
+   "status": "private",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "mark-prokoudine"
+   ],
+   "sources": [
+    "https://www.tubefilter.com/2024/07/31/youtooz-austin-long-fandom-merch-for-fans-matpat-ironmouse/",
+    "https://ca.marketscreener.com/insider/MARK-PROKOUDINE-A1X0HL/"
+   ],
+   "titles": {
+    "mark-prokoudine": "Co-founder"
+   }
+  },
+  {
+   "id": "zurp",
+   "name": "Zurp",
+   "url": null,
+   "sector": "Fintech",
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": null,
+   "valuationDate": null,
+   "valuationNote": null,
+   "peakValuationUSD": null,
+   "totalRaisedUSD": null,
+   "unicorn": false,
+   "fellows": [
+    "ashish-pandhi"
+   ],
+   "sources": [
+    "https://www.vetrafi.com/team-profiles/ashish-pandhi"
+   ],
+   "titles": {
+    "ashish-pandhi": "Co-founder & CTO"
    }
   }
  ]

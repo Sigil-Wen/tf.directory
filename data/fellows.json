@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "October 27, 2026",
+  "updated": "November 9, 2026",
   "count": 316
  },
  "fellows": [
@@ -70,7 +70,8 @@
     "https://techcrunch.com/2011/05/25/young-entrepreneurs-rule-meet-peter-thiels-first-20-under-20-thiel-fellows",
     "https://thinkapps.com/blog/launch/startup-stories-crowdfunding-sprayable-sleep-energy",
     "https://mixergy.com/interviews/sprayable-with-ben-yu/amp/",
-    "https://harvardpolitics.com/ben-yu-harvard-dropout-and-thiel-fellow/"
+    "https://harvardpolitics.com/ben-yu-harvard-dropout-and-thiel-fellow/",
+    "https://catc.substack.com/p/letter-13-a-curious-year-of-lessons"
    ],
    "confidence": "high"
   },
@@ -88,12 +89,13 @@
    ],
    "location": null,
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/chrisrueth",
    "website": null,
    "sources": [
     "https://web.archive.org/web/20120118182134/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2011/05/25/young-entrepreneurs-rule-meet-peter-thiels-first-20-under-20-thiel-fellows",
-    "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/",
+    "https://me.sh/profile/christopher-rueth"
    ],
    "confidence": "high"
   },
@@ -302,7 +304,10 @@
    "sector": "Bio & Health",
    "bio": "Alberta inventor who founded GET Mobility Solutions to develop a powered walker-wheelchair hybrid, and is the named inventor on a motorized-walker patent (US 8,752,658, granted 2014). Current work could not be verified.",
    "previous": [
-    "GET Mobility Solutions"
+    "GET Mobility Solutions",
+    "Kugar Inc. (CEO, 2015–2022)",
+    "Kurek Robotics (founder, 2021)",
+    "MiFood (US business development, from Oct 2022)"
    ],
    "location": null,
    "x": "garykurek",
@@ -311,7 +316,8 @@
    "sources": [
     "https://web.archive.org/web/20120118182134/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2011/05/25/young-entrepreneurs-rule-meet-peter-thiels-first-20-under-20-thiel-fellows",
-    "https://patents.justia.com/inventor/gary-kurek"
+    "https://patents.justia.com/inventor/gary-kurek",
+    "https://village.ai/person/gary-kurek-Mjk5OTM0Mg"
    ],
    "confidence": "high",
    "photo": "assets/people/gary-kurek.jpg"
@@ -352,15 +358,20 @@
    "role": null,
    "sector": "Fintech",
    "bio": "Worked during the fellowship on software for easier peer-to-peer transactions and payments, and was in the first NReduce batch. Current work could not be verified.",
-   "previous": [],
+   "previous": [
+    "Ripple Labs (software developer)"
+   ],
    "location": null,
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/jeffrey-lim-15940a34",
    "website": null,
    "sources": [
     "https://web.archive.org/web/20120118182134/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2011/05/25/young-entrepreneurs-rule-meet-peter-thiels-first-20-under-20-thiel-fellows",
-    "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/",
+    "https://me.sh/profile/jeffrey-lim-c90534d6",
+    "https://alum.mit.edu/slice/are-some-entrepreneurial-students-better-leaving-college",
+    "https://mitadmissions.org/?p=3920"
    ],
    "confidence": "high"
   },
@@ -373,10 +384,13 @@
    "role": null,
    "sector": "Energy & Climate",
    "bio": "Converted a Porsche 924S to electric with a friend, and as a fellow built EV power electronics and a brushless DC motor that uses no rare-earth magnets. Current work could not be verified.",
-   "previous": [],
-   "location": null,
+   "previous": [
+    "Hello (hardware engineer)",
+    "Minium LLC (hardware designer)"
+   ],
+   "location": "Bozeman, MT",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/jim-danielson-51297222",
    "website": null,
    "sources": [
     "https://web.archive.org/web/20120118182134/http://www.thielfellowship.org/fellows/",
@@ -900,7 +914,8 @@
    "sector": "Bio & Health",
    "bio": "Staten Island native who studied math at CUNY and nanomaterials at Georgia Tech, then co-founded Evolutionary Solutions with Kettner Griswold as a fellow to speed up DNA synthesis. Current work could not be verified.",
    "previous": [
-    "Evolutionary Solutions (co-founder)"
+    "Evolutionary Solutions (co-founder)",
+    "Rex Computing (CTO)"
    ],
    "location": null,
    "x": null,
@@ -909,7 +924,8 @@
    "sources": [
     "https://web.archive.org/web/20120711080107/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2012/06/14/nuclear-fusion-3d-printing-biomedical-imaging-what-thiels-new-20-under-20-fellows-are-attacking",
-    "https://venturebeat.com/business/thiel-fellowship-2012"
+    "https://venturebeat.com/business/thiel-fellowship-2012",
+    "https://www.cbinsights.com/company/rex-computing/people"
    ],
    "confidence": "high"
   },
@@ -921,7 +937,7 @@
    "companyUrl": null,
    "role": "Founder & CEO",
    "sector": "Fintech",
-   "bio": "UC Berkeley student and co-founder of Hackers@Berkeley who co-founded Greply, a venture-backed e-commerce and media-sharing startup, as a fellow. Current work could not be verified. He now runs Savvy Wealth, a platform for independent financial advisors.",
+   "bio": "UC Berkeley student and co-founder of Hackers@Berkeley who co-founded Greply, a venture-backed e-commerce and media-sharing startup, as a fellow. He now runs Savvy Wealth, a platform for independent financial advisors.",
    "previous": [
     "Greply (co-founder)",
     "Hackers@Berkeley"
@@ -946,16 +962,18 @@
    "companyUrl": null,
    "role": null,
    "sector": "Software & SaaS",
-   "bio": "Schererville, Indiana fellow and Lean Startup advocate who moved to San Francisco to build simple software and hardware tools. Current work could not be verified.",
+   "bio": "Ryan Lelek describes his work as cybersecurity and DevOps: building, securing and running software from cloud systems to industrial robotics. As a 2012 fellow from Schererville, Indiana, he moved to San Francisco to build simple software and hardware tools.",
    "previous": [],
    "location": null,
    "x": "ryanlelek",
-   "linkedin": null,
-   "website": null,
+   "linkedin": "https://www.linkedin.com/in/ryanlelek",
+   "website": "https://www.ryanlelek.com",
    "sources": [
     "https://web.archive.org/web/20120711080107/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2012/06/14/nuclear-fusion-3d-printing-biomedical-imaging-what-thiels-new-20-under-20-fellows-are-attacking",
-    "https://venturebeat.com/business/thiel-fellowship-2012"
+    "https://venturebeat.com/business/thiel-fellowship-2012",
+    "https://www.ryanlelek.com",
+    "https://github.com/ryanlelek"
    ],
    "confidence": "high",
    "photo": "assets/people/ryan-lelek.jpg"
@@ -964,20 +982,26 @@
    "id": "semon-rezchikov",
    "name": "Semon Rezchikov",
    "class": 2012,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "Institut des Hautes Études Scientifiques (IHES)",
+   "companyUrl": "https://www.ihes.fr",
+   "role": "Junior Professor of Mathematics",
    "sector": "Research",
-   "bio": "Hillsborough, New Jersey fellow who had presented at DEFCON and worked on synthetic biology at MIT; as a fellow he built bioautomation and design tools for synthetic biology. Current work could not be verified.",
-   "previous": [],
-   "location": null,
+   "bio": "Mathematician and Junior Professor at the Institut des Hautes Études Scientifiques (IHES) since 2025, working on Floer homology and symplectic geometry; previously an NSF/Veblen Research Instructor at Princeton and the Institute for Advanced Study after a PhD at Columbia. As a 2012 fellow they built bioautomation and design tools for synthetic biology.",
+   "previous": [
+    "Princeton University / Institute for Advanced Study (NSF/Veblen Research Instructor)",
+    "Harvard University (postdoc)",
+    "Columbia University (PhD, mathematics, 2021)"
+   ],
+   "location": "Bures-sur-Yvette, France",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20120711080107/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2012/06/14/nuclear-fusion-3d-printing-biomedical-imaging-what-thiels-new-20-under-20-fellows-are-attacking",
-    "https://venturebeat.com/business/thiel-fellowship-2012"
+    "https://venturebeat.com/business/thiel-fellowship-2012",
+    "https://www.ihes.fr/?p=46117",
+    "https://www.ias.edu/scholars/semon-kirillovich-rezchikov"
    ],
    "confidence": "high"
   },
@@ -989,7 +1013,7 @@
    "companyUrl": null,
    "role": "Founder & CEO",
    "sector": "Hardware & Deep Tech",
-   "bio": "Inventor who, as a fellow, built No-Q, a system combining RFID and mobile payment to remove checkout lines and deter shoplifting. Current work could not be verified. He now runs RADAR, which uses RFID and computer vision to track retail inventory.",
+   "bio": "Inventor who, as a fellow, built No-Q, a system combining RFID and mobile payment to remove checkout lines and deter shoplifting. He now runs RADAR, which uses RFID and computer vision to track retail inventory.",
    "previous": [
     "No-Q"
    ],
@@ -1010,12 +1034,15 @@
    "id": "tara-seshan",
    "name": "Tara Seshan",
    "class": 2012,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Bio & Health",
-   "bio": "New Fairfield, Connecticut fellow who had researched health systems in Southeast Asia; she worked on data-analysis and decision tools for public health in low-resource settings. Current work could not be verified.",
-   "previous": [],
+   "company": "OpenAI",
+   "companyUrl": "https://openai.com",
+   "role": "Product Lead, Codex and ChatGPT Work",
+   "sector": "AI",
+   "bio": "Product lead for Codex and ChatGPT Work at OpenAI. Tara Seshan was previously head of product at Watershed, a climate-accounting startup, and spent about seven years at Stripe as one of its first product managers and a business lead; as a 2012 fellow she founded a health-care startup.",
+   "previous": [
+    "Watershed (Head of Product)",
+    "Stripe (early product manager and business lead; Stripe Billing and Treasury)"
+   ],
    "location": null,
    "x": null,
    "linkedin": "https://www.linkedin.com/in/tarstarr",
@@ -1023,7 +1050,12 @@
    "sources": [
     "https://web.archive.org/web/20120711080107/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2012/06/14/nuclear-fusion-3d-printing-biomedical-imaging-what-thiels-new-20-under-20-fellows-are-attacking",
-    "https://venturebeat.com/business/thiel-fellowship-2012"
+    "https://venturebeat.com/business/thiel-fellowship-2012",
+    "https://www.lennysnewsletter.com/p/meet-your-lennys-newsletter-fellows",
+    "https://bulletpointpodcast.com/lennyspodcast/ai-s-third-era-the-rise-of-persistent-ai-coworkers-tara-seshan-open-ai-s-product-lead/",
+    "https://open.spotify.com/episode/5vOt9MsvaQDIgpzN6tQMju",
+    "https://www.teahose.com/people/4386",
+    "https://www.quora.com/profile/Tara-Seshan"
    ],
    "confidence": "high"
   },
@@ -1031,11 +1063,11 @@
    "id": "taylor-wilson",
    "name": "Taylor Wilson",
    "class": 2012,
-   "company": null,
+   "company": "Prometheus Industries",
    "companyUrl": null,
-   "role": null,
+   "role": "Founder",
    "sector": "Energy & Climate",
-   "bio": "Built a nuclear fusion reactor as a teenager and, as a fellow, worked on detecting enriched uranium for counterterrorism and on producing medical isotopes. Wikipedia describes him as a Reno-based nuclear physicist working on nuclear medicine and modular reactor designs; no current company was found.",
+   "bio": "Nuclear physicist based in Reno, Nevada and founder of the nuclear technology company Prometheus Industries; since 2025 he co-hosts the science podcast Giant Leap with Taylor Wilson. As a 2012 fellow he worked on detecting enriched uranium for counterterrorism and on producing medical isotopes, having built a nuclear fusion reactor as a teenager.",
    "previous": [],
    "location": "Reno, NV",
    "x": null,
@@ -1045,7 +1077,9 @@
     "https://web.archive.org/web/20120711080107/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2012/06/14/nuclear-fusion-3d-printing-biomedical-imaging-what-thiels-new-20-under-20-fellows-are-attacking",
     "https://venturebeat.com/business/thiel-fellowship-2012",
-    "https://en.wikipedia.org/wiki/Taylor_Wilson"
+    "https://en.wikipedia.org/wiki/Taylor_Wilson",
+    "https://knpr.org/show/knprs-state-of-nevada/2025-06-12/nevadas-taylor-wilson-fused-atoms-at-14-now-he-has-a-podcast",
+    "https://shows.acast.com/giantleap/episodes/682bad2dee813e8be21f2f63"
    ],
    "confidence": "high"
   },
@@ -1074,24 +1108,31 @@
    "id": "yoonseo-kang",
    "name": "Yoonseo Kang",
    "class": 2012,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Hardware & Deep Tech",
-   "bio": "Mississauga, Ontario open-source hardware developer who worked with Open Source Ecology on the Global Village Construction Set, and later with Open Tech Forever in Denver. Current work could not be verified.",
+   "company": "Guidebolt",
+   "companyUrl": "https://guidebolt.com",
+   "role": "Founder & CEO",
+   "sector": "AI",
+   "bio": "Founder and CEO of Guidebolt, a Mississauga, Ontario company building a guided decision-making and information tool for professionals on its own non-LLM AI model. Earlier they were Director of IT and CTO at Payfare, and as a 2012 fellow worked on open-source machines with Open Source Ecology.",
    "previous": [
     "Open Source Ecology",
-    "Open Tech Forever"
+    "Open Tech Forever",
+    "Payfare (Director of IT and CTO)",
+    "AKER Kits"
    ],
-   "location": null,
+   "location": "Mississauga, ON, Canada",
    "x": "YoonseoKang",
    "linkedin": "https://www.linkedin.com/in/yoonseokang",
-   "website": null,
+   "website": "https://yoonseo.ca",
    "sources": [
     "https://web.archive.org/web/20120711080107/http://www.thielfellowship.org/fellows/",
     "https://techcrunch.com/2012/06/14/nuclear-fusion-3d-printing-biomedical-imaging-what-thiels-new-20-under-20-fellows-are-attacking",
     "https://venturebeat.com/business/thiel-fellowship-2012",
-    "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/",
+    "https://yoonseo.ca/",
+    "https://github.com/openyk",
+    "https://guidebolt.com",
+    "https://me.sh/profile/yoonseo-kang",
+    "https://makezine.com/article/maker-news/young-maker-nabs-thiel-fellowship/"
    ],
    "confidence": "high",
    "photo": "assets/people/yoonseo-kang.jpg"
@@ -1201,8 +1242,10 @@
    "companyUrl": null,
    "role": null,
    "sector": "Consumer",
-   "bio": "Darren Lim, from Singapore, was a 19-year-old 2013 fellow who became interested in scientific innovation while studying in China. During the fellowship he worked on a startup to improve how people interact with consumer technology and gadgets. Current work could not be verified.",
-   "previous": [],
+   "bio": "Darren Lim, from Singapore, co-founded Ractiv with Lai Xue in 2013 to build Haptix (later sold as Touch+), a sensor that turns any flat surface such as a keyboard or desk into a multitouch input; the pair met while Lim was studying in China. Current work could not be verified.",
+   "previous": [
+    "Ractiv (co-founder; Haptix / Touch+ multitouch sensor)"
+   ],
    "location": null,
    "x": null,
    "linkedin": null,
@@ -1211,7 +1254,11 @@
     "https://web.archive.org/web/20131004140043/http://www.thielfellowship.org/profile/darrenlim/",
     "https://web.archive.org/web/20130702121810/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
-    "https://web.archive.org/web/20131004140043/http://www.establishmentpost.com/singapores-zuckerberg-in-the-making/"
+    "https://web.archive.org/web/20131004140043/http://www.establishmentpost.com/singapores-zuckerberg-in-the-making/",
+    "https://makezine.com/article/maker-news/pitches-with-prototypes-haptix",
+    "https://github.com/Ractiv",
+    "https://www.thecompanycheck.com/company/b/ractiv/a0fb3209062c4887a",
+    "https://www.engadget.com/tag/ractiv"
    ],
    "confidence": "high"
   },
@@ -1247,13 +1294,15 @@
    "id": "diwank-singh-tomer",
    "name": "Diwank Singh Tomer",
    "class": 2013,
-   "company": "Julep AI",
-   "companyUrl": "https://julep.ai",
-   "role": null,
+   "company": "Memory Store",
+   "companyUrl": "https://mem.store",
+   "role": "Founder & CEO",
    "sector": "AI",
-   "bio": "Diwank Singh Tomer left college in India and moved to the Bay Area as a 2013 fellow to build a collaborative learn-to-code platform; he had earlier received a Mozilla WebFWD fellowship. He later studied physics and philosophy at Columbia. He now works on AI agents and cognitive architectures at Julep AI, whose julep.ai domain now redirects to memory.store.",
-   "previous": [],
-   "location": null,
+   "bio": "Founder and CEO of Memory Store (MemStore, YC Spring 2026), a shared memory layer that lets a team's AI agents record and recall decisions and context across sessions. The same team earlier built Julep, an open-source agent orchestration platform; as a 2013 fellow Diwank built a collaborative learn-to-code platform.",
+   "previous": [
+    "Julep AI (founder)"
+   ],
+   "location": "San Francisco, CA",
    "x": "diwanksingh",
    "linkedin": "https://linkedin.com/in/diwank-tomer",
    "website": "http://diwank.space",
@@ -1261,7 +1310,10 @@
     "https://web.archive.org/web/20130702121810/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20140101224756/http://www.thielfellowship.org/fellows/",
     "http://diwank.space",
-    "https://github.com/creatorrr"
+    "https://github.com/creatorrr",
+    "https://www.ycombinator.com/companies/memory-store",
+    "https://www.ycombinator.com/launches/QPs-memory-store-your-company-s-brain",
+    "https://mem.store/"
    ],
    "confidence": "high",
    "photo": "assets/people/diwank-singh-tomer.jpg"
@@ -1290,23 +1342,31 @@
    "id": "james-schuler",
    "name": "James Schuler",
    "class": 2013,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Other",
-   "bio": "James Schuler, from Armonk, NY, co-founded the health-insurance software company Eligible in high school and went through Y Combinator with it. He left Eligible and, as a 2013 fellow, worked on FundElevator, a crowdfunding platform for political campaigns and nonprofits. Current work could not be verified.",
+   "company": "Kafene",
+   "companyUrl": "https://kafene.com",
+   "role": "Co-founder & CTO",
+   "sector": "Fintech",
+   "bio": "Co-founder and CTO of Kafene, a New York fintech he started with Neal Desai in 2019 that offers lease-to-own financing at the point of sale for shoppers with little or no credit. Before the fellowship he went through Y Combinator in high school with Eligible; as a 2013 fellow he co-founded FundElevator, a crowdfunding platform for political campaigns and nonprofits.",
    "previous": [
     "Eligible (co-founder)",
-    "FundElevator"
+    "FundElevator (co-founder & CTO)",
+    "Eligible (CTO)"
    ],
-   "location": null,
+   "location": "New York, NY",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20131004152037/http://www.thielfellowship.org/profile/jamesschuler/",
     "https://web.archive.org/web/20130702121810/http://www.thielfellowship.org/fellows/",
-    "https://www.crowdfundinsider.com/2013/05/15949-teen-wins-fellowship-to-build-site-skip-college/"
+    "https://www.crowdfundinsider.com/2013/05/15949-teen-wins-fellowship-to-build-site-skip-college/",
+    "https://kafene.com/about-kafene",
+    "https://techcrunch.com/2021/06/08/kafene-raises-14m-to-offer-buy-now-pay-later-to-the-subprime-consumer",
+    "https://muraena.ai/profile/james_schuler_5f1ece0c",
+    "https://crunchbase.com/person/james-schuler",
+    "https://newmedia.ufm.edu/?p=13774",
+    "https://www.crowdfundinsider.com/2013/05/16184-thiel-fellow-james-schuler-plans-crowdfunding-platform/",
+    "https://techcrunch.com/2022/09/13/lease-to-own-fintech-startup-kafene-raises-18m-to-battle-bnpl"
    ],
    "confidence": "high"
   },
@@ -1412,14 +1472,20 @@
    "role": null,
    "sector": "Hardware & Deep Tech",
    "bio": "Nelson Zhang, from Toronto, designed and sold hardware products in high school and college. As a 2013 fellow he worked on a desktop fabricator for electronics, meant to lower prototyping time and cost for hardware companies. Current work could not be verified.",
-   "previous": [],
+   "previous": [
+    "Wearhaus (co-founder & CTO)",
+    "Leap Motion",
+    "XinCheJian Hackerspace, Shanghai"
+   ],
    "location": null,
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/nelson-zhang-12831a37",
    "website": null,
    "sources": [
     "https://web.archive.org/web/20130702121810/http://www.thielfellowship.org/fellows/",
-    "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/"
+    "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
+    "https://me.sh/profile/nelson-zhang",
+    "https://github.com/nelsonz"
    ],
    "confidence": "high"
   },
@@ -1556,15 +1622,19 @@
    "role": null,
    "sector": "Consumer",
    "bio": "William LeGate, from Marietta, GA, taught himself to program at 14 and built more than a dozen mobile apps with over 5 million downloads. As a 2013 fellow he worked on location-based app discovery. Current work could not be verified.",
-   "previous": [],
+   "previous": [
+    "Imagination Research Labs (founder, iOS app studio)"
+   ],
    "location": null,
-   "x": null,
+   "x": "williamlegate",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20131012060553/http://www.thielfellowship.org/profile/williamlegate/",
     "https://web.archive.org/web/20130702121810/http://www.thielfellowship.org/fellows/",
-    "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/"
+    "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
+    "https://tedxteen.com/speakers/william-legate",
+    "https://rosetta.to/person/william-legate/2023"
    ],
    "confidence": "high"
   },
@@ -1599,17 +1669,24 @@
    "companyUrl": null,
    "role": null,
    "sector": "Software & SaaS",
-   "bio": "Zach Hamed, from New York, left Harvard's computer science program as a junior for the 2013 class. He first worked on well-designed tools for K-12 teachers, then shifted to user-experience design for enterprise software. Current work could not be verified.",
-   "previous": [],
+   "bio": "Co-founded Clay (now Mesh), a personal relationship-management app, with Matthew Achariam and was its co-CEO; Automattic acquired it in June 2025. Before Clay, Hamed led product management for Goldman Sachs' Marquee platform; as a 2013 fellow Hamed worked on tools for K-12 teachers.",
+   "previous": [
+    "Goldman Sachs (led product management for the Marquee web platform)"
+   ],
    "location": null,
    "x": "zmh",
    "linkedin": null,
-   "website": "http://zhamed.com",
+   "website": "https://zmh.org",
    "sources": [
     "https://web.archive.org/web/20130702121810/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20150404064446/http://www.thielfellowship.org/author/zachhamed/",
     "https://web.archive.org/web/20130618014702/http://bostinno.streetwise.co/2013/05/09/2013-thiel-fellowship-winners/",
-    "https://web.archive.org/web/20131016110006/http://betabeat.com/2013/05/peter-thiel-fellowship-fellows-foundation-2013/"
+    "https://web.archive.org/web/20131016110006/http://betabeat.com/2013/05/peter-thiel-fellowship-fellows-foundation-2013/",
+    "https://techcrunch.com/2021/08/30/clay-debuts-a-new-tool-to-help-people-better-manage-their-business-and-personal-relationships/",
+    "https://me.sh/about",
+    "https://me.sh",
+    "https://github.com/zmh",
+    "https://github.com/mesh"
    ],
    "confidence": "high",
    "photo": "assets/people/zach-hamed.jpg"
@@ -1623,15 +1700,19 @@
    "role": null,
    "sector": "Bio & Health",
    "bio": "Adam Munich, a 20-year-old inventor from Buffalo, NY, was chosen for the 2014 class to develop portable radiography technology. Current work could not be verified.",
-   "previous": [],
+   "previous": [
+    "Leap Motion (electrical engineer)"
+   ],
    "location": null,
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/adam-munich-b9a7aa65",
    "website": null,
    "sources": [
     "https://web.archive.org/web/20140718132419/http://www.thielfellowship.org/profile/adammunich/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
-    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235"
+    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
+    "https://me.sh/profile/adam-munich",
+    "https://handwiki.org/wiki/Biography:Adam_Munich"
    ],
    "confidence": "high"
   },
@@ -1639,20 +1720,23 @@
    "id": "adithya-ganesh",
    "name": "Adithya Ganesh",
    "class": 2014,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Bio & Health",
-   "bio": "Adithya Ganesh, from Plano, TX, took leave from Stanford at 17 for the 2014 class. He co-invented IntentSense, a smart bionic glove for partial hand amputees, and worked on machine learning for personalized bionics and health care. Current work could not be verified.",
-   "previous": [],
+   "company": "OpenAI",
+   "companyUrl": "https://openai.com",
+   "role": "Researcher",
+   "sector": "AI",
+   "bio": "Researcher at OpenAI working on training large neural networks. As a 2014 fellow on leave from Stanford, Ganesh co-invented IntentSense, a bionic glove for partial hand amputees, and in 2018 co-founded the AI magazine The Gradient.",
+   "previous": [
+    "The Gradient (co-founder and editor)"
+   ],
    "location": null,
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/adithyaganesh",
    "website": null,
    "sources": [
     "https://web.archive.org/web/20140718151700/http://www.thielfellowship.org/profile/adithyaganesh/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
-    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235"
+    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
+    "https://www.linkedin.com/in/adithyaganesh"
    ],
    "confidence": "high"
   },
@@ -1666,7 +1750,8 @@
    "sector": "Software & SaaS",
    "bio": "Alex Koren, from Bergen County, NJ, left college for the 2014 class to co-found Hyv. Hyv began as crowd-sourced supercomputing on phones and moved toward ad-free monetization tools for mobile apps. Current work could not be verified.",
    "previous": [
-    "Hyv (co-founder)"
+    "Hyv (co-founder)",
+    "Johns Hopkins University (left after sophomore year)"
    ],
    "location": null,
    "x": null,
@@ -1676,7 +1761,9 @@
     "https://web.archive.org/web/20140718055546/http://www.thielfellowship.org/profile/alexkoren/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
-    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235"
+    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
+    "https://techcrunch.com/2014/02/21/meet-hyv-a-startup-that-cant-wait-for-phone-unlocking-to-be-made-legal/",
+    "https://catalyst.jhu.edu/2015/06/01/qa-with-alex-koren-on-his-recent-pilgrimage-to-silicon-valley"
    ],
    "confidence": "high"
   },
@@ -1726,7 +1813,8 @@
     "https://web.archive.org/web/20140718060144/http://www.thielfellowship.org/profile/benjaminenglard/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
     "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
-    "https://theory.engin.umich.edu/stories/benjamin-englard-awarded-thiel-fellowship"
+    "https://theory.engin.umich.edu/stories/benjamin-englard-awarded-thiel-fellowship",
+    "https://github.com/benglard"
    ],
    "confidence": "high"
   },
@@ -1791,17 +1879,20 @@
    "companyUrl": null,
    "role": null,
    "sector": "Research",
-   "bio": "Eliana Lorch, from San Francisco, left home at 17 for the 2014 class to work on mathematics and neural networks, including deep learning for computer vision and speech recognition. Current work could not be verified.",
+   "bio": "Eliana Lorch, from San Francisco, left home at 17 for the 2014 class to work on mathematics and neural networks. As a fellow they presented a method for visualizing deep network training trajectories with PCA at the ICML 2016 visualization workshop, and later co-authored Self-Taught Optimizer (STOP), a paper on recursively self-improving code generation published at COLM 2024. Current work could not be verified.",
    "previous": [],
    "location": null,
-   "x": null,
+   "x": "elianalorch",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://web.archive.org/web/20140718071852/http://www.thielfellowship.org/profile/elianalorch/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
-    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235"
+    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
+    "https://thestrangeloop.com/2016/visualize-deep-learning.html",
+    "https://icmlviz.github.io/icmlviz2016/assets/papers/24.pdf",
+    "https://arxiv.org/abs/2310.02304"
    ],
    "confidence": "high"
   },
@@ -1913,21 +2004,29 @@
    "id": "kaushik-tiwari",
    "name": "Kaushik Tiwari",
    "class": 2014,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Bio & Health",
-   "bio": "Kaushik Tiwari, from New Delhi, joined the 2014 class at 19 to build health IT that makes the provider-patient-payer relationship more transparent and supports population health management. Current work could not be verified.",
-   "previous": [],
-   "location": null,
-   "x": null,
+   "company": "Attack Capital",
+   "companyUrl": "https://attack.capital",
+   "role": "Co-founder & CEO",
+   "sector": "AI",
+   "bio": "Co-founder and CEO of Attack Capital, a New York AI venture studio (YC W22) that builds AI software companies and gives investors access to recent YC startups. As a 2014 fellow they worked on health IT for population health management; their YC profile lists earlier work at GlucoIQ and Truedime.",
+   "previous": [
+    "GlucoIQ",
+    "Truedime"
+   ],
+   "location": "New York, NY",
+   "x": "kaushikktiwari",
    "linkedin": "https://www.linkedin.com/in/kaushikktiwari",
    "website": null,
    "sources": [
     "https://web.archive.org/web/20140718161231/http://www.thielfellowship.org/profile/kaushiktiwari/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
-    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235"
+    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
+    "https://attack.capital/about",
+    "https://attack.capital/",
+    "https://www.ycombinator.com/companies/attack-capital",
+    "https://www.ycombinator.com/founders/4508-kaushik-tiwari",
+    "https://www.stackforce.co/talent/kaushik-tiwari-founder-691b9fc869244d45dd257cd0"
    ],
    "confidence": "high"
   },
@@ -1994,8 +2093,11 @@
    "companyUrl": null,
    "role": null,
    "sector": "Software & SaaS",
-   "bio": "Martin Stoyanov, from Novi Pazar, Bulgaria, joined the 2014 class at 17 to build mobile email software with a redesigned inbox interface for faster triage. Current work could not be verified.",
-   "previous": [],
+   "bio": "Martin Stoyanov, from Novi Pazar, Bulgaria, founded Emailio, an email client built around healthy email habits, after leaving high school in 2013, and was 16 when it entered Y Combinator's Winter 2014 batch. They joined the 2014 class at 17 to keep building it. Current work could not be verified.",
+   "previous": [
+    "Emailio (founder, YC W14)",
+    "Filtr (email-sorting app, 2016)"
+   ],
    "location": null,
    "x": null,
    "linkedin": null,
@@ -2004,7 +2106,13 @@
     "https://web.archive.org/web/20140718151655/http://www.thielfellowship.org/profile/martinstoyanov/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
-    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235"
+    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
+    "https://www.ycombinator.com/companies/emailio",
+    "https://www.ycombinator.com/founders/1072-martin-stoyanov",
+    "https://f2f.substack.com/p/startup-spotlight-31-emailio",
+    "https://www.trendingtopics.eu/the-story-of-martin-stoyanov-a-y-combinator-participant-with-a-mission-to-disrupt-the-way-we-use-email/",
+    "https://old-news.bnr.bg/en/post/100275756/17-year-old-martin-stoyanov-on-the-american-dream-and-his-formula-for-success",
+    "https://www.producthunt.com/@martin_dimov"
    ],
    "confidence": "high"
   },
@@ -2012,13 +2120,15 @@
    "id": "rebecca-jolitz",
    "name": "Rebecca Jolitz",
    "class": 2014,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Space & Defense",
-   "bio": "Rebecca Jolitz, from Los Gatos, CA, held physics and mathematics degrees from UC Berkeley and joined the 2014 class at 19 to speed up the satellite development cycle. Current work could not be verified.",
-   "previous": [],
-   "location": null,
+   "company": "UC Berkeley Space Sciences Laboratory",
+   "companyUrl": "https://www.ssl.berkeley.edu",
+   "role": "Postdoctoral Researcher",
+   "sector": "Research",
+   "bio": "Postdoctoral researcher at UC Berkeley's Space Sciences Laboratory and a member of the science team for NASA's MAVEN Mars mission, studying space weather at Mars; earned a PhD in physics from the University of Colorado Boulder in 2022. As a 2014 fellow they worked on speeding up the satellite development cycle.",
+   "previous": [
+    "University of Colorado Boulder (PhD in Physics, 2022)"
+   ],
+   "location": "Berkeley, CA",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/rebecca-jolitz-9b84b112",
    "website": null,
@@ -2026,7 +2136,13 @@
     "https://web.archive.org/web/20140718043108/http://www.thielfellowship.org/profile/rebeccajolitz/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
-    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235"
+    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
+    "https://www.ssl.berkeley.edu/full-directory/name/rebecca-jolitz",
+    "https://scholar.colorado.edu/concern/graduate_thesis_or_dissertations/nk322f44h",
+    "https://vivo.colorado.edu/display/pubid_389735",
+    "https://rosetta.to/u/wired/meet-rebecca-jolitz-the-19-year-old-thiel-fellow-who-wants-to-disrupt-the-satell",
+    "https://github.com/rjolitz",
+    "https://sprg.ssl.berkeley.edu/~rlillis/Robert_Lillis_CV_February_2024.pdf"
    ],
    "confidence": "high"
   },
@@ -2039,7 +2155,10 @@
    "role": null,
    "sector": "Hardware & Deep Tech",
    "bio": "Shantanu Bala, from Phoenix, AZ, joined the 2014 class at 19 to build a haptic system that turns live video and audio, such as facial expressions and sound cues, into vibrations on the skin. Current work could not be verified.",
-   "previous": [],
+   "previous": [
+    "Somatic Labs (co-founder & CEO)",
+    "Arizona State University CUbiC lab (researcher)"
+   ],
    "location": null,
    "x": null,
    "linkedin": null,
@@ -2048,7 +2167,11 @@
     "https://web.archive.org/web/20140718061537/http://www.thielfellowship.org/profile/shantanubala/",
     "https://web.archive.org/web/20140810232220/http://www.thielfellowship.org/fellows/",
     "https://web.archive.org/web/20150317041622/http://www.thielfellowship.org/the-fellows/meet-the-fellows/",
-    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235"
+    "https://bitcoinmagazine.com/articles/bitcoin-magazine-congratulates-team-member-vitalik-buterin-1406761235",
+    "https://crunchbase.com/person/shantanu-bala",
+    "https://spectrum.ieee.org/haptics-startup-wins-alphalab-gear-hardware-cup-finals",
+    "https://startlandnews.com/2017/09/techstars-spotlight-somatic-labs-tech-sees-freedom-from-distraction-through-touch/",
+    "https://news.asu.edu/content/asu-student-develops-sensing-technology-visually-hearing-impaired"
    ],
    "confidence": "high"
   },
@@ -2113,7 +2236,8 @@
    "bio": "Named a 2015 Thiel Fellow (Sacramento, CA) as co-founder of Nomva, an organic probiotic fruit-and-vegetable snack company; she was also a founding member and VP of Special Projects at Suja Juice.",
    "previous": [
     "Nomva",
-    "Suja Juice"
+    "Suja Juice",
+    "Nouri (founder)"
    ],
    "location": null,
    "x": null,
@@ -2121,7 +2245,10 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://simplybuckhead.com/probiotic-prodigy/",
+    "https://www.foodnavigator-usa.com/Article/2015/09/29/Ex-Suja-Juice-exec-bets-big-on-fruit-pouches-with-nomva",
+    "https://www.nosh.com/news/2016/nomva-raises-3-million-for-noms-on-the-go"
    ],
    "confidence": "high"
   },
@@ -2157,21 +2284,29 @@
    "id": "george-matus",
    "name": "George Matus",
    "class": 2015,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Hardware & Deep Tech",
-   "bio": "Named a 2015 Thiel Fellow at 17 (Salt Lake City, UT) as CEO of iDrone, building high-performance UAVs for consumer and commercial markets.",
+   "company": "Vector",
+   "companyUrl": "https://www.tfvector.com",
+   "role": "Co-founder & CTO",
+   "sector": "Space & Defense",
+   "bio": "Co-founder and CTO of Vector (Vector Defense), a Bluffdale, Utah company that mass-produces low-cost, expendable drones for defense customers. As a 2015 fellow they founded Teal Drones, which Red Cat Holdings acquired in 2021; they stayed on as CTO until December 2024.",
    "previous": [
-    "iDrone"
+    "iDrone",
+    "Teal Drones (founder & CEO)",
+    "Red Cat Holdings (CTO, 2023-2024)"
    ],
-   "location": null,
+   "location": "Bluffdale, UT",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/george-matus-jr",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://dronelife.com/2025/08/06/teal-drones-founder-faces-lawsuit-from-former-company-over-trade-secret-dispute/",
+    "https://www.sltrib.com/news/2026/05/15/george-matus-helped-build-utahs/",
+    "https://theorg.com/org/vector/org-chart/george-matus",
+    "https://www.utahbusiness.com/industry/2026/11/02/pentagon-selects-bluffdale-based-vector-for-up-to-5000-drones/",
+    "https://www.ksl.com/article/51625784/inside-the-utah-companies-at-the-forefront-of-drone-warfare-tech",
+    "https://fortune.com/2016/07/20/this-teenage-entrepreneur-raised-2-8-million-for-his-drone-startup-in-between-high-school-classes/"
    ],
    "confidence": "high"
   },
@@ -2179,21 +2314,29 @@
    "id": "harry-gandhi",
    "name": "Harry Gandhi",
    "class": 2015,
-   "company": null,
-   "companyUrl": null,
+   "company": "Lumen Labs",
+   "companyUrl": "https://lumenresearch.co",
    "role": null,
-   "sector": "Bio & Health",
-   "bio": "Named a 2015 Thiel Fellow (Waterloo, Ontario) as co-founder and CEO of Medella Health, which was building a smart contact lens for non-invasive health monitoring, starting with diabetes.",
+   "sector": "AI",
+   "bio": "Works on embodied cognition at Lumen Labs, a research group building physical intelligence modeled on natural systems such as swarms, fungal networks and slime molds, and helps independent researchers and deep-tech founders through 1517 Fund. As a 2015 fellow they co-founded Medella Health, which was building a smart contact lens for non-invasive health monitoring.",
    "previous": [
-    "Medella Health"
+    "Medella Health",
+    "1517 Fund (joined team, 2023)",
+    "Amplify Capital (2022)"
    ],
-   "location": null,
-   "x": null,
-   "linkedin": null,
-   "website": null,
+   "location": "San Francisco Bay Area",
+   "x": "TheHarryGandhi",
+   "linkedin": "https://www.linkedin.com/in/harrygandhi/",
+   "website": "https://harrygandhi.com",
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://harrygandhi.com",
+    "https://raw.githubusercontent.com/harrygandhi/personalwebsite/main/index.html",
+    "https://raw.githubusercontent.com/harrygandhi/personalwebsite/main/h3ll0.html",
+    "https://www.linkedin.com/in/harrygandhi/",
+    "https://lumenresearch.co",
+    "https://substack.com/@theharrygandhi"
    ],
    "confidence": "high"
   },
@@ -2205,7 +2348,7 @@
    "companyUrl": null,
    "role": null,
    "sector": "Consumer",
-   "bio": "Named a 2015 Thiel Fellow at 17 (Armonk, NY) as co-founder and CEO of HomeSwipe, an apartment-rental search app.",
+   "bio": "Named a 2015 Thiel Fellow at 17 (Armonk, NY) for HomeSwipe, an apartment-rental search app Marmon co-founded; a 2015 Inman profile lists Marmon as its CTO.",
    "previous": [
     "HomeSwipe"
    ],
@@ -2215,7 +2358,8 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://www.inman.com/2015/06/05/high-school-dropout-betting-on-his-real-estate-swipe-startup/"
    ],
    "confidence": "high"
   },
@@ -2262,7 +2406,8 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://www.wamda.com/en/2015/06/college-jihad-kawas-thiel-saily"
    ],
    "confidence": "high"
   },
@@ -2274,17 +2419,22 @@
    "companyUrl": null,
    "role": null,
    "sector": "Fintech",
-   "bio": "Named a 2015 Thiel Fellow (Great Falls, VA) as co-founder and CEO of BlockScore, identity-verification software for fraud prevention and compliance.",
+   "bio": "Co-founded the identity-verification company BlockScore (later Cognito) in 2014 and was its CTO; Plaid acquired Cognito in 2022. Current work could not be verified.",
    "previous": [
-    "BlockScore"
+    "BlockScore",
+    "Cognito (co-founder & CTO; acquired by Plaid, 2022)"
    ],
-   "location": null,
-   "x": null,
+   "location": "San Francisco, CA",
+   "x": "backus",
    "linkedin": "https://www.linkedin.com/in/john-backus-96bb8862",
-   "website": null,
+   "website": "http://johnback.us/",
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "http://johnback.us/",
+    "https://github.com/backus",
+    "https://www.ycombinator.com/companies/cognito",
+    "https://techcrunch.com/2022/01/20/plaid-buys-cognito-to-bolster-its-feature-set-as-it-moves-beyond-simply-connecting-accounts"
    ],
    "confidence": "high"
   },
@@ -2298,7 +2448,10 @@
    "sector": "Consumer",
    "bio": "Dropped out of NYU and was named a 2015 Thiel Fellow (New York, NY) as founder of Fresco News, which built newsroom tools for sourcing footage from smartphone users at breaking-news scenes.",
    "previous": [
-    "Fresco News"
+    "Fresco News",
+    "Ghost Financial (founder & CEO, 2021-2022+; fintech for ghost-kitchen operators)",
+    "Homebound (co-founder with Jack Abraham; later advisor)",
+    "Keto Kitchen (ghost kitchen, Austin, TX, 2021)"
    ],
    "location": null,
    "x": null,
@@ -2306,7 +2459,11 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://techcrunch.com/2022/04/05/ghost-financial-whips-up-new-capital-into-finance-tools-for-ghost-kitchens",
+    "https://www.restaurantdive.com/news/ghost-financial-ghost-kitchen-ghostu-education-program/625100/",
+    "https://app.qwoted.com/sources/john-meyer-b0e2fb7d-9c48-437c-89c8-3f2775d8275b",
+    "https://techcrunch.com/2015/06/05/fresco-news-aims-to-build-a-crowdsourced-network-for-breaking-news"
    ],
    "confidence": "high"
   },
@@ -2314,21 +2471,28 @@
    "id": "kieran-o-reilly",
    "name": "Kieran O'Reilly",
    "class": 2015,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Consumer",
-   "bio": "Named a 2015 Thiel Fellow (Elmont, NY) with his brother Rory after both left Harvard to build GIFTY (formerly Gifyoutube), an animated-GIF creation company.",
+   "company": "Knot",
+   "companyUrl": "https://www.knotapi.com",
+   "role": "Co-founder & CTO",
+   "sector": "Fintech",
+   "bio": "Co-founder and CTO of Knot, a New York startup (founded 2019 with brother Rory O'Reilly, CEO) whose API lets banks and fintechs connect customers' cards and accounts with merchants; it raised a $10M Series A led by Nava Ventures in 2023. As a 2015 fellow they left Harvard with Rory to build GIFTY (later gifs.com), where Kieran was co-founder and CTO.",
    "previous": [
-    "GIFTY (formerly Gifyoutube)"
+    "GIFTY (formerly Gifyoutube)",
+    "gifs.com (co-founder & CTO)"
    ],
-   "location": null,
+   "location": "New York, NY",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/kieran-o-reilly-4ba95650",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://github.com/kieranoreilly",
+    "https://github.com/gifs",
+    "https://www.knotapi.com/about",
+    "https://www.knotapi.com/",
+    "https://alleywatch.com/2023/08/the-alleywatch-startup-daily-funding-report-8-3-2023/",
+    "https://www.axios.com/pro/fintech-deals/2023/08/03/knot-amex-plaid-funding"
    ],
    "confidence": "high"
   },
@@ -2336,21 +2500,35 @@
    "id": "liam-horne",
    "name": "Liam Horne",
    "class": 2015,
-   "company": null,
-   "companyUrl": null,
+   "company": "Tempo",
+   "companyUrl": "https://tempo.xyz",
    "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Named a 2015 Thiel Fellow (Cambridge, Ontario) as CTO of PiinPoint, location-analytics software that helps retailers choose new sites.",
+   "sector": "Crypto",
+   "bio": "Works on Tempo, the payments-focused layer-1 blockchain for stablecoins incubated by Stripe and Paradigm. Earlier Horne introduced generalized state channels, was CEO of OP Labs (Optimism) before moving to an advisory role, and co-founded ETHGlobal and the Hack the North hackathon; as a 2015 fellow Horne was CTO of PiinPoint, location-analytics software for retailers.",
    "previous": [
-    "PiinPoint"
+    "PiinPoint",
+    "Optimism",
+    "Hack the North (co-founder)",
+    "State channels / Web3Torrent work on Ethereum",
+    "OP Labs / Optimism (CEO, later advisor)",
+    "L4 (state channels)",
+    "ETHGlobal (co-founder)"
    ],
-   "location": null,
-   "x": null,
+   "location": "Canada",
+   "x": "liamihorne",
    "linkedin": "https://www.linkedin.com/in/liamhorne",
-   "website": null,
+   "website": "https://liamhorne.com",
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://liamhorne.com/",
+    "https://github.com/snario",
+    "https://ca.linkedin.com/in/liamhorne",
+    "https://tempo.xyz",
+    "https://liamhorne.com/projects",
+    "https://app.coinpedia.org/liamhorne/",
+    "https://theorg.com/org/ethglobal/org-chart/liam-horne",
+    "https://tempo.xyz/launch"
    ],
    "confidence": "high"
   },
@@ -2362,17 +2540,24 @@
    "companyUrl": null,
    "role": null,
    "sector": "Software & SaaS",
-   "bio": "Named a 2015 Thiel Fellow (Bryn Mawr, PA) as founder and president of Fleet, a freight-shipping platform for small and mid-sized shippers.",
+   "bio": "Founded Fleet (Fleet Logistics), a Portland-based digital freight forwarder, at 18 and ran it as CEO and president. Current work could not be verified.",
    "previous": [
-    "Fleet"
+    "Fleet",
+    "Fleet Logistics (founder & CEO, 2014-2020)",
+    "Schoolboy Ice Cream (founder)"
    ],
-   "location": null,
+   "location": "Seattle, WA",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/maxlock",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://theorg.com/org/expeditors-international/org-chart/max-lock",
+    "https://www.freightwaves.com/news/startups-fleet-max-lock",
+    "https://oregonbusiness.com/18249-on-the-road/",
+    "https://www.marketscreener.com/insider/MAX-LOCK-A20H5M/",
+    "https://www.geekwire.com/2016/fleet-logistics/"
    ],
    "confidence": "high"
   },
@@ -2386,7 +2571,8 @@
    "sector": "Other",
    "bio": "Named a 2015 Thiel Fellow at 17 (New York, NY) as founder of REAL Magazine, a national youth-culture publication, while developing REAL me, an app matching young people with volunteer opportunities.",
    "previous": [
-    "REAL Magazine"
+    "REAL Magazine",
+    "Real (app: 'Meet New Friends. Make an Impact.')"
    ],
    "location": null,
    "x": null,
@@ -2395,7 +2581,8 @@
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
     "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20160126143533/http://thielfellowship.org/about/"
+    "https://web.archive.org/web/20160126143533/http://thielfellowship.org/about/",
+    "https://github.com/oceanpleasant"
    ],
    "confidence": "high"
   },
@@ -2403,21 +2590,25 @@
    "id": "olenka-polak",
    "name": "Olenka Polak",
    "class": 2015,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Consumer",
-   "bio": "Named a 2015 Thiel Fellow (Greenwich, CT) as co-founder of myLINGO, an app that streams synchronized foreign-language movie dubs to a phone in theaters.",
+   "company": "Moetsi",
+   "companyUrl": "https://www.moetsi.com",
+   "role": "Co-founder",
+   "sector": "Software & SaaS",
+   "bio": "Co-founder of Moetsi, a Brooklyn company offering 'Reality Modeling as a Service': real-time 1:1 digital models of physical spaces built from sensor streams, available through an API. As a 2015 fellow they co-founded myLINGO, an app that streamed synchronized foreign-language movie dubs to a phone in theaters.",
    "previous": [
     "myLINGO"
    ],
-   "location": null,
+   "location": "Brooklyn, NY",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/olenka-polak-jackson-03a64052",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://github.com/olenkapolak",
+    "https://github.com/moetsi",
+    "https://github.com/moetsi/Sensor-Stream-Pipe",
+    "https://www.moetsi.com"
    ],
    "confidence": "high"
   },
@@ -2425,21 +2616,31 @@
    "id": "patrick-coughran",
    "name": "Patrick Coughran",
    "class": 2015,
-   "company": null,
-   "companyUrl": null,
+   "company": "Dockwa",
+   "companyUrl": "https://dockwa.com",
    "role": null,
    "sector": "Software & SaaS",
-   "bio": "Named a 2015 Thiel Fellow (Monterrey, Mexico) as co-founder and CTO of Foxtrot Systems, route-optimization software for last-mile delivery.",
+   "bio": "Engineering leader at Dockwa, a marina booking platform, after leading engineering at Cambium, an AI platform for the timber industry. As a 2015 fellow they co-founded Foxtrot Systems, route-optimization software for last-mile delivery that Descartes acquired in 2022.",
    "previous": [
-    "Foxtrot Systems"
+    "Cambium (engineering lead, 2025)",
+    "Foxtrot Systems (co-founder & CTO; acquired by Descartes, 2022)",
+    "Cambium (VP of Engineering, c. 2024-2025; AI platform for the timber industry)",
+    "Descartes Systems Group (Senior Director, Machine Learning, from April 2022, after the Foxtrot acquisition)"
    ],
-   "location": null,
+   "location": "Los Angeles, CA",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/patrickcoughran",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://www.linkedin.com/in/patrickcoughran/",
+    "https://github.com/pcoughran",
+    "https://www.foxtrotsystems.com",
+    "https://www.descartes.com/resources/news/descartes-acquires-foxtrot",
+    "https://me.sh/profile/patrick-coughran",
+    "https://www.crunchbase.com/person/patrick-coughran",
+    "https://contactout.com/Patrick-Coughran-917432"
    ],
    "confidence": "high"
   },
@@ -2447,13 +2648,14 @@
    "id": "rory-o-reilly",
    "name": "Rory O'Reilly",
    "class": 2015,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Consumer",
-   "bio": "Named a 2015 Thiel Fellow (Elmont, NY) with his brother Kieran after both left Harvard to build GIFTY (formerly Gifyoutube), an animated-GIF creation company.",
+   "company": "Knot",
+   "companyUrl": "https://www.knotapi.com",
+   "role": "Co-founder & CEO",
+   "sector": "Fintech",
+   "bio": "Co-founder and CEO of Knot, which builds a merchant-connectivity platform and API that lets financial apps and merchants link users' online accounts; co-founded it with brother Kieran O'Reilly. As a 2015 fellow they co-founded gifs.com (originally Gifyoutube), a GIF creation platform.",
    "previous": [
-    "GIFTY (formerly Gifyoutube)"
+    "GIFTY (formerly Gifyoutube)",
+    "gifs.com (co-founder & CEO)"
    ],
    "location": null,
    "x": null,
@@ -2461,7 +2663,10 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://github.com/RoryRocks",
+    "https://github.com/gifs",
+    "https://www.knotapi.com/about"
    ],
    "confidence": "high"
   },
@@ -2548,15 +2753,21 @@
    "sector": "Consumer",
    "bio": "Named a 2015 Thiel Fellow (Austin, TX) as CTO of Clay.io, a publisher of games for mobile web platforms.",
    "previous": [
-    "Clay.io"
+    "Clay.io",
+    "Nomic (engineer, before Clay.io)"
    ],
    "location": null,
    "x": null,
    "linkedin": "https://www.linkedin.com/in/zolmeister",
-   "website": null,
+   "website": "https://zolmeister.com",
    "sources": [
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
-    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
+    "https://web.archive.org/web/20170110114111/http://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands",
+    "https://zolmeister.com",
+    "https://zolmeister.com/2016/05/clay-io.html",
+    "https://zolmeister.com/2014/07/cto-cofounder-clay-io.html",
+    "https://github.com/Zolmeister",
+    "https://crunchbase.com/person/zoli-kahan"
    ],
    "confidence": "high"
   },
@@ -2577,7 +2788,11 @@
    "linkedin": "https://www.linkedin.com/in/adiagarwalla",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://www.ycombinator.com/companies/kisan-network",
+    "https://techcrunch.com/2016/03/09/y-combinator-backed-kisan-network-is-transforming-the-rural-indian-agricultural-market",
+    "https://yourstory.com/2020/01/agritech-startup-kisan-network-indian-farmers-tech-supply-chain",
+    "https://startupintros.com/people/aditya-agarwalla"
    ],
    "confidence": "high"
   },
@@ -2606,20 +2821,27 @@
    "id": "anthony-zhang",
    "name": "Anthony Zhang",
    "class": 2016,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Other",
-   "bio": "Named a 2016 Thiel Fellow (Canada) as CEO of EnvoyNow.",
+   "company": "Vinovest",
+   "companyUrl": "https://www.vinovest.co",
+   "role": "Co-founder",
+   "sector": "Fintech",
+   "bio": "Co-founder of Vinovest, a platform for investing in fine wine and whiskey that StartEngine acquired in March 2026; named to Forbes 30 Under 30 Finance (2025). As a 2016 fellow they ran EnvoyNow, a campus food-delivery app started at USC and acquired by JoyRun in 2017.",
    "previous": [
-    "EnvoyNow"
+    "EnvoyNow (founder & CEO; acquired by JoyRun, Jan 2017)",
+    "Know Your VC (founder; sold)",
+    "Blockfolio (head of marketing)"
    ],
    "location": null,
-   "x": null,
-   "linkedin": null,
+   "x": "anthony_j_zhang",
+   "linkedin": "https://www.linkedin.com/in/anthony-zhang-988a2375",
    "website": null,
    "sources": [
-    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/"
+    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/",
+    "https://www.vinovest.co/blog/author/anthony-zhang",
+    "https://www.vinovest.co/blog/startengine-acquires-vinovest-to-broaden-access-to-alternative-assets",
+    "https://dailytrojan.com/?p=121742",
+    "https://fortune.com/2017/03/30/anthony-zhang-envoynow",
+    "https://crunchbase.com/person/anthony-lzhang"
    ],
    "confidence": "high"
   },
@@ -2649,20 +2871,24 @@
    "id": "brian-truong",
    "name": "Brian Truong",
    "class": 2016,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Named a 2016 Thiel Fellow for HelloToken, a market-research alternative to display ads for digital publishers.",
+   "company": "Graph Ventures",
+   "companyUrl": "https://graphventures.com",
+   "role": "Partner",
+   "sector": "Investing",
+   "bio": "Partner at Graph Ventures, an early-stage venture firm. As a 2016 fellow they co-founded HelloToken, a market-research alternative to display ads for digital publishers, and were its CEO from 2015 to 2017.",
    "previous": [
-    "HelloToken"
+    "HelloToken (co-founder & CEO, 2015–2017)"
    ],
    "location": "Boston, MA",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/truongbrian/",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://signal.nfx.com/investors/brian-truong",
+    "https://graphventures.com",
+    "https://zonebourse.com/insider/BRIAN-TRUONG-A22CFI",
+    "https://crunchbase.com/person/brian-truong"
    ],
    "confidence": "high"
   },
@@ -2693,16 +2919,23 @@
    "companyUrl": null,
    "role": null,
    "sector": "Consumer",
-   "bio": "Named a 2016 Thiel Fellow for Visionary VR, the VRLA expo and Visionary VR, software for virtual-reality storytelling.",
+   "bio": "Product designer and entrepreneur in XR who co-founded the VRLA expo and Mindshow (originally Visionary VR), a VR animation platform. In 2024 they co-organized Vision Hack, a global hackathon for Apple Vision Pro developers.",
    "previous": [
-    "Visionary VR"
+    "Visionary VR",
+    "VRLA (co-founder, 2014–2018)",
+    "Mindshow (co-founder, 2014–2020)",
+    "MovieBot (chief product officer)",
+    "Vision Hack (co-founder, 2024)"
    ],
    "location": "Los Angeles, CA",
-   "x": null,
+   "x": "cosmoscharf",
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://dribbble.com/cosmoscharf/about",
+    "https://roadtovr.com/vision-hack-visionos-hackathon-vision-pro/",
+    "https://shows.acast.com/mtjc-1/episodes/67184a2b83ac9fccace53788"
    ],
    "confidence": "high"
   },
@@ -2769,20 +3002,29 @@
    "id": "hunter-rosenblume",
    "name": "Hunter Rosenblume",
    "class": 2016,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Consumer",
-   "bio": "Named a 2016 Thiel Fellow for Lunar Labs, contract-free smartphones with per-app pay-as-you-go data.",
+   "company": "Ordo",
+   "companyUrl": "https://ordo.com",
+   "role": "Co-founder & CEO",
+   "sector": "Other",
+   "bio": "Co-founder and CEO of Ordo, a K-12 school food-service company serving schools in more than 15 states, backed by Accel. As a 2016 fellow they co-founded Lunar Wireless (later Sweet), a low-cost phone carrier based in Detroit that shut down in 2020.",
    "previous": [
-    "Lunar Labs"
+    "Lunar Labs",
+    "Sweet / Lunar Wireless (co-founder & CEO, 2015–2020)"
    ],
    "location": "Detroit, MI",
    "x": "hrosenblume",
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/hrosenblume/",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://www.ordo.com/our-story",
+    "https://ordo.com/",
+    "https://www.crunchbase.com/person/hunter-rosenblume",
+    "https://www.zoominfo.com/p/Hunter-Rosenblume/3825260061",
+    "https://www.thepitch.show/founders/hunter-rosenblume",
+    "https://savewithsweet.com",
+    "https://www.inc.com/emily-canal/young-entrepreneurs-lower-cell-phone-bills-lunar-wireless.html",
+    "https://www.caplight.com/company/ordo"
    ],
    "confidence": "high",
    "photo": "assets/people/hunter-rosenblume.jpg"
@@ -2795,16 +3037,23 @@
    "companyUrl": null,
    "role": null,
    "sector": "Bio & Health",
-   "bio": "Named a 2016 Thiel Fellow for BioMetrix, a wearable platform for predicting and preventing athletic injuries.",
+   "bio": "Co-founded and ran Fathom AI (originally BioMetrix), a Durham, North Carolina startup making wearable sensors to predict and prevent athletic injuries; it was the 2016 fellowship project. Current work could not be verified.",
    "previous": [
-    "BioMetrix"
+    "BioMetrix",
+    "Fathom AI (co-founder & CEO; formerly BioMetrix)",
+    "Equinox Media (Director of Product)"
    ],
    "location": "Kherson, Ukraine / Durham, NC",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://theorg.com/org/hippo-harvest/org-chart/ivonna-dumanyan",
+    "https://www.mentalfloss.com/sports/how-two-college-students-are-changing-game-preventing-sports-injuries",
+    "https://grepbeat.com/2019/01/31/fathom-ai-helps-athletes-recover-from-and-prevent-injuries/",
+    "https://www.hypepotamus.com/fathom-ai/",
+    "https://thehelm.co/invest/our-portfolio/fathom"
    ],
    "confidence": "high"
   },
@@ -2837,16 +3086,25 @@
    "companyUrl": null,
    "role": null,
    "sector": "Other",
-   "bio": "Named a 2016 Thiel Fellow (Canada) as co-founder and CEO of Revlo.",
+   "bio": "Co-founded Revlo, a fan-engagement tool for Twitch streamers that Twitch acquired, and Paper, a web3 wallet and checkout company that thirdweb acquired in 2023. Named a 2016 Thiel Fellow (Canada) as co-founder and CEO of Revlo.",
    "previous": [
-    "Revlo"
+    "Revlo",
+    "Twitch (joined via Revlo acquisition)",
+    "Paper (co-founder & CEO)",
+    "thirdweb (VP, Product, 2023–2025)"
    ],
-   "location": null,
+   "location": "San Francisco, CA",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/"
+    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/",
+    "https://www.ycombinator.com/blog/revlo",
+    "https://www.crunchbase.com/person/james-sun",
+    "https://techcrunch.com/2022/05/10/polygon-among-9-3m-investment-in-paper-to-help-onboard-nft-buyers-via-email",
+    "https://blog.withpaper.com/joining-thirdweb/",
+    "https://www.prolificnorth.co.uk/news/steven-bartletts-thirdweb-acquires-online-wallet-creator-paper/",
+    "https://www.cbinsights.com/investor/paper-1"
    ],
    "confidence": "high"
   },
@@ -2858,16 +3116,23 @@
    "companyUrl": null,
    "role": null,
    "sector": "Software & SaaS",
-   "bio": "Named a 2016 Thiel Fellow for NeoReach, influencer-marketing software for large brands.",
+   "bio": "Named a 2016 Thiel Fellow for NeoReach, influencer-marketing software for large brands, which Leimgruber co-founded and ran as CEO. NeoReach's current leadership page no longer lists him.",
    "previous": [
-    "NeoReach"
+    "NeoReach (co-founder & CEO)",
+    "Bloom (co-founder)",
+    "Rank Executives (founder, digital marketing agency)"
    ],
    "location": "San Francisco, CA",
-   "x": null,
-   "linkedin": null,
+   "x": "jesserank",
+   "linkedin": "https://www.linkedin.com/in/jesseleimgruber",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://www.startupfest.com/speaker/jesse-leimgruber",
+    "https://crunchbase.com/person/jesse-leimgruber",
+    "https://github.com/stanfordjesse1",
+    "https://jesse.co",
+    "https://www.neo.tax/about-us"
    ],
    "confidence": "high"
   },
@@ -2897,20 +3162,28 @@
    "id": "joey-levy",
    "name": "Joey Levy",
    "class": 2016,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "Betr",
+   "companyUrl": "https://www.betr.app",
+   "role": "Co-founder & CEO",
    "sector": "Consumer",
-   "bio": "Named a 2016 Thiel Fellow for Quizr, a sports-betting app, after founding the fantasy-sports platform Draftpot.",
+   "bio": "Co-founder and CEO of Betr, a Florida-based sports betting and prediction-markets app started with Jake Paul in 2022. Earlier Levy co-founded Simplebet, a micro-betting technology company acquired by DraftKings in 2024, and as a 2016 fellow worked on the betting app Quizr after founding the fantasy-sports platform Draftpot.",
    "previous": [
-    "Quizr"
+    "Quizr",
+    "Simplebet (co-founder; acquired by DraftKings 2024)",
+    "Draftpot (co-founder & CEO)"
    ],
    "location": "New York, NY",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://www.rotowire.com/article/prediction-market-news-betr-ceo-talks-industry-future-144110",
+    "https://www.revenuememo.com/p/who-owns-betr",
+    "https://igamingbusiness.com/sports-betting/simplebet-jake-paul-raise-50m/",
+    "https://www.sportsbusinessdaily.com/Articles/2023/10/09/joey-levy",
+    "https://joefavorito.com/2015/08/10/young-entrepreneur-tries-to-stir-the-daily-fantasy-draftpot/",
+    "https://www.betr.app"
    ],
    "confidence": "high"
   },
@@ -2980,20 +3253,28 @@
    "id": "matthew-salsamendi",
    "name": "Matthew Salsamendi",
    "class": 2016,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "All Out",
+   "companyUrl": "https://allout.game",
+   "role": "Co-founder & CTO",
    "sector": "Consumer",
-   "bio": "Named a 2016 Thiel Fellow for Beam, an interactive live-streaming platform for gamers. Microsoft acquired Beam in 2016 and relaunched it as Mixer.",
+   "bio": "Co-founder and CTO of All Out, a browser-based platform for making and sharing multiplayer games, aimed at games that spread through YouTube creators. Earlier co-founded the game-server host MCProHosting and Beam, the interactive live-streaming platform Microsoft acquired in 2016 and relaunched as Mixer.",
    "previous": [
-    "Beam"
+    "Beam",
+    "Microsoft (Mixer, 2016–2019)",
+    "MCProHosting (co-founder)"
    ],
    "location": "Seattle, WA",
-   "x": null,
+   "x": "MattSalsamendi",
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://github.com/MattJustMatt",
+    "https://github.com/All-Out-Games",
+    "https://allout.game",
+    "https://prospeo.io/c/all-out",
+    "https://www.producthunt.com/products/all-out/makers",
+    "https://techcrunch.com/startup-battlefield/company/beam-interactive-inc"
    ],
    "confidence": "high"
   },
@@ -3039,20 +3320,22 @@
    "id": "pamela-valdes-esteva",
    "name": "Pamela Valdés Esteva",
    "class": 2016,
-   "company": null,
+   "company": "Musa",
    "companyUrl": null,
-   "role": null,
-   "sector": "Consumer",
-   "bio": "Named a 2016 Thiel Fellow for Beek, a social network for book lovers.",
+   "role": "Founder",
+   "sector": "Bio & Health",
+   "bio": "Founder of Musa, an app that helps women build meditation habits to reduce stress and support hormonal health across the menstrual cycle. As a 2016 fellow they founded Beek, which became a Latin American audiobook app with more than 4 million listeners before it shut down in February 2025.",
    "previous": [
-    "Beek"
+    "Beek (founder; shut down Feb 2025)"
    ],
    "location": "Mexico City, Mexico",
    "x": null,
    "linkedin": null,
-   "website": null,
+   "website": "https://pamevaldes.substack.com",
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://pamevaldes.substack.com/p/adios-beek-hola-musa",
+    "https://beek.io"
    ],
    "confidence": "high"
   },
@@ -3064,16 +3347,20 @@
    "companyUrl": null,
    "role": null,
    "sector": "Other",
-   "bio": "Named a 2016 Thiel Fellow (Canada) as co-founder of Lace.",
+   "bio": "Named a 2016 Thiel Fellow (Canada) as co-founder of Lace (Lace Labs), a marketplace for cities and other municipalities to find and buy software, while a University of Waterloo math student. Lace is no longer operating. Current work could not be verified.",
    "previous": [
-    "Lace"
+    "Lace",
+    "Lace Labs (co-founder; municipal software marketplace, defunct)"
    ],
    "location": null,
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/"
+    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/",
+    "https://uwaterloo.ca/math/entrepreneurship-and-innovation/startups-and-founders",
+    "https://github.com/panashemahachi",
+    "https://www.cbinsights.com/company/lace-labs/"
    ],
    "confidence": "high"
   },
@@ -3085,16 +3372,24 @@
    "companyUrl": null,
    "role": null,
    "sector": "Crypto",
-   "bio": "Named a 2016 Thiel Fellow for Kynplex, communication tools for scientific labs. He later co-founded Prysmatic Labs, which built Prysm, a widely used Ethereum consensus client.",
+   "bio": "Ethereum developer who co-founded Prysmatic Labs, which built Prysm, a widely used Ethereum consensus client; Offchain Labs, the company behind Arbitrum, acquired Prysmatic Labs in 2022. As a 2016 fellow they co-founded Kynplex, communication tools for scientific labs, with Grace Xiao.",
    "previous": [
-    "Kynplex"
+    "Kynplex",
+    "Prysmatic Labs (co-founder; acquired by Offchain Labs, 2022)",
+    "Offchain Labs (engineer, after acquisition)"
    ],
    "location": "Cambridge, MA",
-   "x": null,
+   "x": "rauljordaneth",
    "linkedin": null,
-   "website": null,
+   "website": "https://rauljordan.com",
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://rauljordan.com",
+    "https://rauljordan.com/about-me",
+    "https://github.com/rauljordan",
+    "https://www.theblock.co/amp/post/176548/offchain-labs-acquires-ethereum-software-team-prysmatic-labs",
+    "https://blockworks.co/offchain-labs-acquires-ethereum-consensus-client-prysmatic-labs",
+    "https://betakit.com/?p=61181"
    ],
    "confidence": "high"
   },
@@ -3108,14 +3403,18 @@
    "sector": "Consumer",
    "bio": "Named a 2016 Thiel Fellow for Lunar Labs, contract-free smartphones with per-app pay-as-you-go data.",
    "previous": [
-    "Lunar Labs"
+    "Lunar Labs",
+    "Sweet / Lunar Wireless (co-founder, 2015–2020)"
    ],
    "location": "Detroit, MI",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://www.zippia.com/sweet-careers-225992/executives",
+    "https://www.inc.com/emily-canal/young-entrepreneurs-lower-cell-phone-bills-lunar-wireless.html",
+    "https://savewithsweet.com"
    ],
    "confidence": "high"
   },
@@ -3127,16 +3426,27 @@
    "companyUrl": null,
    "role": null,
    "sector": "Other",
-   "bio": "Named a 2016 Thiel Fellow (Canada) as co-founder and CEO of Retinad.",
+   "bio": "Co-founded Mercantile, which builds branded small-business credit card programs for associations and banks and is now part of Onboard Partners. As a 2016 fellow Poirier was co-founder and CEO of Retinad, an analytics platform for virtual-reality apps.",
    "previous": [
-    "Retinad"
+    "Retinad",
+    "Mercantile (co-founder & CEO)",
+    "Cruisehub / Seahub (co-founder & CEO)",
+    "Yagi Card (co-founder & president)"
    ],
-   "location": null,
+   "location": "Montreal, QC, Canada",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/samuelpoirier",
    "website": null,
    "sources": [
-    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/"
+    "https://betakit.com/five-canadians-selected-among-6000-applicants-for-2016-thiel-fellowship/",
+    "https://me.sh/profile/samuel-f-poirier",
+    "https://startupintros.com/people/samuel-poirier",
+    "https://www.indexventures.com/companies/mercantile/",
+    "https://thelogic.co/briefing/inovia-backs-mercantiles-small-business-credit-card-platform-in-us15m-series-a/",
+    "https://www.getmercantile.com/newsroom",
+    "https://www.getmercantile.com/news/mercantile-partners-with-american-express-and-the-american-bar-association-to-launch-a-small-business-credit-card-for-legal-professionals",
+    "https://betakit.com/retinad-co-founder-samuel-f-poirier-is-the-first-french-canadian-to-be-named-a-thiel-fellow/",
+    "https://thepnr.com/what-we%E2%80%99re-learning/obsessively-building-with-samuel-poirier-ceo-seahub/"
    ],
    "confidence": "high"
   },
@@ -3166,20 +3476,26 @@
    "id": "ashish-pandhi",
    "name": "Ashish Pandhi",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Named a 2017 Thiel Fellow for Bettr, unified social-media management.",
+   "company": "VetraFi",
+   "companyUrl": "https://www.vetrafi.com",
+   "role": "CTO",
+   "sector": "Fintech",
+   "bio": "CTO of VetraFi, a veteran-built fintech company offering a secured charge card and savings accounts to the military community. Earlier they co-founded and were CTO of Zurp, a secured-card startup that was acquired, and were the first software engineer at Runway; as a 2017 fellow they worked on Bettr, unified social-media management.",
    "previous": [
-    "Bettr"
+    "Bettr",
+    "Zurp (co-founder & CTO)",
+    "Runway (first software engineer)",
+    "Clarify (senior staff engineer)"
    ],
    "location": "New York, NY",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/apandhi",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://www.vetrafi.com/team-profiles/ashish-pandhi",
+    "https://www.vetrafi.com/team",
+    "https://www.vetrafi.com/"
    ],
    "confidence": "high"
   },
@@ -3266,20 +3582,26 @@
    "id": "helson-taveras",
    "name": "Helson Taveras",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Named a 2017 Thiel Fellow for Riley, lead qualification as a service for real-estate and sales teams.",
+   "company": "Keep",
+   "companyUrl": "https://www.trykeep.com",
+   "role": "Co-founder & CTO",
+   "sector": "Fintech",
+   "bio": "Co-founder and CTO of Keep, a Toronto company offering business banking, corporate cards and expense management to Canadian businesses, which Taveras started with Oliver Takach in 2021. As a 2017 fellow Taveras co-founded Riley (YC W17), lead qualification as a service for real-estate agents, and was its CTO.",
    "previous": [
-    "Riley"
+    "Riley (co-founder & CTO, YC W17)"
    ],
    "location": "San Francisco, CA",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/helsontaveras/",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://www.ycombinator.com/companies/riley",
+    "https://www.ycombinator.com/founders/161782-helson-taveras",
+    "https://techcrunch.com/?p=1496406",
+    "https://medium.com/rough-draft-ventures/rileys-army-of-college-students-are-redefining-what-it-means-to-be-a-sales-rep-c0b9398800da",
+    "https://github.com/helsont",
+    "https://www.trykeep.com/resources/careers"
    ],
    "confidence": "high"
   },
@@ -3307,20 +3629,28 @@
    "id": "james-graham",
    "name": "James Graham",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Named a 2017 Thiel Fellow for Caffeine, a protocol to speed up mobile app loading.",
+   "company": "Community Phone",
+   "companyUrl": "https://www.communityphone.org",
+   "role": "Founder & CEO",
+   "sector": "Consumer",
+   "bio": "Founder and CEO of Community Phone, a home phone service that connects landline phones to cell networks instead of the internet. As a 2017 fellow they worked on Caffeine, a protocol to speed up and secure mobile app network requests.",
    "previous": [
-    "Caffeine"
+    "Caffeine",
+    "Caffeine Computing / Caffeine Software Inc. (founder & CEO)"
    ],
    "location": "Boston, MA",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://theorg.com/org/community-phone/org-chart/james-graham",
+    "https://biztimes.com/uwm-student-co-founds-wireless-phone-service/?amp=1",
+    "https://www.telecompetitor.com/community-phone-aims-to-cash-in-on-simple-landline-replacement/",
+    "https://www.communityphone.org/about",
+    "https://www.communityphone.org/press",
+    "https://www.cbinsights.com/company/caffeine-2",
+    "https://www.caffei.net"
    ],
    "confidence": "high"
   },
@@ -3366,20 +3696,23 @@
    "id": "jorge-izquierdo",
    "name": "Jorge Izquierdo",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Crypto",
-   "bio": "Named a 2017 Thiel Fellow for Aragon, a platform for creating decentralized organizations on Ethereum.",
+   "company": "Tuyo",
+   "companyUrl": "https://tuyo.com",
+   "role": "Co-founder",
+   "sector": "Fintech",
+   "bio": "Co-founder of Tuyo, a money app offering interest-bearing USD balances, a debit card, global transfers and access to crypto and DeFi strategies. As a 2017 fellow they co-founded Aragon, a platform for creating decentralized organizations on Ethereum.",
    "previous": [
-    "Aragon"
+    "Aragon (co-founder)"
    ],
    "location": "Madrid, Spain",
-   "x": null,
+   "x": "izqui9",
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://github.com/izqui",
+    "https://tuyo.com/about",
+    "https://tuyo.com"
    ],
    "confidence": "high"
   },
@@ -3427,20 +3760,24 @@
    "id": "mark-prokoudine",
    "name": "Mark Prokoudine",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "Youtooz",
+   "companyUrl": "https://youtooz.com",
+   "role": "Co-founder",
    "sector": "Consumer",
-   "bio": "Named a 2017 Thiel Fellow for Kickback, betting on esports titles like CS:GO and Dota.",
+   "bio": "Co-founded Youtooz, a company that makes collectible figures and merchandise with YouTube and streaming creators, in 2019. As a 2017 fellow Prokoudine worked on Kickback, a Y Combinator-backed platform for competitive play and wagering in games like Minecraft, CS:GO and Dota.",
    "previous": [
-    "Kickback"
+    "Kickback (co-founder & CEO; YC 2015)"
    ],
    "location": "Moscow / Toronto / San Francisco",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://www.tubefilter.com/2024/07/31/youtooz-austin-long-fandom-merch-for-fans-matpat-ironmouse/",
+    "https://ca.marketscreener.com/insider/MARK-PROKOUDINE-A1X0HL/",
+    "https://www.crunchbase.com/person/mark-prokoudine",
+    "https://techcrunch.com/2015/03/02/yc-backed-kickback-offers-an-easy-way-to-play-minecraft-competitively"
    ],
    "confidence": "high"
   },
@@ -3448,11 +3785,11 @@
    "id": "micah-green",
    "name": "Micah Green",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "Tailos (formerly Maidbot)",
+   "companyUrl": "https://tailos.com",
+   "role": "Founder & CEO",
    "sector": "Hardware & Deep Tech",
-   "bio": "Named a 2017 Thiel Fellow for Maidbot, the first housekeeping robot for hotels.",
+   "bio": "Founder and CEO of Tailos (formerly Maidbot), an Austin company that builds Rosie, a commercial robot vacuum used in hotels and other buildings. Micah Green started the company as a Cornell student after working as a hotel room attendant, and was a 2017 fellow for Maidbot.",
    "previous": [
     "Maidbot"
    ],
@@ -3461,7 +3798,11 @@
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://tailos.com",
+    "https://machineminds.buzzsprout.com/2212148/episodes/15871111-episode-57-innovation-in-hospitality-robotics-and-labor-crisis-micah-green",
+    "https://the-robot-industry-podcast.castos.com/episodes/robotically-cleaning-the-worlds-hotels-with-tailos-ceo-micah-estis-green",
+    "https://www.cornellsun.com/article/2016/01/c-u-robotics-startup-revolutionizes-hospitality"
    ],
    "confidence": "high"
   },
@@ -3469,20 +3810,25 @@
    "id": "nicholas-shekerdemian",
    "name": "Nicholas Shekerdemian",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Named a 2017 Thiel Fellow for Headstart, machine-learning tools for hiring.",
+   "company": "The Venture Collective",
+   "companyUrl": "https://theventurecollective.com",
+   "role": "Founding Partner",
+   "sector": "Investing",
+   "bio": "Founding partner of The Venture Collective (TVC), an early-stage venture firm investing pre-seed to Series A in industrial, energy, healthcare and defense companies. As a 2017 fellow they co-founded Headstart (YC S17), a machine-learning hiring platform later acquired by Silverback United.",
    "previous": [
-    "Headstart"
+    "Headstart (founder & CEO; YC S17; acquired by Silverback United)"
    ],
    "location": "London / San Francisco / Hong Kong",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://theventurecollective.com",
+    "https://www.ycombinator.com/companies/headstart",
+    "https://www.caplight.com/investor/theventurecollective",
+    "https://theorg.com/org/the-venture-collective/org-chart/nicholas-shekerdemian",
+    "https://enspire.site.ox.ac.uk/article/nicholas-shekerdemian-co-founder-of-headstart-app"
    ],
    "confidence": "high"
   },
@@ -3513,16 +3859,20 @@
    "companyUrl": null,
    "role": null,
    "sector": "Software & SaaS",
-   "bio": "Named a 2017 Thiel Fellow for Sleeker, scheduling and messaging software for auto service centers.",
+   "bio": "Founded the supplements brand Noots and ran it from 2020 to 2025, then became a product manager for AI at Eight Sleep in October 2025; Le's LinkedIn now reads 'Building Something New'. As a 2017 fellow Le co-founded Sleeker, scheduling and billing software for independent auto repair shops.",
    "previous": [
-    "Sleeker"
+    "Noots (founder & CEO, 2020-2025)",
+    "Sleeker (co-founder & CEO, 2015-2018)"
    ],
    "location": "Portland, OR",
-   "x": null,
+   "x": "phattanle",
    "linkedin": "https://www.linkedin.com/in/phattanle",
-   "website": null,
+   "website": "https://phatle.com",
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://phatle.com",
+    "https://wellfound.com/p/phattanle",
+    "https://crunchbase.com/person/phat-le"
    ],
    "confidence": "high"
   },
@@ -3534,16 +3884,19 @@
    "companyUrl": null,
    "role": null,
    "sector": "Education",
-   "bio": "Named a 2017 Thiel Fellow for Mimir, classroom automation for computer-science courses. HackerRank acquired Mimir in 2019.",
+   "bio": "Prahasith Veluvolu founded and ran Mimir, software for teaching and grading computer-science courses, until HackerRank acquired it in December 2019, then worked in product at HackerRank through 2023 and was head of product at CloudForge in 2024.",
    "previous": [
-    "Mimir"
+    "Mimir",
+    "HackerRank (product, 2019-2023)",
+    "CloudForge (head of product, 2024)"
    ],
    "location": "Indianapolis, IN",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/prahasithv",
-   "website": null,
+   "website": "https://prahasith.com",
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://prahasith.com"
    ],
    "confidence": "high"
   },
@@ -3551,20 +3904,24 @@
    "id": "robert-kirstiuk",
    "name": "Robert Kirstiuk",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Consumer",
-   "bio": "Named a 2017 Thiel Fellow for Coastline Market, a marketplace for selling seafood before the boat lands.",
+   "company": "Freshline",
+   "companyUrl": "https://freshline.io",
+   "role": "Co-founder",
+   "sector": "Software & SaaS",
+   "bio": "Co-founder of Freshline, which makes e-commerce, ordering and fulfillment software for food distributors and wholesalers. As a 2017 fellow they worked on Coastline Market, a marketplace for selling seafood before the boat lands.",
    "previous": [
     "Coastline Market"
    ],
    "location": "New Brunswick, Canada / Seattle",
-   "x": null,
+   "x": "robertkirstiuk",
    "linkedin": "https://www.linkedin.com/in/robertkirstiuk",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://github.com/robertkirstiuk",
+    "https://github.com/rkirstiuk",
+    "https://freshline.io",
+    "https://github.com/freshlineapp"
    ],
    "confidence": "high"
   },
@@ -3572,20 +3929,27 @@
    "id": "sam-bernstein",
    "name": "Sam Bernstein",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Consumer",
-   "bio": "Named a 2017 Thiel Fellow for LoftSmart, an end-to-end marketplace for student rentals.",
+   "company": "Table22",
+   "companyUrl": "https://www.table22.com",
+   "role": "Founder & CEO",
+   "sector": "Software & SaaS",
+   "bio": "Founder and CEO of Table22, a platform that lets restaurants, wine shops, bakeries and other food businesses sell subscriptions, clubs and pre-orders; it raised an $11M Series A led by Lightspeed in 2024. As a 2017 fellow they co-founded LoftSmart, a marketplace for student rentals, which pivoted to Table22 when COVID-19 made student housing unviable.",
    "previous": [
-    "LoftSmart"
+    "LoftSmart (co-founder & CEO)"
    ],
    "location": "New York, NY",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/swbernstein",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://table22.com/about-us",
+    "https://pulse2.com/table22-11-million-series-a-raised-to-expand-e-commerce-tools-for-merchants",
+    "https://www.axios.com/pro/retail-deals/2024/10/29/table22-11-million-subscription",
+    "https://uk.marketscreener.com/insider/SAMUEL-W-BERNSTEIN-A21X8U/",
+    "https://www.insidehook.com/culture/restaurant-subscription-help-nyc-dining",
+    "https://www.cbinsights.com/company/loftsmart",
+    "https://dealroom.co/companies/loftsmart/"
    ],
    "confidence": "high"
   },
@@ -3617,16 +3981,22 @@
    "companyUrl": null,
    "role": null,
    "sector": "Bio & Health",
-   "bio": "Named a 2017 Thiel Fellow for Clara Health, software that guides patients through clinical trials.",
+   "bio": "Co-founded Clara Health, a platform that matches patients with clinical trials, which M&B Sciences acquired in 2022; Chen then became chief of staff at OneSchema, a data-import software company.",
    "previous": [
-    "Clara Health"
+    "Clara Health (co-founder & president; acquired by M&B Sciences, 2022)",
+    "MIT (undergraduate researcher, 2012)"
    ],
    "location": "Cambridge, MA",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://theorg.com/org/oneschema/org-chart/sol-chen",
+    "https://www.builtinboston.com/articles/clara-health-connects-patients-clinical-trials",
+    "https://medium.com/profiles-in-entrepreneurship/sol-chen-co-founder-of-clara-health-on-building-transformative-healthcare-companies-aa1e9df58176",
+    "https://www.cbinsights.com/company/clara-health1",
+    "https://crunchbase.com/organization/clarahealth"
    ],
    "confidence": "high"
   },
@@ -3659,20 +4029,26 @@
    "id": "zaid-rahman",
    "name": "Zaid Rahman",
    "class": 2017,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "AI",
-   "bio": "Named a 2017 Thiel Fellow for Volley, AI for personalized enterprise learning.",
+   "company": "Flex",
+   "companyUrl": "https://www.flex.one",
+   "role": "Co-founder & CEO",
+   "sector": "Fintech",
+   "bio": "Co-founder and CEO of Flex (formerly Flexbase), a fintech offering business owners banking, credit cards, payments and financing, which they founded in 2020 with Hadi Solh. They also co-founded the Miami early-stage fund 305 Ventures. As a 2017 fellow they built Volley, AI for personalized enterprise learning.",
    "previous": [
-    "Volley"
+    "Volley (founder & CEO)"
    ],
    "location": "Dubai, UAE / San Francisco",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/zaidrahman",
    "website": null,
    "sources": [
-    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows"
+    "https://web.archive.org/web/20170616190715/http://www.businesswire.com/news/home/20170616005607/en/Thiel-Foundation-Announces-2017-Thiel-Fellows",
+    "https://refreshmiami.com/flex-secures-20m-equity-and-100m-debt-fundraise-to-build-a-one-stop-shop-financial-hub-for-smbs/",
+    "https://ffnews.com/people/zaid-rahman",
+    "https://crunchbase.com/person/zaid-rahman",
+    "https://app.welcometothejungle.com/companies/Flex-2",
+    "https://www.flex.one",
+    "https://www.flex.one/company"
    ],
    "confidence": "high"
   },
@@ -3680,21 +4056,25 @@
    "id": "andrew-sampson",
    "name": "Andrew Sampson",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
+   "company": "6over3 Institute",
+   "companyUrl": "https://6over3.com",
    "role": null,
-   "sector": "Consumer",
-   "bio": "Named a 2018 Thiel Fellow (Dallas, GA) as co-founder and CEO of Rainway, a web-based platform for streaming PC games to other devices.",
+   "sector": "AI",
+   "bio": "Works on 6over3 Institute, a Tokyo- and New York-based company building what it calls personal intelligence software, and maintains open-source projects including the Bebop serialization library. Andrew Sampson previously founded Rainway, the PC game-streaming platform from the 2018 fellowship, whose technology now powers Xbox Cloud Gaming according to their website.",
    "previous": [
     "Rainway"
    ],
-   "location": null,
-   "x": null,
+   "location": "Japan",
+   "x": "andrewmd5",
    "linkedin": "https://www.linkedin.com/in/rust",
-   "website": null,
+   "website": "https://andrew.im",
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://github.com/andrewmd5",
+    "https://andrew.im",
+    "https://github.com/6over3",
+    "https://6over3.com"
    ],
    "confidence": "high"
   },
@@ -3702,13 +4082,14 @@
    "id": "andre-bertram",
    "name": "André Bertram",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "HelpWear",
+   "companyUrl": "https://helpwear.ca",
+   "role": "Co-founder",
    "sector": "Bio & Health",
-   "bio": "Named a 2018 Thiel Fellow (Toronto) as CEO of HelpWear, which was building a clinical-grade, wrist- or arm-worn at-home ECG monitor.",
+   "bio": "Co-founded HelpWear, a Toronto company (YC S17) making the HeartWatch, a clinical-grade ECG monitor for continuous at-home heart monitoring, and was its CEO until 2023. Bertram also co-founded Beyond Aging, a philanthropic group focused on geroscience, and joined the board of the American Federation for Aging Research.",
    "previous": [
-    "HelpWear"
+    "Y Combinator (S17)",
+    "Creative Destruction Lab West (2017)"
    ],
    "location": null,
    "x": null,
@@ -3716,7 +4097,13 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://me.sh/profile/andre-bertram",
+    "https://www.ycombinator.com/companies/helpwear",
+    "https://helpwear.ca/company/",
+    "https://www.afar.org/news/afar-welcomes-two-new-members-to-our-board-of-directors",
+    "https://www.afar.org/board-of-directors",
+    "https://patents.justia.com/inventor/andre-david-thomas-bertram"
    ],
    "confidence": "high"
   },
@@ -3728,17 +4115,25 @@
    "companyUrl": null,
    "role": null,
    "sector": "Crypto",
-   "bio": "Named a 2018 Thiel Fellow (Chennai / Muscat / Berkeley) as co-founder and CEO of Mechanism Labs, an open-source research lab working on cryptoeconomics and blockchain consensus.",
+   "bio": "Co-founder and former CTO of Opyn, a DeFi options protocol whose seed round was led by Dragonfly Capital in 2020; current work could not be verified. As a 2018 fellow they co-founded Mechanism Labs, a grant-funded research lab on proof-of-stake and distributed consensus, with fellow members of Blockchain at Berkeley.",
    "previous": [
-    "Mechanism Labs"
+    "Mechanism Labs",
+    "Opyn (co-founder & CTO)",
+    "Blockchain at Berkeley"
    ],
    "location": null,
-   "x": null,
+   "x": "aparnalocked",
    "linkedin": "https://www.linkedin.com/in/aparna-krishnan",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://tokenterminal.com/interview/interview-with-opyn-aparna-krishnan",
+    "https://dailydropout.substack.com/p/-opyn-crypto-options-trading-drop",
+    "https://thedefiant.io/newsletter/archive/theres-the-opportunity-to-make-really",
+    "https://medium.com/dragonfly-research/our-investment-in-opyn-b2e577209cea",
+    "https://contactout.com/Aparna-Krishnan-82558162",
+    "https://www.opyn.co/"
    ],
    "confidence": "high"
   },
@@ -3777,12 +4172,13 @@
     "MyCrypto"
    ],
    "location": null,
-   "x": null,
+   "x": "dternyak",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://github.com/dternyak"
    ],
    "confidence": "high"
   },
@@ -3790,19 +4186,24 @@
    "id": "divyaditya-shrivastava",
    "name": "Divyaditya Shrivastava",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Hardware & Deep Tech",
-   "bio": "Named a 2018 Thiel Fellow (Madhya Pradesh, India / Lewis Center, OH), known as Divy, for building software and hardware to help firefighters locate emergencies faster and more precisely.",
+   "company": "Paladin",
+   "companyUrl": "https://paladindrones.io",
+   "role": "Founder & CEO",
+   "sector": "Space & Defense",
+   "bio": "Founder and CEO of Paladin (YC S18), a Houston company whose autonomous drones launch from docks to 911 calls and stream live aerial and thermal video to first responders before ground units arrive. Divy grew up near Columbus, Ohio, and left UC Berkeley to build the company, which grew out of his 2018 fellowship project to help firefighters locate emergencies faster.",
    "previous": [],
-   "location": null,
-   "x": null,
-   "linkedin": null,
+   "location": "Houston, TX",
+   "x": "Shrivastavad24",
+   "linkedin": "https://www.linkedin.com/in/divyaditya-s-775959108/",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://www.ycombinator.com/companies/paladin",
+    "https://www.ycombinator.com/founders/209489-divyaditya-shrivastava",
+    "https://paladindrones.io/about",
+    "https://paladindrones.io",
+    "https://startupintros.com/people/divyaditya-shrivastava"
    ],
    "confidence": "high"
   },
@@ -3840,15 +4241,19 @@
    "sector": "Education",
    "bio": "Named a 2018 Thiel Fellow (San Salvador / Los Angeles) as co-founder of Discovr Labs, which uses VR/AR for education and training.",
    "previous": [
-    "Discovr Labs"
+    "Discovr Labs",
+    "Unity Technologies (Education Programs & XR Specialist)",
+    "Hack Club",
+    "Caltech (research associate)"
    ],
-   "location": null,
+   "location": "Los Angeles, CA",
    "x": "GemmaBusoni",
    "linkedin": "https://www.linkedin.com/in/gemmabusoni",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://cba.lmu.edu/centers/ibes/eventsprograms/businessasaforceforgoodannualethicssymposium/2021/2018ibessymposiumarchive/gemmabusoni/"
    ],
    "confidence": "high",
    "photo": "assets/people/gemma-busoni.jpg"
@@ -3879,13 +4284,15 @@
    "id": "jamie-cox",
    "name": "Jamie Cox",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Named a 2018 Thiel Fellow (Oxford, UK) as co-founder of Flare, which was building technology to turn internet-connected devices into cloud servers for a decentralized internet.",
+   "company": "Fluidstack",
+   "companyUrl": "https://www.fluidstack.io",
+   "role": "Co-founder",
+   "sector": "AI",
+   "bio": "Co-founded Fluidstack in 2017 at Oxford with Gary Wu and César Maklary; the AI cloud and data-center company was reported in September 2026 to be valued at more than $18 billion. Cox also founded TreeCard (2020), a debit card that funded tree planting, which shut down in April 2026. As a 2018 fellow Cox was listed with Flare, technology to turn connected devices into cloud servers.",
    "previous": [
-    "Flare"
+    "Flare",
+    "TreeCard (founder & CEO, 2020-2026)",
+    "Cashew (founder; UK peer-to-peer payments app)"
    ],
    "location": null,
    "x": null,
@@ -3893,7 +4300,11 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://www.nbcnewyork.com/news/business/money-report/peter-thiels-vc-fund-backs-treecard-a-fintech-that-plants-trees-when-you-spend/3976810/",
+    "https://www.forbes.com.au/news/innovation/fluidstack-is-now-worth-18-billion/",
+    "https://e.vnexpress.net/news/tech/personalities/oxford-dropout-and-two-fluidstack-co-founders-become-billionaires-after-ai-startup-reaches-18b-valuation-5116862.html",
+    "https://www.caproasia.com/2026/04/09/uk-data-centre-cloud-provider-fluidstack-raised-750-million-at-7-billion-valuation-founded-in-2017-by-gary-wu-cesar-maklary-jamie-cox/"
    ],
    "confidence": "high"
   },
@@ -3907,7 +4318,8 @@
    "sector": "Hardware & Deep Tech",
    "bio": "Named a 2018 Thiel Fellow (Edison, NJ) as co-founder of Amber Agriculture, which uses analytics and automation to manage, protect and market stored grain.",
    "previous": [
-    "Amber Agriculture"
+    "Amber Agriculture",
+    "Rockefeller University (listed as previous employer on TheOrg, role not stated)"
    ],
    "location": null,
    "x": null,
@@ -3915,7 +4327,10 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://theorg.com/org/the-thiel-foundation/org-chart/joseph-varikooty",
+    "https://hax.co/founder/joseph-varikooty",
+    "https://github.com/RoastedMosfets"
    ],
    "confidence": "high"
   },
@@ -3968,13 +4383,14 @@
    "id": "julian-rios",
    "name": "Julián Ríos",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "Eden (formerly Eva / Higia Technologies)",
+   "companyUrl": "https://edenmed.com",
+   "role": "Co-founder & CEO",
    "sector": "Bio & Health",
-   "bio": "Named a 2018 Thiel Fellow (Monterrey, Mexico) as co-founder and CEO of Higia Technologies, which was developing a non-invasive wearable for breast-cancer risk assessment.",
+   "bio": "Co-founder and CEO of Eden (formerly Eva, YC S18), a medical-imaging company whose cloud radiology platform and AI tools are used by imaging centers across Latin America; it raised a $22M Series A in 2025. As a 2018 fellow they were building Higia Technologies' EVA, a non-invasive wearable for breast-cancer risk assessment.",
    "previous": [
-    "Higia Technologies"
+    "Higia Technologies",
+    "Higia Technologies / EVA (co-founder & CEO)"
    ],
    "location": null,
    "x": null,
@@ -3982,7 +4398,11 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://edenmed.com/about-us",
+    "https://www.ycombinator.com/companies/eden-2",
+    "https://latamlist.com/eden-raises-22m-series-a/",
+    "https://buildd.co/startup/founder-stories/julian-rios"
    ],
    "confidence": "high"
   },
@@ -3990,11 +4410,11 @@
    "id": "kimberlie-le",
    "name": "Kimberlie Le",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "Prime Roots",
+   "companyUrl": "https://www.primeroots.com",
+   "role": "Co-founder & CEO",
    "sector": "Consumer",
-   "bio": "Named a 2018 Thiel Fellow (Edmonton / San Francisco) as co-founder and CEO of Terramino Foods, which makes fungi-based protein to replicate seafood and meat.",
+   "bio": "Co-founder and CEO of Prime Roots (formerly Terramino Foods), a Berkeley company that makes deli meats from koji, a fungi protein. As a 2018 fellow Le was developing fungi-based seafood and meat alternatives at Terramino Foods.",
    "previous": [
     "Terramino Foods"
    ],
@@ -4004,7 +4424,14 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://greatentrepreneurs.podbean.com/e/making-deli-meat-healthy-prime-roots-kimberlie-le",
+    "https://www.foodengineeringmag.com/articles/103146-prime-roots-launches-plant-based-whole-cut-deli-meats",
+    "https://www.primeroots.com/",
+    "https://dealroom.co/companies/prime-roots/",
+    "https://www.cbinsights.com/company/terramino/people",
+    "https://groceryshop.com/speakers/kimberlie-le",
+    "https://scet.berkeley.edu/scet-born-startup-terramino-foods-receives-4-25-million-in-seed-funding/"
    ],
    "confidence": "high"
   },
@@ -4012,13 +4439,13 @@
    "id": "liam-berryman",
    "name": "Liam Berryman",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Energy & Climate",
-   "bio": "Named a 2018 Thiel Fellow (San Mateo, CA) as co-founder and CEO of Nelumbo, a materials platform for making refrigeration systems more energy-efficient.",
+   "company": "Nelumbo",
+   "companyUrl": "https://www.nelumbo.io",
+   "role": "Co-founder & CEO",
+   "sector": "Hardware & Deep Tech",
+   "bio": "Co-founder and CEO of Nelumbo, a Hayward, California materials company making anti-frost coatings for refrigeration and HVAC heat exchangers and PFAS-free water repellents for textiles; Kuraray acquired it in April 2025. Berryman started the company as a 2018 fellow and was part of the Cyclotron Road program.",
    "previous": [
-    "Nelumbo"
+    "Cyclotron Road (fellow)"
    ],
    "location": null,
    "x": null,
@@ -4026,7 +4453,14 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://www.prnewswire.com/news-releases/nelumbo-acquired-by-kuraray-to-accelerate-global-expansion-of-products-and-add-new-technology-platform-302417871.html",
+    "https://www.miningstockeducation.com/2025/04/nelumbo-acquired-by-kuraray-to-accelerate-global-expansion-of-products-and-add-new-technology-platform/",
+    "https://www.kuraray.com/us-en/news/2025/0403/",
+    "https://hl.com/about-us/transactions/nelumbo-kuraray/",
+    "https://www.nelumbo.io/",
+    "https://foresight.org/people/liam-berryman/",
+    "https://theorg.com/org/nelumbo/org-chart/liam-berryman"
    ],
    "confidence": "high"
   },
@@ -4034,21 +4468,23 @@
    "id": "meghan-sharkus",
    "name": "Meghan Sharkus",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "ExpressionMed",
+   "companyUrl": "https://expressionmed.com",
+   "role": "Founder & CEO",
    "sector": "Bio & Health",
-   "bio": "Named a 2018 Thiel Fellow (Oregon, WI) as founder and CEO of ExpressionMed, which makes supplemental adhesives for wearable diabetes devices.",
-   "previous": [
-    "ExpressionMed"
-   ],
+   "bio": "Founder and CEO of ExpressionMed, a Minneapolis company that makes adhesive tapes, patches and stickers for continuous glucose monitors, insulin pumps and other diabetes devices. Sharkus started the company in 2015 as a University of St. Thomas student.",
+   "previous": [],
    "location": null,
    "x": "MeghanSharkus",
    "linkedin": "https://www.linkedin.com/in/meghan-sharkus-072824b4",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://expressionmed.com/pages/about-us",
+    "https://expressionmed.com/blogs/news",
+    "https://prnewswire.com/news-releases/expressionmed-ceo--founder-thiel-fellow-meghan-sharkus-celebrates-five-years-of-successful-business-301315145.html",
+    "https://medicalalley.org/4-questions-with-meghan-sharkus-of-expressionmed-a-gbeta-medtech-company/"
    ],
    "confidence": "high",
    "photo": "assets/people/meghan-sharkus.jpg"
@@ -4079,21 +4515,24 @@
    "id": "shak-lakhani",
    "name": "Shak Lakhani",
    "class": 2018,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "Avro Life Science",
+   "companyUrl": "https://avrolifesci.com",
+   "role": "Co-founder",
    "sector": "Bio & Health",
-   "bio": "Named a 2018 Thiel Fellow (Richmond Hill, Ontario) as co-founder of Avro Life Science, which was developing polymer skin patches for generic drug delivery.",
-   "previous": [
-    "Avro Life Science"
-   ],
+   "bio": "Co-founder and CEO of Avro Life Science, a biotech developing topical and transdermal drug-delivery platforms (TopiqIL, TransdermIL) for medical dermatology. Lakhani co-founded the company in 2018 and began biomaterials research at 15.",
+   "previous": [],
    "location": null,
-   "x": null,
-   "linkedin": null,
+   "x": "shaklakhani",
+   "linkedin": "https://www.linkedin.com/in/shaklakhani/",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://signal.nfx.com/investors/shak-lakhani",
+    "https://me.sh/profile/shak-lakhani",
+    "https://avrolifesci.com/",
+    "https://getlatka.com/companies/avrolifesci.com/contacts",
+    "https://be.marketscreener.com/insider/SHAKIR-LAKHANI-A2S2VJ"
    ],
    "confidence": "high"
   },
@@ -4107,7 +4546,7 @@
    "sector": "Hardware & Deep Tech",
    "bio": "Named a 2018 Thiel Fellow (Portland, OR) as founder and CEO of Vathys, which was designing machine-learning chips.",
    "previous": [
-    "Vathys"
+    "Vathys (founder & CEO, YC W18; inactive)"
    ],
    "location": null,
    "x": null,
@@ -4115,7 +4554,11 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
+    "https://web.archive.org/web/20190922081710/https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
+    "https://www.ycombinator.com/companies/vathys",
+    "https://www.cbinsights.com/company/vathys/people",
+    "https://crunchbase.com/person/tapa-ghosh",
+    "https://trea.com/person/tapabrata-ghosh/information/699efdad-3ac3-469b-b9e6-eb4a318f07ac"
    ],
    "confidence": "high"
   },
@@ -4480,19 +4923,24 @@
    "id": "paige-brown",
    "name": "Paige Brown",
    "class": 2019,
-   "company": "WindBorne Systems",
-   "companyUrl": "https://windbornesystems.com",
-   "role": null,
-   "sector": "Hardware & Deep Tech",
-   "bio": "Joined the fellowship with WindBorne, a Stanford-born startup flying long-duration high-altitude weather balloons for atmospheric data and forecasting.",
-   "previous": [],
+   "company": "SilverLining",
+   "companyUrl": "https://www.silverlining.ngo",
+   "role": "Program Director, SOAR Marine",
+   "sector": "Energy & Climate",
+   "bio": "Program Director at SilverLining, a climate nonprofit, where she works on its SOAR program to expand observing capacity for climate data; she now goes by Paige Brocidiacono. She co-founded WindBorne Systems and was its CEO, which earned her the Thiel Fellowship, then worked on atmospheric methane removal at Spark Climate Solutions.",
+   "previous": [
+    "WindBorne Systems (co-founder & CEO, 2019-2022)",
+    "Spark Climate Solutions (atmospheric methane research project manager)"
+   ],
    "location": "Palo Alto, CA",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
-    "https://neuron.com/companies/9098497754"
+    "https://neuron.com/companies/9098497754",
+    "https://www.silverlining.ngo/paige-brocidiacono",
+    "https://theorg.com/org/spark-climate-solutions/org-chart/paige-brocidiacono"
    ],
    "confidence": "high"
   },
@@ -4502,9 +4950,9 @@
    "class": 2019,
    "company": "Doppler",
    "companyUrl": "https://doppler.com",
-   "role": "Co-founder",
+   "role": null,
    "sector": "Software & SaaS",
-   "bio": "Co-founded Doppler (YC W19) with Brian Vallelunga in 2018, a secrets and configuration management platform for engineering teams.",
+   "bio": "Named a 2019 Thiel Fellow (Shanghai / San Francisco) for Doppler, a secrets and configuration management platform for engineering teams (YC W19). Press coverage of Doppler names Brian Vallelunga and Thomas Piccirello as its co-founders, and Chao's current role could not be verified.",
    "previous": [],
    "location": "San Francisco, CA",
    "x": null,
@@ -4512,7 +4960,9 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
-    "https://techstartups.com/2022/04/27/doppler-raises-20-million-led-crv-help-developers-seamlessly-manage-secure-application-secrets-scale/"
+    "https://techstartups.com/2022/04/27/doppler-raises-20-million-led-crv-help-developers-seamlessly-manage-secure-application-secrets-scale/",
+    "https://channelbiz.co.uk/press-release/thiel-foundation-announces-2019-thiel-fellows",
+    "https://techcrunch.com/2022/04/27/doppler-lands-20m-to-help-companies-manage-their-app-secrets/"
    ],
    "confidence": "high"
   },
@@ -4610,18 +5060,23 @@
    "id": "aaron-hannon",
    "name": "Aaron Hannon",
    "class": 2020,
-   "company": "Lily Devices",
-   "companyUrl": null,
-   "role": null,
+   "company": "Luminate Medical",
+   "companyUrl": "https://www.luminatemed.com",
+   "role": "Co-founder & CEO",
    "sector": "Bio & Health",
-   "bio": "Irish fellow developing medical devices to prevent hair loss during chemotherapy at Lily Devices.",
+   "bio": "Co-founder and CEO of Luminate Medical (YC S21), a Galway, Ireland company that developed Lily, a device to prevent chemotherapy-induced hair loss now in US clinical trials, and also offers nurse-led cancer infusion care at home. It raised a €15M Series A in 2024.",
    "previous": [],
    "location": "Galway, Ireland",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://www.luminatemed.com/about",
+    "https://www.luminatemed.com/",
+    "https://www.ycombinator.com/companies/luminate-medical",
+    "https://techcrunch.com/2021/08/30/luminate-aims-to-make-hair-loss-from-chemotherapy-a-thing-of-the-past",
+    "https://clinicaltrials.gov/api/v2/studies/NCT06786078"
    ],
    "confidence": "high"
   },
@@ -4652,18 +5107,24 @@
    "id": "ben-stern",
    "name": "Ben Stern",
    "class": 2020,
-   "company": "Nohbo",
-   "companyUrl": null,
-   "role": null,
-   "sector": "Consumer",
-   "bio": "Founded Nohbo, which made water-soluble single-use drops of shampoo and soap to eliminate small plastic bottles in hotels.",
-   "previous": [],
+   "company": "Tenkara",
+   "companyUrl": "https://www.tenkara.ai",
+   "role": "Founder & CEO",
+   "sector": "AI",
+   "bio": "Founder and CEO of Tenkara, a startup building AI agents that automate back-office operations for US manufacturers, such as supplier discovery, procurement and freight; it raised $7M led by True Ventures in 2026. Stern previously founded Nohbo, a maker of water-soluble single-use shampoo and soap drops, which won a Shark Tank deal with Mark Cuban.",
+   "previous": [
+    "Nohbo (founder & CEO)"
+   ],
    "location": "Melbourne, FL",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://tools.prnewswire.com/en-us/live/20823/release/20260330EN18406",
+    "https://trueventures.com/blog/why-we-backed-tenkara-infrastructure-for-manufacturing",
+    "https://www.tenkara.ai/",
+    "https://rss.com/podcasts/shafaliguptacom/1781585"
    ],
    "confidence": "high"
   },
@@ -4691,18 +5152,22 @@
    "id": "brandon-wang",
    "name": "Brandon Wang",
    "class": 2020,
-   "company": "Dreambound",
-   "companyUrl": "https://dreambound.com",
-   "role": null,
-   "sector": "Education",
-   "bio": "Was building Dreambound, which gives low-income Americans planning tools and financing for workforce-training courses, starting with certified nursing assistant programs.",
-   "previous": [],
+   "company": "AIUC",
+   "companyUrl": "https://aiuc.com",
+   "role": "Co-founder & CTO",
+   "sector": "AI",
+   "bio": "Co-founder and CTO of AIUC (the Artificial Intelligence Underwriting Company), which writes the AIUC-1 security and safety standard for AI agents and pairs audits with liability insurance; it came out of stealth in July 2025 with a $15M seed led by Nat Friedman. As a 2020 fellow they were building Dreambound, planning tools and financing for workforce-training courses.",
+   "previous": [
+    "Dreambound"
+   ],
    "location": "San Francisco, CA",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://fortune.com/2025/07/23/ai-agent-insurance-startup-aiuc-stealth-15-million-seed-nat-friedman/",
+    "https://valueaddvc.com/pulse/aiuc-40m-series-a-ai-agent-safety-2026"
    ],
    "confidence": "high"
   },
@@ -4724,7 +5189,8 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://api.github.com/users/gubsheep"
+    "https://api.github.com/users/gubsheep",
+    "https://github.com/gubsheep"
    ],
    "confidence": "high",
    "photo": "assets/people/brian-gu.jpg"
@@ -4735,16 +5201,21 @@
    "class": 2020,
    "company": "Saturn",
    "companyUrl": "https://www.joinsaturn.com",
-   "role": null,
+   "role": "Co-founder",
    "sector": "Consumer",
-   "bio": "Was building Saturn, a calendar and social-planning app that helps high schoolers share schedules and make plans.",
+   "bio": "Co-founder and CEO of Saturn, a social calendar app for high school students that Snap acquired in June 2025 and kept running as a standalone service. Diamond started it at Staples High School in Connecticut and launched it with Max Baron while at the University of Pennsylvania.",
    "previous": [],
    "location": "New York, NY",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://www.engadget.com/social-media/snap-is-acquiring-saturn-a-calendar-app-used-at-thousands-of-high-schools-160046915.html",
+    "https://www.netinfluencer.com/snap-acquires-saturn-calendar-app-to-boost-social-features-for-teen-users/",
+    "https://entrepreneur.com/starting-a-business/gen-z-focused-side-hustle-leads-to-40m-investment/474270",
+    "https://crunchbase.com/person/dylan-diamond-21bc",
+    "https://westportlocal.com/news/re5vwc8wlc4i39unmu659otuniaby7"
    ],
    "confidence": "high"
   },
@@ -4797,13 +5268,23 @@
    "role": null,
    "sector": "AI",
    "bio": "Named a fellow while working on Copysmith, an AI service that turns keywords into marketing copy, and writing a speculative-fiction novel.",
-   "previous": [],
+   "previous": [
+    "Co-author, What Makes Us Human: An Artificial Intelligence Answers Life's Biggest Questions (Sounds True, 2022, with Iain S. Thomas)",
+    "Partnership on AI",
+    "OpenAI",
+    "Future of Humanity Institute",
+    "Microsoft Research",
+    "Mila (Montreal Institute for Learning Algorithms)"
+   ],
    "location": "Edmonton, Alberta",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://nextbigideaclub.com/magazine/makes-us-human-artificial-intelligence-answers-lifes-biggest-questions-bookbite/39198/",
+    "https://www.soundstrue.com/blogs/authors/jasmine-wang",
+    "https://soundstrue.com/products/what-makes-us-human-1"
    ],
    "confidence": "high"
   },
@@ -4844,7 +5325,8 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://api.github.com/users/lithdew"
+    "https://api.github.com/users/lithdew",
+    "https://github.com/lithdew"
    ],
    "confidence": "high",
    "photo": "assets/people/kenta-iwasaki.jpg"
@@ -4853,13 +5335,14 @@
    "id": "lyn-chen",
    "name": "Lyn Chen",
    "class": 2020,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
+   "company": "Cansbridge Scholars",
+   "companyUrl": "https://www.cansbridgescholars.com",
+   "role": "Co-founder",
    "sector": "Education",
-   "bio": "Co-founded LayerCI (later webapp.io, YC S20), a CI/CD and preview-environment platform for web developers that her YC profile says was acquired. She says she now works on human-flourishing projects for emerging adults (ages 18-25) and K-12.",
+   "bio": "Co-founder and instructor of Cansbridge Scholars, a community and program that runs cohort-based courses, such as an 8-week Foundations course, for ambitious young people. Previously co-founded LayerCI (later webapp.io, YC S20), a CI/CD and preview-environment platform that was acquired.",
    "previous": [
-    "LayerCI / webapp.io (co-founder, acquired)"
+    "LayerCI / webapp.io (co-founder, acquired)",
+    "Cansbridge Fellowship (fellow, 2019)"
    ],
    "location": "Toronto, Canada",
    "x": null,
@@ -4867,7 +5350,11 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://www.ycombinator.com/companies/webapp-io"
+    "https://www.ycombinator.com/companies/webapp-io",
+    "https://www.cansbridgescholars.com/about",
+    "https://www.cansbridgescholars.com/",
+    "https://ca.linkedin.com/in/lynchen",
+    "https://crunchbase.com/person/lyn-chen"
    ],
    "confidence": "high"
   },
@@ -4920,9 +5407,9 @@
    "class": 2020,
    "company": "Prepared",
    "companyUrl": "https://www.prepared911.com",
-   "role": null,
+   "role": "Co-founder & CEO",
    "sector": "AI",
-   "bio": "Was building Prepared, emergency-response software for schools and law enforcement that grew into an AI assistant for 911 call-takers and dispatchers.",
+   "bio": "Co-founder and CEO of Prepared, AI software for 911 call-takers and dispatchers, which Axon agreed to acquire in September 2025; Prepared now forms the intelligence layer of Axon 911. They left Yale for the fellowship to build Prepared, which began as a school safety app.",
    "previous": [],
    "location": null,
    "x": null,
@@ -4930,7 +5417,14 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://www.prepared911.com/"
+    "https://www.prepared911.com/",
+    "https://pulse2.com/axon-to-buy-ai-based-911-communications-company-prepared/",
+    "https://www.police1.com/police-products/real-time-crime-centers/axon-to-acquire-ai-powered-911-communications-company-prepared",
+    "https://app.mergerlinks.com/transactions/2025-09-23-prepared-911",
+    "https://tradersunion.com/news/billionaires/show/1950043-michael-chime-us-innovation/",
+    "https://www.axon.com/boldly-go/boldly-go-episode-26-every-second-counts-rebuilding-911",
+    "https://prepared911.com/webinars/new-horaizons-prepared-by-axon",
+    "https://www.axon.com/newsroom/press-releases/axon-to-acquire-prepared"
    ],
    "confidence": "high"
   },
@@ -4940,9 +5434,9 @@
    "class": 2020,
    "company": "Pareto",
    "companyUrl": "https://pareto.ai",
-   "role": null,
+   "role": "Founder",
    "sector": "AI",
-   "bio": "Was building Pareto, a \"human API\" that let entrepreneurs outsource repetitive business tasks.",
+   "bio": "Founder of Pareto, which supplies expert human data and evaluation research for training AI models. Pareto began as a remote-work bootcamp for women and became a virtual-assistant service during the pandemic before shifting to AI training data.",
    "previous": [],
    "location": "St. Louis, MO",
    "x": "phoebeyao",
@@ -4950,7 +5444,8 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://pareto.ai/"
+    "https://pareto.ai/",
+    "https://pareto.ai/about-us"
    ],
    "confidence": "high",
    "photo": "assets/people/phoebe-yao.jpg"
@@ -5068,18 +5563,28 @@
    "id": "thomas-suarez",
    "name": "Thomas Suarez",
    "class": 2020,
-   "company": "Teleportal",
-   "companyUrl": "https://teleportal.app",
-   "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Was building Teleportal, a spatial-computing company working on a 3D operating system for shared, real-time mixed-reality experiences.",
-   "previous": [],
+   "company": "Raven Resonance",
+   "companyUrl": "https://raven.computer/",
+   "role": "Co-founder & CEO",
+   "sector": "Hardware & Deep Tech",
+   "bio": "Co-founder and CEO of Raven Resonance, a San Francisco lab building Raven Prism, all-day AR glasses that run its own Linux-based RavenOS. Previously co-founded Teleportal, an AR and 3D creator-tools startup, and led its engineering for seven years.",
+   "previous": [
+    "Teleportal (co-founder, led engineering)",
+    "Samsung Research",
+    "Georgia Tech Contextual Computing Group (wearable computing research)"
+   ],
    "location": "Los Angeles, CA",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://www.awexr.com/usa-2026/speakers/2747-thomas-suarez",
+    "https://www.auganix.org/ar-news-raven-resonance-raven-prism-awe/",
+    "https://www.draper.vc/portfolio/raven-resonance",
+    "https://raven.computer/",
+    "https://crunchbase.com/person/thomas-suarez",
+    "https://roadtovr.com/raven-prism-smart-glasses-reveal-awe-2026/"
    ],
    "confidence": "high"
   },
@@ -5089,16 +5594,22 @@
    "class": 2020,
    "company": "Dandy",
    "companyUrl": "https://www.meetdandy.com",
-   "role": null,
+   "role": "Co-founder",
    "sector": "Bio & Health",
-   "bio": "Joined the fellowship with Dandy, a business-in-a-box for dentists aiming to become the operating system for digital dentistry in the U.S.",
-   "previous": [],
+   "bio": "Co-founder of Dandy, a New York dental technology company started in 2018 with Wharton classmate Daniel Hanover that provides digital lab and manufacturing services to dentists. Earlier, as a Boston high-school student, Oloko built the PracticeGigs app.",
+   "previous": [
+    "PracticeGigs (founder & CEO)",
+    "GoPuff (while at Wharton)"
+   ],
    "location": "New York, NY",
    "x": "tonioloko",
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/tonioloko",
    "website": null,
    "sources": [
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://crunchbase.com/person/toni-oloko",
+    "https://me.sh/profile/toni-oloko",
+    "https://bostontrinity.org/alumni/alumni-recognition-award/2023-alumni-recognition-award-winner/"
    ],
    "confidence": "high",
    "photo": "assets/people/toni-oloko.jpg"
@@ -5108,18 +5619,21 @@
    "name": "Alex Taylor",
    "class": 2022,
    "company": "Orb Aerospace",
-   "companyUrl": null,
-   "role": null,
-   "sector": "Hardware & Deep Tech",
-   "bio": "Was building Orb Aerospace, electric aircraft designed for the needs of developing nations. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
+   "companyUrl": "https://orb.aero",
+   "role": "Founder & CEO",
+   "sector": "Space & Defense",
+   "bio": "Founder and CEO of Orb Aerospace, which is building autonomous aircraft, from 10-pound drones to 3,000-pound planes, as infrastructure for a humanitarian air force. Taylor started Orb at 16 and joined the fellowship with it.",
    "previous": [],
    "location": "Lowell, MI",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/alexander-taylor-06432915b",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://www.cbinsights.com/company/orb-aerospace/people",
+    "https://praxis.co/people/alex-taylor",
+    "https://www.praxis.co/ventures/orb-aerospace"
    ],
    "confidence": "high"
   },
@@ -5150,10 +5664,12 @@
    "class": 2022,
    "company": "Acorn Genetics",
    "companyUrl": "https://www.acorngenetics.com",
-   "role": null,
+   "role": "Founder & CEO",
    "sector": "Bio & Health",
-   "bio": "Was building Acorn Genetics, an at-home DNA test focused on affordability and data privacy. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "bio": "Founder and CEO of Acorn Genetics, a Chicago company that makes SENTRI, a compact molecular detection device, and is developing a portable solid-state nanopore DNA sequencer. The company began at Northwestern as GenomeLock, a privacy-focused at-home DNA test.",
+   "previous": [
+    "776 Foundation (776 Fellow, 2025)"
+   ],
    "location": "Chicago, IL",
    "x": null,
    "linkedin": null,
@@ -5161,7 +5677,10 @@
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://www.acorngenetics.com/"
+    "https://www.acorngenetics.com/",
+    "https://aseqer.com/p/acorn-genetics-working-solid-state",
+    "https://dailynorthwestern.com/2022/05/02/campus/former-nu-student-ana-cornell-explores-future-of-genetic-testing-with-acorn-genetics",
+    "https://village.ai/person/ana-cornell-MTk4NDA3OTA"
    ],
    "confidence": "high"
   },
@@ -5174,14 +5693,18 @@
    "role": null,
    "sector": "Bio & Health",
    "bio": "Was developing more affordable tools and testing for neurodiverse people (ADHD, dyslexia, mild autism). (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "previous": [
+    "Trill Project (co-founder)"
+   ],
    "location": "Los Angeles, CA",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://www.createcultivate.com/blog/ariana-sokolov-co-founder-trill-project-interview",
+    "https://metacast.app/podcast/beautifully-complex/d4pHf3Te/pap-155-using-strengths-to-find-success-with-adhd-with-ari-sokolov/y4bwPu57"
    ],
    "confidence": "high"
   },
@@ -5234,19 +5757,28 @@
    "id": "dayton-mills",
    "name": "Dayton Mills",
    "class": 2022,
-   "company": "Branch",
-   "companyUrl": "https://branch.gg",
-   "role": null,
+   "company": "One Big Sip",
+   "companyUrl": "https://onebigsip.com/",
+   "role": "Co-founder",
    "sector": "Consumer",
-   "bio": "Was building Branch.gg, a social gaming platform for creating, sharing and monetizing instantly playable games and metaverse experiences. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "bio": "Co-founder of One Big Sip, a small self-funded indie game studio whose first title is the PC action roguelite We Steal From Old People: The Game. Previously co-founded and led Branch, the Seattle web3 game studio behind Castaways, the company Mills joined the fellowship with.",
+   "previous": [
+    "Branch (co-founder & CEO; Castaways)"
+   ],
    "location": "Seattle, WA",
-   "x": null,
+   "x": "daytonmills",
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://onebigsip.com/",
+    "https://onebigsip.com/about/",
+    "https://github.com/daytonmills",
+    "https://github.com/branch-gg",
+    "https://www.geekwire.com/2023/this-24-year-old-entrepreneur-wants-to-build-the-first-mainstream-web3-game/",
+    "https://www.cbinsights.com/company/branch-3/people",
+    "https://www.pressreader.com/usa/forbes/20221213/282565907163268"
    ],
    "confidence": "high"
   },
@@ -5254,19 +5786,27 @@
    "id": "edward-beccle",
    "name": "Edward Beccle",
    "class": 2022,
-   "company": "Glorify",
-   "companyUrl": "https://www.glorify.global",
-   "role": null,
+   "company": "Beyond Type 1",
+   "companyUrl": "https://beyondtype1.org",
+   "role": "Board Member",
    "sector": "Consumer",
-   "bio": "Was building Glorify, a Christian daily worship and devotional app. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "bio": "Entrepreneur on the board of Beyond Type 1, the type 1 diabetes nonprofit, since January 2024. He co-founded Glorify, a Christian daily worship and devotional app, in 2019 and was its co-CEO with Henry Costa.",
+   "previous": [
+    "Glorify (co-founder & co-CEO)",
+    "Hintsa / GraspHR (co-founder; TechRound says he co-founded Hintsa, a high-performance coaching platform, in 2017 and sold it)"
+   ],
    "location": "London, UK",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://beyondtype1.org/team/",
+    "https://theorg.com/org/beyondtype1/org-chart/ed-b",
+    "https://theorg.com/org/hintsa/org-chart/ed-b",
+    "https://techround.co.uk/techround-29under29/17-edward-beccle-age-23/",
+    "https://techcrunch.com/?p=2242213"
    ],
    "confidence": "high"
   },
@@ -5294,12 +5834,14 @@
    "id": "ian-lee",
    "name": "Ian Lee",
    "class": 2022,
-   "company": "Examedi",
-   "companyUrl": "https://www.examedi.cl",
-   "role": null,
-   "sector": "Bio & Health",
-   "bio": "Was building Examedi (YC S21), a Latin American at-home healthcare marketplace connecting patients with nurses for in-home lab tests. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "company": "Nexor",
+   "companyUrl": "https://getnexor.ai",
+   "role": "Co-founder & CEO",
+   "sector": "AI",
+   "bio": "Co-founder and CEO of Nexor, a San Francisco startup building AI agents that call, text and email leads to book meetings and close sales; it went through a16z's Speedrun accelerator in 2026. Before that Ian Lee co-founded Examedi (YC S21), a Latin American at-home healthcare marketplace, and led it as CEO until late 2024.",
+   "previous": [
+    "Examedi (co-founder & CEO until Oct 2024; left day-to-day management Jan 2025)"
+   ],
    "location": "Santiago, Chile",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/ian-lee13",
@@ -5307,7 +5849,14 @@
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://www.ycombinator.com/companies/examedi"
+    "https://www.ycombinator.com/companies/examedi",
+    "https://www.df.cl/df-mas/punto-de-partida/con-inversion-de-andreessen-horowitz-la-nueva-startup-de-ian-lee-y-gabriel",
+    "https://forbes.cl/negocios/2026-07-15/nexor-la-revancha-de-ian-lee-junto-a-gabriel-cid-y-daniel-jimenez-quiere-conquistar-dubai-con-su-ia-agentica/",
+    "https://www.infobae.com/america/agencias/2026/07/22/startup-chilena-de-ia-nexor-cierra-alianzas-en-dubai-miami-y-singapur/",
+    "https://www.df.cl/df-mas/coffee-break/ian-lee-deja-la-gerencia-general-de-examedi-y-entra-ex-ceo-de-lemontech",
+    "https://getnexor.ai",
+    "https://chocale.cl/2022/08/ian-lee-cofundador-ceo-examedi-startup-salud-entrevista/",
+    "https://crunchbase.com/person/ian-lee-da15"
    ],
    "confidence": "high"
   },
@@ -5339,9 +5888,9 @@
    "class": 2022,
    "company": "Purple",
    "companyUrl": "https://www.withpurple.com",
-   "role": null,
+   "role": "Founder",
    "sector": "Fintech",
-   "bio": "Was building Purple, banking and investing products for people with disabilities. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
+   "bio": "Founder of Purple, a startup building financial products that help people with disabilities save; Ciocca joined the fellowship with it.",
    "previous": [],
    "location": "Bonita Springs, FL",
    "x": "JohnCiocca",
@@ -5349,7 +5898,9 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://github.com/johnciocca",
+    "https://github.com/WithPurple"
    ],
    "confidence": "high",
    "photo": "assets/people/john-ciocca.jpg"
@@ -5384,19 +5935,28 @@
    "id": "lada-nuzhna",
    "name": "Lada Nuzhna",
    "class": 2022,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Research",
-   "bio": "Ukrainian researcher developing biological tools to visualize and manage biology at the molecular level. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "company": "General Control",
+   "companyUrl": "https://generalcontrol.inc",
+   "role": "Founder & CEO",
+   "sector": "Bio & Health",
+   "bio": "Founder and CEO of General Control, a biotech startup engineering programmable epigenetic medicines for age-related diseases, which announced a platform partnership with Novo Nordisk in November 2025. Born in Avdiivka, Ukraine, they left Northwestern for the Thiel Fellowship and co-founded Impetus Grants, which has funded about $34M of aging research.",
+   "previous": [
+    "Impetus Grants (co-founder; longevity research grants, now run by Norn Group)",
+    "Northwestern University (physics & computer science, left for the fellowship)"
+   ],
    "location": "Kyiv, Ukraine",
-   "x": null,
+   "x": "ladanuzhna",
    "linkedin": "https://www.linkedin.com/in/lada-nuzhna-4a71b6273",
-   "website": null,
+   "website": "https://ladanuzhna.xyz",
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://ladanuzhna.xyz",
+    "https://github.com/ladanuzhna",
+    "https://generalcontrol.inc/",
+    "https://liveforeversociety.org/article/the-young-founder-teaching-big-pharma-a-new-way-to-reverse-aging",
+    "https://www.corememory.com/p/exclusive-a-bold-new-bid-to-control-genome-generalcontrol",
+    "https://www.norn.group/impetus-grants"
    ],
    "confidence": "high"
   },
@@ -5406,10 +5966,12 @@
    "class": 2022,
    "company": "Biodock",
    "companyUrl": "https://www.biodock.ai",
-   "role": null,
+   "role": "Co-founder",
    "sector": "AI",
-   "bio": "Was building Biodock (YC W21), a no-install, GPU-powered AI platform that identifies and quantifies objects in microscopy images for scientists. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "bio": "Co-founder of Biodock (YC W21), an Austin-based company whose cloud AI platform automates analysis of microscopy images; previously a deep learning researcher at Stanford and a co-author of the CellSeg nucleus-segmentation tool.",
+   "previous": [
+    "Stanford University (deep learning researcher; co-author of CellSeg, Nolan Lab)"
+   ],
    "location": "Austin, TX",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/mike21",
@@ -5418,7 +5980,12 @@
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://www.ycombinator.com/companies/biodock",
-    "https://www.biodock.ai/"
+    "https://www.biodock.ai/",
+    "https://standout.work/companies/biodock",
+    "https://himalayas.app/companies/biodock",
+    "https://www.crunchbase.com/organization/biodock",
+    "https://blog.biodock.ai/",
+    "https://healthcarediscovery.ai/companies/biodock/"
    ],
    "confidence": "high"
   },
@@ -5428,17 +5995,21 @@
    "class": 2022,
    "company": "Corecircle",
    "companyUrl": "https://corecircle.com",
-   "role": null,
+   "role": "Founder",
    "sector": "Consumer",
-   "bio": "Was building Corecircle, a social fitness app for documenting and tracking fitness progress within a community. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "bio": "Founder of Corecircle, a social fitness and workout-tracking iOS app (published by Connectful LLC) that passed 200,000 users in 2022. Ponomarenko earlier built Connectful, a networking app for Gen Z, and was a fitness creator who launched an apparel brand at 18.",
+   "previous": [
+    "Connectful (networking app for Gen Z)"
+   ],
    "location": "San Francisco, CA",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/nastassia-ponomarenko",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://foundersfeature.substack.com/p/founders-feature-054-corecircle",
+    "https://apps.apple.com/us/app/id1553742219"
    ],
    "confidence": "high"
   },
@@ -5489,18 +6060,25 @@
    "name": "Raina Jain",
    "class": 2022,
    "company": "QueenBee",
-   "companyUrl": null,
-   "role": null,
+   "companyUrl": "https://www.the-queenbee.com",
+   "role": "Founder",
    "sector": "Consumer",
-   "bio": "Was building QueenBee, sustainable wellness products made from honeybee byproducts. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "bio": "Founder of Queen Bee, which sells cold-pressed wellness shots such as ginger turmeric and fire cider; former NFL quarterback Tyrod Taylor is a co-founder. Queen Bee grew out of HiveGuard, a device against Varroa mites that Raina Jain started building in high school, and she left UConn for the fellowship.",
+   "previous": [
+    "HiveGuard (beehive mite-control device, high school project)"
+   ],
    "location": "Riverside, CT",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/raina-jain257",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://www.the-queenbee.com/",
+    "https://www.foundedbyher.org/business/queen-bee",
+    "https://greenwichfreepress.com/news/business/raina-jain-from-high-school-science-project-to-national-entrepreneurship-229027",
+    "https://magazine.uconn.edu/2021/10/14/bee-good/",
+    "https://www.mediapost.com/publications/article/366332/from-hives-to-whole-foods-queen-bee-provides-immu.html"
    ],
    "confidence": "high"
   },
@@ -5530,17 +6108,24 @@
    "class": 2022,
    "company": "MEDU",
    "companyUrl": null,
-   "role": null,
+   "role": "Founder & CEO",
    "sector": "Bio & Health",
-   "bio": "Was building MEDU, a sustainable producer of recyclable medical apparel for healthcare workers. (Class announced Jan 6, 2022; sometimes called the 2021 cohort.)",
-   "previous": [],
+   "bio": "Founder and CEO of MEDU Protection, a Mexican company that makes and sells reusable, antiviral medical gowns that can be washed up to 50 times; named to Forbes Mexico's 30 Under 30 in 2025. Started MEDU during the COVID-19 pandemic while studying chemical engineering at Universidad La Salle Mexico.",
+   "previous": [
+    "Halcyon Residential Incubator (Cohort 16 fellow)",
+    "Universidad La Salle Mexico (chemical engineering, left)"
+   ],
    "location": "Mexico City, Mexico",
    "x": null,
    "linkedin": "https://www.linkedin.com/in/tamara-chayo",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20220106005089/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://forbes.com.mx/?p=1322698",
+    "https://yunusandyouth.com/project/tamara-chayo-romo/",
+    "https://www.halcyonhouse.org/?p=3348",
+    "https://www.instagram.com/meduprotection/"
    ],
    "confidence": "high"
   },
@@ -5906,24 +6491,27 @@
    "id": "nik-shevchenko",
    "name": "Nik Shevchenko",
    "class": 2023,
-   "company": null,
-   "companyUrl": null,
-   "role": null,
-   "sector": "Software & SaaS",
-   "bio": "Founded WeLoveNoCode, a no-code freelancer marketplace that Toptal acquired in October 2023; he said he planned a new venture in VR/AR or robotics, but no current company was found.",
+   "company": "Omi (Based Hardware)",
+   "companyUrl": "https://www.omi.me",
+   "role": "Founder",
+   "sector": "AI",
+   "bio": "Founder of Omi (Based Hardware Inc.), a San Francisco company making an open-source AI wearable pendant that records conversations and turns them into summaries and to-dos. Earlier founded WeLoveNoCode, a no-code developer marketplace that Toptal acquired in 2023.",
    "previous": [
     "WeLoveNoCode (acquired by Toptal, 2023)",
     "fundplatform.io (sold)"
    ],
    "location": "San Francisco, CA",
-   "x": null,
+   "x": "kodjima33",
    "linkedin": "https://www.linkedin.com/in/nik-shevchenko-08565b18b",
    "website": "https://intro.co/NikShevchenko",
    "sources": [
     "https://www.businesswire.com/news/home/20230208005685/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
     "https://www.01net.it/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://pulse2.com/toptal-acquires-no-code-network-company-welovenocode/",
-    "https://intro.co/NikShevchenko"
+    "https://intro.co/NikShevchenko",
+    "https://github.com/kodjima33",
+    "https://github.com/BasedHardware/omi",
+    "https://www.omi.me/"
    ],
    "confidence": "low"
   },
@@ -5957,19 +6545,22 @@
    "id": "reiss-jones",
    "name": "Reiss Jones",
    "class": 2023,
-   "company": "Macro Energy",
+   "company": "Daydream Labs",
    "companyUrl": null,
-   "role": null,
+   "role": "Founder",
    "sector": "Energy & Climate",
-   "bio": "Named in the 2023 class for Macro Energy, described as building a cheap, accessible carbon-negative energy source; no later information was found.",
-   "previous": [],
+   "bio": "Founder of Daydream Labs. As a 2023 fellow Jones worked on Macro Energy, a project to build a cheap, accessible carbon-negative energy source.",
+   "previous": [
+    "Macro Energy"
+   ],
    "location": "Manchester, England",
    "x": null,
    "linkedin": null,
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20230208005685/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
-    "https://www.01net.it/thiel-foundation-announces-next-thiel-fellow-class/"
+    "https://www.01net.it/thiel-foundation-announces-next-thiel-fellow-class/",
+    "https://github.com/reissjones"
    ],
    "confidence": "low"
   },
@@ -6568,11 +7159,11 @@
    "id": "carlo-kobe",
    "name": "Carlo Kobe",
    "class": 2025,
-   "company": "Fizz",
-   "companyUrl": null,
-   "role": null,
+   "company": "Mine",
+   "companyUrl": "https://usemine.com",
+   "role": "Co-founder & CEO",
    "sector": "Fintech",
-   "bio": "Building Fizz, an AI financial advisor for young adults.",
+   "bio": "Co-founder and CEO of Mine (formerly Fizz, YC S21), a personal finance app for young adults built around a credit-building debit card and MoneyGPT, an AI money assistant; the company rebranded and raised a $14M Series A led by 359 Capital in January 2026. Originally from Hamburg, Germany, Kobe left Harvard to build the company.",
    "previous": [],
    "location": "Hamburg, Germany",
    "x": null,
@@ -6580,7 +7171,14 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
-    "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows"
+    "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
+    "https://pulse2.com/mine-14-million-series-a/",
+    "https://www.pymnts.com/?p=3420906",
+    "https://www.ycombinator.com/companies/mine",
+    "https://apps.apple.com/us/app/id1629069157",
+    "https://crunchbase.com/person/carlo-köbe",
+    "https://podcastrex.com/shows/fintech-one-on-one/carlo-kobe-ceo-of-fizz-on-building-a-great-financial-app-for-college-students",
+    "https://tbpn-digest.vercel.app/story/2025-05-27/fizz-wants-to-be-the-ai-financial-advisor-in-every-young-adults-pocket-starting-with-the-first-debit-card-that-builds-credit"
    ],
    "confidence": "low"
   },
@@ -6589,10 +7187,10 @@
    "name": "Colton El-Habr",
    "class": 2025,
    "company": "Orbit",
-   "companyUrl": null,
-   "role": null,
+   "companyUrl": "https://www.orbit.engineering",
+   "role": "Co-founder & CTO",
    "sector": "Bio & Health",
-   "bio": "Co-building Orbit with fellow Steven Pang: non-invasive neurostimulators that modulate the autonomic nervous system, pitched as 'an API to the human mind'.",
+   "bio": "Co-founder and CTO of Orbit Technologies, which builds non-invasive, behind-the-ear vestibular neurostimulators aimed at sleep, metabolism and other autonomic functions. They co-founded Orbit with fellow Steven Pang in 2023 and left Johns Hopkins to work on it full-time.",
    "previous": [],
    "location": "Philadelphia, PA",
    "x": null,
@@ -6600,7 +7198,11 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
-    "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows"
+    "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
+    "https://www.newswire.com/news/orbit-technologies-inc-raises-500k-in-pre-seed-round-22165880",
+    "https://www.jhunewsletter.com/article/2025/04/how-former-hopkins-student-colton-el-habr-and-orbit-make-magic-with-vestibular-stimulators",
+    "https://pebblebed.com/portfolio/orbit",
+    "https://www.orbit.engineering/"
    ],
    "confidence": "medium"
   },
@@ -6621,7 +7223,10 @@
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
     "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
-    "https://canopylabs.ai/"
+    "https://canopylabs.ai/",
+    "https://github.com/EliasFiz",
+    "https://huggingface.co/eliasfiz",
+    "https://huggingface.co/canopylabs"
    ],
    "confidence": "medium"
   },
@@ -6655,9 +7260,9 @@
    "class": 2025,
    "company": "Augustus",
    "companyUrl": "https://augustus.com",
-   "role": null,
+   "role": "Co-founder & CEO",
    "sector": "Fintech",
-   "bio": "Named in the 2025 class for Ivy, a Berlin global instant-payments platform pitched as 'the world trade bank'; Ivy's domain now redirects to Augustus, 'The Global Dollar Bank', which offers dollar and euro accounts to fintechs and banks.",
+   "bio": "Co-founder and CEO of Augustus, the 'Global Dollar Bank', a clearing bank that gives international fintechs and banks direct access to dollar accounts and payment rails; it received a conditional OCC national bank charter in May 2026 and raised a $180M Series B at a $1B valuation led by Tiger Global in July 2026. The company, founded in 2022, was known as Ivy when Dabitz joined the 2025 fellowship class.",
    "previous": [
     "Ivy"
    ],
@@ -6668,7 +7273,12 @@
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
     "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
-    "https://augustus.com/"
+    "https://augustus.com/",
+    "https://augustus.com/about",
+    "https://augustus.com/newsroom/augustus-announces-180m-series-b-at-1b-valuation",
+    "https://augustus.com/newsroom/banking-in-the-ai-era-augustus-ceo-ferdinand-dabitz-on-cnbc",
+    "https://www.cnbc.com/video/2026/05/13/banking-in-the-ai-era-augustus-ceo-ferdinand-dabitz-on-the-first-ai-native-clearing-bank.html",
+    "https://fortune.com/2026/05/11/augustus-stablecoins-occ-charter/"
    ],
    "confidence": "medium"
   },
@@ -6677,10 +7287,10 @@
    "name": "Hooman Reza Nezhad",
    "class": 2025,
    "company": "Solcoa Industries",
-   "companyUrl": null,
-   "role": null,
+   "companyUrl": "https://solcoaindustries.com",
+   "role": "CEO",
    "sector": "Hardware & Deep Tech",
-   "bio": "Building Solcoa Industries to produce zero-carbon, American-made rare-earth metals at scale.",
+   "bio": "CEO of Solcoa Industries, an Alameda, California company that produces rare earth metals (neodymium-praseodymium and samarium-cobalt) with an in-house chemistry and reactor process; in September 2026 it announced $75M ($45M equity led by Bain Capital Ventures plus $30M debt anchored by J.P. Morgan) to build Solcoa One, a 500-tonne-per-year plant in Nevada.",
    "previous": [],
    "location": "Waterloo, Canada",
    "x": null,
@@ -6688,7 +7298,11 @@
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
-    "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows"
+    "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
+    "https://solcoaindustries.com/",
+    "https://markets.financialcontent.com/stocks/article/bizwire-2026-9-24-solcoa-announces-75m-to-scale-americas-first-new-metalmaking-process-in-80-years",
+    "https://www.businesswire.com/news/home/20260924752270/en/Solcoa-Announces-%2475M-to-Scale-Americas-First-New-Metalmaking-Process-in-80-Years",
+    "https://rareearthexchanges.com/news/solcoa-industries-rare-earth-metallization/"
    ],
    "confidence": "low"
   },
@@ -6698,18 +7312,25 @@
    "class": 2025,
    "company": "Azura",
    "companyUrl": "https://azura.xyz",
-   "role": null,
+   "role": "Founder & CEO",
    "sector": "Crypto",
-   "bio": "Building Azura, an onchain trading platform for swapping crypto, tokenized equities, commodities and memecoins in USD with zero swap fees.",
-   "previous": [],
+   "bio": "Founder and CEO of Azura, a zero-fee onchain trading platform for crypto, tokenized equities, commodities and memecoins priced in USD; Azura raised a $6.9M seed round led by Initialized Capital when it launched publicly in October 2024. Its predecessor, Thunder, was an invite-only trading beta for professional traders.",
+   "previous": [
+    "Thunder (Azura's predecessor; trading beta)"
+   ],
    "location": "Los Angeles, CA",
-   "x": null,
-   "linkedin": null,
+   "x": "jacksondenka",
+   "linkedin": "https://www.linkedin.com/in/jacksondenka",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
     "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
-    "https://azura.xyz/"
+    "https://azura.xyz/",
+    "https://fortune.com/crypto/2024/10/22/exclusive-defi-platform-azura-launches-after-raising-6-9-million-from-initialized/",
+    "https://azura.xyz/blogs/defis-missing-link-introducing-azura",
+    "https://azura.xyz/blogs/financial-nihilist",
+    "https://az.xyz/",
+    "https://insights.tryspecter.com/thiel-fellowship-2025/"
    ],
    "confidence": "medium"
   },
@@ -6738,19 +7359,20 @@
    "name": "Juan Ebrath",
    "class": 2025,
    "company": "Phase",
-   "companyUrl": null,
+   "companyUrl": "https://www.phaselabs.bio",
    "role": null,
    "sector": "Bio & Health",
-   "bio": "Building Phase, a research lab working toward whole-body regeneration and programmable living matter, from healing hearts to regrowing limbs.",
+   "bio": "Building Phase, a South San Francisco research lab in stealth developing bioelectronic interfaces to regenerate the human body, aiming to repair failed organs and regrow amputated limbs.",
    "previous": [],
    "location": "Bogota, Colombia",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/jpebrath",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
     "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
-    "https://insights.tryspecter.com/thiel-fellowship-2025/"
+    "https://insights.tryspecter.com/thiel-fellowship-2025/",
+    "https://www.phaselabs.bio/"
    ],
    "confidence": "medium"
   },
@@ -6771,7 +7393,8 @@
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
     "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
-    "https://www.aeolus.earth/"
+    "https://www.aeolus.earth/",
+    "https://www.aeolus.earth/careers"
    ],
    "confidence": "medium",
    "photo": "assets/people/koki-mashita.jpg"
@@ -6831,19 +7454,24 @@
    "name": "Steven Pang",
    "class": 2025,
    "company": "Orbit",
-   "companyUrl": null,
-   "role": null,
+   "companyUrl": "https://www.orbit.engineering",
+   "role": "Co-founder & CEO",
    "sector": "Bio & Health",
-   "bio": "Co-building Orbit with fellow Colton El-Habr: non-invasive neurostimulators that modulate the body's autonomic nervous system.",
+   "bio": "Co-founder and CEO of Orbit Technologies, which builds non-invasive, behind-the-ear vestibular neurostimulators aimed at sleep, metabolism and other autonomic functions. They co-founded Orbit with fellow Colton El-Habr in 2023 as a Georgetown computer science student.",
    "previous": [],
    "location": "Hong Kong",
    "x": null,
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/steven-pang-625004218/",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
     "https://markets.financialcontent.com/stocks/article/bizwire-2025-5-22-thiel-foundation-announces-2025-class-of-thiel-fellows",
-    "https://insights.tryspecter.com/thiel-fellowship-2025/"
+    "https://insights.tryspecter.com/thiel-fellowship-2025/",
+    "https://www.newswire.com/news/orbit-technologies-inc-raises-500k-in-pre-seed-round-22165880",
+    "https://www.jhunewsletter.com/article/2025/04/how-former-hopkins-student-colton-el-habr-and-orbit-make-magic-with-vestibular-stimulators",
+    "https://pebblebed.com/portfolio/orbit",
+    "https://poetsandquantsforundergrads.com/students/2023-most-disruptive-business-school-startups-orbit-georgetown-university-mcdonough/",
+    "https://tbpn-digest.vercel.app/story/2025-05-27/orbit-is-building-a-non-invasive-neurostimulator-that-controls-sleep-metabolism-and-the-autonomic-nervous-system"
    ],
    "confidence": "medium"
   },
@@ -6928,22 +7556,25 @@
    "name": "Aubrey Niederhoffer",
    "class": 2026,
    "company": "Swoop",
-   "companyUrl": null,
+   "companyUrl": "https://swoop.com.ng",
    "role": null,
    "sector": "Consumer",
-   "bio": "Building Swoop, a super app for Africa that starts with food delivery in Nigeria and plans to expand into financial services; he left UC Berkeley Haas to move to Nigeria.",
+   "bio": "Building Swoop, which bills itself as Africa's super app and runs same-day food delivery in Lagos (Yaba) and in Eswatini, with groceries and pharmacy listed as coming soon. They left UC Berkeley's Haas School of Business to move to Nigeria for it, after several years running businesses in Southern Africa.",
    "previous": [
     "Thumo (Eswatini)"
    ],
    "location": "New York, NY",
    "x": "needaubrey",
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/aubreyniederhoffer",
    "website": null,
    "sources": [
     "https://www.businesswire.com/news/home/20260420984007/en/Thiel-Foundation-Announces-2026-Class-of-Thiel-Fellows",
     "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/",
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
-    "https://insights.tryspecter.com/thiel-fellows-2026/"
+    "https://insights.tryspecter.com/thiel-fellows-2026/",
+    "https://swoop.com.ng/about",
+    "https://swoop.co.sz/",
+    "https://thumo.app/"
    ],
    "confidence": "high",
    "photo": "assets/people/aubrey-niederhoffer.jpg"
@@ -6959,7 +7590,8 @@
    "bio": "Building biologically accurate simulations of entire nervous systems, starting with C. elegans, as groundwork for brain-computer interfaces; she left MIT for the fellowship. The official release names no company; 'Bioneural Lab' comes from RichNerds.",
    "previous": [
     "Axo Neurotech",
-    "E11 Bio"
+    "E11 Bio",
+    "MIT Jasanoff Lab (C. elegans whole-brain simulation research)"
    ],
    "location": "Los Angeles, CA",
    "x": "clairebookworm",
@@ -6970,7 +7602,8 @@
     "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/",
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
     "https://insights.tryspecter.com/thiel-fellows-2026/",
-    "https://www.clairebookworm.com/"
+    "https://www.clairebookworm.com/",
+    "https://github.com/ClaireBookworm"
    ],
    "confidence": "medium",
    "photo": "assets/people/claire-wang.jpg"
@@ -6981,20 +7614,25 @@
    "class": 2026,
    "company": "Standard Intelligence",
    "companyUrl": "https://si.inc",
-   "role": null,
+   "role": "Co-founder",
    "sector": "AI",
-   "bio": "Building at Standard Intelligence, an AGI lab that pretrains models to explore and learn from the internet (e.g., the hertz-dev speech model and a general computer-action model); it raised $75M from Sequoia and Spark.",
+   "bio": "Co-founder of Standard Intelligence, a small San Francisco AI lab that pretrains models to learn from the internet, including the hertz-dev speech model and FDM-1, a general computer-action model; the lab raised $75M from Sequoia and Spark Capital in April 2026.",
    "previous": [],
    "location": "Chapel Hill, NC",
    "x": "g413n",
-   "linkedin": null,
+   "linkedin": "https://www.linkedin.com/in/galenmead",
    "website": "https://nel.ag",
    "sources": [
     "https://www.businesswire.com/news/home/20260420984007/en/Thiel-Foundation-Announces-2026-Class-of-Thiel-Fellows",
     "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/",
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
     "https://insights.tryspecter.com/thiel-fellows-2026/",
-    "https://si.inc/"
+    "https://si.inc/",
+    "https://si.inc/posts/fdm1/",
+    "https://si.inc/posts/hertz-dev/",
+    "https://si.inc/posts/a/",
+    "https://github.com/calculating",
+    "https://sequoiacap.com/companies/standard-intelligence/"
    ],
    "confidence": "high",
    "photo": "assets/people/galen-mead.jpg"
@@ -7059,7 +7697,8 @@
     "OpenAI (MTS)",
     "Mercor (first intern)",
     "Kinetic (COO)",
-    "Spark Teen (founder)"
+    "Spark Teen (founder)",
+    "Stanford AI Lab (undergraduate researcher)"
    ],
    "location": "Portland, OR",
    "x": "kylerywang",
@@ -7145,7 +7784,8 @@
     "https://www.businesswire.com/news/home/20260420984007/en/Thiel-Foundation-Announces-2026-Class-of-Thiel-Fellows",
     "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/",
     "https://richnerds.substack.com/p/thiel-fellowship-2026-fellows",
-    "https://insights.tryspecter.com/thiel-fellows-2026/"
+    "https://insights.tryspecter.com/thiel-fellows-2026/",
+    "https://praso.com.br/"
    ],
    "confidence": "high",
    "photo": "assets/people/samuel-carvalho.jpg"
