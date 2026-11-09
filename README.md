@@ -15,7 +15,7 @@ A static site with no build step:
 - `data/fellows.json`: one record per fellow (class, current company and role, bio, links, sources, confidence)
 - `data/companies.json`: one record per company (fellows, status, latest valuation, peak, sources)
 
-To fix or add a fellow, edit the JSON and push. Each company lists its fellows by `id`, and the app builds the links between fellows and companies at load time.
+To fix or add a fellow, edit the JSON and push. After changing `app.js` or `style.css`, bump the `?v=` number on both in `index.html` so browsers fetch the new files. Each company lists its fellows by `id`, and the app builds the links between fellows and companies at load time.
 
 ## Local preview
 

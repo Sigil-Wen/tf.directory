@@ -20,7 +20,7 @@
 
   // ---------- helpers ----------
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
-  const yy = (y) => "’" + String(y).slice(2);
+  const tfy = (y) => "TF" + String(y).slice(2);
   const plural = (n, w) => `${n} ${w === "company" ? (n === 1 ? w : "companies") : w + (n === 1 ? "" : "s")}`;
   const safeUrl = (u) => (typeof u === "string" && /^https?:\/\//i.test(u) ? u : null);
   const host = (u) => { try { return new URL(u).hostname.replace(/^www\./, ""); } catch { return u; } };
@@ -41,9 +41,9 @@
   const img = (cls, src, s) => `<img class="${cls}" src="${esc(src)}" alt="" width="${s}" height="${s}" style="--s:${s}px" loading="lazy" decoding="async">`;
   const face = (f, s = 40) => (f.photo ? img("face", f.photo, s) : `<span class="face blank" style="--s:${s}px" aria-hidden="true">${esc(initials(f.name))}</span>`);
   const logo = (c, s = 40) => (c.logo ? img(c.logoDark ? "logo on-dark" : "logo", c.logo, s) : `<span class="logo blank" style="--s:${s}px" aria-hidden="true">${esc(c.name[0])}</span>`);
-  const stack = (fs, s = 28, n = 3) => `<span class="stack">${fs.slice(0, n).map((f) => face(f, s)).join("")}</span>`;
   const rk = (i) => `<span class="rk${i < 3 ? " lead" : ""}">${i + 1}</span>`;
   const tag = (t) => `<span class="tag">${esc(t)}</span>`;
+  const tfTag = (y) => `<span class="tf">${tfy(y)}</span>`;
 
   const chip = (s) => (s ? `<span class="chip">${esc(s)}</span>` : "");
   const STATUS_LABEL = { public: "Public", private: "Private", acquired: "Acquired", defunct: "Defunct", nonprofit: "Nonprofit", protocol: "Token network" };
@@ -66,9 +66,14 @@
   const topCo = (f) => f.cos.slice().sort(byValue)[0];
   const fellowValue = (f) => Math.max(0, ...f.cos.map(value));
   const ranked = () => companies.filter(counted).sort(byValue);
-  const classesOf = (c) => [...new Set(c.fs.map((f) => f.class))].sort((a, b) => a - b);
-
-  const fellowNames = (fs) => fs.map((f) => `<a href="#/fellow/${f.id}">${esc(f.name)}</a>`).join(", ");
+  const titleAt = (c, f) => (c.titles && c.titles[f.id]) || "";
+  // One line per founder: portrait, name, class tag, then their title at this company.
+  const founderLine = (c, f, link = true) => {
+    const who = `${face(f, 24)}<span class="fl-n">${esc(f.name)}</span>`;
+    const t = titleAt(c, f);
+    return `<div class="fl">${link ? `<a class="fl-a" href="#/fellow/${f.id}">${who}</a>` : `<span class="fl-a">${who}</span>`}${tfTag(f.class)}${t ? `<span class="fl-t">${esc(t)}</span>` : ""}</div>`;
+  };
+  const founderText = (c) => c.fs.map((f) => `${esc(f.name)} ${tfTag(f.class)}`).join(", ") + (c.fs.length === 1 && titleAt(c, c.fs[0]) ? ` · ${esc(titleAt(c, c.fs[0]))}` : "");
   const workOf = (f) => {
     if (f.company) return f.company;
     const built = topCo(f);
@@ -99,18 +104,17 @@
       <div class="pod-name">${esc(c.name)}</div>
       <div class="pod-val">${money(value(c))}</div>
       <div class="pod-note">${esc(c.valuationNote || "")}</div>
-      <div class="pod-fs">${stack(c.fs, 26)}<span class="t">${esc(c.fs.map((f) => f.name).join(", "))}</span></div>
+      <div class="pod-fs">${c.fs.map((f) => founderLine(c, f, false)).join("")}</div>
     </a>`).join("")}</div>`;
   }
 
   function companyRows(list, start = 0) {
     if (!list.length) return `<div class="empty">No valued companies yet.</div>`;
-    return `<div class="t-head"><span>Rank</span><span>Company</span><span>Fellows</span><span class="h-cls">Class</span><span class="r">Valuation</span></div>
+    return `<div class="t-head"><span>Rank</span><span>Company</span><span>Fellows</span><span class="r">Valuation</span></div>
     ${list.map((c, i) => `<div class="t-row">
       ${rk(i + start)}
-      <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}${companyTags(c)}</span><span class="t-sub m">${esc(c.fs.map((f) => f.name).join(", "))}</span></span></a>
-      <div class="founders">${stack(c.fs)}<span class="names">${fellowNames(c.fs)}</span></div>
-      <div class="t-cls">${classesOf(c).map((y) => `<a href="#/class/${y}">${y}</a>`).join(", ")}</div>
+      <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}${companyTags(c)}</span></span></a>
+      <div class="founders">${c.fs.map((f) => founderLine(c, f)).join("")}</div>
       <div class="val">${money(value(c))}<small>${esc(c.valuationNote || "")}</small></div>
     </div>`).join("")}`;
   }
@@ -168,19 +172,19 @@
     return `<article class="lcard${wide ? " wide" : ""}">
       <div class="lc-top"><span>${esc(kicker)}</span><a class="lc-btn" href="${href}">View list →</a></div>
       <h3>${esc(title)}</h3>
-      <div class="li-rows${wide ? " two" : ""}">${rows.map((r, i) => `<a class="li" href="${r.href}">${rk(i)}${r.img}<span class="li-t">${esc(r.t)}</span>${r.v ? `<span class="li-v">${esc(r.v)}</span>` : ""}</a>`).join("")}</div>
+      <div class="li-rows${wide ? " two" : ""}">${rows.map((r, i) => `<a class="li" href="${r.href}">${rk(i)}${r.img}<span class="li-t">${esc(r.t)}</span>${r.tf ? tfTag(r.tf) : ""}${r.v ? `<span class="li-v">${esc(r.v)}</span>` : ""}</a>`).join("")}</div>
       ${total > shown ? `<p class="li-more">+ ${total - shown} others</p>` : ""}
     </article>`;
   }
 
-  function fellowCard(f) {
+  function fellowCard(f, sub) {
     const c = topCo(f);
     const media = f.photo
       ? `<img class="photo" src="${esc(f.photo)}" alt="" loading="lazy" decoding="async">`
       : c && c.logo ? logo(c, 64) : `<span class="ini" aria-hidden="true">${esc(initials(f.name))}</span>`;
     return `<a class="f-card" href="#/fellow/${f.id}">
-      <div class="fc-media">${media}<span class="tile">${yy(f.class)}</span></div>
-      <div class="fc-body"><div class="fc-name">${esc(f.name)}</div><div class="fc-co">${esc(workOf(f))}</div></div>
+      <div class="fc-media">${media}<span class="tile">${tfy(f.class)}</span></div>
+      <div class="fc-body"><div class="fc-name">${esc(f.name)}</div><div class="fc-co">${esc(sub ?? workOf(f))}</div></div>
     </a>`;
   }
 
@@ -223,9 +227,9 @@
         <div class="sect-head"><h2>More lists</h2></div>
         <div class="lists">
           ${listCard({ kicker: "Classes", title: "Which class won?", href: "#/classes", wide: true, total: classes.length,
-            rows: classes.map((r) => ({ href: `#/class/${r.year}`, img: `<span class="yr">${yy(r.year)}</span>`, t: r.valued[0] ? `${r.year} · ${r.valued[0].name}` : `${r.year}`, v: r.value ? money(r.value) : "—" })) })}
+            rows: classes.map((r) => ({ href: `#/class/${r.year}`, img: `<span class="yr">${tfy(r.year)}</span>`, t: r.valued[0] ? `${r.year} · ${r.valued[0].name}` : `${r.year}`, v: r.value ? money(r.value) : "—" })) })}
           ${billionaires.length ? listCard({ kicker: "People", title: "Billionaires", href: "#/leaderboard#billionaires", total: billionaires.length,
-            rows: billionaires.slice(0, 5).map((f) => ({ href: `#/fellow/${f.id}`, img: face(f, 30), t: f.name, v: f.billionaire === "former" ? "Former" : "" })) }) : ""}
+            rows: billionaires.slice(0, 5).map((f) => ({ href: `#/fellow/${f.id}`, img: face(f, 30), t: f.name, tf: f.class, v: f.billionaire === "former" ? "Former" : "" })) }) : ""}
           ${sectors.map(({ s, cos }) => listCard({ kicker: "Sector", title: s, href: `#/leaderboard/${encodeURIComponent(s)}`, total: cos.length,
             rows: cos.slice(0, 5).map((c) => ({ href: `#/company/${c.id}`, img: logo(c, 30), t: c.name, v: money(value(c)) })) })).join("")}
         </div>
@@ -254,7 +258,7 @@
 
       ${billionaires.length && !sector ? `<section class="sect" id="billionaires">
         <div class="sect-head"><div><h2>Billionaire fellows</h2><p>Forbes real-time estimates as of ${esc(meta.updated || "today")}, plus fellows who were billionaires in the past.</p></div></div>
-        <div class="b-rows">${billionaires.map((f) => `<a class="b-row" href="#/fellow/${f.id}">${face(f, 44)}<span><span class="b-name">${esc(f.name)}</span><span class="b-note">${esc(f.billionaireNote || "")}</span></span><span class="t-cls b-cls">${f.class}</span><span class="r">${tag(f.billionaire === "current" ? "Billionaire" : "Former")}</span></a>`).join("")}</div>
+        <div class="b-rows">${billionaires.map((f) => `<a class="b-row" href="#/fellow/${f.id}">${face(f, 44)}<span><span class="b-name">${esc(f.name)} ${tfTag(f.class)}</span><span class="b-note">${esc(f.billionaireNote || "")}</span></span><span class="r">${tag(f.billionaire === "current" ? "Billionaire" : "Former")}</span></a>`).join("")}</div>
       </section>` : ""}`;
     return { html, title: sector ? `${sector} leaderboard` : "Valuation leaderboard" };
   }
@@ -295,7 +299,7 @@
       </section>` : ""}
       <section class="sect">
         <div class="sect-head"><h2>Fellows</h2></div>
-        <div class="fgrid">${fs.map(fellowCard).join("")}</div>
+        <div class="fgrid">${fs.map((f) => fellowCard(f)).join("")}</div>
       </section>
       <nav class="pn">
         ${prev ? `<a href="#/class/${prev}"><small>← Previous class</small><b>Class of ${prev}</b></a>` : "<span></span>"}
@@ -347,7 +351,7 @@
         </div>
         ${list.map((c, i) => `<div class="t-row">
           <span class="rk">${i + 1}</span>
-          <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.fs.map((f) => f.name).join(", "))}</span><span class="t-sub m">${esc(c.fs.map((f) => f.name).join(", "))}</span></span></a>
+          <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${founderText(c)}</span><span class="t-sub m">${founderText(c)}</span></span></a>
           <span class="t-sector">${chip(c.sector)}</span>
           <span class="t-status">${statusTag(c.status)}</span>
           <span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}<small>${value(c) ? esc(c.valuationNote || "") : ""}</small></span>
@@ -399,7 +403,7 @@
           <div class="worth"><small>Valuation</small><b>${shown ? money(shown) : "—"}</b><small>${esc(c.valuationNote || "Valuation not public")}</small></div>
           ${c.valuationDetail ? `<p class="prose">${esc(c.valuationDetail)}</p>` : ""}
           <p class="sect-label">Thiel Fellows behind it</p>
-          <div class="fgrid">${c.fs.map(fellowCard).join("")}</div>
+          <div class="fgrid">${c.fs.map((f) => fellowCard(f, titleAt(c, f) || undefined)).join("")}</div>
           ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}
         </div>
       </div>`;
@@ -438,10 +442,10 @@
       if (!list.length) out = `<div class="empty">No fellows match.</div>`;
       else if (s.sort === "class") {
         const groups = years.map((y) => [y, list.filter((f) => f.class === y).sort((a, b) => fellowValue(b) - fellowValue(a) || !!b.photo - !!a.photo || a.name.localeCompare(b.name))]).filter(([, g]) => g.length);
-        out = groups.map(([y, g]) => `<h2 class="group-h"><a href="#/class/${y}">Class of ${y}</a><span>${plural(g.length, "fellow")}</span></h2><div class="fgrid">${g.map(fellowCard).join("")}</div>`).join("");
+        out = groups.map(([y, g]) => `<h2 class="group-h"><a href="#/class/${y}">Class of ${y}</a><span>${plural(g.length, "fellow")}</span></h2><div class="fgrid">${g.map((f) => fellowCard(f)).join("")}</div>`).join("");
       } else {
         list.sort(s.sort === "name" ? (a, b) => a.name.localeCompare(b.name) : (a, b) => fellowValue(b) - fellowValue(a) || a.name.localeCompare(b.name));
-        out = `<div class="fgrid">${list.map(fellowCard).join("")}</div>`;
+        out = `<div class="fgrid">${list.map((f) => fellowCard(f)).join("")}</div>`;
       }
       document.getElementById("results").innerHTML = `<p class="count">${list.length === fellows.length ? `${fellows.length} fellows` : `${list.length} of ${fellows.length} fellows`}</p>${out}`;
     }
@@ -498,7 +502,7 @@
           ${top ? `<div class="worth"><small>Value of ${esc(top.name)}</small><b>${money(value(top))}</b><small>${esc(top.valuationNote || "")}. This is the company’s value, not personal net worth.</small></div>` : ""}
           ${f.bio ? `<p class="prose">${esc(f.bio)}</p>` : ""}
           ${f.billionaire && f.billionaireNote ? `<p class="sect-label">Net worth</p><p style="margin:0">${esc(f.billionaireNote)}${safeUrl(f.billionaireSource) ? ` <a href="${esc(f.billionaireSource)}" target="_blank" rel="noopener" style="text-decoration:underline;text-underline-offset:3px">${esc(host(f.billionaireSource))} ↗</a>` : ""}</p>` : ""}
-          ${cos.length ? `<p class="sect-label">Companies</p><div class="co-list">${cos.map((c) => `<a class="co-row" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}</span></span><span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}</span></a>`).join("")}</div>` : ""}
+          ${cos.length ? `<p class="sect-label">Companies</p><div class="co-list">${cos.map((c) => `<a class="co-row" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc([titleAt(c, f), c.sector].filter(Boolean).join(" · "))}</span></span><span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}</span></a>`).join("")}</div>` : ""}
           ${f.previous && f.previous.length ? `<p class="sect-label">Previously</p><div class="taglist">${f.previous.map((p) => `<span>${esc(p)}</span>`).join("")}</div>` : ""}
           <p class="sect-label">Class of ${f.class}</p>
           <div class="mates">${others.map((m) => `<a class="mate" href="#/fellow/${m.id}">${face(m, 34)}<span class="t"><b>${esc(m.name)}</b><small>${esc(m.company || topCo(m)?.name || "") || "&nbsp;"}</small></span></a>`).join("")}</div>
@@ -599,7 +603,7 @@
     }
     for (const y of years) {
       if (q && !String(y).includes(q) && !`class of ${y}`.includes(q)) continue;
-      items.push({ s: q ? 5 : 0, href: `#/class/${y}`, ico: `<span class="yr">${yy(y)}</span>`, t: `Class of ${y}`, sub: plural(classStats(y).n, "fellow"), k: "Class" });
+      items.push({ s: q ? 5 : 0, href: `#/class/${y}`, ico: `<span class="yr">${tfy(y)}</span>`, t: `Class of ${y}`, sub: plural(classStats(y).n, "fellow"), k: "Class" });
     }
     return items.sort((a, b) => b.s - a.s).slice(0, q ? 40 : 12);
   }
@@ -652,8 +656,8 @@
   async function boot() {
     try {
       const [fd, cd] = await Promise.all([
-        fetch("data/fellows.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
-        fetch("data/companies.json").then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch("data/fellows.json", { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        fetch("data/companies.json", { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
       ]);
       meta = fd.meta || {};
       fellows = fd.fellows;

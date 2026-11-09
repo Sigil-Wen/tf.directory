@@ -27,7 +27,10 @@
     "https://review.firstround.com/inside-thiel-fellowship/",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/anthropic.png"
+   "logo": "assets/logos/anthropic.png",
+   "titles": {
+    "chris-olah": "Co-founder"
+   }
   },
   {
    "id": "ethereum",
@@ -52,7 +55,10 @@
     "https://www.coinbase.com/price/ethereum",
     "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/ethereum.png"
+   "logo": "assets/logos/ethereum.png",
+   "titles": {
+    "vitalik-buterin": "Founder"
+   }
   },
   {
    "id": "cognition",
@@ -77,7 +83,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.sourcery.vc/p/how-the-thiel-fellowship-created"
    ],
-   "logo": "assets/logos/cognition.png"
+   "logo": "assets/logos/cognition.png",
+   "titles": {
+    "walden-yan": "Co-founder & CPO"
+   }
   },
   {
    "id": "scale-ai",
@@ -101,7 +110,10 @@
     "https://www.teahose.com/guides/scale-ai-valuation",
     "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/scale-ai.png"
+   "logo": "assets/logos/scale-ai.png",
+   "titles": {
+    "lucy-guo": "Co-founder"
+   }
   },
   {
    "id": "etched",
@@ -130,7 +142,12 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/etched.png"
+   "logo": "assets/logos/etched.png",
+   "titles": {
+    "gavin-uberti": "Co-founder & CEO",
+    "christopher-zhu": "Co-founder",
+    "robert-wachen": "Co-founder"
+   }
   },
   {
    "id": "figma",
@@ -157,7 +174,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/figma.png"
+   "logo": "assets/logos/figma.png",
+   "titles": {
+    "dylan-field": "Co-founder & CEO"
+   }
   },
   {
    "id": "mercor",
@@ -185,7 +205,12 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/mercor.png"
+   "logo": "assets/logos/mercor.png",
+   "titles": {
+    "brendan-foody": "Co-founder & Co-CEO",
+    "adarsh-hiremath": "Co-founder",
+    "surya-midha": "Co-founder & Chairman"
+   }
   },
   {
    "id": "flapping-airplanes",
@@ -208,7 +233,10 @@
     "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
    ],
-   "logo": "assets/logos/flapping-airplanes.png"
+   "logo": "assets/logos/flapping-airplanes.png",
+   "titles": {
+    "aidan-smith": "Co-founder"
+   }
   },
   {
    "id": "positron-ai",
@@ -232,7 +260,10 @@
     "https://thielfellowship.org",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/positron-ai.png"
+   "logo": "assets/logos/positron-ai.png",
+   "titles": {
+    "thomas-sohmers": "Co-founder & Chairman"
+   }
   },
   {
    "id": "oyo",
@@ -258,7 +289,10 @@
     "https://en.wikipedia.org/wiki/Ritesh_Agarwal",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/oyo.png"
+   "logo": "assets/logos/oyo.png",
+   "titles": {
+    "ritesh-agarwal": "Founder & CEO"
+   }
   },
   {
    "id": "mach-industries",
@@ -280,7 +314,10 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia"
    ],
-   "logo": "assets/logos/mach-industries.png"
+   "logo": "assets/logos/mach-industries.png",
+   "titles": {
+    "ethan-thornton": "Founder & CEO"
+   }
   },
   {
    "id": "stord",
@@ -306,7 +343,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/stord.png"
+   "logo": "assets/logos/stord.png",
+   "titles": {
+    "sean-henry": "Co-founder & CEO"
+   }
   },
   {
    "id": "hightouch",
@@ -331,7 +371,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/hightouch.png"
+   "logo": "assets/logos/hightouch.png",
+   "titles": {
+    "tejas-manohar": "Co-founder"
+   }
   },
   {
    "id": "immutable",
@@ -357,7 +400,10 @@
    ],
    "onJobBoard": true,
    "logoDark": true,
-   "logo": "assets/logos/immutable.png"
+   "logo": "assets/logos/immutable.png",
+   "titles": {
+    "robbie-ferguson": "Co-founder"
+   }
   },
   {
    "id": "neros",
@@ -380,7 +426,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
    ],
-   "logo": "assets/logos/neros.png"
+   "logo": "assets/logos/neros.png",
+   "titles": {
+    "soren-monroe-anderson": "Founder & CEO"
+   }
   },
   {
    "id": "upstart",
@@ -407,7 +456,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/upstart.png"
+   "logo": "assets/logos/upstart.png",
+   "titles": {
+    "paul-gu": "Co-founder & CEO"
+   }
   },
   {
    "id": "polkadot",
@@ -431,7 +483,10 @@
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
    ],
-   "logo": "assets/logos/polkadot.png"
+   "logo": "assets/logos/polkadot.png",
+   "titles": {
+    "robert-habermeier": "Co-founder"
+   }
   },
   {
    "id": "varda-space-industries",
@@ -455,7 +510,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/varda-space-industries.png"
+   "logo": "assets/logos/varda-space-industries.png",
+   "titles": {
+    "delian-asparouhov": "Co-founder & President"
+   }
   },
   {
    "id": "freenome",
@@ -481,7 +539,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/freenome.png"
+   "logo": "assets/logos/freenome.png",
+   "titles": {
+    "riley-ennis": "Co-founder & CPO"
+   }
   },
   {
    "id": "paddle",
@@ -506,7 +567,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/paddle.png"
+   "logo": "assets/logos/paddle.png",
+   "titles": {
+    "christian-owens": "Founder"
+   }
   },
   {
    "id": "curative",
@@ -531,7 +595,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/curative.png"
+   "logo": "assets/logos/curative.png",
+   "titles": {
+    "fred-turner": "Co-founder & CEO"
+   }
   },
   {
    "id": "merama",
@@ -557,7 +624,10 @@
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "sujay-tyle": "Co-founder & CEO"
+   }
   },
   {
    "id": "nowports",
@@ -582,7 +652,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/nowports.png"
+   "logo": "assets/logos/nowports.png",
+   "titles": {
+    "alfonso-de-los-rios": "Founder & CEO"
+   }
   },
   {
    "id": "adept",
@@ -608,7 +681,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/adept.png"
+   "logo": "assets/logos/adept.png",
+   "titles": {
+    "david-luan": "Co-founder"
+   }
   },
   {
    "id": "augustus",
@@ -631,7 +707,8 @@
     "https://techfundingnews.com/at-25-this-german-thiel-fellow-raised-180m-hit-1b-valuation-and-is-about-to-make-us-banking-history/",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
    ],
-   "logo": "assets/logos/augustus.png"
+   "logo": "assets/logos/augustus.png",
+   "titles": {}
   },
   {
    "id": "owner",
@@ -656,7 +733,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/owner.png"
+   "logo": "assets/logos/owner.png",
+   "titles": {
+    "adam-guild": "Co-founder & CEO"
+   }
   },
   {
    "id": "radar",
@@ -682,7 +762,10 @@
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "spencer-hewett": "Founder & CEO"
+   }
   },
   {
    "id": "rapidapi",
@@ -707,7 +790,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/rapidapi.png"
+   "logo": "assets/logos/rapidapi.png",
+   "titles": {
+    "iddo-gino": "Founder"
+   }
   },
   {
    "id": "speak",
@@ -734,7 +820,11 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/speak.png"
+   "logo": "assets/logos/speak.png",
+   "titles": {
+    "andrew-hsu": "Co-founder & CTO",
+    "connor-zwick": "Co-founder & CEO"
+   }
   },
   {
    "id": "substrate",
@@ -758,7 +848,10 @@
     "https://www.builtinsf.com/articles/substrate-secures-100m-1b-valuation-20251103",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/substrate.png"
+   "logo": "assets/logos/substrate.png",
+   "titles": {
+    "james-proud": "Founder & CEO"
+   }
   },
   {
    "id": "loom",
@@ -782,7 +875,10 @@
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
     "https://dealroom.co/charts/thiel-fellowship-mafia"
    ],
-   "logo": "assets/logos/loom.png"
+   "logo": "assets/logos/loom.png",
+   "titles": {
+    "shahed-khan": "Co-founder"
+   }
   },
   {
    "id": "juicebox",
@@ -806,7 +902,10 @@
     "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/"
    ],
    "logoDark": true,
-   "logo": "assets/logos/juicebox.png"
+   "logo": "assets/logos/juicebox.png",
+   "titles": {
+    "ishan-gupta": "Co-founder"
+   }
   },
   {
    "id": "brinc",
@@ -831,7 +930,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/brinc.png"
+   "logo": "assets/logos/brinc.png",
+   "titles": {
+    "blake-resnick": "Founder & CEO"
+   }
   },
   {
    "id": "frontier-car-group",
@@ -853,7 +955,10 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "titles": {
+    "sujay-tyle": "Co-founder"
+   }
   },
   {
    "id": "prepared",
@@ -878,7 +983,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/prepared.png"
+   "logo": "assets/logos/prepared.png",
+   "titles": {
+    "michael-chime": "Co-founder"
+   }
   },
   {
    "id": "fountain",
@@ -901,7 +1009,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
    ],
-   "logo": "assets/logos/fountain.png"
+   "logo": "assets/logos/fountain.png",
+   "titles": {
+    "jeremy-cai": "Founder"
+   }
   },
   {
    "id": "legalist",
@@ -926,7 +1037,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/legalist.png"
+   "logo": "assets/logos/legalist.png",
+   "titles": {
+    "eva-shang": "Co-founder & CEO"
+   }
   },
   {
    "id": "rainmaker",
@@ -951,7 +1065,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/rainmaker.png"
+   "logo": "assets/logos/rainmaker.png",
+   "titles": {
+    "augustus-doricko": "Founder & CEO"
+   }
   },
   {
    "id": "savvy-wealth",
@@ -977,7 +1094,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/savvy-wealth.png"
+   "logo": "assets/logos/savvy-wealth.png",
+   "titles": {
+    "ritik-malhotra": "Founder & CEO"
+   }
   },
   {
    "id": "standard-intelligence",
@@ -1000,7 +1120,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-2026-thiel-fellowship-class-awarded-250000-grants-to-young-entrepreneurs/"
    ],
-   "logo": "assets/logos/standard-intelligence.png"
+   "logo": "assets/logos/standard-intelligence.png",
+   "titles": {
+    "galen-mead": "Co-founder"
+   }
   },
   {
    "id": "solcoa-industries",
@@ -1022,7 +1145,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
-   ]
+   ],
+   "titles": {}
   },
   {
    "id": "vial",
@@ -1047,7 +1171,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/vial.png"
+   "logo": "assets/logos/vial.png",
+   "titles": {
+    "andrew-brackin": "Co-founder"
+   }
   },
   {
    "id": "snackpass",
@@ -1072,7 +1199,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/snackpass.png"
+   "logo": "assets/logos/snackpass.png",
+   "titles": {
+    "jamie-marshall": "Co-founder & COO"
+   }
   },
   {
    "id": "comind",
@@ -1097,7 +1227,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/comind.png"
+   "logo": "assets/logos/comind.png",
+   "titles": {
+    "james-dacombe": "Founder & CEO"
+   }
   },
   {
    "id": "smartsweets",
@@ -1123,7 +1256,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/smartsweets.png"
+   "logo": "assets/logos/smartsweets.png",
+   "titles": {
+    "tara-bosch": "Founder"
+   }
   },
   {
    "id": "until-labs",
@@ -1148,7 +1284,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/until-labs.png"
+   "logo": "assets/logos/until-labs.png",
+   "titles": {
+    "laura-deming": "Co-founder & CEO"
+   }
   },
   {
    "id": "indent",
@@ -1173,7 +1312,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/indent.png"
+   "logo": "assets/logos/indent.png",
+   "titles": {
+    "fouad-matin": "Co-founder"
+   }
   },
   {
    "id": "zeno-power",
@@ -1198,7 +1340,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/zeno-power.png"
+   "logo": "assets/logos/zeno-power.png",
+   "titles": {
+    "tyler-bernstein": "Co-founder"
+   }
   },
   {
    "id": "saturn",
@@ -1223,7 +1368,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/saturn.png"
+   "logo": "assets/logos/saturn.png",
+   "titles": {
+    "dylan-diamond": "Co-founder"
+   }
   },
   {
    "id": "scythe-robotics",
@@ -1248,7 +1396,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/scythe-robotics.png"
+   "logo": "assets/logos/scythe-robotics.png",
+   "titles": {
+    "davis-foster": "Co-founder"
+   }
   },
   {
    "id": "cognito",
@@ -1270,7 +1421,10 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20150605005092/en/Thiel-Foundation-Announces-2015-Thiel-Fellows-Expands"
-   ]
+   ],
+   "titles": {
+    "john-backus": "Co-founder"
+   }
   },
   {
    "id": "aiuc",
@@ -1292,7 +1446,10 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
-   ]
+   ],
+   "titles": {
+    "brandon-wang": "Co-founder"
+   }
   },
   {
    "id": "glorify",
@@ -1317,7 +1474,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/glorify.png"
+   "logo": "assets/logos/glorify.png",
+   "titles": {
+    "edward-beccle": "Co-founder"
+   }
   },
   {
    "id": "passes",
@@ -1341,7 +1501,10 @@
     "https://finance.yahoo.com/news/exclusive-29-old-self-made-174427470.html",
     "https://en.wikipedia.org/wiki/Passes_Inc."
    ],
-   "logo": "assets/logos/passes.png"
+   "logo": "assets/logos/passes.png",
+   "titles": {
+    "lucy-guo": "Founder & CEO"
+   }
   },
   {
    "id": "windborne-systems",
@@ -1364,7 +1527,8 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
    ],
-   "logo": "assets/logos/windborne-systems.png"
+   "logo": "assets/logos/windborne-systems.png",
+   "titles": {}
   },
   {
    "id": "donotpay",
@@ -1387,7 +1551,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
    ],
-   "logo": "assets/logos/donotpay.png"
+   "logo": "assets/logos/donotpay.png",
+   "titles": {
+    "joshua-browder": "Founder"
+   }
   },
   {
    "id": "optivolt-labs",
@@ -1410,7 +1577,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
    ],
-   "logo": "assets/logos/optivolt-labs.png"
+   "logo": "assets/logos/optivolt-labs.png",
+   "titles": {
+    "rohit-kalyanpur": "Co-founder & CEO"
+   }
   },
   {
    "id": "eligible",
@@ -1432,7 +1602,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
-   ]
+   ],
+   "titles": {}
   },
   {
    "id": "evervault",
@@ -1458,7 +1629,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/evervault.png"
+   "logo": "assets/logos/evervault.png",
+   "titles": {
+    "shane-curran": "Founder"
+   }
   },
   {
    "id": "moxie",
@@ -1481,7 +1655,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/"
    ],
-   "logo": "assets/logos/moxie.png"
+   "logo": "assets/logos/moxie.png",
+   "titles": {
+    "daniel-friedman": "Co-founder"
+   }
   },
   {
    "id": "airgarage",
@@ -1506,7 +1683,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/airgarage.png"
+   "logo": "assets/logos/airgarage.png",
+   "titles": {
+    "scott-fitsimones": "Co-founder"
+   }
   },
   {
    "id": "orchard-robotics",
@@ -1531,7 +1711,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/orchard-robotics.png"
+   "logo": "assets/logos/orchard-robotics.png",
+   "titles": {
+    "charlie-wu": "Founder & CEO"
+   }
   },
   {
    "id": "silna-health",
@@ -1554,7 +1737,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/"
    ],
-   "logo": "assets/logos/silna-health.png"
+   "logo": "assets/logos/silna-health.png",
+   "titles": {
+    "pavel-asparouhov": "Co-founder"
+   }
   },
   {
    "id": "synex-medical",
@@ -1579,7 +1765,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/synex-medical.png"
+   "logo": "assets/logos/synex-medical.png",
+   "titles": {
+    "ben-nashman": "Founder"
+   }
   },
   {
    "id": "doppler",
@@ -1602,7 +1791,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
    ],
-   "logo": "assets/logos/doppler.png"
+   "logo": "assets/logos/doppler.png",
+   "titles": {
+    "phillip-chao": "Co-founder"
+   }
   },
   {
    "id": "ephemeral-tattoos",
@@ -1625,7 +1817,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows"
    ],
-   "logo": "assets/logos/ephemeral-tattoos.png"
+   "logo": "assets/logos/ephemeral-tattoos.png",
+   "titles": {
+    "josh-sakhai": "Co-founder"
+   }
   },
   {
    "id": "scienceio",
@@ -1647,7 +1842,10 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
-   ]
+   ],
+   "titles": {
+    "will-manidis": "Founder"
+   }
   },
   {
    "id": "aeolus",
@@ -1669,7 +1867,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
-   ]
+   ],
+   "titles": {}
   },
   {
    "id": "depict",
@@ -1693,7 +1892,10 @@
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "oliver-edholm": "Founder"
+   }
   },
   {
    "id": "embark-trucks",
@@ -1714,7 +1916,10 @@
    ],
    "sources": [
     "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
-   ]
+   ],
+   "titles": {
+    "alex-rodrigues": "Co-founder"
+   }
   },
   {
    "id": "spatial-labs",
@@ -1739,7 +1944,10 @@
     "https://en.wikipedia.org/wiki/Thiel_Fellowship",
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "iddris-sandu": "Founder & CEO"
+   }
   },
   {
    "id": "manex-ai",
@@ -1762,7 +1970,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://en.wikipedia.org/wiki/Thiel_Fellowship"
    ],
-   "logo": "assets/logos/manex-ai.png"
+   "logo": "assets/logos/manex-ai.png",
+   "titles": {
+    "fabian-gruber": "Co-founder & CPTO"
+   }
   },
   {
    "id": "hyperplane",
@@ -1785,7 +1996,10 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/"
    ],
-   "logo": "assets/logos/hyperplane.png"
+   "logo": "assets/logos/hyperplane.png",
+   "titles": {
+    "felipe-meneses": "Co-founder"
+   }
   },
   {
    "id": "0xparc",
@@ -1804,7 +2018,8 @@
     "brian-gu"
    ],
    "sources": [],
-   "logo": "assets/logos/0xparc.png"
+   "logo": "assets/logos/0xparc.png",
+   "titles": {}
   },
   {
    "id": "acorn-biolabs",
@@ -1822,7 +2037,10 @@
    "fellows": [
     "laura-vaughan"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "laura-vaughan": "Co-founder"
+   }
   },
   {
    "id": "acorn-genetics",
@@ -1841,7 +2059,8 @@
     "ana-cornell"
    ],
    "sources": [],
-   "logo": "assets/logos/acorn-genetics.png"
+   "logo": "assets/logos/acorn-genetics.png",
+   "titles": {}
   },
   {
    "id": "action",
@@ -1859,7 +2078,8 @@
    "fellows": [
     "kyler-wang"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "agency-tool-company",
@@ -1878,7 +2098,10 @@
     "davis-foster"
    ],
    "sources": [],
-   "logo": "assets/logos/agency-tool-company.png"
+   "logo": "assets/logos/agency-tool-company.png",
+   "titles": {
+    "davis-foster": "Co-founder"
+   }
   },
   {
    "id": "altro",
@@ -1900,7 +2123,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/altro.png"
+   "logo": "assets/logos/altro.png",
+   "titles": {
+    "michael-broughton": "Co-founder"
+   }
   },
   {
    "id": "anchor-protocol",
@@ -1918,7 +2144,8 @@
    "fellows": [
     "ryan-park"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "ando",
@@ -1937,7 +2164,10 @@
     "sara-du"
    ],
    "sources": [],
-   "logo": "assets/logos/ando.png"
+   "logo": "assets/logos/ando.png",
+   "titles": {
+    "sara-du": "Founder & CEO"
+   }
   },
   {
    "id": "applied-compute",
@@ -1956,7 +2186,10 @@
     "yash-patil"
    ],
    "sources": [],
-   "logo": "assets/logos/applied-compute.png"
+   "logo": "assets/logos/applied-compute.png",
+   "titles": {
+    "yash-patil": "Co-founder & CEO"
+   }
   },
   {
    "id": "argument-computer-corporation",
@@ -1975,7 +2208,10 @@
     "john-burnham"
    ],
    "sources": [],
-   "logo": "assets/logos/argument-computer-corporation.png"
+   "logo": "assets/logos/argument-computer-corporation.png",
+   "titles": {
+    "john-burnham": "Co-founder"
+   }
   },
   {
    "id": "arist",
@@ -1994,7 +2230,10 @@
     "michael-ioffe"
    ],
    "sources": [],
-   "logo": "assets/logos/arist.png"
+   "logo": "assets/logos/arist.png",
+   "titles": {
+    "michael-ioffe": "Co-founder & CEO"
+   }
   },
   {
    "id": "aunt-flow",
@@ -2016,7 +2255,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/aunt-flow.png"
+   "logo": "assets/logos/aunt-flow.png",
+   "titles": {
+    "claire-coder": "Founder & CEO"
+   }
   },
   {
    "id": "automorphic",
@@ -2035,7 +2277,10 @@
     "govind-gnanakumar"
    ],
    "sources": [],
-   "logo": "assets/logos/automorphic.png"
+   "logo": "assets/logos/automorphic.png",
+   "titles": {
+    "govind-gnanakumar": "Co-founder"
+   }
   },
   {
    "id": "axiome",
@@ -2053,7 +2298,8 @@
    "fellows": [
     "samarth-athreya"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "azura",
@@ -2072,7 +2318,8 @@
     "jackson-denka"
    ],
    "sources": [],
-   "logo": "assets/logos/azura.png"
+   "logo": "assets/logos/azura.png",
+   "titles": {}
   },
   {
    "id": "biodock",
@@ -2091,7 +2338,8 @@
     "michael-lee"
    ],
    "sources": [],
-   "logo": "assets/logos/biodock.png"
+   "logo": "assets/logos/biodock.png",
+   "titles": {}
   },
   {
    "id": "biofire",
@@ -2113,7 +2361,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/biofire.png"
+   "logo": "assets/logos/biofire.png",
+   "titles": {
+    "kai-kloepfer": "Founder & CEO"
+   }
   },
   {
    "id": "bioneural-lab",
@@ -2131,7 +2382,8 @@
    "fellows": [
     "claire-wang"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "bloom",
@@ -2150,7 +2402,10 @@
     "sonny-mo"
    ],
    "sources": [],
-   "logo": "assets/logos/bloom.png"
+   "logo": "assets/logos/bloom.png",
+   "titles": {
+    "sonny-mo": "Co-founder"
+   }
   },
   {
    "id": "blot",
@@ -2169,7 +2424,10 @@
     "david-merfield"
    ],
    "sources": [],
-   "logo": "assets/logos/blot.png"
+   "logo": "assets/logos/blot.png",
+   "titles": {
+    "david-merfield": "Founder & developer"
+   }
   },
   {
    "id": "blur-blast",
@@ -2187,7 +2445,10 @@
    "fellows": [
     "tieshun-roquerre"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "tieshun-roquerre": "Co-founder"
+   }
   },
   {
    "id": "branch",
@@ -2208,7 +2469,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {}
   },
   {
    "id": "bun",
@@ -2227,7 +2489,10 @@
     "jarred-sumner"
    ],
    "sources": [],
-   "logo": "assets/logos/bun.png"
+   "logo": "assets/logos/bun.png",
+   "titles": {
+    "jarred-sumner": "Creator"
+   }
   },
   {
    "id": "cafe-x",
@@ -2245,7 +2510,10 @@
    "fellows": [
     "henry-hu"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "henry-hu": "Co-founder & CEO"
+   }
   },
   {
    "id": "canopy-labs",
@@ -2264,7 +2532,8 @@
     "elias-fizesan"
    ],
    "sources": [],
-   "logo": "assets/logos/canopy-labs.png"
+   "logo": "assets/logos/canopy-labs.png",
+   "titles": {}
   },
   {
    "id": "cavalla",
@@ -2283,7 +2552,10 @@
     "victor-boyd"
    ],
    "sources": [],
-   "logo": "assets/logos/cavalla.png"
+   "logo": "assets/logos/cavalla.png",
+   "titles": {
+    "victor-boyd": "Co-founder"
+   }
   },
   {
    "id": "chima",
@@ -2306,7 +2578,10 @@
     "https://en.wikipedia.org/wiki/Thiel_Fellowship",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/"
    ],
-   "logo": "assets/logos/chima.png"
+   "logo": "assets/logos/chima.png",
+   "titles": {
+    "kiara-nirghin": "Co-founder & CTO"
+   }
   },
   {
    "id": "codegem",
@@ -2327,7 +2602,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {}
   },
   {
    "id": "compocket",
@@ -2345,7 +2621,10 @@
    "fellows": [
     "ilayda-buyukdogan"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "ilayda-buyukdogan": "Co-founder"
+   }
   },
   {
    "id": "context",
@@ -2363,7 +2642,10 @@
    "fellows": [
     "joseph-semrai"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "joseph-semrai": "Founder & CEO"
+   }
   },
   {
    "id": "conway-research",
@@ -2381,7 +2663,10 @@
    "fellows": [
     "sigil-wen"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "sigil-wen": "Founder"
+   }
   },
   {
    "id": "copysmith",
@@ -2400,7 +2685,8 @@
     "jasmine-wang"
    ],
    "sources": [],
-   "logo": "assets/logos/copysmith.png"
+   "logo": "assets/logos/copysmith.png",
+   "titles": {}
   },
   {
    "id": "corecircle",
@@ -2419,7 +2705,8 @@
     "nastassia-ponomarenko"
    ],
    "sources": [],
-   "logo": "assets/logos/corecircle.png"
+   "logo": "assets/logos/corecircle.png",
+   "titles": {}
   },
   {
    "id": "coursekey",
@@ -2437,7 +2724,10 @@
    "fellows": [
     "luke-sophios"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "luke-sophios": "Founder & CEO"
+   }
   },
   {
    "id": "cropsafe",
@@ -2458,7 +2748,10 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "john-mcelhone": "Co-founder & CEO"
+   }
   },
   {
    "id": "cryopets",
@@ -2480,7 +2773,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/cryopets.png"
+   "logo": "assets/logos/cryopets.png",
+   "titles": {
+    "kai-micah-mills": "Founder & CEO"
+   }
   },
   {
    "id": "dandy",
@@ -2502,7 +2798,8 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/dandy.png"
+   "logo": "assets/logos/dandy.png",
+   "titles": {}
   },
   {
    "id": "decade",
@@ -2520,7 +2817,10 @@
    "fellows": [
     "felipe-meneses"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "felipe-meneses": "Co-founder"
+   }
   },
   {
    "id": "delphi-labs",
@@ -2538,7 +2838,10 @@
    "fellows": [
     "markie-wagner"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "markie-wagner": "Founder"
+   }
   },
   {
    "id": "derpetual",
@@ -2557,7 +2860,10 @@
     "antoni-kiszka"
    ],
    "sources": [],
-   "logo": "assets/logos/derpetual.png"
+   "logo": "assets/logos/derpetual.png",
+   "titles": {
+    "antoni-kiszka": "Founder"
+   }
   },
   {
    "id": "destiny",
@@ -2575,7 +2881,10 @@
    "fellows": [
     "sohail-prasad"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "sohail-prasad": "Co-founder & CEO"
+   }
   },
   {
    "id": "docbot",
@@ -2594,7 +2903,10 @@
     "andrew-ninh"
    ],
    "sources": [],
-   "logo": "assets/logos/docbot.png"
+   "logo": "assets/logos/docbot.png",
+   "titles": {
+    "andrew-ninh": "Co-founder & Chief Strategy Officer"
+   }
   },
   {
    "id": "dream-hustle-code",
@@ -2613,7 +2925,10 @@
     "ian-michael-brock"
    ],
    "sources": [],
-   "logo": "assets/logos/dream-hustle-code.png"
+   "logo": "assets/logos/dream-hustle-code.png",
+   "titles": {
+    "ian-michael-brock": "Founder"
+   }
   },
   {
    "id": "dreambound",
@@ -2635,7 +2950,8 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/dreambound.png"
+   "logo": "assets/logos/dreambound.png",
+   "titles": {}
   },
   {
    "id": "endex",
@@ -2654,7 +2970,10 @@
     "tarun-amasa"
    ],
    "sources": [],
-   "logo": "assets/logos/endex.png"
+   "logo": "assets/logos/endex.png",
+   "titles": {
+    "tarun-amasa": "Co-founder & CEO"
+   }
   },
   {
    "id": "epic-aerospace",
@@ -2672,7 +2991,10 @@
    "fellows": [
     "ignacio-belieres-montero"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "ignacio-belieres-montero": "Founder"
+   }
   },
   {
    "id": "everyticker",
@@ -2691,7 +3013,10 @@
     "nick-dobroshinsky"
    ],
    "sources": [],
-   "logo": "assets/logos/everyticker.png"
+   "logo": "assets/logos/everyticker.png",
+   "titles": {
+    "nick-dobroshinsky": "Founder"
+   }
   },
   {
    "id": "examedi",
@@ -2710,7 +3035,8 @@
     "ian-lee"
    ],
    "sources": [],
-   "logo": "assets/logos/examedi.png"
+   "logo": "assets/logos/examedi.png",
+   "titles": {}
   },
   {
    "id": "fossa",
@@ -2729,7 +3055,10 @@
     "kevin-wang"
    ],
    "sources": [],
-   "logo": "assets/logos/fossa.png"
+   "logo": "assets/logos/fossa.png",
+   "titles": {
+    "kevin-wang": "Founder & Chairman"
+   }
   },
   {
    "id": "fizz",
@@ -2747,7 +3076,8 @@
    "fellows": [
     "carlo-kobe"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "folk-computer",
@@ -2766,7 +3096,10 @@
     "omar-rizwan"
    ],
    "sources": [],
-   "logo": "assets/logos/folk-computer.png"
+   "logo": "assets/logos/folk-computer.png",
+   "titles": {
+    "omar-rizwan": "Co-creator"
+   }
   },
   {
    "id": "fonus",
@@ -2784,7 +3117,10 @@
    "fellows": [
     "simon-tian"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "simon-tian": "CEO"
+   }
   },
   {
    "id": "fuzzbuzz",
@@ -2802,7 +3138,10 @@
    "fellows": [
     "andrei-serban"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "andrei-serban": "Co-founder & CEO"
+   }
   },
   {
    "id": "genetesis",
@@ -2823,7 +3162,10 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "peeyush-shrivastava": "Co-founder & CEO"
+   }
   },
   {
    "id": "hack-club",
@@ -2845,7 +3187,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/hack-club.png"
+   "logo": "assets/logos/hack-club.png",
+   "titles": {
+    "zach-latta": "Founder & Executive Director"
+   }
   },
   {
    "id": "hyper",
@@ -2864,7 +3209,10 @@
     "ben-botvinick"
    ],
    "sources": [],
-   "logo": "assets/logos/hyper.png"
+   "logo": "assets/logos/hyper.png",
+   "titles": {
+    "ben-botvinick": "Founder"
+   }
   },
   {
    "id": "hyperia",
@@ -2882,7 +3230,8 @@
    "fellows": [
     "kenta-iwasaki"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "intempus",
@@ -2900,7 +3249,10 @@
    "fellows": [
     "teddy-warner"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "teddy-warner": "Founder & CEO"
+   }
   },
   {
    "id": "iris-labs",
@@ -2918,7 +3270,10 @@
    "fellows": [
     "anand-gupta"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "anand-gupta": "Co-founder & CEO"
+   }
   },
   {
    "id": "italic",
@@ -2939,7 +3294,10 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "jeremy-cai": "Founder & CEO"
+   }
   },
   {
    "id": "januus",
@@ -2958,7 +3316,8 @@
     "peter-hansen"
    ],
    "sources": [],
-   "logo": "assets/logos/januus.png"
+   "logo": "assets/logos/januus.png",
+   "titles": {}
   },
   {
    "id": "julep-ai",
@@ -2977,7 +3336,8 @@
     "diwank-singh-tomer"
    ],
    "sources": [],
-   "logo": "assets/logos/julep-ai.png"
+   "logo": "assets/logos/julep-ai.png",
+   "titles": {}
   },
   {
    "id": "kettle-fire",
@@ -2995,7 +3355,10 @@
    "fellows": [
     "nick-mares"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "nick-mares": "Co-founder"
+   }
   },
   {
    "id": "klyra-protocol",
@@ -3013,7 +3376,10 @@
    "fellows": [
     "diogenes-casares"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "diogenes-casares": "Founder"
+   }
   },
   {
    "id": "lendtable",
@@ -3035,7 +3401,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/lendtable.png"
+   "logo": "assets/logos/lendtable.png",
+   "titles": {
+    "sheridan-clayborne": "Co-founder"
+   }
   },
   {
    "id": "lily-devices",
@@ -3053,7 +3422,8 @@
    "fellows": [
     "aaron-hannon"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "logrocket",
@@ -3074,7 +3444,10 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "matt-arbesfeld": "Co-founder"
+   }
   },
   {
    "id": "loomia",
@@ -3096,7 +3469,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/loomia.png"
+   "logo": "assets/logos/loomia.png",
+   "titles": {
+    "madison-maddy-maxey": "Founder"
+   }
   },
   {
    "id": "luminai",
@@ -3118,7 +3494,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/luminai.png"
+   "logo": "assets/logos/luminai.png",
+   "titles": {
+    "kesava-kirupa-dinakaran": "Co-founder & CEO"
+   }
   },
   {
    "id": "luminar",
@@ -3145,7 +3524,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/luminar.png"
+   "logo": "assets/logos/luminar.png",
+   "titles": {
+    "austin-russell": "Founder"
+   }
   },
   {
    "id": "luminopia",
@@ -3163,7 +3545,10 @@
    "fellows": [
     "dean-travers"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "dean-travers": "Co-founder & CEO"
+   }
   },
   {
    "id": "medu",
@@ -3181,7 +3566,8 @@
    "fellows": [
     "tamara-chayo-romo"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "macro-energy",
@@ -3199,7 +3585,8 @@
    "fellows": [
     "reiss-jones"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "marble",
@@ -3217,7 +3604,8 @@
    "fellows": [
     "matthew-dimarcantonio"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "maverick-power",
@@ -3235,7 +3623,10 @@
    "fellows": [
     "tom-currier"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "tom-currier": "Founder, President & CEO"
+   }
   },
   {
    "id": "mirdin",
@@ -3254,7 +3645,10 @@
     "jimmy-koppel"
    ],
    "sources": [],
-   "logo": "assets/logos/mirdin.png"
+   "logo": "assets/logos/mirdin.png",
+   "titles": {
+    "jimmy-koppel": "Founding Partner"
+   }
   },
   {
    "id": "mobot",
@@ -3276,7 +3670,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/mobot.png"
+   "logo": "assets/logos/mobot.png",
+   "titles": {
+    "eden-full-goh": "Founder & CEO"
+   }
   },
   {
    "id": "nohbo",
@@ -3297,7 +3694,8 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {}
   },
   {
    "id": "nucleus-genomics",
@@ -3316,7 +3714,10 @@
     "kian-sadeghi"
    ],
    "sources": [],
-   "logo": "assets/logos/nucleus-genomics.png"
+   "logo": "assets/logos/nucleus-genomics.png",
+   "titles": {
+    "kian-sadeghi": "Founder & CEO"
+   }
   },
   {
    "id": "nurture-and-reset",
@@ -3334,7 +3735,8 @@
    "fellows": [
     "margaret-nyawira-karaba"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "oligo-space",
@@ -3352,7 +3754,10 @@
    "fellows": [
     "jacob-rodriguez"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "jacob-rodriguez": "Founder & CEO"
+   }
   },
   {
    "id": "orb-aerospace",
@@ -3370,7 +3775,8 @@
    "fellows": [
     "alex-taylor"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "orbit",
@@ -3389,7 +3795,8 @@
     "colton-el-habr",
     "steven-pang"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "orchid",
@@ -3408,7 +3815,10 @@
     "noor-siddiqui"
    ],
    "sources": [],
-   "logo": "assets/logos/orchid.png"
+   "logo": "assets/logos/orchid.png",
+   "titles": {
+    "noor-siddiqui": "Founder & CEO"
+   }
   },
   {
    "id": "origin-genomics",
@@ -3426,7 +3836,10 @@
    "fellows": [
     "cathy-tie"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "cathy-tie": "Founder & CEO"
+   }
   },
   {
    "id": "palitronica",
@@ -3448,7 +3861,8 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/palitronica.png"
+   "logo": "assets/logos/palitronica.png",
+   "titles": {}
   },
   {
    "id": "pareto",
@@ -3470,7 +3884,8 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/pareto.png"
+   "logo": "assets/logos/pareto.png",
+   "titles": {}
   },
   {
    "id": "phase",
@@ -3488,7 +3903,8 @@
    "fellows": [
     "juan-ebrath"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "phoenix-health",
@@ -3506,7 +3922,8 @@
    "fellows": [
     "emily-wang"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "pilgrim",
@@ -3524,7 +3941,10 @@
    "fellows": [
     "jake-adler"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "jake-adler": "Founder"
+   }
   },
   {
    "id": "praso",
@@ -3543,7 +3963,8 @@
     "samuel-carvalho"
    ],
    "sources": [],
-   "logo": "assets/logos/praso.png"
+   "logo": "assets/logos/praso.png",
+   "titles": {}
   },
   {
    "id": "purple",
@@ -3562,7 +3983,8 @@
     "john-ciocca"
    ],
    "sources": [],
-   "logo": "assets/logos/purple.png"
+   "logo": "assets/logos/purple.png",
+   "titles": {}
   },
   {
    "id": "queenbee",
@@ -3580,7 +4002,8 @@
    "fellows": [
     "raina-jain"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "ramp-usa",
@@ -3598,7 +4021,8 @@
    "fellows": [
     "mel-du"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "red-leader",
@@ -3616,7 +4040,10 @@
    "fellows": [
     "jake-hillard"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "jake-hillard": "Founder & CEO"
+   }
   },
   {
    "id": "russell-ai-labs",
@@ -3634,7 +4061,10 @@
    "fellows": [
     "austin-russell"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "austin-russell": "Founder"
+   }
   },
   {
    "id": "soundboks",
@@ -3652,7 +4082,10 @@
    "fellows": [
     "jesper-theil-thomsen"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "jesper-theil-thomsen": "Co-founder"
+   }
   },
   {
    "id": "swsh",
@@ -3674,7 +4107,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/swsh.png"
+   "logo": "assets/logos/swsh.png",
+   "titles": {
+    "alexandra-debow": "Co-founder & CEO"
+   }
   },
   {
    "id": "sentient-machines",
@@ -3692,7 +4128,10 @@
    "fellows": [
     "harry-o-connor"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "harry-o-connor": "Founder"
+   }
   },
   {
    "id": "simple-sugars",
@@ -3710,7 +4149,10 @@
    "fellows": [
     "lani-lazzari"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "lani-lazzari": "Founder"
+   }
   },
   {
    "id": "skyline-celestial",
@@ -3728,7 +4170,10 @@
    "fellows": [
     "geffen-avraham"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "geffen-avraham": "Founder"
+   }
   },
   {
    "id": "slash",
@@ -3750,7 +4195,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/slash.png"
+   "logo": "assets/logos/slash.png",
+   "titles": {
+    "victor-cardenas": "Co-founder & CEO"
+   }
   },
   {
    "id": "software-applications-incorporated-sky-joining-openai",
@@ -3770,7 +4218,11 @@
     "conrad-kramer"
    ],
    "sources": [],
-   "logo": "assets/logos/software-applications-incorporated-sky-joining-openai.png"
+   "logo": "assets/logos/software-applications-incorporated-sky-joining-openai.png",
+   "titles": {
+    "ari-weinstein": "Co-founder",
+    "conrad-kramer": "Co-founder"
+   }
   },
   {
    "id": "solvemed",
@@ -3792,7 +4244,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/solvemed.png"
+   "logo": "assets/logos/solvemed.png",
+   "titles": {
+    "hugo-chrost": "Founder & CEO"
+   }
   },
   {
    "id": "spellbound",
@@ -3813,7 +4268,10 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "akshaya-dinesh": "Founder & CEO"
+   }
   },
   {
    "id": "sprayable",
@@ -3831,7 +4289,10 @@
    "fellows": [
     "ben-yu"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "ben-yu": "Co-founder"
+   }
   },
   {
    "id": "spring-silicon-formerly-opt32",
@@ -3850,7 +4311,10 @@
     "milan-lustig"
    ],
    "sources": [],
-   "logo": "assets/logos/spring-silicon-formerly-opt32.png"
+   "logo": "assets/logos/spring-silicon-formerly-opt32.png",
+   "titles": {
+    "milan-lustig": "CEO"
+   }
   },
   {
    "id": "succinct",
@@ -3872,7 +4336,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/succinct.png"
+   "logo": "assets/logos/succinct.png",
+   "titles": {
+    "john-guibas": "Co-founder & CTO"
+   }
   },
   {
    "id": "super-coffee",
@@ -3893,7 +4360,10 @@
    "sources": [
     "https://thielfellowship.org/jobs"
    ],
-   "onJobBoard": true
+   "onJobBoard": true,
+   "titles": {
+    "jordan-decicco": "Co-founder"
+   }
   },
   {
    "id": "swoop",
@@ -3911,7 +4381,8 @@
    "fellows": [
     "aubrey-niederhoffer"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "tavus",
@@ -3933,7 +4404,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/tavus.png"
+   "logo": "assets/logos/tavus.png",
+   "titles": {
+    "quinn-favret": "Co-founder & COO"
+   }
   },
   {
    "id": "teleportal",
@@ -3951,7 +4425,8 @@
    "fellows": [
     "thomas-suarez"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {}
   },
   {
    "id": "tenor",
@@ -3970,7 +4445,10 @@
     "charlie-stigler"
    ],
    "sources": [],
-   "logo": "assets/logos/tenor.png"
+   "logo": "assets/logos/tenor.png",
+   "titles": {
+    "charlie-stigler": "Co-founder"
+   }
   },
   {
    "id": "the-antifraud-company",
@@ -3988,7 +4466,10 @@
    "fellows": [
     "alex-shieh"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "alex-shieh": "Founder"
+   }
   },
   {
    "id": "the-ocean-cleanup",
@@ -4013,7 +4494,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/the-ocean-cleanup.png"
+   "logo": "assets/logos/the-ocean-cleanup.png",
+   "titles": {
+    "boyan-slat": "Founder & CEO"
+   }
   },
   {
    "id": "vitable-health",
@@ -4032,7 +4516,10 @@
     "joseph-kitonga"
    ],
    "sources": [],
-   "logo": "assets/logos/vitable-health.png"
+   "logo": "assets/logos/vitable-health.png",
+   "titles": {
+    "joseph-kitonga": "Founder & CEO"
+   }
   },
   {
    "id": "voiceops",
@@ -4050,7 +4537,10 @@
    "fellows": [
     "daria-evdokimova"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "daria-evdokimova": "Founder & CEO"
+   }
   },
   {
    "id": "voldex",
@@ -4072,7 +4562,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/voldex.png"
+   "logo": "assets/logos/voldex.png",
+   "titles": {
+    "alex-singer": "Founder & CEO"
+   }
   },
   {
    "id": "wander",
@@ -4094,7 +4587,10 @@
     "https://thielfellowship.org/jobs"
    ],
    "onJobBoard": true,
-   "logo": "assets/logos/wander.png"
+   "logo": "assets/logos/wander.png",
+   "titles": {
+    "john-andrew-entwistle": "Founder & CEO"
+   }
   },
   {
    "id": "yellowberry",
@@ -4112,7 +4608,10 @@
    "fellows": [
     "megan-grassell"
    ],
-   "sources": []
+   "sources": [],
+   "titles": {
+    "megan-grassell": "Founder"
+   }
   }
  ]
 }
