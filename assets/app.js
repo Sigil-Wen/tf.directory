@@ -317,7 +317,7 @@
       <a class="back" href="#/classes">← All classes</a>
       <header>
         <h1 class="title">Class of ${y}</h1>
-        <section class="stats" style="grid-template-columns:repeat(4,minmax(0,1fr))" aria-label="Class totals">
+        <section class="stats four" aria-label="Class totals">
           <div class="stat"><b>${money(r.value)}</b><span>Combined value</span></div>
           <div class="stat"><b>${r.value ? "#" + rank : "—"}</b><span>Rank of ${years.length} classes</span></div>
           <div class="stat"><b>${r.unicorns}</b><span>Unicorns</span></div>
@@ -548,6 +548,128 @@
     return { html, title: f.name };
   }
 
+  // ---------- stats ----------
+  const everUnicorn = (c) => allowed(c) && (peakOf(c) >= 1e9 || !!c.unicorn);
+  const nowUnicorn = (c) => allowed(c) && (c.valuationUSD || 0) >= 1e9;
+  const pct = (x) => `${Math.round(x * 100)}%`;
+  const byPeak = (a, b) => peakOf(b) - peakOf(a) || a.name.localeCompare(b.name);
+
+  // Share of each class who founded at least one company ever valued at $1B or more.
+  function hitRates(fs) {
+    const ever = fs.filter((f) => f.cos.some(everUnicorn));
+    const now = ever.filter((f) => f.cos.some(nowUnicorn));
+    const cos = [...new Set(fs.flatMap((f) => f.cos.filter(everUnicorn)))].sort(byPeak);
+    return { n: fs.length, ever: ever.length, now: now.length, past: ever.length - now.length, rate: fs.length ? ever.length / fs.length : 0, cos };
+  }
+  const unicornList = (cos) => cos.map((c) => (nowUnicorn(c) ? c.name : `${c.name} (past)`)).join(", ");
+
+  function unicornRows(list) {
+    return `<div class="uni"><div class="t-head"><span>Rank</span><span>Company</span><span>Fellows</span><span class="r">Highest valuation</span><span class="r h-now">Latest</span></div>
+    ${list.map((c, i) => {
+      const peak = peakOf(c), above = peak > (c.valuationUSD || 0);
+      const now = c.valuationUSD ? money(c.valuationUSD) : (STATUS_LABEL[c.status] || "—");
+      return `<div class="t-row">
+        ${rk(i)}
+        <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}${companyTags(c)}${nowUnicorn(c) ? "" : tag("Past unicorn")}</span></span></a>
+        <div class="founders">${c.fs.map((f) => founderLine(c, f)).join("")}</div>
+        <div class="val">${money(peak)}<small>${esc(above ? c.peakNote || "Peak" : c.valuationNote || "")}</small><small class="m">Latest ${esc(now)}</small></div>
+        <div class="u-now">${now}<small>${esc(above ? c.valuationNote || "" : "")}</small></div>
+      </div>`;
+    }).join("")}</div>`;
+  }
+
+  function viewStats() {
+    const rows = years.map((y) => ({ year: y, ...hitRates(fellows.filter((f) => f.class === y)) }));
+    const early = hitRates(fellows.filter((f) => f.class <= 2014));
+    const all = hitRates(fellows);
+    const top = Math.max(...rows.map((r) => r.rate), 0.01);
+    const max = Math.ceil((top + 0.02) * 10) / 10;
+    const ticks = Array.from({ length: Math.round(max * 10) + 1 }, (_, i) => i / 10).filter((t, i, a) => a.length <= 6 || i % 2 === 0);
+    const best = rows.reduce((a, b) => (b.rate > a.rate ? b : a), rows[0]);
+    const tips = [];
+    const tip = (t) => tips.push(t) - 1;
+
+    const cols = rows.map((r) => {
+      const label = `Class of ${r.year}: ${r.ever} of ${r.n} fellows (${pct(r.rate)}) founded a unicorn`;
+      const i = tip({ value: `${pct(r.rate)} · ${r.ever} of ${r.n}`, label: `Class of ${r.year}`, lines: [r.now ? `${r.now} founded a company worth $1B+ today` : "", r.past ? `${r.past} founded a past unicorn only` : "", r.cos.length ? unicornList(r.cos) : "No unicorns yet"].filter(Boolean) });
+      return `<a class="col" href="#/class/${r.year}" data-tip="${i}" aria-label="${esc(label)}">
+        <span class="bar" style="height:${(r.rate / max) * 100}%">${r === best && r.rate ? `<b class="cap">${pct(r.rate)}</b>` : ""}${r.past ? `<span class="seg-past" style="flex:${r.past} 1 0"></span>` : ""}${r.now ? `<span class="seg-now" style="flex:${r.now} 1 0"></span>` : ""}</span>
+      </a>`;
+    }).join("");
+
+    const sectors = [...new Set(companies.filter(everUnicorn).map((c) => c.sector || "Other"))]
+      .map((s) => ({ s, cos: companies.filter((c) => everUnicorn(c) && (c.sector || "Other") === s).sort(byPeak) }))
+      .sort((a, b) => b.cos.length - a.cos.length || a.s.localeCompare(b.s));
+    const smax = Math.max(...sectors.map((x) => x.cos.length), 1);
+    const hbars = sectors.map(({ s, cos }) => {
+      const i = tip({ value: plural(cos.length, "unicorn"), label: s, lines: [unicornList(cos)] });
+      return `<a class="hb" href="#/leaderboard/${encodeURIComponent(s)}" data-tip="${i}" aria-label="${esc(`${s}: ${plural(cos.length, "unicorn")}`)}"><span class="hb-l">${esc(s)}</span><span class="hb-track"><span class="hb-bar" style="width:${(cos.length / smax) * 100}%"></span><span class="hb-v">${cos.length}</span></span></a>`;
+    }).join("");
+
+    const html = `
+      <header class="page-head">
+        <h1 class="title">Unicorns</h1>
+        <p class="sub">${all.cos.length} companies founded by ${all.ever} Thiel Fellows have been valued at $1 billion or more, including ones that have since fallen below it, sold or shut down. Several have more than one fellow as a founder, so there are more founders than companies.</p>
+        <section class="stats four" aria-label="Unicorn totals">
+          <div class="stat"><b>${all.cos.length}</b><span>unicorns, ${all.cos.filter(nowUnicorn).length} still worth $1B+</span></div>
+          <div class="stat"><b>${all.ever}</b><span>unicorn founders, ${pct(all.rate)} of all ${all.n} fellows</span></div>
+          <div class="stat"><b>${pct(early.rate)}</b><span>of 2011–2014 fellows founded one (${early.ever} of ${early.n})</span></div>
+          <div class="stat"><b>${early.cos.length}</b><span>unicorns from the 2011–2014 classes</span></div>
+        </section>
+      </header>
+      <div class="toolbar"><div class="controls">${protoSwitch()}</div></div>
+      ${unicornRows(all.cos)}
+      <p class="note">Ranked by the highest valuation each company reached: a priced round, an IPO or SPAC deal, its highest market cap, a token all-time high or a sale price.</p>
+
+      <section class="sect">
+        <div class="sect-head"><div><h2>Hit rate by class</h2><p>The share of each class who founded a unicorn.</p></div></div>
+      <div class="toolbar"><div class="chart-legend"><span><i class="k-now"></i>Founded a company worth $1B+ today</span><span><i class="k-past"></i>Founded a past unicorn only</span></div></div>
+      <figure class="chart" aria-label="Unicorn hit rate by class">
+        <div class="plot" style="--n:${rows.length}">
+          ${ticks.map((t) => `<span class="gl" style="bottom:${(t / max) * 100}%"><span>${pct(t)}</span></span>`).join("")}
+          <div class="cols">${cols}</div>
+        </div>
+        <div class="xl" style="--n:${rows.length}">${rows.map((r) => `<span>${tfy(r.year)}</span>`).join("")}</div>
+      </figure>
+      <p class="note">Younger classes have had less time to build. A company with founders from two classes counts for both.</p>
+      <details class="tview">
+        <summary>Show the numbers</summary>
+        <div class="tview-wrap"><table>
+          <thead><tr><th>Class</th><th class="r">Fellows</th><th class="r">Founded a unicorn</th><th class="r">Hit rate</th><th>Unicorns</th></tr></thead>
+          <tbody>${rows.map((r) => `<tr><td><a href="#/class/${r.year}">${r.year}</a></td><td class="r">${r.n}</td><td class="r">${r.ever}${r.past ? ` <span class="muted">(${r.past} past)</span>` : ""}</td><td class="r">${pct(r.rate)}</td><td>${esc(unicornList(r.cos)) || '<span class="muted">None yet</span>'}</td></tr>`).join("")}</tbody>
+        </table></div>
+      </details>
+      </section>
+
+      <section class="sect">
+        <div class="sect-head"><div><h2>Unicorns by sector</h2><p>Companies ever valued at $1B or more.</p></div></div>
+        <div class="hbars">${hbars}</div>
+      </section>`;
+    return { html, title: "Unicorns", tips };
+  }
+
+  // One tooltip for every chart mark: hover or keyboard focus shows it, values come from the view.
+  const tipEl = document.createElement("div");
+  tipEl.className = "tip"; tipEl.hidden = true; tipEl.setAttribute("role", "tooltip");
+  document.body.appendChild(tipEl);
+  function showTip(el) {
+    const t = current && current.tips && current.tips[+el.dataset.tip];
+    if (!t) return;
+    const b = document.createElement("b"); b.textContent = t.value;
+    const l = document.createElement("span"); l.textContent = t.label;
+    tipEl.replaceChildren(b, l, ...t.lines.map((x) => { const d = document.createElement("div"); d.textContent = x; return d; }));
+    tipEl.hidden = false;
+    const r = el.getBoundingClientRect(), w = tipEl.offsetWidth, h = tipEl.offsetHeight;
+    tipEl.style.left = `${Math.min(Math.max(8, r.left + r.width / 2 - w / 2), innerWidth - w - 8)}px`;
+    tipEl.style.top = `${r.top - h - 8 >= 8 ? r.top - h - 8 : r.bottom + 8}px`;
+  }
+  const hideTip = () => { tipEl.hidden = true; };
+  app.addEventListener("pointerover", (e) => { const el = e.target.closest("[data-tip]"); if (el) showTip(el); });
+  app.addEventListener("pointerout", (e) => { if (e.target.closest("[data-tip]") && !e.relatedTarget?.closest?.("[data-tip]")) hideTip(); });
+  app.addEventListener("focusin", (e) => { const el = e.target.closest("[data-tip]"); if (el) showTip(el); else hideTip(); });
+  app.addEventListener("focusout", hideTip);
+  window.addEventListener("scroll", hideTip, { passive: true });
+
   function viewNotFound() {
     return { html: `<header class="page-head"><h1 class="title">Nothing here.</h1><p class="sub"><a href="#/" style="text-decoration:underline;text-underline-offset:3px">Back to the list</a></p></header>`, title: "Not found" };
   }
@@ -566,8 +688,10 @@
       companies: viewCompanies,
       company: () => viewCompany(a),
       fellows: viewFellows,
+      unicorns: viewStats,
       fellow: () => viewFellow(a),
     };
+    hideTip();
     current = (views[p] || viewNotFound)();
     app.innerHTML = current.html;
     document.title = current.title ? `${current.title} · tf.directory` : "tf.directory — every Thiel Fellow";

@@ -9,7 +9,7 @@ Live at **https://tf.directory** (GitHub Pages).
 A static site with no build step:
 
 - `index.html`: the app shell
-- `assets/app.js`: hash-routed views (`#/leaderboard`, `#/classes`, `#/class/2012`, `#/companies`, `#/company/figma`, `#/fellows`, `#/fellow/dylan-field`) and the `/` search palette
+- `assets/app.js`: hash-routed views (`#/leaderboard`, `#/unicorns`, `#/classes`, `#/class/2012`, `#/companies`, `#/company/figma`, `#/fellows`, `#/fellow/dylan-field`) and the `/` search palette
 - `assets/style.css`: styles, light and dark themes, and the self-hosted Geist font (OFL)
 - `assets/people/`, `assets/logos/`: portraits and company logos, referenced by the `photo` and `logo` fields
 - `data/fellows.json`: one record per fellow (class, current company and role, bio, links, sources, confidence)
