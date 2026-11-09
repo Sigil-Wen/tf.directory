@@ -13,7 +13,7 @@ A static site with no build step:
 - `assets/style.css`: styles, light and dark themes, and the self-hosted Geist font (OFL)
 - `assets/people/`, `assets/logos/`: portraits and company logos, referenced by the `photo` and `logo` fields
 - `data/fellows.json`: one record per fellow (class, current company and role, bio, links, sources, confidence)
-- `data/companies.json`: one record per company (fellows, status, latest valuation, peak, sources)
+- `data/companies.json`: one record per company (fellows and their `titles`, status, latest valuation, peak valuation with `peakNote`, sources)
 
 To fix or add a fellow, edit the JSON and push. After changing `app.js` or `style.css`, bump the `?v=` number on both in `index.html` so browsers fetch the new files. Each company lists its fellows by `id`, and the app builds the links between fellows and companies at load time.
 
@@ -29,7 +29,7 @@ Then open http://127.0.0.1:4173.
 
 - **Rosters:** the Thiel Foundation's class announcements on Business Wire (2015–2026, several read through Wayback Machine copies) and archived snapshots of thielfellowship.org's fellows pages (2011–2014). The 2011–2020 total (226) matches the Foundation's own count.
 - **Companies:** the official Thiel Fellow job board (thielfellowship.org/jobs), company sites, Y Combinator pages and press coverage.
-- **Valuations:** the latest public figure for each company: last priced round, public market cap, token market cap or acquisition price. Figures marked "Dealroom estimate" come only from Dealroom's Thiel Fellowship chart and are less certain. Defunct companies keep only their peak value.
+- **Valuations:** the latest public figure for each company: last priced round, public market cap, token market cap or acquisition price. The peak is the highest figure a company ever reached (a priced round, an IPO or SPAC deal, its highest market cap, a token all-time high or a sale price); the leaderboard can rank by either. Figures marked "Dealroom estimate" come only from Dealroom's Thiel Fellowship chart and are less certain. Defunct companies keep only their peak value.
 - **Billionaires:** Forbes real-time profiles.
 - **Portraits:** public X profile pictures. A portrait is only used when the account matches the fellow by name and by company or fellowship mentions in its bio, or after a manual check. Fellows without a confirmed account show initials.
 - **Logos:** each company's own site icon, or its official X avatar. Logos belong to their owners.

@@ -53,12 +53,15 @@
     "https://www.okx.com/en-us/price/ethereum-eth",
     "https://metamask.com/price/ethereum",
     "https://www.coinbase.com/price/ethereum",
-    "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/20141015/http://www.thielfellowship.org/fellows/",
+    "https://www.bitget.cloud/news/detail/12560604929618"
    ],
    "logo": "assets/logos/ethereum.png",
    "titles": {
     "vitalik-buterin": "Founder"
-   }
+   },
+   "peakNote": "Token ATH · Aug 2025",
+   "peakDate": "2025-08"
   },
   {
    "id": "cognition",
@@ -67,9 +70,9 @@
    "sector": "AI",
    "status": "private",
    "valuationUSD": 48000000000,
-   "valuationType": "reported",
+   "valuationType": "last round",
    "valuationDate": "2026-09",
-   "valuationNote": "Reported · Sep 2026",
+   "valuationNote": "Last round · Sep 2026",
    "valuationDetail": "Reported $48B, Sep 2026; last confirmed priced round $26B (May 2026)",
    "peakValuationUSD": 48000000000,
    "totalRaisedUSD": null,
@@ -81,7 +84,8 @@
     "https://en.wikipedia.org/wiki/Cognition_AI",
     "https://review.firstround.com/inside-thiel-fellowship/",
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.sourcery.vc/p/how-the-thiel-fellowship-created"
+    "https://www.sourcery.vc/p/how-the-thiel-fellowship-created",
+    "https://siliconangle.com/2026/09/08/ai-coding-startup-cognition-raises-2b-at-48b-valuation-as-revenue-nears-900m/"
    ],
    "logo": "assets/logos/cognition.png",
    "titles": {
@@ -122,9 +126,9 @@
    "sector": "Hardware & Deep Tech",
    "status": "private",
    "valuationUSD": 21000000000,
-   "valuationType": "reported",
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Last round · Aug 2026",
    "valuationDetail": "Dealroom-listed $21B (Oct 2026 snapshot); round unverified",
    "peakValuationUSD": 21000000000,
    "totalRaisedUSD": null,
@@ -139,7 +143,8 @@
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
     "https://review.firstround.com/inside-thiel-fellowship/",
     "https://thielfellowship.org",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://www.datacenterdynamics.com/en/news/inference-chip-startup-etched-raises-700m-doubles-valuation-to-21bn/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/etched.png",
@@ -160,7 +165,7 @@
    "valuationDate": "2026-10",
    "valuationNote": "Market cap · Oct 2026",
    "valuationDetail": "Market cap ~$12.8B, Oct 23 2026 (NYSE: FIG)",
-   "peakValuationUSD": 56300000000,
+   "peakValuationUSD": 60000000000,
    "totalRaisedUSD": null,
    "unicorn": true,
    "fellows": [
@@ -171,13 +176,16 @@
     "https://companiesmarketcap.com/figma/marketcap/",
     "https://stockanalysis.com/stocks/fig/market-cap/",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://finviz.com/news/125213/why-figma-stock-skyrocketed-250-this-week"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/figma.png",
    "titles": {
     "dylan-field": "Co-founder & CEO"
-   }
+   },
+   "peakNote": "Market cap · Aug 2025",
+   "peakDate": "2025-08"
   },
   {
    "id": "mercor",
@@ -245,9 +253,9 @@
    "sector": "Hardware & Deep Tech",
    "status": "private",
    "valuationUSD": 5000000000,
-   "valuationType": "reported",
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Last round · Sep 2026",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
    "peakValuationUSD": 5000000000,
    "totalRaisedUSD": null,
@@ -258,7 +266,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://thielfellowship.org",
-    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
+    "https://runtimewire.com/article/positron-ai-raises-875m-asimov-inference-chip"
    ],
    "logo": "assets/logos/positron-ai.png",
    "titles": {
@@ -287,12 +296,15 @@
     "https://www.business-standard.com/amp/markets/ipo/oyo-delays-ipo-to-2026-after-softbank-pushback-targets-7-bn-valuation-125050200971_1.html",
     "https://hdfcsky.com/news/oyo-parent-prism-aiming-for-ipo-launch-in-current-fiscal",
     "https://en.wikipedia.org/wiki/Ritesh_Agarwal",
-    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
+    "https://www.thenewsminute.com/atom/oyo-founder-ritesh-agarwal-s-buyback-shares-lifts-company-s-valuation-10-bn-110174"
    ],
    "logo": "assets/logos/oyo.png",
    "titles": {
     "ritesh-agarwal": "Founder & CEO"
-   }
+   },
+   "peakNote": "Funding round · Oct 2019",
+   "peakDate": "2019-10"
   },
   {
    "id": "mach-industries",
@@ -301,9 +313,9 @@
    "sector": "Space & Defense",
    "status": "private",
    "valuationUSD": 3700000000,
-   "valuationType": "reported",
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Last round · Sep 2026",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
    "peakValuationUSD": 3700000000,
    "totalRaisedUSD": null,
@@ -312,7 +324,8 @@
     "ethan-thornton"
    ],
    "sources": [
-    "https://dealroom.co/charts/thiel-fellowship-mafia"
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://evertiq.com/news/2026-09-22-mach-raises-600-million-to-scale-defense-manufacturing"
    ],
    "logo": "assets/logos/mach-industries.png",
    "titles": {
@@ -326,9 +339,9 @@
    "sector": "Software & SaaS",
    "status": "private",
    "valuationUSD": 3000000000,
-   "valuationType": "reported",
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Last round · May 2026",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
    "peakValuationUSD": 3000000000,
    "totalRaisedUSD": null,
@@ -340,7 +353,8 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
     "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://www.axios.com/pro/supply-chain-deals/2026/05/26/stord-250m-3-billion-valuation-logistics"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/stord.png",
@@ -354,12 +368,12 @@
    "url": "https://hightouch.com",
    "sector": "Software & SaaS",
    "status": "private",
-   "valuationUSD": 2800000000,
-   "valuationType": "reported",
+   "valuationUSD": 2750000000,
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Last round · Apr 2026",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 2800000000,
+   "peakValuationUSD": 2750000000,
    "totalRaisedUSD": null,
    "unicorn": true,
    "fellows": [
@@ -368,7 +382,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://hightouch.com/blog/hightouch-funding-series-d"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/hightouch.png",
@@ -412,9 +427,9 @@
    "sector": "Space & Defense",
    "status": "private",
    "valuationUSD": 2500000000,
-   "valuationType": "reported",
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Last round · Aug 2026",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
    "peakValuationUSD": 2500000000,
    "totalRaisedUSD": null,
@@ -424,7 +439,8 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20250522267532/en/Thiel-Foundation-Announces-2025-Class-of-Thiel-Fellows",
+    "https://www.vcaonline.com/news/2026081109/neros-raises-250m-series-c-at-2-5b-valuation-to-scale-autonomous-and-interceptor-drone-programs/"
    ],
    "logo": "assets/logos/neros.png",
    "titles": {
@@ -453,13 +469,16 @@
     "https://www.fool.com/quote/nasdaq/upst/",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
     "https://web.archive.org/web/2012/http://www.thielfellowship.org/fellows/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://macrotrends.net/stocks/charts/UPST/upstart-holdings/stock-price-history"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/upstart.png",
    "titles": {
     "paul-gu": "Co-founder & CEO"
-   }
+   },
+   "peakNote": "Market cap · Oct 2021",
+   "peakDate": "2021-10"
   },
   {
    "id": "polkadot",
@@ -481,12 +500,15 @@
    "sources": [
     "https://www.coingecko.com/en/coins/polkadot",
     "https://www.businesswire.com/news/home/20180622005131/en/Thiel-Foundation-Announces-2018-Thiel-Fellows",
-    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
+    "https://www.investingcube.com/the-polkadot-price-jumps-above-50-to-a-new-all-time-high-cryptocurrencies-polkadot/"
    ],
    "logo": "assets/logos/polkadot.png",
    "titles": {
     "robert-habermeier": "Co-founder"
-   }
+   },
+   "peakNote": "Token ATH · Nov 2021",
+   "peakDate": "2021-11"
   },
   {
    "id": "varda-space-industries",
@@ -495,9 +517,9 @@
    "sector": "Space & Defense",
    "status": "private",
    "valuationUSD": 1600000000,
-   "valuationType": "reported",
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Last round · Sep 2026",
    "valuationDetail": "Dealroom $1.6B; unicorn after $187M Series C (Jul 2025)",
    "peakValuationUSD": 1600000000,
    "totalRaisedUSD": 328000000,
@@ -508,7 +530,8 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Varda_Space_Industries",
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/"
+    "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
+    "https://labusinessjournal.com/manufacturing/varda-raises-250-million-in-series-d/"
    ],
    "logo": "assets/logos/varda-space-industries.png",
    "titles": {
@@ -520,13 +543,13 @@
    "name": "Freenome",
    "url": "https://www.freenome.com",
    "sector": "Bio & Health",
-   "status": "private",
+   "status": "public",
    "valuationUSD": 1400000000,
    "valuationType": "reported",
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 1400000000,
+   "peakValuationUSD": 1840000000,
    "totalRaisedUSD": null,
    "unicorn": true,
    "fellows": [
@@ -536,13 +559,16 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://web.archive.org/web/2013/http://www.thielfellowship.org/fellows/",
     "https://review.firstround.com/inside-thiel-fellowship/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://stockanalysis.com/stocks/frnm/history/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/freenome.png",
    "titles": {
     "riley-ennis": "Co-founder & CPO"
-   }
+   },
+   "peakNote": "Market cap · Sep 2026",
+   "peakDate": "2026-09"
   },
   {
    "id": "paddle",
@@ -578,12 +604,12 @@
    "url": "https://curative.com",
    "sector": "Bio & Health",
    "status": "private",
-   "valuationUSD": 1300000000,
-   "valuationType": "reported",
+   "valuationUSD": 1275000000,
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Last round · Dec 2025",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 1300000000,
+   "peakValuationUSD": 1275000000,
    "totalRaisedUSD": null,
    "unicorn": true,
    "fellows": [
@@ -592,7 +618,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://curative.com/blog/ceo-letter-curative-series-b-fundraise"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/curative.png",
@@ -716,12 +743,12 @@
    "url": "https://www.owner.com",
    "sector": "Software & SaaS",
    "status": "private",
-   "valuationUSD": 1000000000,
+   "valuationUSD": 2300000000,
    "valuationType": "last round",
    "valuationDate": "2025-05",
-   "valuationNote": "Last round · May 2025",
+   "valuationNote": "Last round · Aug 2026",
    "valuationDetail": "Series C ($120M) at $1B, May 2025",
-   "peakValuationUSD": 1000000000,
+   "peakValuationUSD": 2300000000,
    "totalRaisedUSD": null,
    "unicorn": true,
    "fellows": [
@@ -730,7 +757,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://siliconangle.com/2026/08/28/owner-raises-240m-for-its-restaurant-management-platform/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/owner.png",
@@ -873,12 +901,15 @@
    "sources": [
     "https://en.wikipedia.org/wiki/Loom_(company)",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
-    "https://dealroom.co/charts/thiel-fellowship-mafia"
+    "https://dealroom.co/charts/thiel-fellowship-mafia",
+    "https://www.bloomberg.com/news/articles/2021-05-20/loom-workplace-video-message-platform-valued-at-1-53-billion"
    ],
    "logo": "assets/logos/loom.png",
    "titles": {
     "shahed-khan": "Co-founder"
-   }
+   },
+   "peakNote": "Series C · May 2021",
+   "peakDate": "2021-05"
   },
   {
    "id": "juicebox",
@@ -944,7 +975,7 @@
    "valuationUSD": 700000000,
    "valuationType": "reported",
    "valuationDate": "2019-01",
-   "valuationNote": "At acquisition · Jan 2019",
+   "valuationNote": "OLX round · Nov 2019",
    "valuationDetail": "Acquired by OLX Group 2019 (terms undisclosed); Dealroom $700M",
    "peakValuationUSD": 700000000,
    "totalRaisedUSD": null,
@@ -965,13 +996,13 @@
    "name": "Prepared",
    "url": "https://www.prepared911.com",
    "sector": "AI",
-   "status": "private",
-   "valuationUSD": 640000000,
-   "valuationType": "reported",
+   "status": "acquired",
+   "valuationUSD": 728200000,
+   "valuationType": "acquisition",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Acquired · Oct 2025",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 640000000,
+   "peakValuationUSD": 728200000,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
@@ -980,7 +1011,8 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://vectorshift.ai/research/deals/axon-enterprise-invictus-apps-prepared-2025"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/prepared.png",
@@ -1241,9 +1273,9 @@
    "valuationUSD": 360000000,
    "valuationType": "acquisition",
    "valuationDate": "2020-02",
-   "valuationNote": "Acquired · Feb 2020",
+   "valuationNote": "Acquired · Oct 2020",
    "valuationDetail": "Majority sold to TPG Growth 2020 (~$360M; Thiel Fdn cites $400M)",
-   "peakValuationUSD": 400000000,
+   "peakValuationUSD": 360000000,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
@@ -1294,13 +1326,13 @@
    "name": "Indent",
    "url": "https://indent.com",
    "sector": "AI",
-   "status": "private",
-   "valuationUSD": 336000000,
-   "valuationType": "reported",
+   "status": "defunct",
+   "valuationUSD": null,
+   "valuationType": null,
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Defunct",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 336000000,
+   "peakValuationUSD": null,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
@@ -1378,7 +1410,7 @@
    "name": "Scythe Robotics",
    "url": "https://scytherobotics.com",
    "sector": "Hardware & Deep Tech",
-   "status": "private",
+   "status": "acquired",
    "valuationUSD": 252000000,
    "valuationType": "reported",
    "valuationDate": "2026-10",
@@ -1410,7 +1442,7 @@
    "valuationUSD": 250000000,
    "valuationType": "acquisition",
    "valuationDate": "2021-04",
-   "valuationNote": "Acquired · Apr 2021",
+   "valuationNote": "Acquired · Jan 2022",
    "valuationDetail": "Acquired by Plaid, 2021 (~$250M)",
    "peakValuationUSD": 250000000,
    "totalRaisedUSD": null,
@@ -1462,7 +1494,7 @@
    "valuationDate": "2026-10",
    "valuationNote": "Dealroom estimate · Oct 2026",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 240000000,
+   "peakValuationUSD": 250000000,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
@@ -1471,13 +1503,16 @@
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://itbusinessnet.com/2022/01/thiel-foundation-announces-next-thiel-fellow-class/",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://globalventuring.com/corporate/daily-deal-round-up-december-3-2021/"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/glorify.png",
    "titles": {
     "edward-beccle": "Co-founder"
-   }
+   },
+   "peakNote": "Series A · Dec 2021",
+   "peakDate": "2021-12"
   },
   {
    "id": "passes",
@@ -1512,12 +1547,12 @@
    "url": "https://windbornesystems.com",
    "sector": "Hardware & Deep Tech",
    "status": "private",
-   "valuationUSD": 222000000,
-   "valuationType": "reported",
+   "valuationUSD": 250000000,
+   "valuationType": "last round",
    "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
+   "valuationNote": "Series B · Aug 2026",
    "valuationDetail": "Dealroom-listed (Oct 2026 snapshot); round/date unverified",
-   "peakValuationUSD": 222000000,
+   "peakValuationUSD": 250000000,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
@@ -1525,7 +1560,8 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://techcrunch.com/2026/08/05/ai-makes-weather-prediction-better-can-windborne-make-it-lucrative/"
    ],
    "logo": "assets/logos/windborne-systems.png",
    "titles": {}
@@ -1828,12 +1864,12 @@
    "url": null,
    "sector": "AI",
    "status": "acquired",
-   "valuationUSD": 106000000,
-   "valuationType": "reported",
+   "valuationUSD": 140000000,
+   "valuationType": "acquisition",
    "valuationDate": "2026-10",
-   "valuationNote": "At acquisition · Oct 2026",
+   "valuationNote": "Acquired · Feb 2024",
    "valuationDetail": "Dealroom $106M; reportedly acquired by Veradigm 2024 (unverified)",
-   "peakValuationUSD": 106000000,
+   "peakValuationUSD": 140000000,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
@@ -1841,7 +1877,8 @@
    ],
    "sources": [
     "https://dealroom.co/charts/thiel-fellowship-mafia",
-    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows"
+    "https://www.businesswire.com/news/home/20190710005246/en/Thiel-Foundation-Announces-2019-Thiel-Fellows",
+    "https://www.gunder.com/news/veradigm-acquires-scienceio-for-140m"
    ],
    "titles": {
     "will-manidis": "Founder"
@@ -1915,11 +1952,14 @@
     "alex-rodrigues"
    ],
    "sources": [
-    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows"
+    "https://web.archive.org/web/20160622122038/http://www.businesswire.com/news/home/20160621006214/en/Thiel-Foundation-Announces-2016-Thiel-Fellows",
+    "https://www.businesswire.com/news/home/20210623005530/en/Embark-Trucks-Inc.-Americas-Longest-Running-Self-Driving-Truck-Program-to-Go-Public-Through-Merger-with-Northern-Genesis-Acquisition-Corp.-II"
    ],
    "titles": {
     "alex-rodrigues": "Co-founder"
-   }
+   },
+   "peakNote": "SPAC deal · Jun 2021",
+   "peakDate": "2021-06"
   },
   {
    "id": "spatial-labs",
@@ -2174,14 +2214,14 @@
    "name": "Applied Compute",
    "url": "https://www.appliedcompute.com",
    "sector": "AI",
-   "status": null,
-   "valuationUSD": null,
-   "valuationType": null,
+   "status": "private",
+   "valuationUSD": 3250000000,
+   "valuationType": "last round",
    "valuationDate": null,
-   "valuationNote": null,
-   "peakValuationUSD": null,
+   "valuationNote": "Last round · Nov 2026",
+   "peakValuationUSD": 3250000000,
    "totalRaisedUSD": null,
-   "unicorn": false,
+   "unicorn": true,
    "fellows": [
     "yash-patil"
    ],
@@ -2631,12 +2671,12 @@
    "name": "Context",
    "url": null,
    "sector": "AI",
-   "status": null,
-   "valuationUSD": null,
-   "valuationType": null,
+   "status": "private",
+   "valuationUSD": 70000000,
+   "valuationType": "last round",
    "valuationDate": null,
-   "valuationNote": null,
-   "peakValuationUSD": null,
+   "valuationNote": "Last round · May 2025",
+   "peakValuationUSD": 70000000,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
@@ -3510,7 +3550,7 @@
    "valuationDate": "2020-12",
    "valuationNote": "Defunct",
    "valuationDetail": "DEFUNCT: Ch.11 Dec 2025, assets sold (~$143M), equity cancelled Apr 2026; peak ~$8.5B Dec 2020",
-   "peakValuationUSD": 8500000000,
+   "peakValuationUSD": 14000000000,
    "totalRaisedUSD": null,
    "unicorn": true,
    "fellows": [
@@ -3521,13 +3561,16 @@
     "https://www.sec.gov/Archives/edgar/data/1758057/000114036126011477/ef20067963-10k.htm",
     "https://chapter11cases.com/blogs/news/luminar-technologies-proposes-liquidation-through-143-million-asset-sale-to-quantum-computing-and-microvision",
     "https://www.businesswire.com/news/home/20201230005363/en/Thiel-Foundation-Announces-2020-Thiel-Fellows",
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://www.fool.com/investing/2020/12/08/why-luminar-stock-plummeted-and-velodyne-stock-soa"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/luminar.png",
    "titles": {
     "austin-russell": "Founder"
-   }
+   },
+   "peakNote": "Market cap · Dec 2020",
+   "peakDate": "2020-12"
   },
   {
    "id": "luminopia",
@@ -4180,14 +4223,14 @@
    "name": "Slash",
    "url": "https://www.slash.com",
    "sector": "Fintech",
-   "status": null,
-   "valuationUSD": null,
-   "valuationType": null,
+   "status": "private",
+   "valuationUSD": 1400000000,
+   "valuationType": "last round",
    "valuationDate": null,
-   "valuationNote": null,
-   "peakValuationUSD": null,
+   "valuationNote": "Last round · Apr 2026",
+   "peakValuationUSD": 1400000000,
    "totalRaisedUSD": null,
-   "unicorn": false,
+   "unicorn": true,
    "fellows": [
     "victor-cardenas"
    ],
@@ -4351,19 +4394,22 @@
    "valuationType": null,
    "valuationDate": null,
    "valuationNote": null,
-   "peakValuationUSD": null,
+   "peakValuationUSD": 500000000,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
     "jordan-decicco"
    ],
    "sources": [
-    "https://thielfellowship.org/jobs"
+    "https://thielfellowship.org/jobs",
+    "https://www.bloomberg.com/news/articles/2021-08-09/super-coffee-backed-by-j-lo-and-a-rod-nabs-durable-backing"
    ],
    "onJobBoard": true,
    "titles": {
     "jordan-decicco": "Co-founder"
-   }
+   },
+   "peakNote": "$106M round · Aug 2021",
+   "peakDate": "2021-08"
   },
   {
    "id": "swoop",

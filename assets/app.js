@@ -52,6 +52,7 @@
   // ---------- state ----------
   const state = {
     protocols: store.get("tf-protocols") !== "0",
+    basis: store.get("tf-basis") === "peak" ? "peak" : "latest",
     metric: "value",
     f: { q: "", year: "all", sector: "all", sort: "class" },
     c: { q: "", sector: "all", status: "all", year: "all", sort: "value", dir: -1 },
@@ -59,9 +60,14 @@
 
   let fellows = [], companies = [], F = new Map(), C = new Map(), years = [], meta = {};
 
-  const counted = (c) => c.valuationUSD > 0 && (state.protocols || c.status !== "protocol");
-  const value = (c) => (counted(c) ? c.valuationUSD : 0);
-  const isUnicorn = (c) => !!c.unicorn && (state.protocols || c.status !== "protocol");
+  const allowed = (c) => state.protocols || c.status !== "protocol";
+  const peakOf = (c) => Math.max(c.valuationUSD || 0, c.peakValuationUSD || 0);
+  const basisValue = (c) => (state.basis === "peak" ? peakOf(c) : c.valuationUSD || 0);
+  const counted = (c) => allowed(c) && basisValue(c) > 0;
+  const value = (c) => (counted(c) ? basisValue(c) : 0);
+  const isUnicorn = (c) => !!c.unicorn && allowed(c);
+  const atPeak = (c) => state.basis === "peak" && peakOf(c) > (c.valuationUSD || 0);
+  const noteOf = (c) => (atPeak(c) ? c.peakNote || "Peak" : c.valuationNote || "");
   const byValue = (a, b) => value(b) - value(a) || a.name.localeCompare(b.name);
   const topCo = (f) => f.cos.slice().sort(byValue)[0];
   const fellowValue = (f) => Math.max(0, ...f.cos.map(value));
@@ -82,12 +88,12 @@
   };
   const companyTags = (c) => {
     const former = c.unicorn && value(c) < 1e9 && c.peakValuationUSD >= 1e9;
-    return [c.status === "protocol" && tag("Token network"), c.status === "acquired" && tag("Acquired"), former && tag(`Peak ${money(c.peakValuationUSD)}`)].filter(Boolean).join("");
+    return [c.status === "protocol" && tag("Token network"), c.status === "acquired" && tag("Acquired"), c.status === "defunct" && tag("Defunct"), former && tag(`Peak ${money(c.peakValuationUSD)}`)].filter(Boolean).join("");
   };
 
   const classCache = new Map();
   function classStats(y) {
-    const key = `${y}|${state.protocols}`;
+    const key = `${y}|${state.protocols}|${state.basis}`;
     if (classCache.has(key)) return classCache.get(key);
     const fs = fellows.filter((f) => f.class === y);
     const cos = [...new Set(fs.flatMap((f) => f.cos))].sort(byValue);
@@ -103,7 +109,7 @@
       <div class="pod-top"><span class="tile">${i + 1}</span>${logo(c, 52)}</div>
       <div class="pod-name">${esc(c.name)}</div>
       <div class="pod-val">${money(value(c))}</div>
-      <div class="pod-note">${esc(c.valuationNote || "")}</div>
+      <div class="pod-note">${esc(noteOf(c))}</div>
       <div class="pod-fs">${c.fs.map((f) => founderLine(c, f, false)).join("")}</div>
     </a>`).join("")}</div>`;
   }
@@ -115,7 +121,7 @@
       ${rk(i + start)}
       <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}${companyTags(c)}</span></span></a>
       <div class="founders">${c.fs.map((f) => founderLine(c, f)).join("")}</div>
-      <div class="val">${money(value(c))}<small>${esc(c.valuationNote || "")}</small></div>
+      <div class="val">${money(value(c))}<small>${esc(noteOf(c))}</small></div>
     </div>`).join("")}`;
   }
 
@@ -157,13 +163,33 @@
       ? `${plural(w.unicorns, "unicorn")} from ${plural(w.n, "fellow")}`
       : state.metric === "per"
         ? `${money(w.value / w.n)} of company value per fellow`
-        : `${money(w.value)} in combined company value`;
+        : `${money(w.value)} in combined ${state.basis === "peak" ? "peak" : "company"} value`;
     return `The class of ${w.year} leads with ${why}, driven by ${top}.`;
   }
 
   const metricSeg = () => `<div class="seg" role="group" aria-label="Rank classes by">
     ${[["value", "Combined value"], ["unicorns", "Unicorns"], ["per", "Value per fellow"]].map(([k, l]) => `<button type="button" data-metric="${k}" class="${state.metric === k ? "on" : ""}" aria-pressed="${state.metric === k}">${l}</button>`).join("")}
   </div>`;
+
+  const basisSeg = () => `<div class="seg" role="group" aria-label="Valuation to rank by">
+    ${[["latest", "Latest value"], ["peak", "Peak value"]].map(([k, l]) => `<button type="button" data-basis="${k}" class="${state.basis === k ? "on" : ""}" aria-pressed="${state.basis === k}">${l}</button>`).join("")}
+  </div>`;
+  const valueControls = () => basisSeg() + protoSwitch();
+
+  // Posts about the Fellowship, shown with X's own embed.
+  const POSTS = [
+    ["zebulgar", "2115196198084862363"],
+    ["zebulgar", "2114754239079833694"],
+    ["PhilipJohnston", "2114835621411774667"],
+  ];
+  function loadPosts(el) {
+    if (!el) return;
+    if (window.twttr?.widgets) { window.twttr.widgets.load(el); return; }
+    if (document.getElementById("x-widgets")) return;
+    const sc = document.createElement("script");
+    sc.id = "x-widgets"; sc.async = true; sc.src = "https://platform.twitter.com/widgets.js";
+    document.body.appendChild(sc);
+  }
 
   const protoSwitch = () => `<label class="switch" title="Ethereum and Polkadot are token networks, not companies"><input type="checkbox" data-protocols ${state.protocols ? "checked" : ""}> Count token networks</label>`;
 
@@ -208,7 +234,7 @@
         <h1 class="title">The Thiel Fellow List</h1>
         <p class="sub">The Thiel Fellowship pays young people $250,000 over two years to skip or leave college and build something. This is everyone who took the deal since ${years[0]}, ranked by what they built.</p>
         <section class="stats" aria-label="Directory totals">
-          <div class="stat"><b>${money(total)}</b><span>Combined company value</span></div>
+          <div class="stat"><b>${money(total)}</b><span>Combined ${state.basis === "peak" ? "peak" : "company"} value</span></div>
           <div class="stat"><b>${unicorns}</b><span>Unicorns built</span></div>
           <div class="stat"><b>${current}</b><span>Billionaires</span></div>
           <div class="stat"><b>${fellows.length}</b><span>Fellows</span></div>
@@ -217,10 +243,15 @@
       </header>
 
       <section class="sect" style="padding-top:36px">
-        <div class="sect-head"><h2>The most valuable companies fellows built</h2><div class="controls">${protoSwitch()}</div></div>
+        <div class="sect-head"><h2>The most valuable companies fellows built</h2><div class="controls">${valueControls()}</div></div>
         ${podium(list)}
         <div style="margin-top:28px">${companyRows(list.slice(3, 12), 3)}</div>
         <a class="btn-wide" href="#/leaderboard">See all ${list.length} ranked companies</a>
+      </section>
+
+      <section class="sect">
+        <div class="sect-head"><div><h2>On X</h2><p>The posts about the Fellowship’s hit rate that started this list.</p></div></div>
+        <div class="posts" id="posts">${POSTS.map(([u, id]) => `<div class="post"><blockquote class="twitter-tweet" data-dnt="true" data-theme="${(root.dataset.theme || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"))}"><a href="https://twitter.com/${u}/status/${id}">Post by @${u} on X →</a></blockquote></div>`).join("")}</div>
       </section>
 
       <section class="sect">
@@ -234,7 +265,7 @@
             rows: cos.slice(0, 5).map((c) => ({ href: `#/company/${c.id}`, img: logo(c, 30), t: c.name, v: money(value(c)) })) })).join("")}
         </div>
       </section>`;
-    return { html };
+    return { html, mount: () => loadPosts(document.getElementById("posts")) };
   }
 
   function viewLeaderboard(sector) {
@@ -247,11 +278,11 @@
     const html = `
       <header class="page-head">
         <h1 class="title">${sector ? esc(sector) : "Valuation leaderboard"}</h1>
-        <p class="sub">${plural(list.length, "company")} founded or co-founded by Thiel Fellows, ranked by latest public valuation: last priced round, public market cap, token market cap or acquisition price.</p>
+        <p class="sub">${plural(list.length, "company")} founded or co-founded by Thiel Fellows, ${state.basis === "peak" ? "ranked by the highest valuation each ever reached: priced round, IPO or SPAC, peak market cap, token all-time high or acquisition price." : "ranked by latest public valuation: last priced round, public market cap, token market cap or acquisition price."}</p>
       </header>
       <div class="toolbar">
         <nav class="tabs" aria-label="Filter by sector"><a href="#/leaderboard" class="${sector ? "" : "on"}">All</a>${sectors.map((s) => `<a href="#/leaderboard/${encodeURIComponent(s)}" class="${s === sector ? "on" : ""}">${esc(s)}</a>`).join("")}</nav>
-        ${protoSwitch()}
+        ${valueControls()}
       </div>
       ${companyRows(list)}
       <p class="note">A company appears once even when several fellows co-founded it.</p>
@@ -269,7 +300,7 @@
         <h1 class="title">Which class won?</h1>
         <p class="sub" id="class-answer">${classAnswer()}</p>
       </header>
-      <div class="toolbar">${metricSeg()}${protoSwitch()}</div>
+      <div class="toolbar">${metricSeg()}<div class="controls">${valueControls()}</div></div>
       <div id="class-board">${classBoard()}</div>
       <p class="note">Bars show each class’s companies by current value. A company with fellows from two classes counts for both.</p>`;
     return { html, title: "Classes" };
@@ -294,7 +325,7 @@
         </section>
       </header>
       ${r.valued.length ? `<section class="sect" style="padding-top:36px">
-        <div class="sect-head"><h2>Companies</h2><div class="controls">${protoSwitch()}</div></div>
+        <div class="sect-head"><h2>Companies</h2><div class="controls">${valueControls()}</div></div>
         ${companyRows(r.valued)}
       </section>` : ""}
       <section class="sect">
@@ -322,7 +353,7 @@
         <select class="input" id="cs" aria-label="Sector"><option value="all">All sectors</option>${sectors.map((x) => `<option ${s.sector === x ? "selected" : ""}>${esc(x)}</option>`).join("")}</select>
         <select class="input" id="ct" aria-label="Status"><option value="all">Any status</option>${statuses.map((x) => `<option value="${esc(x)}" ${s.status === x ? "selected" : ""}>${esc(STATUS_LABEL[x] || x)}</option>`).join("")}</select>
         <select class="input" id="cy" aria-label="Class"><option value="all">All classes</option>${years.map((y) => `<option ${String(s.year) === String(y) ? "selected" : ""}>${y}</option>`).join("")}</select>
-        ${protoSwitch()}
+        ${valueControls()}
       </div>
       <div id="results"></div>`;
 
@@ -354,7 +385,7 @@
           <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${founderText(c)}</span><span class="t-sub m">${founderText(c)}</span></span></a>
           <span class="t-sector">${chip(c.sector)}</span>
           <span class="t-status">${statusTag(c.status)}</span>
-          <span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}<small>${value(c) ? esc(c.valuationNote || "") : ""}</small></span>
+          <span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}<small>${value(c) ? esc(noteOf(c)) : ""}</small></span>
           <span class="t-raised">${money(c.totalRaisedUSD)}</span>
         </div>`).join("")}</div>` : `<div class="empty">No companies match.</div>`}`;
     }
@@ -383,7 +414,7 @@
     const rank = ranked().indexOf(c) + 1;
     const url = safeUrl(c.url);
     const sources = (c.sources || []).map(safeUrl).filter(Boolean);
-    const shown = value(c) || c.valuationUSD;
+    const peakOnly = !c.valuationUSD && c.peakValuationUSD;
     const html = `
       <a class="back" href="#/companies">← All companies</a>
       <div class="profile">
@@ -391,7 +422,7 @@
           <div class="p-media">${logo(c, 128)}</div>
           ${facts([
             ["Rank", rank ? `#${rank}` : ""],
-            ["Peak valuation", c.peakValuationUSD ? money(c.peakValuationUSD) : ""],
+            ["Peak valuation", c.peakValuationUSD ? `${money(c.peakValuationUSD)}${c.peakNote ? `<small>${esc(c.peakNote)}</small>` : ""}` : ""],
             ["Total raised", c.totalRaisedUSD ? money(c.totalRaisedUSD) : ""],
             ["Status", c.status ? esc(STATUS_LABEL[c.status] || c.status) : ""],
             ["Sector", esc(c.sector || "")],
@@ -400,7 +431,7 @@
         </aside>
         <div class="p-main">
           <h1>${esc(c.name)}</h1>
-          <div class="worth"><small>Valuation</small><b>${shown ? money(shown) : "—"}</b><small>${esc(c.valuationNote || "Valuation not public")}</small></div>
+          <div class="worth"><small>${peakOnly ? "Peak valuation" : "Valuation"}</small><b>${money(peakOnly ? c.peakValuationUSD : c.valuationUSD)}</b><small>${esc((peakOnly ? c.peakNote || c.valuationNote : c.valuationNote) || "Valuation not public")}</small></div>
           ${c.valuationDetail ? `<p class="prose">${esc(c.valuationDetail)}</p>` : ""}
           <p class="sect-label">Thiel Fellows behind it</p>
           <div class="fgrid">${c.fs.map((f) => fellowCard(f, titleAt(c, f) || undefined)).join("")}</div>
@@ -499,7 +530,7 @@
         <div class="p-main">
           <h1>${esc(f.name)}</h1>
           <div class="p-sub">${esc(workOf(f))}${f.billionaire ? tag(f.billionaire === "current" ? "Billionaire" : "Former billionaire") : ""}</div>
-          ${top ? `<div class="worth"><small>Value of ${esc(top.name)}</small><b>${money(value(top))}</b><small>${esc(top.valuationNote || "")}. This is the company’s value, not personal net worth.</small></div>` : ""}
+          ${top ? `<div class="worth"><small>${atPeak(top) ? "Peak value" : "Value"} of ${esc(top.name)}</small><b>${money(value(top))}</b><small>${esc(noteOf(top))}. This is the company’s value, not personal net worth.</small></div>` : ""}
           ${f.bio ? `<p class="prose">${esc(f.bio)}</p>` : ""}
           ${f.billionaire && f.billionaireNote ? `<p class="sect-label">Net worth</p><p style="margin:0">${esc(f.billionaireNote)}${safeUrl(f.billionaireSource) ? ` <a href="${esc(f.billionaireSource)}" target="_blank" rel="noopener" style="text-decoration:underline;text-underline-offset:3px">${esc(host(f.billionaireSource))} ↗</a>` : ""}</p>` : ""}
           ${cos.length ? `<p class="sect-label">Companies</p><div class="co-list">${cos.map((c) => `<a class="co-row" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc([titleAt(c, f), c.sector].filter(Boolean).join(" · "))}</span></span><span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}</span></a>`).join("")}</div>` : ""}
@@ -551,8 +582,21 @@
     }
   }
 
-  // Class metric + protocol toggles work on any view that shows them.
+  // Class metric, valuation basis and protocol toggles work on any view that shows them.
+  function rerenderKeepingScroll() {
+    const y = window.scrollY;
+    if (current.rerender) current.rerender();
+    else { render(); window.scrollTo(0, y); }
+  }
   app.addEventListener("click", (e) => {
+    const v = e.target.closest("[data-basis]");
+    if (v) {
+      state.basis = v.dataset.basis;
+      store.set("tf-basis", state.basis);
+      document.querySelectorAll("[data-basis]").forEach((x) => { x.classList.toggle("on", x.dataset.basis === state.basis); x.setAttribute("aria-pressed", x.dataset.basis === state.basis); });
+      rerenderKeepingScroll();
+      return;
+    }
     const b = e.target.closest("[data-metric]");
     if (!b) return;
     state.metric = b.dataset.metric;
@@ -565,14 +609,8 @@
     if (!e.target.matches("[data-protocols]")) return;
     state.protocols = e.target.checked;
     store.set("tf-protocols", state.protocols ? "1" : "0");
-    const y = window.scrollY;
-    if (current.rerender) {
-      document.querySelectorAll("[data-protocols]").forEach((x) => { x.checked = state.protocols; });
-      current.rerender();
-    } else {
-      render();
-      window.scrollTo(0, y);
-    }
+    document.querySelectorAll("[data-protocols]").forEach((x) => { x.checked = state.protocols; });
+    rerenderKeepingScroll();
   });
 
   // ---------- search palette ----------
