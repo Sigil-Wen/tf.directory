@@ -2217,7 +2217,7 @@
    "status": "private",
    "valuationUSD": 3250000000,
    "valuationType": "last round",
-   "valuationDate": null,
+   "valuationDate": "2026-11",
    "valuationNote": "Last round · Nov 2026",
    "peakValuationUSD": 3250000000,
    "totalRaisedUSD": null,
@@ -2225,7 +2225,9 @@
    "fellows": [
     "yash-patil"
    ],
-   "sources": [],
+   "sources": [
+    "https://siliconangle.com/2026/11/03/ai-cloud-startup-applied-compute-raises-350m-after-reaching-key-revenue-milestone/"
+   ],
    "logo": "assets/logos/applied-compute.png",
    "titles": {
     "yash-patil": "Co-founder & CEO"
@@ -2674,7 +2676,7 @@
    "status": "private",
    "valuationUSD": 70000000,
    "valuationType": "last round",
-   "valuationDate": null,
+   "valuationDate": "2025-05",
    "valuationNote": "Last round · May 2025",
    "peakValuationUSD": 70000000,
    "totalRaisedUSD": null,
@@ -2682,7 +2684,9 @@
    "fellows": [
     "joseph-semrai"
    ],
-   "sources": [],
+   "sources": [
+    "https://www.vcaonline.com/news/2025052812/context-the-first-ai-native-office-suite-raises-11m-seed-at-a-70m-valuation/"
+   ],
    "titles": {
     "joseph-semrai": "Founder & CEO"
    }

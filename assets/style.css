@@ -80,7 +80,7 @@ img, svg { display: block; }
 .nav { display: flex; gap: 22px; }
 .nav a { color: var(--ink-2); font-size: 14px; font-weight: 500; white-space: nowrap; }
 .nav a:hover, .nav a.on { color: var(--ink); }
-.top-actions { display: flex; justify-content: flex-end; }
+.top-actions { display: flex; justify-content: flex-end; gap: 8px; }
 .search-btn {
   display: flex; align-items: center; gap: 8px; height: 34px; padding: 0 2px; min-width: 0;
   border: 0; background: none; color: var(--ink-3); font-size: 14px; cursor: pointer;
@@ -400,6 +400,10 @@ select.input {
 .pn b { font-weight: 500; display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .pn .next { text-align: right; grid-column: 2; }
 .conf { font-size: 12.5px; color: var(--ink-3); margin-top: 16px; }
+.edit-note { font-size: 13px; color: var(--ink-3); margin: 28px 0 0; padding-top: 16px; border-top: 1px solid var(--line); }
+.edit-note a, .foot a { color: var(--ink-2); text-decoration: underline; text-underline-offset: 3px; }
+.edit-note a:hover, .foot a:hover { color: var(--ink); }
+.edit-note code { font: 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; white-space: nowrap; padding: 2px 5px; border-radius: 5px; background: var(--surface); color: var(--ink-2); }
 
 /* ---------- palette ---------- */
 .pal-back { position: fixed; inset: 0; background: rgba(10, 10, 9, .4); display: flex; justify-content: center; align-items: flex-start; padding: 12vh 16px 16px; z-index: 60; }

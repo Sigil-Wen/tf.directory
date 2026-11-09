@@ -46,6 +46,9 @@
   const tfTag = (y) => `<span class="tf">${tfy(y)}</span>`;
 
   const chip = (s) => (s ? `<span class="chip">${esc(s)}</span>` : "");
+  const REPO = "https://github.com/Sigil-Wen/tf.directory";
+  const editNote = (file, id) =>
+    `<p class="edit-note">Spot a mistake or something missing? <a href="${REPO}/edit/main/data/${file}" target="_blank" rel="noopener">Suggest an edit on GitHub ↗</a> Search <code>data/${file}</code> for <code>"${esc(id)}"</code>, add a source, and GitHub turns your change into a pull request.</p>`;
   const STATUS_LABEL = { public: "Public", private: "Private", acquired: "Acquired", defunct: "Defunct", nonprofit: "Nonprofit", protocol: "Token network" };
   const statusTag = (s) => (s ? `<span class="status ${esc(s)}">${esc(STATUS_LABEL[s] || s)}</span>` : "");
 
@@ -436,6 +439,7 @@
           <p class="sect-label">Thiel Fellows behind it</p>
           <div class="fgrid">${c.fs.map((f) => fellowCard(f, titleAt(c, f) || undefined)).join("")}</div>
           ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}
+          ${editNote("companies.json", c.id)}
         </div>
       </div>`;
     return { html, title: c.name };
@@ -538,7 +542,8 @@
           <p class="sect-label">Class of ${f.class}</p>
           <div class="mates">${others.map((m) => `<a class="mate" href="#/fellow/${m.id}">${face(m, 34)}<span class="t"><b>${esc(m.name)}</b><small>${esc(m.company || topCo(m)?.name || "") || "&nbsp;"}</small></span></a>`).join("")}</div>
           ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}
-          ${f.confidence && f.confidence !== "high" ? `<p class="conf">Class year confidence: ${esc(f.confidence)}. Know better? This is an independent project built from public sources.</p>` : ""}
+          ${f.confidence && f.confidence !== "high" ? `<p class="conf">Class year confidence: ${esc(f.confidence)}.</p>` : ""}
+          ${editNote("fellows.json", f.id)}
           <nav class="pn">
             ${prev ? `<a href="#/fellow/${prev.id}"><small>← Previous in ${f.class}</small><b>${esc(prev.name)}</b></a>` : "<span></span>"}
             ${next ? `<a class="next" href="#/fellow/${next.id}"><small>Next in ${f.class} →</small><b>${esc(next.name)}</b></a>` : ""}

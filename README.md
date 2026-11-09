@@ -15,7 +15,15 @@ A static site with no build step:
 - `data/fellows.json`: one record per fellow (class, current company and role, bio, links, sources, confidence)
 - `data/companies.json`: one record per company (fellows and their `titles`, status, latest valuation, peak valuation with `peakNote`, sources)
 
-To fix or add a fellow, edit the JSON and push. After changing `app.js` or `style.css`, bump the `?v=` number on both in `index.html` so browsers fetch the new files. Each company lists its fellows by `id`, and the app builds the links between fellows and companies at load time.
+To fix or add a fellow, edit the JSON. After changing `app.js` or `style.css`, bump the `?v=` number on both in `index.html` so browsers fetch the new files. Each company lists its fellows by `id`, and the app builds the links between fellows and companies at load time.
+
+## Contributing
+
+Pull requests are welcome: add a missing fellow, update a valuation or improve the site. Every fact needs a public source. [CONTRIBUTING.md](CONTRIBUTING.md) explains the data fields and the check that runs on each pull request:
+
+```sh
+python3 .github/scripts/check_data.py
+```
 
 ## Local preview
 
