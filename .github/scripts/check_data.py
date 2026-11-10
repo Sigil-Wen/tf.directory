@@ -146,6 +146,26 @@ def check_companies(data, fellows):
                 err(where, f"{field} must look like 2025-08, got {c[field]!r}")
         if c.get("valuationUSD") and not c.get("valuationNote"):
             err(where, "a valuation needs a valuationNote saying what it is and when, like 'Last round · May 2026'")
+        rounds = c.get("rounds")
+        if rounds is not None:
+            if not isinstance(rounds, list):
+                err(where, "rounds must be a list")
+                rounds = []
+            last = ""
+            for r in rounds:
+                if not isinstance(r, dict) or not MONTH.match(str(r.get("date"))) or not str(r.get("round") or "").strip():
+                    err(where, f"each round needs a date like 2025-10 and a round name, got {r!r}")
+                    continue
+                if r["date"] < last:
+                    err(where, "rounds must be listed oldest first")
+                last = r["date"]
+                for field in ("valuationUSD", "raisedUSD"):
+                    check_money(where, f"{r['round']} {field}", r.get(field))
+                if not r.get("valuationUSD"):
+                    err(where, f"{r['round']} needs a valuationUSD")
+                check_url(where, f"{r['round']} source", r.get("source"))
+                if not r.get("source"):
+                    err(where, f"{r['round']} needs a source")
         check_url(where, "url", c.get("url"))
         check_asset(where, "logo", c.get("logo"), "assets/logos/")
         # A company with no figure can lean on its founders' sources; a valuation needs its own.

@@ -209,6 +209,9 @@ a.fl-a:hover .fl-n { text-decoration: underline; text-underline-offset: 3px; tex
 .u-now small { display: block; font-size: 12px; color: var(--ink-3); overflow: hidden; text-overflow: ellipsis; }
 .h-now { justify-self: end; }
 .val small.m { display: none; }
+.val small.up, .pod-note .up, .worth .up { color: var(--ink-2); font-weight: 500; }
+.pod-note .up { display: block; margin-top: 2px; }
+.worth .up { margin-top: 4px; }
 .ct .t-head { position: sticky; top: var(--top-h); background: var(--bg); z-index: 4; padding-top: 8px; }
 .t-raised { font-size: 14px; color: var(--ink-2); text-align: right; font-variant-numeric: tabular-nums; }
 
@@ -261,6 +264,9 @@ a.cl-year:hover { text-decoration: underline; text-underline-offset: 4px; text-d
 .col .bar > span { min-height: 0; }
 .col .bar > span:first-of-type { border-radius: 4px 4px 0 0; }
 .col .cap { position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); margin-bottom: 6px; font-size: 12.5px; font-weight: 600; white-space: nowrap; }
+.chart.rounds .plot { height: 220px; margin-top: 26px; }
+.xl small { display: block; font-size: 11px; color: var(--ink-3); }
+.xl.all span { color: var(--ink-2); }
 .xl { display: grid; grid-template-columns: repeat(var(--n), minmax(0, 1fr)); margin: 8px 0 0 40px; font-size: 11.5px; color: var(--ink-3); text-align: center; font-variant-numeric: tabular-nums; }
 .hbars { display: flex; flex-direction: column; gap: 4px; max-width: 760px; }
 .hb { display: grid; grid-template-columns: 170px minmax(0, 1fr); gap: 14px; align-items: center; padding: 4px 6px; border-radius: 8px; }
@@ -478,6 +484,8 @@ select.input {
   .plot { height: 200px; margin-left: 34px; }
   .xl { margin-left: 34px; font-size: 10px; }
   .xl span:nth-child(even) { visibility: hidden; }
+  .xl.all span:nth-child(even) { visibility: visible; }
+  .chart.rounds .plot { height: 180px; }
   .hb { grid-template-columns: 116px minmax(0, 1fr); gap: 10px; }
   .lcard.wide { grid-column: auto; grid-row: auto; }
   .li-rows.two { display: block; }

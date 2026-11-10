@@ -94,6 +94,54 @@
     return [c.status === "protocol" && tag("Token network"), c.status === "acquired" && tag("Acquired"), c.status === "defunct" && tag("Defunct"), former && tag(`Peak ${money(c.peakValuationUSD)}`)].filter(Boolean).join("");
   };
 
+  // Priced rounds, oldest first. When the value shown is the latest round, say how far it rose from the round before.
+  const roundsOf = (c) => (c.rounds || []).filter((r) => r.valuationUSD > 0);
+  const monthYear = (d) => new Date(`${d}-01T00:00:00`).toLocaleString("en-US", { month: "short", year: "numeric" });
+  const times = (x) => `${x >= 10 ? Math.round(x) : Math.round(x * 10) / 10}×`;
+  function riseOf(c, shown = value(c)) {
+    const r = roundsOf(c);
+    if (r.length < 2) return null;
+    const [a, b] = r.slice(-2);
+    return shown === b.valuationUSD && b.valuationUSD > a.valuationUSD ? { x: b.valuationUSD / a.valuationUSD, from: a } : null;
+  }
+  const riseTag = (c, shown, long) => {
+    const r = riseOf(c, shown);
+    return r ? `<small class="up">▲ ${times(r.x)} from ${money(r.from.valuationUSD)}${long ? ` at the ${esc(r.from.round)}, ${monthYear(r.from.date)}` : ""}</small>` : "";
+  };
+
+  function roundsChart(c, tip) {
+    const r = roundsOf(c);
+    if (r.length < 2) return "";
+    const max = Math.max(...r.map((x) => x.valuationUSD));
+    const p = 10 ** Math.floor(Math.log10(max / 4));
+    const step = [1, 2, 2.5, 5, 10].map((k) => k * p).find((s) => (max * 1.1) / s <= 5);
+    const top = Math.ceil((max * 1.1) / step) * step;
+    const ticks = Array.from({ length: Math.round(top / step) + 1 }, (_, i) => i * step);
+    const cols = r.map((x, i) => {
+      const prev = r[i - 1];
+      const up = prev && x.valuationUSD > prev.valuationUSD ? `${times(x.valuationUSD / prev.valuationUSD)} the ${prev.round}` : "";
+      const t = tip({ value: money(x.valuationUSD), label: `${x.round} · ${monthYear(x.date)}`, lines: [x.raisedUSD ? `Raised ${money(x.raisedUSD)}` : "", up].filter(Boolean) });
+      return `<div class="col" tabindex="0" data-tip="${t}" aria-label="${esc(`${x.round}, ${monthYear(x.date)}: ${money(x.valuationUSD)}${up ? `, ${up}` : ""}`)}">
+        <span class="bar" style="height:${Math.max((x.valuationUSD / top) * 100, 0.6)}%"><b class="cap">${money(x.valuationUSD)}</b><span class="seg-now" style="flex:1 1 0"></span></span>
+      </div>`;
+    }).join("");
+    return `<p class="sect-label">Valuation by round</p>
+      <figure class="chart rounds" aria-label="${esc(c.name)} valuation by round">
+        <div class="plot" style="--n:${r.length}">
+          ${ticks.map((t) => `<span class="gl" style="bottom:${(t / top) * 100}%"><span>${t ? money(t) : "$0"}</span></span>`).join("")}
+          <div class="cols">${cols}</div>
+        </div>
+        <div class="xl all" style="--n:${r.length}">${r.map((x) => `<span>${esc(x.round)}<small>${monthYear(x.date)}</small></span>`).join("")}</div>
+      </figure>
+      <details class="tview">
+        <summary>Show the numbers</summary>
+        <div class="tview-wrap"><table>
+          <thead><tr><th>Round</th><th>Date</th><th class="r">Raised</th><th class="r">Valuation</th><th class="r">Step-up</th><th>Source</th></tr></thead>
+          <tbody>${r.map((x, i) => `<tr><td>${esc(x.round)}</td><td>${monthYear(x.date)}</td><td class="r">${x.raisedUSD ? money(x.raisedUSD) : "—"}</td><td class="r">${money(x.valuationUSD)}</td><td class="r">${i ? times(x.valuationUSD / r[i - 1].valuationUSD) : "—"}</td><td>${safeUrl(x.source) ? `<a href="${esc(x.source)}" target="_blank" rel="noopener">${esc(host(x.source))} ↗</a>` : ""}</td></tr>`).join("")}</tbody>
+        </table></div>
+      </details>`;
+  }
+
   const classCache = new Map();
   function classStats(y) {
     const key = `${y}|${state.protocols}|${state.basis}`;
@@ -112,7 +160,7 @@
       <div class="pod-top"><span class="tile">${i + 1}</span>${logo(c, 52)}</div>
       <div class="pod-name">${esc(c.name)}</div>
       <div class="pod-val">${money(value(c))}</div>
-      <div class="pod-note">${esc(noteOf(c))}</div>
+      <div class="pod-note">${esc(noteOf(c))}${riseTag(c)}</div>
       <div class="pod-fs">${c.fs.map((f) => founderLine(c, f, false)).join("")}</div>
     </a>`).join("")}</div>`;
   }
@@ -124,7 +172,7 @@
       ${rk(i + start)}
       <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}${companyTags(c)}</span></span></a>
       <div class="founders">${c.fs.map((f) => founderLine(c, f)).join("")}</div>
-      <div class="val">${money(value(c))}<small>${esc(noteOf(c))}</small></div>
+      <div class="val">${money(value(c))}<small>${esc(noteOf(c))}</small>${riseTag(c)}</div>
     </div>`).join("")}`;
   }
 
@@ -228,11 +276,17 @@
   const namesWorth = (fs, min) => [...new Set(fs.flatMap((f) => f.cos.filter((c) => isCo(c) && (c.valuationUSD || 0) >= min)))]
     .sort((a, b) => b.valuationUSD - a.valuationUSD).map((c) => c.name);
 
+  // The highest bar every one of these fellows still clears, so a fact quotes the strongest claim that holds.
+  const barFor = (fs) => [1e11, 5e10, 2e10, 1e10].find((t) => fs.every((f) => worthNow(f, t))) || 1e10;
+  const billions = (t) => `$${t / 1e9}B`;
+  const unicornsOf = (fs) => [...new Set(fs.flatMap((f) => f.cos))].filter((c) => isCo(c) && (peakOf(c) >= 1e9 || c.unicorn)).sort(byPeak);
+
   function classFact(fs, n) {
     const big = fs.filter((f) => worthNow(f, 1e10)), uni = fs.filter((f) => worthNow(f, 1e9));
     if (!uni.length) return "";
+    const bar = barFor(big);
     const lead = big.length
-      ? `${big.length} of ${n} fellows co-founded a company now worth $10B or more: ${andList(namesWorth(big, 1e10))}.`
+      ? `${big.length} of ${n} fellows (${pct(big.length / n)}) co-founded a company now worth ${billions(bar)} or more: ${andList(namesWorth(big, bar))}.`
       : `${uni.length} of ${n} fellows co-founded a company now worth $1B or more: ${andList(namesWorth(uni, 1e9))}.`;
     return big.length && uni.length > big.length ? `${lead} ${uni.length} of ${n} co-founded one worth $1B or more.` : lead;
   }
@@ -244,8 +298,13 @@
       return { y, fs, big: fs.filter((f) => worthNow(f, 1e10)), uni: fs.filter((f) => worthNow(f, 1e9)) };
     });
     const best = byClass.filter((r) => r.big.length).sort((a, b) => b.big.length / b.fs.length - a.big.length / a.fs.length || b.y - a.y)[0];
-    if (best) out.push({ href: `#/class/${best.y}`, fig: `${best.big.length} of ${best.fs.length}`,
-      text: `fellows in the class of ${best.y} co-founded a company now worth $10B or more: ${andList(namesWorth(best.big, 1e10))}.` });
+    if (best) {
+      const bar = barFor(best.big), built = unicornsOf(best.fs);
+      out.push({ href: `#/class/${best.y}`, fig: pct(best.big.length / best.fs.length),
+        text: `of the class of ${best.y} co-founded a company now worth ${billions(bar)} or more: ${best.big.length} of ${best.fs.length} fellows, at ${andList(namesWorth(best.big, bar))}.` });
+      out.push({ href: `#/class/${best.y}`, fig: String(built.length),
+        text: `${built.length === 1 ? "unicorn" : "unicorns"} built by the class of ${best.y}’s ${best.fs.length} fellows: ${andList(built.map((c) => c.name))}.` });
+    }
     const young = byClass.filter((r) => r.uni.length && r !== best).sort((a, b) => b.y - a.y)[0];
     if (young) out.push({ href: `#/class/${young.y}`, fig: `${young.uni.length} of ${young.fs.length}`,
       text: `fellows in the class of ${young.y} have already co-founded a company worth $1B or more: ${andList(namesWorth(young.uni, 1e9))}.` });
@@ -256,9 +315,6 @@
     const total = cos.reduce((s, c) => s + c.valuationUSD, 0);
     if (cos.length > 1) out.push({ href: `#/company/${cos[0].id}`, fig: pct(cos[0].valuationUSD / total),
       text: `of the combined value of every company fellows built is ${cos[0].name} alone, at ${money(cos[0].valuationUSD)}.` });
-    const uni = fellows.filter((f) => worthNow(f, 1e9));
-    if (uni.length) out.push({ href: "#/unicorns", fig: `1 in ${Math.round(fellows.length / uni.length)}`,
-      text: `fellows co-founded a company worth $1B or more today (${uni.length} of ${fellows.length}).` });
     const sold = companies.filter((c) => c.status === "acquired");
     const top = sold.filter((c) => c.valuationType === "acquisition" && c.valuationUSD).sort((a, b) => b.valuationUSD - a.valuationUSD)[0];
     if (sold.length) out.push({ href: top ? `#/company/${top.id}` : "#/companies", fig: String(sold.length),
@@ -443,7 +499,7 @@
           <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${founderText(c)}</span><span class="t-sub m">${founderText(c)}</span></span></a>
           <span class="t-sector">${chip(c.sector)}</span>
           <span class="t-status">${statusTag(c.status)}</span>
-          <span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}<small>${value(c) ? esc(noteOf(c)) : ""}</small></span>
+          <span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}<small>${value(c) ? esc(noteOf(c)) : ""}</small>${riseTag(c)}</span>
           <span class="t-raised">${money(c.totalRaisedUSD)}</span>
         </div>`).join("")}</div>` : `<div class="empty">No companies match.</div>`}`;
     }
@@ -473,6 +529,8 @@
     const url = safeUrl(c.url);
     const sources = (c.sources || []).map(safeUrl).filter(Boolean);
     const peakOnly = !c.valuationUSD && c.peakValuationUSD;
+    const tips = [];
+    const tip = (t) => tips.push(t) - 1;
     const html = `
       <a class="back" href="#/companies">← All companies</a>
       <div class="profile">
@@ -489,15 +547,16 @@
         </aside>
         <div class="p-main">
           <h1>${esc(c.name)}</h1>
-          <div class="worth"><small>${peakOnly ? "Peak valuation" : "Valuation"}</small><b>${money(peakOnly ? c.peakValuationUSD : c.valuationUSD)}</b><small>${esc((peakOnly ? c.peakNote || c.valuationNote : c.valuationNote) || "Valuation not public")}</small></div>
+          <div class="worth"><small>${peakOnly ? "Peak valuation" : "Valuation"}</small><b>${money(peakOnly ? c.peakValuationUSD : c.valuationUSD)}</b><small>${esc((peakOnly ? c.peakNote || c.valuationNote : c.valuationNote) || "Valuation not public")}</small>${peakOnly ? "" : riseTag(c, c.valuationUSD, true)}</div>
           ${c.valuationDetail ? `<p class="prose">${esc(c.valuationDetail)}</p>` : ""}
+          ${roundsChart(c, tip)}
           <p class="sect-label">Thiel Fellows behind it</p>
           <div class="fgrid">${c.fs.map((f) => fellowCard(f, titleAt(c, f) || undefined)).join("")}</div>
           ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}
           ${editNote("companies.json", c.id)}
         </div>
       </div>`;
-    return { html, title: c.name };
+    return { html, title: c.name, tips };
   }
 
   function viewFellows() {
@@ -589,7 +648,7 @@
         <div class="p-main">
           <h1>${esc(f.name)}</h1>
           <div class="p-sub">${esc(workOf(f))}${f.billionaire ? tag(f.billionaire === "current" ? "Billionaire" : "Former billionaire") : ""}</div>
-          ${top ? `<div class="worth"><small>${atPeak(top) ? "Peak value" : "Value"} of ${esc(top.name)}</small><b>${money(value(top))}</b><small>${esc(noteOf(top))}. This is the company’s value, not personal net worth.</small></div>` : ""}
+          ${top ? `<div class="worth"><small>${atPeak(top) ? "Peak value" : "Value"} of ${esc(top.name)}</small><b>${money(value(top))}</b><small>${esc(noteOf(top))}. This is the company’s value, not personal net worth.</small>${riseTag(top, value(top), true)}</div>` : ""}
           ${f.bio ? `<p class="prose">${esc(f.bio)}</p>` : ""}
           ${f.billionaire && f.billionaireNote ? `<p class="sect-label">Net worth</p><p style="margin:0">${esc(f.billionaireNote)}${safeUrl(f.billionaireSource) ? ` <a href="${esc(f.billionaireSource)}" target="_blank" rel="noopener" style="text-decoration:underline;text-underline-offset:3px">${esc(host(f.billionaireSource))} ↗</a>` : ""}</p>` : ""}
           ${cos.length ? `<p class="sect-label">Companies</p><div class="co-list">${cos.map((c) => `<a class="co-row" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc([titleAt(c, f), c.sector].filter(Boolean).join(" · "))}</span></span><span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}</span></a>`).join("")}</div>` : ""}
@@ -632,7 +691,7 @@
         ${rk(i)}
         <a class="t-co" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc(c.sector || "")}${companyTags(c)}${nowUnicorn(c) ? "" : tag("Past unicorn")}</span></span></a>
         <div class="founders">${c.fs.map((f) => founderLine(c, f)).join("")}</div>
-        <div class="val">${money(peak)}<small>${esc(above ? c.peakNote || "Peak" : c.valuationNote || "")}</small><small class="m">Latest ${esc(now)}</small></div>
+        <div class="val">${money(peak)}<small>${esc(above ? c.peakNote || "Peak" : c.valuationNote || "")}</small>${riseTag(c, peak)}<small class="m">Latest ${esc(now)}</small></div>
         <div class="u-now">${now}<small>${esc(above ? c.valuationNote || "" : "")}</small></div>
       </div>`;
     }).join("")}</div>`;

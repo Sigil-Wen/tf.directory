@@ -226,12 +226,12 @@
    "url": "https://mercor.com",
    "sector": "AI",
    "status": "private",
-   "valuationUSD": 10000000000,
+   "valuationUSD": 20000000000,
    "valuationType": "last round",
-   "valuationDate": "2025-10",
-   "valuationNote": "Last round · Oct 2025",
-   "valuationDetail": "Series C $350M at $10B, Oct 2025",
-   "peakValuationUSD": 10000000000,
+   "valuationDate": "2026-11",
+   "valuationNote": "Last round · Nov 2026",
+   "valuationDetail": "Series D $750M at $20B, Nov 2026, from Benchmark, General Catalyst, Nvidia, Salesforce and Zoom; up from $10B at the Oct 2025 Series C",
+   "peakValuationUSD": 20000000000,
    "totalRaisedUSD": null,
    "unicorn": true,
    "fellows": [
@@ -240,6 +240,11 @@
     "surya-midha"
    ],
    "sources": [
+    "https://mercor.com/blog/series-d/",
+    "https://x.com/BrendanFoody/status/2120182889195466877",
+    "https://mercor.com/blog/series-c/",
+    "https://techcrunch.com/2025/02/20/mercor-an-ai-recruiting-startup-founded-by-21-year-olds-raises-100m-at-2b-valuation/",
+    "https://prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html",
     "https://en.wikipedia.org/wiki/Mercor",
     "https://www.forbes.com/profile/brendan-foody/",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
@@ -251,7 +256,37 @@
     "brendan-foody": "Co-founder & Co-CEO",
     "adarsh-hiremath": "Co-founder",
     "surya-midha": "Co-founder & Chairman"
-   }
+   },
+   "rounds": [
+    {
+     "date": "2024-09",
+     "round": "Series A",
+     "valuationUSD": 250000000,
+     "raisedUSD": 30000000,
+     "source": "https://prnewswire.com/news-releases/mercor-raises-30m-series-a-at-a-250m-valuation-to-create-jobs-with-ai-302252449.html"
+    },
+    {
+     "date": "2025-02",
+     "round": "Series B",
+     "valuationUSD": 2000000000,
+     "raisedUSD": 100000000,
+     "source": "https://techcrunch.com/2025/02/20/mercor-an-ai-recruiting-startup-founded-by-21-year-olds-raises-100m-at-2b-valuation/"
+    },
+    {
+     "date": "2025-10",
+     "round": "Series C",
+     "valuationUSD": 10000000000,
+     "raisedUSD": 350000000,
+     "source": "https://mercor.com/blog/series-c/"
+    },
+    {
+     "date": "2026-11",
+     "round": "Series D",
+     "valuationUSD": 20000000000,
+     "raisedUSD": 750000000,
+     "source": "https://mercor.com/blog/series-d/"
+    }
+   ]
   },
   {
    "id": "flapping-airplanes",

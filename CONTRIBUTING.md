@@ -49,6 +49,7 @@ If you add a fellow, also raise `meta.count` at the top of the file.
 | `fellows`, `titles` | ids of the fellows behind it, and each fellow's title there |
 | `valuationUSD`, `valuationNote`, `valuationDate`, `valuationDetail` | the latest public value in US dollars, and what it is |
 | `peakValuationUSD`, `peakNote`, `peakDate` | the highest value it ever reached |
+| `rounds` | optional: priced rounds, oldest first, each with `date`, `round`, `valuationUSD`, `raisedUSD` and a `source`; the company page charts them, and rankings show the rise since the round before |
 | `totalRaisedUSD`, `unicorn` | money raised, and whether it was ever valued at $1B or more |
 | `logo`, `logoDark` | path to the logo; set `logoDark` for a white logo |
 | `sources` | public links backing the figures |

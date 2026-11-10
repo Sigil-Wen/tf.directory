@@ -13,7 +13,7 @@ A static site with no build step:
 - `assets/style.css`: styles, light and dark themes, and the self-hosted Geist font (OFL)
 - `assets/people/`, `assets/logos/`: portraits and company logos, referenced by the `photo` and `logo` fields
 - `data/fellows.json`: one record per fellow (class, current company and role, bio, links, sources, confidence)
-- `data/companies.json`: one record per company (fellows and their `titles`, status, latest valuation, peak valuation with `peakNote`, sources)
+- `data/companies.json`: one record per company (fellows and their `titles`, status, latest valuation, peak valuation with `peakNote`, optional `rounds` history, sources)
 
 To fix or add a fellow, edit the JSON. After changing `app.js` or `style.css`, bump the `?v=` number on both in `index.html` so browsers fetch the new files. Each company lists its fellows by `id`, and the app builds the links between fellows and companies at load time.
 
