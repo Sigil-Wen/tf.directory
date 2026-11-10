@@ -1,0 +1,21 @@
+{
+ "meta": {
+  "updated": "November 10, 2026"
+ },
+ "news": [
+  {
+   "date": "2026-10-27",
+   "title": "Former DOGE staffers say they just hacked Anthropic in less than 12 hours",
+   "source": "Fast Company",
+   "url": "https://www.fastcompany.com/91630974/former-doge-staffers-say-they-just-hacked-anthropic-in-less-than-12-hours",
+   "summary": "Cathedral, the AI cybersecurity startup Luke Farritor co-founded with other former DOGE staffers, says it reached Anthropic’s internal data and Slack messages in under 12 hours through flaws in third-party business software. Anthropic, which invites outside security testing, confirmed access to a limited set of systems and has since closed it off.",
+   "fellows": [
+    "luke-farritor"
+   ],
+   "companies": [
+    "cathedral",
+    "anthropic"
+   ]
+  }
+ ]
+}

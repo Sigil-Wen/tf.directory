@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "November 9, 2026"
+  "updated": "November 10, 2026"
  },
  "companies": [
   {
@@ -695,6 +695,32 @@
     "victor-cardenas": "Co-founder & CEO"
    },
    "valuationDetail": "Series C $100M led by Ribbit Capital at $1.4B, Apr 2026 (company release)"
+  },
+  {
+   "id": "cathedral",
+   "name": "Cathedral",
+   "url": null,
+   "sector": "Space & Defense",
+   "status": "private",
+   "valuationUSD": 1400000000,
+   "valuationType": "last round",
+   "valuationDate": "2026-07",
+   "valuationNote": "Last round · Jul 2026",
+   "valuationDetail": "$160M led by Andreessen Horowitz and Sequoia at $1.4B, reported by Reuters in Jul 2026",
+   "peakValuationUSD": 1400000000,
+   "totalRaisedUSD": null,
+   "unicorn": true,
+   "fellows": [
+    "luke-farritor"
+   ],
+   "sources": [
+    "https://thenextweb.com/news/cathedral-doge-alumni-military-cyber-startup-1-4-billion",
+    "https://executivebiz.com/articles/cathedral-doge-cyber-startup-160m-funding-1-4b-valuation",
+    "https://www.fastcompany.com/91630974/former-doge-staffers-say-they-just-hacked-anthropic-in-less-than-12-hours"
+   ],
+   "titles": {
+    "luke-farritor": "Co-founder"
+   }
   },
   {
    "id": "curative",

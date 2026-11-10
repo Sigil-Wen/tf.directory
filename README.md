@@ -9,10 +9,11 @@ Live at **https://tf.directory** (GitHub Pages).
 A static site with no build step:
 
 - `index.html`: the app shell
-- `assets/app.js`: hash-routed views (`#/leaderboard`, `#/unicorns`, `#/classes`, `#/class/2012`, `#/companies`, `#/company/figma`, `#/fellows`, `#/fellow/dylan-field`) and the `/` search palette
+- `assets/app.js`: hash-routed views (`#/leaderboard`, `#/unicorns`, `#/classes`, `#/class/2012`, `#/companies`, `#/company/figma`, `#/fellows`, `#/fellow/dylan-field`, `#/news`; a bare year like `#/2024` opens that class) and the `/` search palette
 - `assets/style.css`: styles, light and dark themes, and the self-hosted Geist font (OFL)
 - `assets/people/`, `assets/logos/`: portraits and company logos, referenced by the `photo` and `logo` fields
 - `data/fellows.json`: one record per fellow (class, current company and role, bio, links, sources, confidence)
+- `data/news.json`: press coverage, each story tagged with the fellows and companies it names
 - `data/companies.json`: one record per company (fellows and their `titles`, status, latest valuation, peak valuation with `peakNote`, optional `rounds` history, sources)
 
 To fix or add a fellow, edit the JSON. After changing `app.js` or `style.css`, bump the `?v=` number on both in `index.html` so browsers fetch the new files. Each company lists its fellows by `id`, and the app builds the links between fellows and companies at load time.

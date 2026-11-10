@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "November 9, 2026",
+  "updated": "November 10, 2026",
   "count": 316
  },
  "fellows": [
@@ -6950,12 +6950,13 @@
    "id": "luke-farritor",
    "name": "Luke Farritor",
    "class": 2024,
-   "company": "U.S. federal government (Department of Government Efficiency)",
+   "company": "Cathedral",
    "companyUrl": null,
-   "role": "Engineer (full-time GS-15 federal employee from May 2025)",
-   "sector": "Other",
-   "bio": "Won the 2024 Vesuvius Challenge grand prize with his team for using AI to read Herculaneum scrolls, then joined DOGE in 2025 and worked across GSA, HHS, Energy and other agencies; no 2026 role was found.",
+   "role": "Co-founder",
+   "sector": "Space & Defense",
+   "bio": "Won the 2024 Vesuvius Challenge grand prize with his team for using AI to read Herculaneum scrolls, then joined DOGE in 2025 and worked across GSA, HHS, Energy and other agencies. In 2026 he co-founded Cathedral with three other former DOGE staffers: an AI cybersecurity startup for the U.S. military that raised $160M at a $1.4B valuation in July 2026.",
    "previous": [
+    "U.S. federal government (DOGE)",
     "Vesuvius Challenge",
     "SpaceX (intern)"
    ],
@@ -6967,7 +6968,9 @@
     "https://www.businesswire.com/news/home/20240320742346/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
     "https://www.silicon.co.uk/press-release/thiel-foundation-announces-next-thiel-fellow-class-3",
     "https://en.wikipedia.org/wiki/Luke_Farritor",
-    "https://therevolvingdoorproject.org/doge-agent-luke-farritor/"
+    "https://therevolvingdoorproject.org/doge-agent-luke-farritor/",
+    "https://thenextweb.com/news/cathedral-doge-alumni-military-cyber-startup-1-4-billion",
+    "https://www.fastcompany.com/91630974/former-doge-staffers-say-they-just-hacked-anthropic-in-less-than-12-hours"
    ],
    "confidence": "medium"
   },

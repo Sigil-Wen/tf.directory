@@ -54,6 +54,15 @@ If you add a fellow, also raise `meta.count` at the top of the file.
 | `logo`, `logoDark` | path to the logo; set `logoDark` for a white logo |
 | `sources` | public links backing the figures |
 
+**`data/news.json`**, one record per story, shown on the News page and on the profiles it names:
+
+| Field | What it holds |
+|---|---|
+| `date` | the day it was published, like `2026-10-27` |
+| `title`, `source`, `url` | the headline as published, the outlet, and the link |
+| `summary` | one or two sentences in your own words; don't paste the article |
+| `fellows`, `companies` | ids of the fellows and companies it's about |
+
 Dates look like `2026-05`. Amounts are plain numbers of US dollars: `3250000000`, not `3.25B`.
 
 ## Before you open the pull request

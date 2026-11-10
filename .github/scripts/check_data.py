@@ -14,6 +14,7 @@ URL = re.compile(r"^https?://\S+$")
 LINKEDIN = re.compile(r"^https://(www\.)?linkedin\.com/in/[^/?#\s]+/?$")
 HANDLE = re.compile(r"^[A-Za-z0-9_]{1,15}$")
 MONTH = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
+DAY = re.compile(r"^\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])$")
 STATUSES = {"private", "public", "acquired", "defunct", "nonprofit", "protocol"}
 CONFIDENCE = {"high", "medium", "low"}
 BILLIONAIRE = {"current", "former"}
@@ -105,11 +106,40 @@ def check_fellows(data):
     return by_id
 
 
+def check_news(data, fellows, companies):
+    items = data.get("news") if isinstance(data, dict) else None
+    if not isinstance(items, list):
+        err("data/news.json", "must have a news list")
+        return
+    seen = set()
+    for i, n in enumerate(items):
+        where = f"news item {n.get('title') or '#' + str(i)!r}"
+        if not DAY.match(str(n.get("date"))):
+            err(where, f"date must look like 2026-10-27, got {n.get('date')!r}")
+        for field in ("title", "source"):
+            if not str(n.get(field) or "").strip():
+                err(where, f"{field} is missing")
+        check_url(where, "url", n.get("url"))
+        if not n.get("url"):
+            err(where, "needs a url to the story")
+        elif n["url"] in seen:
+            err(where, "the same story is listed twice")
+        seen.add(n.get("url"))
+        if not n.get("fellows") and not n.get("companies"):
+            err(where, "must name at least one fellow or company")
+        for fid in n.get("fellows") or []:
+            if fid not in fellows:
+                err(where, f"names fellow {fid!r}, who is not in data/fellows.json")
+        for cid in n.get("companies") or []:
+            if cid not in companies:
+                err(where, f"names company {cid!r}, which is not in data/companies.json")
+
+
 def check_companies(data, fellows):
     companies = data.get("companies") if isinstance(data, dict) else None
     if not isinstance(companies, list):
         err("data/companies.json", "must have a companies list")
-        return
+        return set()
     seen = set()
     for i, c in enumerate(companies):
         cid = c.get("id")
@@ -171,11 +201,14 @@ def check_companies(data, fellows):
         # A company with no figure can lean on its founders' sources; a valuation needs its own.
         if c.get("valuationUSD") or c.get("peakValuationUSD") or c.get("sources"):
             check_sources(where, c.get("sources"))
+    return seen
 
 
 def main():
     fellows = check_fellows(load("data/fellows.json"))
-    check_companies(load("data/companies.json"), fellows)
+    companies = check_companies(load("data/companies.json"), fellows)
+    if os.path.exists("data/news.json"):
+        check_news(load("data/news.json"), fellows, companies)
     if errors:
         print(f"Found {len(errors)} problem{'s' if len(errors) != 1 else ''} in the data:\n")
         for e in errors:

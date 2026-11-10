@@ -61,7 +61,7 @@
     c: { q: "", sector: "all", status: "all", year: "all", sort: "value", dir: -1 },
   };
 
-  let fellows = [], companies = [], F = new Map(), C = new Map(), years = [], meta = {};
+  let fellows = [], companies = [], news = [], F = new Map(), C = new Map(), years = [], meta = {};
 
   const allowed = (c) => state.protocols || c.status !== "protocol";
   const peakOf = (c) => Math.max(c.valuationUSD || 0, c.peakValuationUSD || 0);
@@ -323,13 +323,39 @@
   }
   const factGrid = (list) => `<div class="fact-cards">${list.map((x) => `<a class="fcard" href="${x.href}"><b>${esc(x.fig)}</b><p>${esc(x.text)}</p></a>`).join("")}</div>`;
 
+  // ---------- news ----------
+  const dayDate = (d) => new Date(`${d}T00:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+  const newsAbout = (key, id) => news.filter((n) => (n[key] || []).includes(id));
+  function newsItem(n) {
+    const fs = (n.fellows || []).map((id) => F.get(id)).filter(Boolean);
+    const cs = (n.companies || []).map((id) => C.get(id)).filter(Boolean);
+    const url = safeUrl(n.url);
+    return `<article class="news">
+      <p class="news-meta">${esc(dayDate(n.date))} · ${esc(n.source || (url ? host(url) : ""))}</p>
+      <h3>${url ? `<a href="${esc(url)}" target="_blank" rel="noopener">${esc(n.title)} ↗</a>` : esc(n.title)}</h3>
+      ${n.summary ? `<p class="news-sum">${esc(n.summary)}</p>` : ""}
+      ${fs.length || cs.length ? `<div class="news-tags">${fs.map((f) => `<a class="chip" href="#/fellow/${f.id}">${face(f, 22)}${esc(f.name)} ${tfTag(f.class)}</a>`).join("")}${cs.map((c) => `<a class="chip" href="#/company/${c.id}">${logo(c, 22)}${esc(c.name)}</a>`).join("")}</div>` : ""}
+    </article>`;
+  }
+  const newsList = (list) => `<div class="news-list">${list.map(newsItem).join("")}</div>`;
+
+  function viewNews() {
+    const html = `
+      <header class="page-head">
+        <h1 class="title">News</h1>
+        <p class="sub">Press coverage of Thiel Fellows and the companies they built, newest first.</p>
+      </header>
+      ${news.length ? newsList(news) : `<div class="empty">No news yet.</div>`}
+      <p class="note">Missing a story? <a href="${REPO}/edit/main/data/news.json" target="_blank" rel="noopener">Add it to data/news.json on GitHub ↗</a></p>`;
+    return { html, title: "News" };
+  }
+
   // ---------- views ----------
   function viewHome() {
     const list = ranked();
     const total = list.reduce((s, c) => s + value(c), 0);
     const unicorns = companies.filter(isUnicorn).length;
     const billionaires = fellows.filter((f) => f.billionaire).sort((a, b) => (a.billionaire === "current" ? 0 : 1) - (b.billionaire === "current" ? 0 : 1) || fellowValue(b) - fellowValue(a));
-    const current = billionaires.filter((f) => f.billionaire === "current").length;
     const classes = years.map(classStats).sort((a, b) => b.value - a.value || a.year - b.year);
     const sectors = [...new Set(list.map((c) => c.sector).filter(Boolean))]
       .map((s) => ({ s, cos: list.filter((c) => c.sector === s) }))
@@ -340,10 +366,9 @@
       <header class="page-head" style="padding-bottom:0">
         <h1 class="title">The Thiel Fellow List</h1>
         <p class="sub">The Thiel Fellowship pays young people $250,000 over two years to skip or leave college and build something. This is everyone who took the deal since ${years[0]}, ranked by what they built.</p>
-        <section class="stats" aria-label="Directory totals">
+        <section class="stats four" aria-label="Directory totals">
           <div class="stat"><b>${money(total)}</b><span>Combined ${state.basis === "peak" ? "peak" : "company"} value</span></div>
           <div class="stat"><b>${unicorns}</b><span>Unicorns built</span></div>
-          <div class="stat"><b>${current}</b><span>Billionaires</span></div>
           <div class="stat"><b>${fellows.length}</b><span>Fellows</span></div>
           <div class="stat"><b>${years.length}</b><span>Classes</span></div>
         </section>
@@ -360,6 +385,11 @@
         <div class="sect-head"><div><h2>By the numbers</h2><p>Worked out from the latest valuations in the directory. Ethereum and Polkadot don’t count as companies here.</p></div></div>
         ${factGrid(factCards())}
       </section>
+
+      ${news.length ? `<section class="sect">
+        <div class="sect-head"><div><h2>In the news</h2><p>The latest press coverage of fellows and the companies they built.</p></div><a class="lc-btn" href="#/news">All news →</a></div>
+        ${newsList(news.slice(0, 3))}
+      </section>` : ""}
 
       <section class="sect">
         <div class="sect-head"><div><h2>On X</h2><p>The posts about the Fellowship’s hit rate that started this list.</p></div></div>
@@ -552,6 +582,7 @@
           ${roundsChart(c, tip)}
           <p class="sect-label">Thiel Fellows behind it</p>
           <div class="fgrid">${c.fs.map((f) => fellowCard(f, titleAt(c, f) || undefined)).join("")}</div>
+          ${newsAbout("companies", c.id).length ? `<p class="sect-label">In the news</p>${newsList(newsAbout("companies", c.id))}` : ""}
           ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}
           ${editNote("companies.json", c.id)}
         </div>
@@ -653,6 +684,7 @@
           ${f.billionaire && f.billionaireNote ? `<p class="sect-label">Net worth</p><p style="margin:0">${esc(f.billionaireNote)}${safeUrl(f.billionaireSource) ? ` <a href="${esc(f.billionaireSource)}" target="_blank" rel="noopener" style="text-decoration:underline;text-underline-offset:3px">${esc(host(f.billionaireSource))} ↗</a>` : ""}</p>` : ""}
           ${cos.length ? `<p class="sect-label">Companies</p><div class="co-list">${cos.map((c) => `<a class="co-row" href="#/company/${c.id}">${logo(c)}<span class="txt"><span class="t-name">${esc(c.name)}</span><span class="t-sub">${esc([titleAt(c, f), c.sector].filter(Boolean).join(" · "))}</span></span><span class="val">${value(c) ? money(value(c)) : `<span class="none">${c.status === "nonprofit" ? "Nonprofit" : "Not public"}</span>`}</span></a>`).join("")}</div>` : ""}
           ${f.previous && f.previous.length ? `<p class="sect-label">Previously</p><div class="taglist">${f.previous.map((p) => `<span>${esc(p)}</span>`).join("")}</div>` : ""}
+          ${newsAbout("fellows", f.id).length ? `<p class="sect-label">In the news</p>${newsList(newsAbout("fellows", f.id))}` : ""}
           <p class="sect-label">Class of ${f.class}</p>
           <div class="mates">${others.map((m) => `<a class="mate" href="#/fellow/${m.id}">${face(m, 34)}<span class="t"><b>${esc(m.name)}</b><small>${esc(m.company || topCo(m)?.name || "") || "&nbsp;"}</small></span></a>`).join("")}</div>
           ${sources.length ? `<p class="sect-label">Sources</p><ul class="sources">${sources.map((u) => `<li><a href="${esc(u)}" target="_blank" rel="noopener">${esc(u)}</a></li>`).join("")}</ul>` : ""}
@@ -808,13 +840,16 @@
       company: () => viewCompany(a),
       fellows: viewFellows,
       unicorns: viewStats,
+      news: viewNews,
       fellow: () => viewFellow(a),
     };
+    // A bare year, as in tf.directory/2024, opens that class.
+    if (!views[p] && /^\d{4}$/.test(p) && years.includes(+p)) views[p] = () => viewClass(+p);
     hideTip();
     current = (views[p] || viewNotFound)();
     app.innerHTML = current.html;
     document.title = current.title ? `${current.title} · tf.directory` : "tf.directory — every Thiel Fellow";
-    const navKey = { class: "classes", company: "companies", fellow: "fellows" }[p] || p;
+    const navKey = { class: "classes", company: "companies", fellow: "fellows" }[p] || (/^\d{4}$/.test(p) ? "classes" : p);
     document.querySelectorAll(".nav a").forEach((el) => el.classList.toggle("on", el.dataset.nav === navKey));
     current.mount?.();
     if (path !== lastPath) {
@@ -936,13 +971,16 @@
   // ---------- boot ----------
   async function boot() {
     try {
-      const [fd, cd] = await Promise.all([
+      const [fd, cd, nd] = await Promise.all([
         fetch("data/fellows.json", { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
         fetch("data/companies.json", { cache: "no-cache" }).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }),
+        // News is optional: the directory still works without it.
+        fetch("data/news.json", { cache: "no-cache" }).then((r) => (r.ok ? r.json() : {})).catch(() => ({})),
       ]);
       meta = fd.meta || {};
       fellows = fd.fellows;
       companies = cd.companies;
+      news = (nd.news || []).slice().sort((x, y) => String(y.date).localeCompare(String(x.date)));
     } catch (err) {
       app.innerHTML = `<div class="loading">Couldn’t load the directory data (${esc(err.message)}).</div>`;
       return;
