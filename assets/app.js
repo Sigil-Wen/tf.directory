@@ -219,6 +219,54 @@
 
   const facts = (rows) => `<dl class="facts">${rows.filter(([, v]) => v).map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("")}</dl>`;
 
+  // ---------- by the numbers ----------
+  // Claims computed from the data, so they stay true as valuations change. They use the latest value
+  // whatever the page toggles say, and token networks never count as companies.
+  const isCo = (c) => c.status !== "protocol";
+  const worthNow = (f, min) => f.cos.some((c) => isCo(c) && (c.valuationUSD || 0) >= min);
+  const andList = (xs) => (xs.length < 2 ? xs.join("") : `${xs.slice(0, -1).join(", ")} and ${xs[xs.length - 1]}`);
+  const namesWorth = (fs, min) => [...new Set(fs.flatMap((f) => f.cos.filter((c) => isCo(c) && (c.valuationUSD || 0) >= min)))]
+    .sort((a, b) => b.valuationUSD - a.valuationUSD).map((c) => c.name);
+
+  function classFact(fs, n) {
+    const big = fs.filter((f) => worthNow(f, 1e10)), uni = fs.filter((f) => worthNow(f, 1e9));
+    if (!uni.length) return "";
+    const lead = big.length
+      ? `${big.length} of ${n} fellows co-founded a company now worth $10B or more: ${andList(namesWorth(big, 1e10))}.`
+      : `${uni.length} of ${n} fellows co-founded a company now worth $1B or more: ${andList(namesWorth(uni, 1e9))}.`;
+    return big.length && uni.length > big.length ? `${lead} ${uni.length} of ${n} co-founded one worth $1B or more.` : lead;
+  }
+
+  function factCards() {
+    const out = [];
+    const byClass = years.map((y) => {
+      const fs = fellows.filter((f) => f.class === y);
+      return { y, fs, big: fs.filter((f) => worthNow(f, 1e10)), uni: fs.filter((f) => worthNow(f, 1e9)) };
+    });
+    const best = byClass.filter((r) => r.big.length).sort((a, b) => b.big.length / b.fs.length - a.big.length / a.fs.length || b.y - a.y)[0];
+    if (best) out.push({ href: `#/class/${best.y}`, fig: `${best.big.length} of ${best.fs.length}`,
+      text: `fellows in the class of ${best.y} co-founded a company now worth $10B or more: ${andList(namesWorth(best.big, 1e10))}.` });
+    const young = byClass.filter((r) => r.uni.length && r !== best).sort((a, b) => b.y - a.y)[0];
+    if (young) out.push({ href: `#/class/${young.y}`, fig: `${young.uni.length} of ${young.fs.length}`,
+      text: `fellows in the class of ${young.y} have already co-founded a company worth $1B or more: ${andList(namesWorth(young.uni, 1e9))}.` });
+    const cos = companies.filter((c) => isCo(c) && c.valuationUSD).sort((a, b) => b.valuationUSD - a.valuationUSD);
+    const big = cos.filter((c) => c.valuationUSD >= 1e10);
+    if (big.length) out.push({ href: "#/leaderboard", fig: String(big.length),
+      text: `companies fellows built are worth $10B or more today: ${andList(big.map((c) => c.name))}.` });
+    const total = cos.reduce((s, c) => s + c.valuationUSD, 0);
+    if (cos.length > 1) out.push({ href: `#/company/${cos[0].id}`, fig: pct(cos[0].valuationUSD / total),
+      text: `of the combined value of every company fellows built is ${cos[0].name} alone, at ${money(cos[0].valuationUSD)}.` });
+    const uni = fellows.filter((f) => worthNow(f, 1e9));
+    if (uni.length) out.push({ href: "#/unicorns", fig: `1 in ${Math.round(fellows.length / uni.length)}`,
+      text: `fellows co-founded a company worth $1B or more today (${uni.length} of ${fellows.length}).` });
+    const sold = companies.filter((c) => c.status === "acquired");
+    const top = sold.filter((c) => c.valuationType === "acquisition" && c.valuationUSD).sort((a, b) => b.valuationUSD - a.valuationUSD)[0];
+    if (sold.length) out.push({ href: top ? `#/company/${top.id}` : "#/companies", fig: String(sold.length),
+      text: `companies fellows built have been acquired${top ? `; the largest disclosed price is ${top.name} at ${money(top.valuationUSD)}` : ""}.` });
+    return out;
+  }
+  const factGrid = (list) => `<div class="fact-cards">${list.map((x) => `<a class="fcard" href="${x.href}"><b>${esc(x.fig)}</b><p>${esc(x.text)}</p></a>`).join("")}</div>`;
+
   // ---------- views ----------
   function viewHome() {
     const list = ranked();
@@ -250,6 +298,11 @@
         ${podium(list)}
         <div style="margin-top:28px">${companyRows(list.slice(3, 12), 3)}</div>
         <a class="btn-wide" href="#/leaderboard">See all ${list.length} ranked companies</a>
+      </section>
+
+      <section class="sect">
+        <div class="sect-head"><div><h2>By the numbers</h2><p>Worked out from the latest valuations in the directory. Ethereum and Polkadot don’t count as companies here.</p></div></div>
+        ${factGrid(factCards())}
       </section>
 
       <section class="sect">
@@ -316,10 +369,12 @@
     const prev = years[i - 1], next = years[i + 1];
     const rank = years.map(classStats).sort((a, b) => b.value - a.value).indexOf(r) + 1;
     const fs = r.fs.slice().sort((a, b) => fellowValue(b) - fellowValue(a) || !!b.photo - !!a.photo || a.name.localeCompare(b.name));
+    const fact = classFact(r.fs, r.n);
     const html = `
       <a class="back" href="#/classes">← All classes</a>
       <header>
         <h1 class="title">Class of ${y}</h1>
+        ${fact ? `<p class="sub">${esc(fact)}</p>` : ""}
         <section class="stats four" aria-label="Class totals">
           <div class="stat"><b>${money(r.value)}</b><span>Combined value</span></div>
           <div class="stat"><b>${r.value ? "#" + rank : "—"}</b><span>Rank of ${years.length} classes</span></div>
