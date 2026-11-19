@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "November 10, 2026",
+  "updated": "November 18, 2026",
   "count": 316
  },
  "fellows": [
@@ -7210,7 +7210,7 @@
    "companyUrl": "https://www.appliedcompute.com",
    "role": "Co-founder & CEO",
    "sector": "AI",
-   "bio": "Co-founder and CEO of Applied Compute, which trains custom models for enterprises with reinforcement-learning post-training on their own data; customers include DoorDash, Mercor and Harvey.",
+   "bio": "Co-founder and CEO of Applied Compute, which trains custom models for enterprises with reinforcement-learning post-training on their own data; customers include DoorDash, Mercor and Harvey. In Nov 2026 Palo Alto Networks agreed to buy Applied Compute for $4.5B in stock, and he is set to become its Co-Chief AI Officer when the deal closes.",
    "previous": [
     "OpenAI (research engineer)"
    ],
@@ -7222,7 +7222,10 @@
     "https://www.businesswire.com/news/home/20240320742346/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
     "https://www.silicon.co.uk/press-release/thiel-foundation-announces-next-thiel-fellow-class-3",
     "https://www.appliedcompute.com/",
-    "https://www.teahose.com/people/2185"
+    "https://www.teahose.com/people/2185",
+    "https://investors.paloaltonetworks.com/news-releases/news-release-details/palo-alto-networks-acquire-applied-compute-bringing-secure-open",
+    "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/",
+    "https://x.com/ypatil125/status/2123175975093784902"
    ],
    "confidence": "high",
    "photo": "assets/people/yash-patil.jpg"

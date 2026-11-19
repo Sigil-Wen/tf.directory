@@ -1,8 +1,21 @@
 {
  "meta": {
-  "updated": "November 10, 2026"
+  "updated": "November 18, 2026"
  },
  "news": [
+  {
+   "date": "2026-11-18",
+   "title": "Palo Alto Networks bets $4.5B on AI startup Applied Compute as earnings top forecasts",
+   "source": "SiliconANGLE",
+   "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/",
+   "summary": "Palo Alto Networks agreed to buy Applied Compute, the model post-training and inference startup Yash Patil co-founded in 2025, in an all-stock deal worth $4.5B. It comes weeks after a round at $3.25B; the deal is expected to close in Palo Alto's fiscal third quarter, when Patil becomes its Co-Chief AI Officer.",
+   "fellows": [
+    "yash-patil"
+   ],
+   "companies": [
+    "applied-compute"
+   ]
+  },
   {
    "date": "2026-10-27",
    "title": "Former DOGE staffers say they just hacked Anthropic in less than 12 hours",
