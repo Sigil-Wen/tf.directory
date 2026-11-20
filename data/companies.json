@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "November 18, 2026"
+  "updated": "November 19, 2026"
  },
  "companies": [
   {
@@ -1874,15 +1874,15 @@
   {
    "id": "orchard-robotics",
    "name": "Orchard Robotics",
-   "url": null,
+   "url": "https://www.orchard.ai",
    "sector": "Hardware & Deep Tech",
-   "status": "private",
-   "valuationUSD": 132000000,
-   "valuationType": "reported",
-   "valuationDate": "2026-10",
-   "valuationNote": "Dealroom estimate · Oct 2026",
-   "valuationDetail": "Dealroom estimate only; no valuation disclosed by the company or press. The company says it has raised more than $25M (Quiet, Shine, General Catalyst)",
-   "peakValuationUSD": 132000000,
+   "status": "acquired",
+   "valuationUSD": null,
+   "valuationType": "acquisition",
+   "valuationDate": "2026-11",
+   "valuationNote": "Acquired · Nov 2026",
+   "valuationDetail": "Acquired by John Deere, Nov 19 2026; terms not disclosed (Deere press release). Operates as Orchard AI. Raised a $22M Series A in Sep 2025; the company says it has raised more than $25M (Quiet, Shine, General Catalyst)",
+   "peakValuationUSD": null,
    "totalRaisedUSD": null,
    "unicorn": false,
    "fellows": [
@@ -1892,7 +1892,11 @@
     "https://dealroom.co/charts/thiel-fellowship-mafia",
     "https://pulse2.com/thiel-foundation-reveals-2024-class-of-thiel-fellows/",
     "https://thielfellowship.org/jobs",
-    "https://www.orchard.ai/company-careers"
+    "https://www.orchard.ai/company-careers",
+    "https://techcrunch.com/2025/09/03/orchard-robotics-founded-by-a-thiel-fellow-cornell-dropout-raises-22m-for-farm-vision-ai/",
+    "https://www.deere.com/en-us/john-deere-news/john-deere-acquires-orchard-ai",
+    "https://gamesbeat.com/john-deere-acquires-orchard-robotics-to-move-deeper-into-ai-agriculture/",
+    "https://x.com/charliewu/status/2123585624997515753"
    ],
    "onJobBoard": true,
    "logo": "assets/logos/orchard-robotics.png",
