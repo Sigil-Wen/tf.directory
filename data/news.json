@@ -1,8 +1,21 @@
 {
  "meta": {
-  "updated": "November 18, 2026"
+  "updated": "November 19, 2026"
  },
  "news": [
+  {
+   "date": "2026-11-19",
+   "title": "John Deere acquires Orchard Robotics to move deeper into AI agriculture",
+   "source": "GamesBeat",
+   "url": "https://gamesbeat.com/john-deere-acquires-orchard-robotics-to-move-deeper-into-ai-agriculture/",
+   "summary": "John Deere bought Orchard Robotics, the San Francisco crop-intelligence startup Charlie Wu founded in 2022 that operates as Orchard AI. Its FruitScope cameras ride on farm vehicles to count and size the fruit on every tree; terms weren't disclosed.",
+   "fellows": [
+    "charlie-wu"
+   ],
+   "companies": [
+    "orchard-robotics"
+   ]
+  },
   {
    "date": "2026-11-18",
    "title": "Palo Alto Networks bets $4.5B on AI startup Applied Compute as earnings top forecasts",

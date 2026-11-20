@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "November 18, 2026",
+  "updated": "November 19, 2026",
   "count": 316
  },
  "fellows": [
@@ -6849,10 +6849,10 @@
    "name": "Charlie Wu",
    "class": 2024,
    "company": "Orchard Robotics",
-   "companyUrl": null,
+   "companyUrl": "https://www.orchard.ai",
    "role": "Founder & CEO",
    "sector": "Hardware & Deep Tech",
-   "bio": "Founder and CEO of Orchard Robotics, which mounts cameras on farm equipment and uses AI to map fruit, growth, yield and crop health; it raised a $22M Series A in 2025.",
+   "bio": "Founder and CEO of Orchard Robotics, which operates as Orchard AI: it mounts cameras on farm equipment and uses AI to map fruit, growth, yield and crop health, and raised a $22M Series A in 2025. John Deere acquired it in Nov 2026 for an undisclosed price; Wu, still its CEO, said the team and its FruitScope product carry on inside Deere.",
    "previous": [],
    "location": "Fairfax, VA",
    "x": "charliewu",
@@ -6862,7 +6862,9 @@
     "https://www.businesswire.com/news/home/20240320742346/en/Thiel-Foundation-Announces-Next-Thiel-Fellow-Class",
     "https://www.silicon.co.uk/press-release/thiel-foundation-announces-next-thiel-fellow-class-3",
     "https://techcrunch.com/2025/09/03/orchard-robotics-founded-by-a-thiel-fellow-cornell-dropout-raises-22m-for-farm-vision-ai/",
-    "https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/"
+    "https://www.geekwire.com/2025/orchard-robotics-an-agtech-startup-using-ai-to-solve-farmings-data-problem-raises-22m/",
+    "https://www.deere.com/en-us/john-deere-news/john-deere-acquires-orchard-ai",
+    "https://x.com/charliewu/status/2123585624997515753"
    ],
    "confidence": "high",
    "photo": "assets/people/charlie-wu.jpg"
